@@ -1,0 +1,299 @@
+<!DOCTYPE html>
+<html>
+    <head>
+        <style>
+            .map {
+                position: relative;
+                background-image: url(largemap.jpg);
+                background-repeat: no-repeat;
+                height: 1700px;
+                width:  2350px;
+            }
+            .p_lg01, .p_lg02, .p_lg03, .p_lg04, .p_lg05, .p_lg06, .p_lg07 {
+                position: absolute;
+                background-color: rgb(139, 223, 139);
+                border-radius: 10px;
+                width: 20px;
+                height: 20px;
+            }
+            .p_or01, .p_or02, .p_or03, .p_or04, .p_or05, .p_or06, .p_or07, .p_or08, .p_or09, .p_or10, .p_or11, .p_or12, .p_or13, .p_or14, .p_or15, .p_or16, .p_or17, .p_or18, .p_or19 {
+                position: absolute;
+                background-color: rgb(231, 206, 81);
+                border-radius: 10px;
+                width: 20px;
+                height: 20px;
+            }
+            .p_br01, .p_br02, .p_br03, .p_br04, .p_br05, .p_br06, .p_br07, .p_br08, .p_br09, .p_br10, .p_br11, .p_br12, .p_br13, .p_br14, .p_br15, .p_br16, .p_br17, .p_br18, .p_br19 {
+                position: absolute;
+                background-color: rgba(163, 127, 64, 0.853);                
+                border-radius: 10px;
+                width: 20px;
+                height: 20px;
+            }
+            .p_re01, .p_re02, .p_re03, .p_re04, .p_re05, .p_re06, .p_re07, .p_re08, .p_re09, .p_re10, .p_re11, .p_re12, .p_re13, .p_re14, .p_re15, .p_re16, .p_re17, .p_re18, .p_re19, .p_re20 {
+                position: absolute;
+                background-color: rgba(252, 57, 57, 0.853);
+                border-radius: 10px;
+                width: 20px;
+                height: 20px;
+            } 
+            .p_pu01, .p_pu02, .p_pu03, .p_pu04, .p_pu05, .p_pu06, .p_pu07, .p_pu08, .p_pu09, .p_pu10, .p_pu11, .p_pu12, .p_pu13, .p_pu14, .p_pu15, .p_pu16, .p_pu17, .p_pu18, .p_pu19, .p_pu20 {
+                position: absolute;
+                background-color: rgba(159, 51, 206, 0.853);
+                border-radius: 10px;
+                width: 20px;
+                height: 20px;
+            }                        
+            .p_dg01, .p_dg02, .p_dg03, .p_dg04, .p_dg05, .p_dg06, .p_dg07, .p_dg08, .p_dg09, .p_dg10, .p_dg11, .p_dg12, .p_dg13, .p_dg14, .p_dg15 {
+                position: absolute;
+                background-color: rgba(33, 142, 16, 0.853);
+                border-radius: 10px;
+                width: 20px;
+                height: 20px;
+            }  
+            .p_pi01, .p_pi02, .p_pi03, .p_pi04, .p_pi05, .p_pi06 {
+                position: absolute;
+                background-color: rgba(254, 144, 214, 0.853);
+                border-radius: 10px;
+                width: 20px;
+                height: 20px;
+            }                                                 
+            /* LightGreen */
+            .p_lg01 { left: 1070px; top: 305px; }
+            .p_lg02 { left:  735px; top: 320px; } 
+            .p_lg03 { left:  650px; top: 400px; }
+            .p_lg04 { left:  570px; top: 485px; }
+            .p_lg05 { left:  485px; top: 570px; }
+            .p_lg06 { left:  415px; top: 845px; } 
+            .p_lg07 { left:  310px; top: 950px; }
+            /* Orange */
+            .p_or01 { left:  432px; top: 735px; }
+            .p_or02 { left:  493px; top: 812px; }
+            .p_or03 { left:  554px; top: 874px; }
+            .p_or04 { left:  654px; top: 891px; }
+            .p_or05 { left:  743px; top: 891px; }
+            .p_or06 { left:  870px; top: 891px; }
+            .p_or07 { left:  986px; top: 891px; }
+            .p_or08 { left: 1100px; top: 891px; }
+            .p_or09 { left: 1192px; top: 891px; }
+            .p_or10 { left: 1280px; top: 891px; }
+            .p_or11 { left: 1380px; top: 891px; }
+            .p_or12 { left: 1554px; top: 929px; }
+            .p_or13 { left: 1605px; top: 973px; }
+            .p_or14 { left: 1652px; top:1016px; }
+            .p_or15 { left: 1694px; top:1078px; }
+            .p_or16 { left: 1694px; top:1137px; }
+            .p_or17 { left: 1694px; top:1202px; }
+            .p_or18 { left: 1728px; top:1274px; }
+            .p_or19 { left: 1782px; top:1326px; }
+            /* Brown */
+            .p_br01 { left: 1404px; top: 260px; }
+            .p_br02 { left: 1270px; top: 388px; }
+            .p_br03 { left: 1190px; top: 440px; }
+            .p_br04 { left: 1072px; top: 440px; }
+            .p_br05 { left: 1000px; top: 496px; }
+            .p_br06 { left:  954px; top: 542px; }
+            .p_br07 { left:  908px; top: 590px; }
+            .p_br08 { left:  858px; top: 636px; }
+            .p_br09 { left:  805px; top: 688px; }
+            .p_br10 { left:  758px; top: 740px; }
+            .p_br11 { left:  743px; top: 810px; }
+            .p_br12 { left:  743px; top: 988px; }
+            .p_br13 { left:  743px; top:1168px; }
+            .p_br14 { left:  743px; top:1342px; }
+            .p_br15 { left:  743px; top:1400px; }
+            .p_br16 { left:  743px; top:1460px; }
+            .p_br17 { left:  743px; top:1510px; }
+            .p_br18 { left:  743px; top:1580px; }
+            .p_br19 { left:  743px; top:1642px; } 
+           
+            /* DarkGreen */
+            .p_dg01 { left:  228px; top:1067px; }
+            .p_dg02 { left:  318px; top:1067px; }
+            .p_dg03 { left:  400px; top:1067px; }
+            .p_dg04 { left:  486px; top:1067px; }
+            .p_dg05 { left:  572px; top:1067px; }
+            .p_dg06 { left:  660px; top:1067px; }
+            .p_dg07 { left:  744px; top:1067px; }
+            .p_dg08 { left:  862px; top:1067px; }
+            .p_dg09 { left:  996px; top:1067px; }
+            .p_dg10 { left: 1140px; top:1067px; }
+            .p_dg11 { left: 1396px; top:1024px; }
+            .p_dg12 { left: 1376px; top: 748px; }
+            .p_dg13 { left: 1288px; top: 662px; }
+            .p_dg14 { left: 1212px; top: 582px; }
+            .p_dg15 { left: 1146px; top: 520px; }
+           
+            /* Pink */
+            .p_pi01 { left:  742px; top:1274px; }
+            .p_pi02 { left:  998px; top:1274px; }
+            .p_pi03 { left: 1280px; top:1274px; }
+            .p_pi04 { left: 1424px; top:1252px; }
+            .p_pi05 { left: 1488px; top:1092px; }
+            .p_pi06 { left: 1396px; top: 480px; }  
+            
+            /* Red */
+            .p_re01 { left: 1388px; top:1644px; }
+            .p_re02 { left: 1324px; top:1644px; }
+            .p_re03 { left: 1280px; top:1588px; }
+            .p_re04 { left: 1280px; top:1528px; }
+            .p_re05 { left: 1280px; top:1466px; }
+            .p_re06 { left: 1280px; top:1404px; }
+            .p_re07 { left: 1280px; top:1340px; }
+            .p_re08 { left: 1280px; top:1166px; }
+            .p_re09 { left: 1280px; top:1066px; }
+            .p_re10 { left: 1430px; top: 692px; }
+            .p_re11 { left: 1548px; top: 570px; }
+            .p_re12 { left: 1610px; top: 510px; }
+            .p_re13 { left: 1646px; top: 474px; }
+            .p_re14 { left: 1678px; top: 440px; }
+            .p_re15 { left: 1718px; top: 402px; }
+            .p_re16 { left: 1760px; top: 360px; }
+            .p_re17 { left: 1810px; top: 308px; }
+            .p_re18 { left: 1858px; top: 262px; }
+            .p_re19 { left: 1906px; top: 212px; }
+            .p_re20 { left: 1954px; top: 168px; }
+            
+            /* Purple */
+            .p_pu01 { left: 1216px; top: 734px; }
+            .p_pu02 { left: 1386px; top: 636px; }
+            .p_pu03 { left: 1546px; top: 694px; }
+            .p_pu04 { left: 1602px; top: 750px; }
+            .p_pu05 { left: 1664px; top: 814px; }
+            .p_pu06 { left: 1806px; top: 784px; }
+            .p_pu07 { left: 1896px; top: 696px; }
+            .p_pu08 { left: 1946px; top: 642px; }
+            .p_pu09 { left: 1992px; top: 596px; }
+            .p_pu10 { left: 2036px; top: 552px; }
+            .p_pu11 { left: 2082px; top: 508px; }
+            .p_pu12 { left: 2162px; top: 476px; }
+            .p_pu13 { left: 2256px; top: 476px; }
+            .p_pu14 { left: 2290px; top: 560px; }            
+        </style>
+    </head>
+    <body>
+        <script language="JavaScript">
+            const myJson = import('./content.json');
+            function onClickMsg(Message, url){
+                if (confirm(Message)){
+                    window.location.href = url;
+                }
+            }
+        </script>
+        <div class='map'>
+            <!-- LigthGreen -->
+            <a onClick='onClickMsg("lightGreen","https://google.com");' alt="Jaap session 1" target="_blank"><span class="p_lg01"></span></a>
+            <a onClick='onClickMsg("lightGreen","https://google.com");' alt="Jaap session 2"><span class="p_lg02"></span></a>
+            <a onClick='onClickMsg("lightGreen","https://google.com");' alt="Jaap session 3"><span class="p_lg03"></span></a>       
+            <a onClick='onClickMsg("lightGreen","https://google.com");' alt="Jaap session 4"><span class="p_lg04"></span></a>       
+            <a onClick='onClickMsg("lightGreen","https://google.com");' alt="Jaap session 5"><span class="p_lg05"></span></a>
+            <a onClick='onClickMsg("lightGreen","https://google.com");' alt="Jaap session 6"><span class="p_lg06"></span></a>
+            <a onClick='onClickMsg("lightGreen","https://google.com");' alt="Jaap session 7"><span class="p_lg07"></span></a>       
+
+            <!-- Orange -->
+            <a onClick='onClickMsg("orange","https://google.com");' alt="Jelle session 1"><span  class="p_or01"></span></a>
+            <a onClick='onClickMsg("orange","https://google.com");' alt="Jelle session 2"><span  class="p_or02"></span></a>
+            <a onClick='onClickMsg("orange","https://google.com");' alt="Jelle session 3"><span  class="p_or03"></span></a>
+            <a onClick='onClickMsg("orange","https://google.com");' alt="Jelle session 4"><span  class="p_or04"></span></a>
+            <a onClick='onClickMsg("orange","https://google.com");' alt="Jelle session 5"><span  class="p_or05"></span></a>
+            <a onClick='onClickMsg("orange","https://google.com");' alt="Jelle session 6"><span  class="p_or06"></span></a>
+            <a onClick='onClickMsg("orange","https://google.com");' alt="Jelle session 7"><span  class="p_or07"></span></a>
+            <a onClick='onClickMsg("orange","https://google.com");' alt="Jelle session 8"><span  class="p_or08"></span></a>
+            <a onClick='onClickMsg("orange","https://google.com");' alt="Jelle session 9"><span  class="p_or09"></span></a>
+            <a onClick='onClickMsg("orange","https://google.com");' alt="Jelle session 10"><span class="p_or10"></span></a>
+            <a onClick='onClickMsg("orange","https://google.com");' alt="Jelle session 11"><span class="p_or11"></span></a>
+            <a onClick='onClickMsg("orange","https://google.com");' alt="Jelle session 12"><span class="p_or12"></span></a>
+            <a onClick='onClickMsg("orange","https://google.com");' alt="Jelle session 13"><span class="p_or13"></span></a>
+            <a onClick='onClickMsg("orange","https://google.com");' alt="Jelle session 14"><span class="p_or14"></span></a>
+            <a onClick='onClickMsg("orange","https://google.com");' alt="Jelle session 15"><span class="p_or15"></span></a>
+            <a onClick='onClickMsg("orange","https://google.com");' alt="Jelle session 16"><span class="p_or16"></span></a>
+            <a onClick='onClickMsg("orange","https://google.com");' alt="Jelle session 17"><span class="p_or17"></span></a>  
+            <a onClick='onClickMsg("orange","https://google.com");' alt="Jelle session 16"><span class="p_or18"></span></a>
+            <a onClick='onClickMsg("orange","https://google.com");' alt="Jelle session 17"><span class="p_or19"></span></a>                   
+            
+            <!-- Brown -->
+            <a onClick='onClickMsg("bruin","https://google.com");' alt="Maarten session 1"><span  class="p_br01"></span></a>
+            <a onClick='onClickMsg("bruin","https://google.com");' alt="Maarten session 2"><span  class="p_br02"></span></a>
+            <a onClick='onClickMsg("bruin","https://google.com");' alt="Maarten session 3"><span  class="p_br03"></span></a>
+            <a onClick='onClickMsg("bruin","https://google.com");' alt="Maarten session 4"><span  class="p_br04"></span></a>
+            <a onClick='onClickMsg("bruin","https://google.com");' alt="Maarten session 5"><span  class="p_br05"></span></a>
+            <a onClick='onClickMsg("bruin","https://google.com");' alt="Maarten session 6"><span  class="p_br06"></span></a>
+            <a onClick='onClickMsg("bruin","https://google.com");' alt="Maarten session 7"><span  class="p_br07"></span></a>
+            <a onClick='onClickMsg("bruin","https://google.com");' alt="Maarten session 8"><span  class="p_br08"></span></a>
+            <a onClick='onClickMsg("bruin","https://google.com");' alt="Maarten session 9"><span  class="p_br09"></span></a>
+            <a onClick='onClickMsg("bruin","https://google.com");' alt="Maarten session 10"><span class="p_br10"></span></a>
+            <a onClick='onClickMsg("bruin","https://google.com");' alt="Maarten session 11"><span class="p_br11"></span></a>
+            <a onClick='onClickMsg("bruin","https://google.com");' alt="Maarten session 12"><span class="p_br12"></span></a>
+            <a onClick='onClickMsg("bruin","https://google.com");' alt="Maarten session 13"><span class="p_br13"></span></a>
+            <a onClick='onClickMsg("bruin","https://google.com");' alt="Maarten session 14"><span class="p_br14"></span></a>
+            <a onClick='onClickMsg("bruin","https://google.com");' alt="Maarten session 15"><span class="p_br15"></span></a>
+            <a onClick='onClickMsg("bruin","https://google.com");' alt="Maarten session 16"><span class="p_br16"></span></a>
+            <a onClick='onClickMsg("bruin","https://google.com");' alt="Maarten session 17"><span class="p_br17"></span></a>  
+            <a onClick='onClickMsg("bruin","https://google.com");' alt="Maarten session 18"><span class="p_br18"></span></a>
+            <a onClick='onClickMsg("bruin","https://google.com");' alt="Maarten session 19"><span class="p_br19"></span></a> 
+            
+            <!-- DarkGreen -->
+            <a onClick='onClickMsg("darkgreen","https://google.com");' alt="Niek session 1"><span  class="p_dg01"></span></a>
+            <a onClick='onClickMsg("darkgreen","https://google.com");' alt="Niek session 2"><span  class="p_dg02"></span></a>
+            <a onClick='onClickMsg("darkgreen","https://google.com");' alt="Niek session 3"><span  class="p_dg03"></span></a>
+            <a onClick='onClickMsg("darkgreen","https://google.com");' alt="Niek session 4"><span  class="p_dg04"></span></a>
+            <a onClick='onClickMsg("darkgreen","https://google.com");' alt="Niek session 5"><span  class="p_dg05"></span></a>
+            <a onClick='onClickMsg("darkgreen","https://google.com");' alt="Niek session 6"><span  class="p_dg06"></span></a>
+            <a onClick='onClickMsg("darkgreen","https://google.com");' alt="Niek session 7"><span  class="p_dg07"></span></a>
+            <a onClick='onClickMsg("darkgreen","https://google.com");' alt="Niek session 8"><span  class="p_dg08"></span></a>
+            <a onClick='onClickMsg("darkgreen","https://google.com");' alt="Niek session 9"><span  class="p_dg09"></span></a>
+            <a onClick='onClickMsg("darkgreen","https://google.com");' alt="Niek session 10"><span class="p_dg10"></span></a>
+            <a onClick='onClickMsg("darkgreen","https://google.com");' alt="Niek session 11"><span class="p_dg11"></span></a>
+            <a onClick='onClickMsg("darkgreen","https://google.com");' alt="Niek session 12"><span class="p_dg12"></span></a>
+            <a onClick='onClickMsg("darkgreen","https://google.com");' alt="Niek session 13"><span class="p_dg13"></span></a>
+            <a onClick='onClickMsg("darkgreen","https://google.com");' alt="Niek session 14"><span class="p_dg14"></span></a>
+            <a onClick='onClickMsg("darkgreen","https://google.com");' alt="Niek session 15"><span class="p_dg15"></span></a>
+            
+            <!-- Pink -->
+            <a onClick='onClickMsg("pink","https://google.com");' alt="Barbara session 1"><span  class="p_pi01"></span></a>
+            <a onClick='onClickMsg("pink","https://google.com");' alt="Barbara session 2"><span  class="p_pi02"></span></a>
+            <a onClick='onClickMsg("pink","https://google.com");' alt="Barbara session 3"><span  class="p_pi03"></span></a>
+            <a onClick='onClickMsg("pink","https://google.com");' alt="Barbara session 4"><span  class="p_pi04"></span></a>
+            <a onClick='onClickMsg("pink","https://google.com");' alt="Barbara session 5"><span  class="p_pi05"></span></a>
+            <a onClick='onClickMsg("pink","https://google.com");' alt="Barbara session 6"><span  class="p_pi06"></span></a>            
+            
+            <!-- Red -->
+            <a onClick='onClickMsg("red","https://google.com");' alt="Nathan session 1"><span  class="p_re01"></span></a>
+            <a onClick='onClickMsg("red","https://google.com");' alt="Nathan session 2"><span  class="p_re02"></span></a>
+            <a onClick='onClickMsg("red","https://google.com");' alt="Nathan session 3"><span  class="p_re03"></span></a>
+            <a onClick='onClickMsg("red","https://google.com");' alt="Nathan session 4"><span  class="p_re04"></span></a>
+            <a onClick='onClickMsg("red","https://google.com");' alt="Nathan session 5"><span  class="p_re05"></span></a>
+            <a onClick='onClickMsg("red","https://google.com");' alt="Nathan session 6"><span  class="p_re06"></span></a>
+            <a onClick='onClickMsg("red","https://google.com");' alt="Nathan session 7"><span  class="p_re07"></span></a>
+            <a onClick='onClickMsg("red","https://google.com");' alt="Nathan session 8"><span  class="p_re08"></span></a>
+            <a onClick='onClickMsg("red","https://google.com");' alt="Nathan session 9"><span  class="p_re09"></span></a>
+            <a onClick='onClickMsg("red","https://google.com");' alt="Nathan session 10"><span class="p_re10"></span></a>
+            <a onClick='onClickMsg("red","https://google.com");' alt="Nathan session 11"><span class="p_re11"></span></a>
+            <a onClick='onClickMsg("red","https://google.com");' alt="Nathan session 12"><span class="p_re12"></span></a>
+            <a onClick='onClickMsg("red","https://google.com");' alt="Nathan session 13"><span class="p_re13"></span></a>
+            <a onClick='onClickMsg("red","https://google.com");' alt="Nathan session 14"><span class="p_re14"></span></a>
+            <a onClick='onClickMsg("red","https://google.com");' alt="Nathan session 15"><span class="p_re15"></span></a>
+            <a onClick='onClickMsg("red","https://google.com");' alt="Nathan session 16"><span class="p_re16"></span></a>
+            <a onClick='onClickMsg("red","https://google.com");' alt="Nathan session 17"><span class="p_re17"></span></a>  
+            <a onClick='onClickMsg("red","https://google.com");' alt="Nathan session 18"><span class="p_re18"></span></a>
+            <a onClick='onClickMsg("red","https://google.com");' alt="Nathan session 19"><span class="p_re19"></span></a>             
+            <a onClick='onClickMsg("red","https://google.com");' alt="Nathan session 20"><span class="p_re20"></span></a>             
+
+            <!-- Purple -->
+            <a onClick='onClickMsg("purple","https://google.com");' alt="Nathan session 1"><span  class="p_pu01"></span></a>
+            <a onClick='onClickMsg("purple","https://google.com");' alt="Nathan session 2"><span  class="p_pu02"></span></a>
+            <a onClick='onClickMsg("purple","https://google.com");' alt="Nathan session 3"><span  class="p_pu03"></span></a>
+            <a onClick='onClickMsg("purple","https://google.com");' alt="Nathan session 4"><span  class="p_pu04"></span></a>
+            <a onClick='onClickMsg("purple","https://google.com");' alt="Nathan session 5"><span  class="p_pu05"></span></a>
+            <a onClick='onClickMsg("purple","https://google.com");' alt="Nathan session 6"><span  class="p_pu06"></span></a>
+            <a onClick='onClickMsg("purple","https://google.com");' alt="Nathan session 7"><span  class="p_pu07"></span></a>
+            <a onClick='onClickMsg("purple","https://google.com");' alt="Nathan session 8"><span  class="p_pu08"></span></a>
+            <a onClick='onClickMsg("purple","https://google.com");' alt="Nathan session 9"><span  class="p_pu09"></span></a>
+            <a onClick='onClickMsg("purple","https://google.com");' alt="Nathan session 10"><span class="p_pu10"></span></a>
+            <a onClick='onClickMsg("purple","https://google.com");' alt="Nathan session 11"><span class="p_pu11"></span></a>
+            <a onClick='onClickMsg("purple","https://google.com");' alt="Nathan session 12"><span class="p_pu12"></span></a>
+            <a onClick='onClickMsg("purple","https://google.com");' alt="Nathan session 13"><span class="p_pu13"></span></a>
+            <a onClick='onClickMsg("purple","https://google.com");' alt="Nathan session 14"><span class="p_pu14"></span></a>
+        </div>
+    </body>
+</html>

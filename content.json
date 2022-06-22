@@ -1,0 +1,33 @@
+{
+    "lightgreen" : {
+        "name" : "jaap",
+        "stop_01" : {
+            "text" : "Welcome Notes + Keynote /r",
+            "link" : "https://www.google.com"
+        },
+        "stop_02" : {
+            "text" : "State of the Shell /n /r terugkijken?",
+            "link" : "https://www.google.com"
+        },
+        "stop_03" : {
+            "text" : "Azure Policy Guest Configuration: Cloud Edition of DSC/ndoor Jan Egil Ring/rterugkijken?",
+            "link" : "https://www.google.com"
+        },
+        "stop_04" : {
+            "text" : "Managing Microsoft Azure at a leading capital markets fintech – PS Edition/nJacob Gottlieb Svendsen/n/rterugkijken?",
+            "link" : "https://www.google.com"
+        },
+        "stop_05" : {
+            "text" : "AAD dynamic groups aren’t great. Let’s make that better with PowerShell!/nBen Reader/n/nterugkijken?",
+            "link" : "https://www.google.com"
+        },
+        "stop_06" : {
+            "text" : "Execute Remote Commands and get Output using only WMI/rJay Adams",
+            "link" : "https://www.google.com"
+        },
+        "stop_07" : {
+            "text" : "Dealing with super large files/rTobias Weltner/r/rterugkijken?",
+            "link" : "https://www.google.com"
+        }                                                
+    }
+}
