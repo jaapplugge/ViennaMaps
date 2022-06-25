@@ -1,9 +1,8 @@
 {
     "lightgreen" : {
         "name" : "jaap",
-        "stop_01" : {
-            "text" : "Welcome Notes + Keynote /r",
-            "link" : "https://www.google.com"
+        "stop_01_text" : "Welcome Notes + Keynote /r",
+        "stop_01_link" : "https://www.bing.com"
         },
         "stop_02" : {
             "text" : "State of the Shell /n /r terugkijken?",
