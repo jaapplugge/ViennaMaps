@@ -1,6 +1,7 @@
 <!DOCTYPE html>
 <html>
     <head>
+        <script type="text/javascript" src="content.json"></script>
         <style>
             .map {
                 position: relative;
@@ -172,14 +173,17 @@
         </style>
     </head>
     <body>
+        <script type="text/javascript" src="content.json"></script>
+        <script src="https://requirejs.org/docs/release/2.3.5/minified/require.js"></script>
+
         <script language="JavaScript">
-            
+            const myJson = fetch('./content.json');
+            console.log(myJson["lightGreen"]["name"])
             function onClickMsg(color, position){
-                const myJson = fetch('./content.json');
-                let name     = myJson[color]["name"];
-                console.log(name);
-                let message  = myJson[color][position]["text"];
-                let link     = myJson[color][position]["link"];
+                var fJson = require('./content.json');
+                console.log(fJson[color]["name"]);
+                let message  = fJson[color][position]["text"];
+                let link     = fJson[color][position]["link"];
                 console.log(message);
                 console.log(link);
                 if (confirm(Message)){
