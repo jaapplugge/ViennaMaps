@@ -178,10 +178,12 @@
             
             function onClickMsg(color, position){
                 const myJson = fetch('./content.json');
-                let message  = myJson[color][position]["text"]
-                let link     = myJson[color][position]["link"]
-                console.log(message)
-                console.log(link)
+                let name     = myJson[color][name];
+                console.log(name);
+                let message  = myJson[color][position]["text"];
+                let link     = myJson[color][position]["link"];
+                console.log(message);
+                console.log(link);
                 if (confirm(Message)){
                     window.location.href = link;
                 }
