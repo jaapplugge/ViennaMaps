@@ -175,7 +175,7 @@
     </head>
     <body>
         <script language="JavaScript">
-            const myJson = require ('./content.json');
+            const myJson = fetch('./content.json');
             function onClickMsg(Message, url){
                 if (confirm(Message)){
                     window.location.href = url;
