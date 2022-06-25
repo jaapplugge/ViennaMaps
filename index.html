@@ -178,9 +178,7 @@
         <script language="JavaScript">
             function onClickMsg(color, position){
                 const myJson = fetch('./content.json');
-                console.log(myJson);
-                const jObj = JSON.parse(myJson);
-                console.log(jObj);
+                console.log(typeof myJson);
                 let message  = jObj[color][position]["text"];
                 let link     = jObj[color][position]["link"];
                 console.log(message);
