@@ -1,6 +1,7 @@
 <!DOCTYPE html>
 <html>
     <head>
+        <script src="jquery-3.2.0.min.js" type="text/javascript"></script>
         <style>
             .map {
                 position: relative;
@@ -173,7 +174,7 @@
     </head>
     <body>
         <script language="JavaScript">
-            const myJson = import('./content.json');
+            const myJson = require ('./content.json');
             function onClickMsg(Message, url){
                 if (confirm(Message)){
                     window.location.href = url;
