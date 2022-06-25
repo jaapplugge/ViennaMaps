@@ -173,17 +173,16 @@
         </style>
     </head>
     <body>
-        <script type="text/javascript" src="content.json"></script>
         <script src="https://requirejs.org/docs/release/2.3.5/minified/require.js"></script>
 
         <script language="JavaScript">
-            const myJson = fetch('./content.json');
-            console.log(myJson["lightGreen"]["name"])
             function onClickMsg(color, position){
-                var fJson = require('./content.json');
-                console.log(fJson[color]["name"]);
-                let message  = fJson[color][position]["text"];
-                let link     = fJson[color][position]["link"];
+                const myJson = fetch('./content.json');
+                console.log(myJson);
+                const jObj = JSON.parse(myJson);
+                console.log(jObj);
+                let message  = jObj[color][position]["text"];
+                let link     = jObj[color][position]["link"];
                 console.log(message);
                 console.log(link);
                 if (confirm(Message)){
