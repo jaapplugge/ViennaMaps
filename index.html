@@ -175,10 +175,15 @@
     </head>
     <body>
         <script language="JavaScript">
-            const myJson = fetch('./content.json');
-            function onClickMsg(Message, url){
+            
+            function onClickMsg(color, position){
+                const myJson = fetch('./content.json');
+                let message  = myJson[color][position]["text"]
+                let link     = myJson[color][position]["link"]
+                console.log(message)
+                console.log(link)
                 if (confirm(Message)){
-                    window.location.href = url;
+                    window.location.href = link;
                 }
             }
         </script>
