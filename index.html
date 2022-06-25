@@ -1,8 +1,6 @@
 <!DOCTYPE html>
 <html>
     <head>
-        <script src="jquery-3.2.0.min.js" type="text/javascript"></script>
-        <script src="https://requirejs.org/docs/release/2.3.5/minified/require.js"></script>
         <style>
             .map {
                 position: relative;
@@ -178,7 +176,7 @@
             
             function onClickMsg(color, position){
                 const myJson = fetch('./content.json');
-                let name     = myJson[color][name];
+                let name     = myJson[color]["name"];
                 console.log(name);
                 let message  = myJson[color][position]["text"];
                 let link     = myJson[color][position]["link"];
