@@ -178,7 +178,7 @@
         <script language="JavaScript">
             const myJson = fetch('./content.json');
             console.log(typeof myJson);
-            console.log(myJson.lg01.text);
+            console.log(myJson["lg01"]["text"]);
 
             function onClickMsg(cText, cUrl){
                 console.log(typeof cText);
@@ -192,8 +192,8 @@
         </script>
         <div class='map'>
             <!-- LigthGreen -->
-            <a onClick='onClickMsg(myJson[lg01][text], myJson[lg01][url]);' alt="Jaap session 1" target="_blank"><span class="p_lg01"></span></a>
-            <a onClick='onClickMsg(myJson.lg01.text, myJson.lg01.url);' alt="Jaap session 2"><span class="p_lg02"></span></a>
+            <a onClick='onClickMsg(myJson["lg01"]["text"], myJson["lg01"]["url"]);' alt="Jaap session 1" target="_blank"><span class="p_lg01"></span></a>
+            <a onClick='onClickMsg("lightGreen","https://google.com");' alt="Jaap session 2"><span class="p_lg02"></span></a>
             <a onClick='onClickMsg("lightGreen","https://google.com");' alt="Jaap session 3"><span class="p_lg03"></span></a>       
             <a onClick='onClickMsg("lightGreen","https://google.com");' alt="Jaap session 4"><span class="p_lg04"></span></a>       
             <a onClick='onClickMsg("lightGreen","https://google.com");' alt="Jaap session 5"><span class="p_lg05"></span></a>
