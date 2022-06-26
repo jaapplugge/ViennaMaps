@@ -190,7 +190,8 @@
                 const httpJson = new XMLHttpRequest();
                 httpJson.onload = this.responseText;
                 httpJson.open("GET", "content.json");
-                const JsonObj = httpJson.send();
+                httpJson.send();
+                const JsonObj = httpJson.responseText
                 console.log(typeof httpJson);
                 console.log(httpJson);
                 console.log(typeof JsonObj);
