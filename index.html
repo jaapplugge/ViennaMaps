@@ -173,8 +173,6 @@
         </style>
     </head>
     <body>
-        <script src="https://requirejs.org/docs/release/2.3.5/minified/require.js"></script>
-
         <script language="JavaScript">
             function onClickMsg(cText, cUrl){
                 console.log(typeof cText);
@@ -191,9 +189,10 @@
                 httpJson.onload = this.responseText;
                 httpJson.open("GET", "content.json");
                 httpJson.send();
-                console.log(typeof httpJson);
                 console.log(httpJson);
-                return httpJson['response']
+                console.log(typeof httpJson);
+                console.log(JSON.stringify(httpJson['response']));
+                return JSON.stringify(httpJson['response'])
             };
 
             let myJsonString = getJson();
