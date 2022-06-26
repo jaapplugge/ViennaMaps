@@ -185,14 +185,14 @@
             };
             const myJson = new XMLHttpRequest();
             myJson.onload = function() {
-                const myObj = this.responseText;
+                const myObj = JSON.stringify(this.responseText);
                 return myObj;
             }
             myJson.open("GET", "content.json");
             myJson.send();
-            console.log(typeof myJson);
-            console.log(myJson);
-            console.log(myJson['lg01']['text']);
+            console.log(typeof myJson.responseText);
+            console.log(myJson.responseText);
+            console.log(JSON.parse(myJson['responsText'])['lg01']['text']);
 
         </script>
         <div class='map'>
