@@ -26,36 +26,5 @@
     "lg07" : {
         "text" : "Dealing with super large files/rTobias Weltner/r/rterugkijken?",
         "link" : "https://www.google.com"
-    },  
-    "lightGreen" : {
-        "name" : "jaap",
-        "stop01": {
-            "text" : "Welcome Notes + Keynote /r",
-            "link" : "https://www.bing.com"
-        },
-        "stop02" : {
-            "text" : "State of the Shell /n /r terugkijken?",
-            "link" : "https://www.google.com"
-        },
-        "stop03" : {
-            "text" : "Azure Policy Guest Configuration: Cloud Edition of DSC/ndoor Jan Egil Ring/rterugkijken?",
-            "link" : "https://www.google.com"
-        },
-        "stop04" : {
-            "text" : "Managing Microsoft Azure at a leading capital markets fintech – PS Edition/nJacob Gottlieb Svendsen/n/rterugkijken?",
-            "link" : "https://www.google.com"
-        },
-        "stop05" : {
-            "text" : "AAD dynamic groups aren’t great. Let’s make that better with PowerShell!/nBen Reader/n/nterugkijken?",
-            "link" : "https://www.google.com"
-        },
-        "stop06" : {
-            "text" : "Execute Remote Commands and get Output using only WMI/rJay Adams",
-            "link" : "https://www.google.com"
-        },
-        "stop07" : {
-            "text" : "Dealing with super large files/rTobias Weltner/r/rterugkijken?",
-            "link" : "https://www.google.com"
-        }                                                
     }
 }
