@@ -176,10 +176,13 @@
         <script src="https://requirejs.org/docs/release/2.3.5/minified/require.js"></script>
 
         <script language="JavaScript">
-            const myJson = fetch('./content.json');
-            console.log(typeof myJson);
-            console.log(myJson["lg01"]["text"]);
-
+            let myJsonString = fetch('./content.json');
+            console.log(typeof myJsonString);
+            console.log(myJsonString);
+            const myJsonObj = JSON.parse(myJsonString);
+            console.log(typeof myJsonObj);
+            console.log(myJsonObj['lg01']['text']);
+            
             function onClickMsg(cText, cUrl){
                 console.log(typeof cText);
                 console.log(cText);
