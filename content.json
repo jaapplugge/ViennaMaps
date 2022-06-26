@@ -1,30 +1,704 @@
 {
     "lg01" : {
-        "textobj" : "Welcome Notes + Keynote",
-        "linkobj" : "www.bing.com"
+        "textobj" : "Jaap bezocht de lunchsessie <b>Dealing with super large files (Tobias Weltner)</b>, en schreef er een yammer-post over.",
+        "session" : "Dealing with super large files (Tobias Weltner)",
+        "linkobj" : "web.yammer.com/main/org/ogd.nl/threads/eyJfdHlwZSI6IlRocmVhZCIsImlkIjoiMTc5NTYwNDYyOTcxNjk5MiJ9",
+        "author"  : "Jaap",
+        "type"    : "yammer",
+        "visible" : true
     },
     "lg02" : {
-        "textobj" : "State of the Shell terugkijken?",
-        "linkobj" : "www.google.com"
+        "textobj" : "Ook in Oostenrijk faalt..",
+        "photo"   : "/photo/jaap01.jpg",
+        "linkobj" : "www.google.com",
+        "author"  : "Jaap",
+        "type"    : "photo",
+        "visible" : true
     },
     "lg03" : {
-        "textobj" : "Azure Policy Guest Configuration: Cloud Edition of DSC door Jan Egil Ring terugkijken?",
-        "linkobj" : "www.google.com"
+        "textobj" : "",
+        "linkobj" : "",
+        "author"  : "Jaap",
+        "type"    : "",
+        "visible" : true
     },
     "lg04" : {
         "textobj" : "Managing Microsoft Azure at a leading capital markets fintech (PS Edition) Jacob Gottlieb Svendsen terugkijken?",
-        "linkobj" : "www.google.com"
+        "linkobj" : "www.google.com",
+        "author"  : "Jaap",
+        "type"    : "yammer",
+        "visible" : false
     },
     "lg05" : {
         "textobj" : "AAD dynamic groups aren't great. Let's make that better with PowerShell! Ben Reader terugkijken?",
-        "linkobj" : "www.google.com"
+        "linkobj" : "www.google.com",
+        "author"  : "Jaap",
+        "type"    : "yammer",
+        "visible" : false
     },
     "lg06" : {
         "textobj" : "Execute Remote Commands and get Output using only WMI Jay Adams",
-        "linkobj" : "www.google.com"
+        "linkobj" : "www.google.com",
+        "author"  : "Jaap",
+        "type"    : "yammer",
+        "visible" : false
     },
     "lg07" : {
         "textobj" : "Dealing with super large files Tobias Weltner terugkijken?",
-        "linkobj" : "www.google.com"
-    }
+        "linkobj" : "www.google.com",
+        "author"  : "Jaap",
+        "type"    : "yammer",
+        "visible" : false
+    },
+    "or01" : {
+        "textobj" : "",
+        "linkobj" : "",
+        "author"  : "Jelle",
+        "type"    : "yammer",
+        "visible" : false
+    },
+    "or02" : {
+        "textobj" : "",
+        "linkobj" : "",
+        "author"  : "Jelle",
+        "type"    : "yammer",
+        "visible" : false
+    },
+    "or03" : {
+        "textobj" : "",
+        "linkobj" : "",
+        "author"  : "Jelle",
+        "type"    : "yammer",
+        "visible" : false
+    },
+    "or04" : {
+        "textobj" : "",
+        "linkobj" : "",
+        "author"  : "Jelle",
+        "type"    : "yammer",
+        "visible" : false
+    },
+    "or05" : {
+        "textobj" : "",
+        "linkobj" : "",
+        "author"  : "Jelle",
+        "type"    : "yammer",
+        "visible" : false
+    },
+    "or06" : {
+        "textobj" : "",
+        "linkobj" : "",
+        "author"  : "Jelle",
+        "type"    : "yammer",
+        "visible" : false
+    },
+    "or07" : {
+        "textobj" : "",
+        "linkobj" : "",
+        "author"  : "Jelle",
+        "type"    : "yammer",
+        "visible" : false
+    },
+    "or08" : {
+        "textobj" : "",
+        "linkobj" : "",
+        "author"  : "Jelle",
+        "type"    : "yammer",
+        "visible" : false
+    },
+    "or09" : {
+        "textobj" : "",
+        "linkobj" : "",
+        "author"  : "Jelle",
+        "type"    : "yammer",
+        "visible" : false
+    },
+    "or10" : {
+        "textobj" : "",
+        "linkobj" : "",
+        "author"  : "Jelle",
+        "type"    : "yammer",
+        "visible" : false
+    },
+    "or11" : {
+        "textobj" : "",
+        "linkobj" : "",
+        "author"  : "Jelle",
+        "type"    : "yammer",
+        "visible" : false
+    },
+    "or12" : {
+        "textobj" : "",
+        "linkobj" : "",
+        "author"  : "Jelle",
+        "type"    : "yammer",
+        "visible" : false
+    },
+    "or13" : {
+        "textobj" : "",
+        "linkobj" : "",
+        "author"  : "Jelle",
+        "type"    : "yammer",
+        "visible" : false
+    },
+    "or14" : {
+        "textobj" : "",
+        "linkobj" : "",
+        "author"  : "Jelle",
+        "type"    : "yammer",
+        "visible" : false
+    },
+    "or15" : {
+        "textobj" : "",
+        "linkobj" : "",
+        "author"  : "Jelle",
+        "type"    : "yammer",
+        "visible" : false
+    },
+    "or16" : {
+        "textobj" : "",
+        "linkobj" : "",
+        "author"  : "Jelle",
+        "type"    : "yammer",
+        "visible" : false
+    },
+    "or17" : {
+        "textobj" : "",
+        "linkobj" : "",
+        "author"  : "Jelle",
+        "type"    : "yammer",
+        "visible" : false
+    },
+    "or18" : {
+        "textobj" : "",
+        "linkobj" : "",
+        "author"  : "Jelle",
+        "type"    : "yammer",
+        "visible" : false
+    },
+    "or19" : {
+        "textobj" : "",
+        "linkobj" : "",
+        "author"  : "Jelle",
+        "type"    : "yammer",
+        "visible" : false
+    },
+    "br01" : {
+        "textobj" : "",
+        "linkobj" : "",
+        "author"  : "Maarten",
+        "type"    : "yammer",
+        "visible" : false
+    },
+    "br02" : {
+        "textobj" : "",
+        "linkobj" : "",
+        "author"  : "Maarten",
+        "type"    : "yammer",
+        "visible" : false
+    },
+    "br03" : {
+        "textobj" : "",
+        "linkobj" : "",
+        "author"  : "Maarten",
+        "type"    : "yammer",
+        "visible" : false
+    },
+    "br04" : {
+        "textobj" : "",
+        "linkobj" : "",
+        "author"  : "Maarten",
+        "type"    : "yammer",
+        "visible" : false
+    },
+    "br05" : {
+        "textobj" : "",
+        "linkobj" : "",
+        "author"  : "Maarten",
+        "type"    : "yammer",
+        "visible" : false
+    },
+    "br06" : {
+        "textobj" : "",
+        "linkobj" : "",
+        "author"  : "Maarten",
+        "type"    : "yammer",
+        "visible" : false
+    },
+    "br07" : {
+        "textobj" : "",
+        "linkobj" : "",
+        "author"  : "Maarten",
+        "type"    : "yammer",
+        "visible" : false
+    },
+    "br08" : {
+        "textobj" : "",
+        "linkobj" : "",
+        "author"  : "Maarten",
+        "type"    : "yammer",
+        "visible" : false
+    },
+    "br09" : {
+        "textobj" : "",
+        "linkobj" : "",
+        "author"  : "Maarten",
+        "type"    : "yammer",
+        "visible" : false
+    },
+    "br10" : {
+        "textobj" : "",
+        "linkobj" : "",
+        "author"  : "Maarten",
+        "type"    : "yammer",
+        "visible" : false
+    },
+    "br11" : {
+        "textobj" : "",
+        "linkobj" : "",
+        "author"  : "Maarten",
+        "type"    : "yammer",
+        "visible" : false
+    },
+    "br12" : {
+        "textobj" : "",
+        "linkobj" : "",
+        "author"  : "Maarten",
+        "type"    : "yammer",
+        "visible" : false
+    },
+    "br13" : {
+        "textobj" : "",
+        "linkobj" : "",
+        "author"  : "Maarten",
+        "type"    : "yammer",
+        "visible" : false
+    },
+    "br14" : {
+        "textobj" : "",
+        "linkobj" : "",
+        "author"  : "Maarten",
+        "type"    : "yammer",
+        "visible" : false
+    },
+    "br15" : {
+        "textobj" : "",
+        "linkobj" : "",
+        "author"  : "Maarten",
+        "type"    : "yammer",
+        "visible" : false
+    },
+    "br16" : {
+        "textobj" : "",
+        "linkobj" : "",
+        "author"  : "Maarten",
+        "type"    : "yammer",
+        "visible" : false
+    },
+    "br17" : {
+        "textobj" : "",
+        "linkobj" : "",
+        "author"  : "Maarten",
+        "type"    : "yammer",
+        "visible" : false
+    },
+    "br18" : {
+        "textobj" : "",
+        "linkobj" : "",
+        "author"  : "Maarten",
+        "type"    : "yammer",
+        "visible" : false
+    },
+    "br19" : {
+        "textobj" : "",
+        "linkobj" : "",
+        "author"  : "Maarten",
+        "type"    : "yammer",
+        "visible" : false
+    },
+    "dg01" : {
+        "textobj" : "",
+        "linkobj" : "",
+        "author"  : "Niek",
+        "type"    : "yammer",
+        "visible" : false
+    },
+    "dg02" : {
+        "textobj" : "",
+        "linkobj" : "",
+        "author"  : "Niek",
+        "type"    : "yammer",
+        "visible" : false
+    },
+    "dg03" : {
+        "textobj" : "",
+        "linkobj" : "",
+        "author"  : "Niek",
+        "type"    : "yammer",
+        "visible" : false
+    },
+    "dg04" : {
+        "textobj" : "",
+        "linkobj" : "",
+        "author"  : "Niek",
+        "type"    : "yammer",
+        "visible" : false
+    },
+    "dg05" : {
+        "textobj" : "",
+        "linkobj" : "",
+        "author"  : "Niek",
+        "type"    : "yammer",
+        "visible" : false
+    },
+    "dg06" : {
+        "textobj" : "",
+        "linkobj" : "",
+        "author"  : "Niek",
+        "type"    : "yammer",
+        "visible" : false
+    },
+    "dg07" : {
+        "textobj" : "",
+        "linkobj" : "",
+        "author"  : "Niek",
+        "type"    : "yammer",
+        "visible" : false
+    },
+    "dg08" : {
+        "textobj" : "",
+        "linkobj" : "",
+        "author"  : "Niek",
+        "type"    : "yammer",
+        "visible" : false
+    },
+    "dg09" : {
+        "textobj" : "",
+        "linkobj" : "",
+        "author"  : "Niek",
+        "type"    : "yammer",
+        "visible" : false
+    },
+    "dg10" : {
+        "textobj" : "",
+        "linkobj" : "",
+        "author"  : "Niek",
+        "type"    : "yammer",
+        "visible" : false
+    },
+    "dg11" : {
+        "textobj" : "",
+        "linkobj" : "",
+        "author"  : "Niek",
+        "type"    : "yammer",
+        "visible" : false
+    },
+    "dg12" : {
+        "textobj" : "",
+        "linkobj" : "",
+        "author"  : "Niek",
+        "type"    : "yammer",
+        "visible" : false
+    },
+    "dg13" : {
+        "textobj" : "",
+        "linkobj" : "",
+        "author"  : "Niek",
+        "type"    : "yammer",
+        "visible" : false
+    },
+    "dg14" : {
+        "textobj" : "",
+        "linkobj" : "",
+        "author"  : "Niek",
+        "type"    : "yammer",
+        "visible" : false
+    },
+    "dg15" : {
+        "textobj" : "",
+        "linkobj" : "",
+        "author"  : "Niek",
+        "type"    : "yammer",
+        "visible" : false
+    },
+    "pi01" : {
+        "textobj" : "",
+        "linkobj" : "",
+        "author"  : "Barbara",
+        "type"    : "yammer",
+        "visible" : false
+    },
+    "pi02" : {
+        "textobj" : "",
+        "linkobj" : "",
+        "author"  : "Barbara",
+        "type"    : "yammer",
+        "visible" : false
+    },
+    "pi03" : {
+        "textobj" : "",
+        "linkobj" : "",
+        "author"  : "Barbara",
+        "type"    : "yammer",
+        "visible" : false
+    },
+    "pi04" : {
+        "textobj" : "",
+        "linkobj" : "",
+        "author"  : "Barbara",
+        "type"    : "yammer",
+        "visible" : false
+    },
+    "pi05" : {
+        "textobj" : "",
+        "linkobj" : "",
+        "author"  : "Barbara",
+        "type"    : "yammer",
+        "visible" : false
+    },
+    "pi06" : {
+        "textobj" : "",
+        "linkobj" : "",
+        "author"  : "Barbara",
+        "type"    : "yammer",
+        "visible" : false
+    },
+    "re01" : {
+        "textobj" : "",
+        "linkobj" : "",
+        "author"  : "Nathan",
+        "type"    : "yammer",
+        "visible" : false
+    },
+    "re02" : {
+        "textobj" : "",
+        "linkobj" : "",
+        "author"  : "Nathan",
+        "type"    : "yammer",
+        "visible" : false
+    },
+    "re03" : {
+        "textobj" : "",
+        "linkobj" : "",
+        "author"  : "Nathan",
+        "type"    : "yammer",
+        "visible" : false
+    },
+    "re04" : {
+        "textobj" : "",
+        "linkobj" : "",
+        "author"  : "Nathan",
+        "type"    : "yammer",
+        "visible" : false
+    },
+    "re05" : {
+        "textobj" : "",
+        "linkobj" : "",
+        "author"  : "Nathan",
+        "type"    : "yammer",
+        "visible" : false
+    },
+    "re06" : {
+        "textobj" : "",
+        "linkobj" : "",
+        "author"  : "Nathan",
+        "type"    : "yammer",
+        "visible" : false
+    },
+    "re07" : {
+        "textobj" : "",
+        "linkobj" : "",
+        "author"  : "Nathan",
+        "type"    : "yammer",
+        "visible" : false
+    },
+    "re08" : {
+        "textobj" : "",
+        "linkobj" : "",
+        "author"  : "Nathan",
+        "type"    : "yammer",
+        "visible" : false
+    },
+    "re09" : {
+        "textobj" : "",
+        "linkobj" : "",
+        "author"  : "Nathan",
+        "type"    : "yammer",
+        "visible" : false
+    },
+    "re10" : {
+        "textobj" : "",
+        "linkobj" : "",
+        "author"  : "Nathan",
+        "type"    : "yammer",
+        "visible" : false
+    },
+    "re11" : {
+        "textobj" : "",
+        "linkobj" : "",
+        "author"  : "Nathan",
+        "type"    : "yammer",
+        "visible" : false
+    },
+    "re12" : {
+        "textobj" : "",
+        "linkobj" : "",
+        "author"  : "Nathan",
+        "type"    : "yammer",
+        "visible" : false
+    },
+    "re13" : {
+        "textobj" : "",
+        "linkobj" : "",
+        "author"  : "Nathan",
+        "type"    : "yammer",
+        "visible" : false
+    },
+    "re14" : {
+        "textobj" : "",
+        "linkobj" : "",
+        "author"  : "Nathan",
+        "type"    : "yammer",
+        "visible" : false
+    },
+    "re15" : {
+        "textobj" : "",
+        "linkobj" : "",
+        "author"  : "Nathan",
+        "type"    : "yammer",
+        "visible" : false
+    },
+    "re16" : {
+        "textobj" : "",
+        "linkobj" : "",
+        "author"  : "Nathan",
+        "type"    : "yammer",
+        "visible" : false
+    },
+    "re17" : {
+        "textobj" : "",
+        "linkobj" : "",
+        "author"  : "Nathan",
+        "type"    : "yammer",
+        "visible" : false
+    },
+    "re18" : {
+        "textobj" : "",
+        "linkobj" : "",
+        "author"  : "Nathan",
+        "type"    : "yammer",
+        "visible" : false
+    },
+    "re19" : {
+        "textobj" : "",
+        "linkobj" : "",
+        "author"  : "Nathan",
+        "type"    : "yammer",
+        "visible" : false
+    },
+    "re20" : {
+        "textobj" : "",
+        "linkobj" : "",
+        "author"  : "Nathan",
+        "type"    : "yammer",
+        "visible" : false
+    },    
+    "pu01" : {
+        "textobj" : "",
+        "linkobj" : "",
+        "author"  : "Frodo",
+        "type"    : "yammer",
+        "visible" : false
+    },
+    "pu02" : {
+        "textobj" : "",
+        "linkobj" : "",
+        "author"  : "Frodo",
+        "type"    : "yammer",
+        "visible" : false
+    },
+    "pu03" : {
+        "textobj" : "",
+        "linkobj" : "",
+        "author"  : "Frodo",
+        "type"    : "yammer",
+        "visible" : false
+    },
+    "pu04" : {
+        "textobj" : "",
+        "linkobj" : "",
+        "author"  : "Frodo",
+        "type"    : "yammer",
+        "visible" : false
+    },
+    "pu05" : {
+        "textobj" : "",
+        "linkobj" : "",
+        "author"  : "Frodo",
+        "type"    : "yammer",
+        "visible" : false
+    },
+    "pu06" : {
+        "textobj" : "",
+        "linkobj" : "",
+        "author"  : "Frodo",
+        "type"    : "yammer",
+        "visible" : false
+    },
+    "pu07" : {
+        "textobj" : "",
+        "linkobj" : "",
+        "author"  : "Frodo",
+        "type"    : "yammer",
+        "visible" : false
+    },
+    "pu08" : {
+        "textobj" : "",
+        "linkobj" : "",
+        "author"  : "Frodo",
+        "type"    : "yammer",
+        "visible" : false
+    },
+    "pu09" : {
+        "textobj" : "",
+        "linkobj" : "",
+        "author"  : "Frodo",
+        "type"    : "yammer",
+        "visible" : false
+    },
+    "pu10" : {
+        "textobj" : "",
+        "linkobj" : "",
+        "author"  : "Frodo",
+        "type"    : "yammer",
+        "visible" : false
+    },
+    "pu11" : {
+        "textobj" : "",
+        "linkobj" : "",
+        "author"  : "Frodo",
+        "type"    : "yammer",
+        "visible" : false
+    },
+    "pu12" : {
+        "textobj" : "",
+        "linkobj" : "",
+        "author"  : "Frodo",
+        "type"    : "yammer",
+        "visible" : false
+    },
+    "pu13" : {
+        "textobj" : "",
+        "linkobj" : "",
+        "author"  : "Frodo",
+        "type"    : "yammer",
+        "visible" : false
+    },
+    "pu14" : {
+        "textobj" : "",
+        "linkobj" : "",
+        "author"  : "Frodo",
+        "type"    : "yammer",
+        "visible" : false
+    }        
 }
