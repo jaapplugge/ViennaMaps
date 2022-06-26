@@ -191,7 +191,7 @@
                 httpJson.onload = this.responseText;
                 httpJson.open("GET", "content.json");
                 httpJson.send();
-                const JsonObj = httpJson.responseText
+                const JsonObj = JSON.parse(httpJson.responseText);
                 console.log(typeof httpJson);
                 console.log(httpJson);
                 console.log(typeof JsonObj);
