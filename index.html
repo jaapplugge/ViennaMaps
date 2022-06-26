@@ -183,23 +183,13 @@
                     window.location.href = cUrl;
                 }
             };
-
-            function getJson(){
-                const httpJson = new XMLHttpRequest();
-                httpJson.onload = this.responseText;
-                httpJson.open("GET", "content.json");
-                httpJson.send();
-                await new Promise(resolve => setTimeout(resolve, 3000)); // 3 sec
-                console.log(httpJson);
-                console.log(typeof httpJson);
-                console.log(JSON.stringify(httpJson['response']));
-                return JSON.stringify(httpJson['response'])
-            };
-
-            let myJsonString = getJson();
-            console.log(typeof myJsonString);
-            console.log(myJsonString);
-            const myJson = JSON.parse(myJsonString)
+            const myJson = new XMLHttpRequest();
+            myJson.onload = function() {
+                const myObj = this.responseText;
+                return myObj;
+            }
+            myJson.open("GET", "content.json");
+            myJson.send();
             console.log(typeof myJson);
             console.log(myJson);
             console.log(myJson['lg01']['text']);
