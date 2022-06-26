@@ -4,6 +4,16 @@ span {
     width: 20px;
     height: 20px;
 }
+.messageBox {
+    left: 40px; 
+    top: 1600px; 
+    font-family: Lucida Console;
+    font-size: large;
+    color: rgba(30, 26, 77, 0.853);
+    border-radius: 0px;
+    height: 30px;
+    width:  500px;
+}
 .name_pink {
     left: 580px; 
     top: 1300px; 

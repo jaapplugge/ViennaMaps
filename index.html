@@ -23,6 +23,8 @@
                 console.log("type:" + typeof jFile);
                 if (jFile[aPar]["visible"] === true) {
                     console.log("element is visible");
+                    document.getElementByName("messageBox").textContent=jFile[aPar]["alttext"];
+                    console.log("set to" + jFile[aPar]["alttext"])
                 };
             };
             function onClickMsg(cPar, cUrl, cFile){
@@ -52,6 +54,9 @@
             <span class="name_darkgreen"><b>Niek's PSConf</b></span>
             <span class="name_red"><b>Nathan's PSConf</b></span>
             <span class="name_purple"><b>Frodo's PSConf</b></span>
+
+            <!-- Messagebox -->
+            <span class="messageBox" name="messageBox">Move over the metrostations to see the action...</span>
 
             <!-- LigthGreen -->
             <a onClick='onClickMsg("lg01","content.json",jsonObj);' onMouseOver='ShowAltTxt("lg01","content.json",jsonObj)'><span class="p_lg01" id="lg01"></span></a>
