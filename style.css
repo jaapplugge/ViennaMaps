@@ -5,12 +5,72 @@ span {
     height: 20px;
 }
 .name_pink {
-    left: 742px; 
-    top: 1274px; 
+    left: 580px; 
+    top: 1300px; 
     font-family: Lucida Console;
-    font-size: small;
+    font-size: normal;
     color: rgba(254, 144, 214, 0.853);
-    background-color: aquamarine;
+    border-radius: 0px;
+    height: 30px;
+    width:  250px;
+}
+.name_lightgreen {
+    left: 1200px; 
+    top: 285px; 
+    font-family: Lucida Console;
+    font-size: normal;
+    color: rgba(173, 224, 147);
+    border-radius: 0px;
+    height: 30px;
+    width:  250px;
+}
+.name_orange {
+    left: 460px; 
+    top: 700px; 
+    font-family: Lucida Console;
+    font-size: normal;
+    color: rgba(232, 188, 107);
+    border-radius: 0px;
+    height: 30px;
+    width:  250px;
+}
+.name_brown {
+    left: 580px; 
+    top: 1650px; 
+    font-family: Lucida Console;
+    font-size: normal;
+    color: rgba(163, 126, 58);
+    border-radius: 0px;
+    height: 30px;
+    width:  250px;
+}
+.name_darkgreen {
+    left: 130px; 
+    top: 1090px; 
+    font-family: Lucida Console;
+    font-size: normal;
+    color: rgba(64, 123, 18);
+    border-radius: 0px;
+    height: 30px;
+    width:  250px;
+}
+.name_red {
+    left:1340px; 
+    top: 1625px; 
+    font-family: Lucida Console;
+    font-size: normal;
+    color: rgba(245, 96, 41);
+    border-radius: 0px;
+    height: 30px;
+    width:  250px;
+}
+.name_purple {
+    left: 2100px; 
+    top: 460px; 
+    font-family: Lucida Console;
+    font-size: normal;
+    color: rgba(131, 4, 181);
+    border-radius: 0px;
     height: 30px;
     width:  250px;
 }
@@ -21,8 +81,6 @@ span {
     height: 1700px;
     width:  2350px;
 }
-
-
 /* LightGreen */
 .p_lg01 { left: 1070px; top: 305px; background-color: rgb(173, 224, 147); }
 .p_lg02 { left:  735px; top: 320px; background-color: rgb(173, 224, 147); } 

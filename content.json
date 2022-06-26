@@ -1,6 +1,7 @@
 {
     "lg01" : {
         "textobj" : "Jaap bezocht de lunchsessie <b>Dealing with super large files (Tobias Weltner)</b>, en schreef er een yammer-post over.",
+        "alttext" : "Jaap bezocht Dealing with SuperLarge files",
         "session" : "Dealing with super large files (Tobias Weltner)",
         "linkobj" : "web.yammer.com/main/org/ogd.nl/threads/eyJfdHlwZSI6IlRocmVhZCIsImlkIjoiMTc5NTYwNDYyOTcxNjk5MiJ9",
         "author"  : "Jaap",
@@ -9,17 +10,20 @@
     },
     "lg02" : {
         "textobj" : "Ook in Oostenrijk faalt..",
+        "alttext" : "foto: Ook in oostenrijk..",
         "photo"   : "/photo/jaap01.jpg",
-        "linkobj" : "www.google.com",
+        "linkobj" : "/photo/jaap01.jpg",
         "author"  : "Jaap",
         "type"    : "photo",
         "visible" : true
     },
     "lg03" : {
         "textobj" : "",
-        "linkobj" : "",
+        "alttext" : "foto: Eindelijk vrij!",
+        "photo"   : "/photo/jaap02.jpg",
+        "linkobj" : "/photo/jaap02.jpg",
         "author"  : "Jaap",
-        "type"    : "",
+        "type"    : "photo",
         "visible" : true
     },
     "lg04" : {

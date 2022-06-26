@@ -13,6 +13,18 @@
                 JsonHttp.send();
                 return JsonHttp.responseText;
             };
+            function ShowAltTxt(aPar, aFile, aFile){
+                console.log("function: ShowAltTxt()");
+                console.log("par :" + aPar);
+                console.log("url :" + aUrl);
+                console.log("file:" + aFile);
+                const jFile = JSON.parse(aFile);
+                console.log("json:" + jFile);
+                console.log("type:" + typeof jFile);
+                if (jFile[aPar]["visible"] === true) {
+                    console.log("element is visible");
+                };
+            };
             function onClickMsg(cPar, cUrl, cFile){
                 console.log("function: onClickMsg()");
                 console.log("par :" + cPar);
@@ -33,10 +45,16 @@
         </script>
         <div class='map'>
             <!-- Names on routes -->
-            <span class="name_pink">Barbara</span>
+            <span class="name_pink"><b>Barbara's PSConf</b></span>
+            <span class="name_lightgreen"><b>Jaap's PSConf</b></span>
+            <span class="name_orange"><b>Jelle's PSConf</b></span>
+            <span class="name_brown"><b>Maarten's PSConf</b></span>
+            <span class="name_darkgreen"><b>Niek's PSConf</b></span>
+            <span class="name_red"><b>Nathan's PSConf</b></span>
+            <span class="name_purple"><b>Frodo's PSConf</b></span>
 
             <!-- LigthGreen -->
-            <a onClick='onClickMsg("lg01","content.json",jsonObj);' alt="Jaaps sessies 01" target="_blank"><span class="p_lg01" id="lg01"></span></a>
+            <a onClick='onClickMsg("lg01","content.json",jsonObj);' onMouseOver='ShowAltTxt("lg01","content.json",jsonObj)'><span class="p_lg01" id="lg01"></span></a>
             <a onClick='onClickMsg("lg02","content.json",jsonObj);' alt="Jaaps sessies 02" target="_blank"><span class="p_lg02" id="lg02"></span></a>
             <a onClick='onClickMsg("lg03","content.json",jsonObj);' alt="Jaaps sessies 03" target="_blank"><span class="p_lg03" id="lg03"></span></a>       
             <a onClick='onClickMsg("lg04","content.json",jsonObj);' alt="Jaaps sessies 04" target="_blank"><span class="p_lg04" id="lg04"></span></a>       
