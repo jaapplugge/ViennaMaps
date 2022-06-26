@@ -176,16 +176,6 @@
         <script src="https://requirejs.org/docs/release/2.3.5/minified/require.js"></script>
 
         <script language="JavaScript">
-            const httpJson = new XMLHttpRequest();
-            httpJson.onload = function() {
-                const JsonObj = JSON.parse(this.responseText);
-            };
-            httpJson.open("GET", "content.json");
-            httpJson.send();
-
-            console.log(typeof JsonObj);
-            console.log(JsonObj['lg01']['text']);
-
             function onClickMsg(cText, cUrl){
                 console.log(typeof cText);
                 console.log(cText);
@@ -194,7 +184,21 @@
                 if (confirm(cText)){
                     window.location.href = cUrl;
                 }
-            }
+            };
+
+            function getJson(){
+                const JsonObj = JSON.parse(this.responseText);
+                console.log(typeof JsonObj);
+            };
+
+            const httpJson = new XMLHttpRequest();
+            httpJson.onload = getJson();
+            httpJson.open("GET", "content.json");
+            httpJson.send();
+
+            console.log(typeof httpJson);
+            console.log(httpJson['lg01']['text']);
+
         </script>
         <div class='map'>
             <!-- LigthGreen -->
