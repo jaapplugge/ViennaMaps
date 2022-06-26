@@ -176,11 +176,11 @@
         <script src="https://requirejs.org/docs/release/2.3.5/minified/require.js"></script>
 
         <script language="JavaScript">
-            function onClickMsg(position){
+            function onClickMsg(color, position){
                 const myJson = fetch('./content.json');
                 console.log(typeof myJson);
-                let message  = myJson[position][2];
-                let link     = myJson[position][3];
+                let message  = myJson[color][position]["text"];
+                let link     = myJson[color][position]["link"];
                 console.log(message);
                 console.log(link);
                 if (confirm(Message)){
@@ -190,7 +190,7 @@
         </script>
         <div class='map'>
             <!-- LigthGreen -->
-            <a onClick='onClickMsg(1);' alt="Jaap session 1" target="_blank"><span class="p_lg01"></span></a>
+            <a onClick='onClickMsg("lightGreen", "stop_01");' alt="Jaap session 1" target="_blank"><span class="p_lg01"></span></a>
             <a onClick='onClickMsg("lightGreen","https://google.com");' alt="Jaap session 2"><span class="p_lg02"></span></a>
             <a onClick='onClickMsg("lightGreen","https://google.com");' alt="Jaap session 3"><span class="p_lg03"></span></a>       
             <a onClick='onClickMsg("lightGreen","https://google.com");' alt="Jaap session 4"><span class="p_lg04"></span></a>       
