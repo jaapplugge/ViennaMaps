@@ -177,7 +177,7 @@
 
         <script language="JavaScript">
             function onClickMsg(color, position){
-                const myJson = require(['./content.json']);
+                const myJson = fetch('./content.json');
                 console.log(typeof myJson);
                 console.dir(myJson);
                 const jObj = myJson["lightGreen"]["stop_01"];
