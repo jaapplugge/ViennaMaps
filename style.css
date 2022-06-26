@@ -65,13 +65,13 @@
     height: 20px;
 }                                                 
 /* LightGreen */
-.p_lg01 { left: 1070px; top: 305px; visibility: hidden; }
-.p_lg02 { left:  735px; top: 320px; visibility: hidden; } 
-.p_lg03 { left:  650px; top: 400px; visibility: hidden; }
-.p_lg04 { left:  570px; top: 485px; visibility: hidden; }
-.p_lg05 { left:  485px; top: 570px; visibility: hidden; }
-.p_lg06 { left:  415px; top: 845px; visibility: hidden; } 
-.p_lg07 { left:  310px; top: 950px; visibility: hidden; }
+.p_lg01 { left: 1070px; top: 305px; }
+.p_lg02 { left:  735px; top: 320px; } 
+.p_lg03 { left:  650px; top: 400px; }
+.p_lg04 { left:  570px; top: 485px; }
+.p_lg05 { left:  485px; top: 570px; }
+.p_lg06 { left:  415px; top: 845px; } 
+.p_lg07 { left:  310px; top: 950px; }
 
 /* Orange */
 .p_or01 { left:  432px; top: 735px; }
