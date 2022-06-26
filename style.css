@@ -8,17 +8,17 @@ span {
     left: 40px; 
     top: 1600px; 
     font-family: Lucida Console;
-    font-size: large;
+    font-size: x-large;
     color: rgba(30, 26, 77, 0.853);
     border-radius: 0px;
     height: 30px;
     width:  500px;
 }
 .name_pink {
-    left: 560px; 
+    left: 540px; 
     top: 1300px; 
     font-family: Lucida Console;
-    font-size: normal;
+    font-size: large;
     color: rgba(254, 144, 214, 0.853);
     border-radius: 0px;
     height: 30px;
@@ -28,7 +28,7 @@ span {
     left: 1180px; 
     top: 285px; 
     font-family: Lucida Console;
-    font-size: normal;
+    font-size: large;
     color: rgba(173, 224, 147);
     border-radius: 0px;
     height: 30px;
@@ -38,17 +38,17 @@ span {
     left: 460px; 
     top: 700px; 
     font-family: Lucida Console;
-    font-size: normal;
+    font-size: large;
     color: rgba(232, 188, 107);
     border-radius: 0px;
     height: 30px;
     width:  250px;
 }
 .name_brown {
-    left: 560px; 
+    left: 540px; 
     top: 1650px; 
     font-family: Lucida Console;
-    font-size: normal;
+    font-size: large;
     color: rgba(163, 126, 58);
     border-radius: 0px;
     height: 30px;
@@ -58,7 +58,7 @@ span {
     left: 130px; 
     top: 1090px; 
     font-family: Lucida Console;
-    font-size: normal;
+    font-size: large;
     color: rgba(64, 123, 18);
     border-radius: 0px;
     height: 30px;
@@ -68,7 +68,7 @@ span {
     left:1340px; 
     top: 1625px; 
     font-family: Lucida Console;
-    font-size: normal;
+    font-size: large;
     color: rgba(245, 96, 41);
     border-radius: 0px;
     height: 30px;
@@ -78,7 +78,7 @@ span {
     left: 2100px; 
     top: 460px; 
     font-family: Lucida Console;
-    font-size: normal;
+    font-size: large;
     color: rgba(131, 4, 181);
     border-radius: 0px;
     height: 30px;
