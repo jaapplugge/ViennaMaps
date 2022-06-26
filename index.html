@@ -187,18 +187,21 @@
             };
 
             function getJson(){
-                const JsonObj = this.responseText;
+                const httpJson = new XMLHttpRequest();
+                httpJson.onload = this.responseText;
+                httpJson.open("GET", "content.json");
+                const JsonObj = httpJson.send();
+                console.log(typeof httpJson);
+                console.log(httpJson);
                 console.log(typeof JsonObj);
+                console.log(JsonObj);
                 return JsonObj;
             };
 
-            const httpJson = new XMLHttpRequest();
-            httpJson.onload = getJson();
-            httpJson.open("GET", "content.json");
-            httpJson.send();
-
-            console.log(typeof httpJson);
-            console.log(httpJson['lg01']['text']);
+            myJson = getJson()
+            console.log(typeof myJson);
+            console.log(myJson);
+            console.log(myJson['lg01']['text']);
 
         </script>
         <div class='map'>
