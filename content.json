@@ -1,27 +1,27 @@
 {
     "lg01" : {
-        "text" : "Welcome Notes + Keynote /r",
-        "link" : "https://www.bing.com"
+        "text" : "Welcome Notes + Keynote",
+        "link" : "www.bing.com"
     },
     "lg02" : {
-        "text" : "State of the Shell /n /r terugkijken?",
-        "link" : "https://www.google.com"
+        "text" : "State of the Shell terugkijken?",
+        "link" : "www.google.com"
     },
     "lg03" : {
-        "text" : "Azure Policy Guest Configuration: Cloud Edition of DSC/ndoor Jan Egil Ring/rterugkijken?",
-        "link" : "https://www.google.com"
+        "text" : "Azure Policy Guest Configuration: Cloud Edition of DSC door Jan Egil Ring terugkijken?",
+        "link" : "www.google.com"
     },
     "lg04" : {
-        "text" : "Managing Microsoft Azure at a leading capital markets fintech – PS Edition/nJacob Gottlieb Svendsen/n/rterugkijken?",
-        "link" : "https://www.google.com"
+        "text" : "Managing Microsoft Azure at a leading capital markets fintech (PS Edition) Jacob Gottlieb Svendsen terugkijken?",
+        "link" : "www.google.com"
     },
     "lg05" : {
-        "text" : "AAD dynamic groups aren’t great. Let’s make that better with PowerShell!/nBen Reader/n/nterugkijken?",
-        "link" : "https://www.google.com"
+        "text" : "AAD dynamic groups aren't great. Let's make that better with PowerShell! Ben Reader terugkijken?",
+        "link" : "www.google.com"
     },
     "lg06" : {
-        "text" : "Execute Remote Commands and get Output using only WMI/rJay Adams",
-        "link" : "https://www.google.com"
+        "text" : "Execute Remote Commands and get Output using only WMI Jay Adams",
+        "link" : "www.google.com"
     },
     "lg07" : {
         "text" : "Dealing with super large files/rTobias Weltner/r/rterugkijken?",

@@ -188,7 +188,7 @@
 
             function getJson(){
                 const httpJson = new XMLHttpRequest();
-                httpJson.onload = JSON.parse(this.responseText);
+                httpJson.onload = this.responseText;
                 httpJson.open("GET", "content.json");
                 httpJson.send();
                 console.log(typeof httpJson);
@@ -196,7 +196,7 @@
                 return httpJson;
             };
 
-            myJson = getJson()
+            myJson = getJson();
             console.log(typeof myJson);
             console.log(myJson);
             console.log(myJson['lg01']['text']);
