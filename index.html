@@ -175,22 +175,25 @@
     <body>
         <script language="JavaScript">
             function CallJson(url) {
-                console.log("function: callJson(" + url + ")")
+                console.log("function: callJson(" + url + ")");
                 const JsonHttp = new XMLHttpRequest();
                 JsonHttp.open( "GET", url, false );
                 JsonHttp.send();
-                return JsonHttp.responseText
+                return JsonHttp.responseText;
             };
             function onClickMsg(cPar, cUrl, cFile){
                 console.log("function: onClickMsg()");
                 console.log("par :" + cPar);
                 console.log("url :" + cUrl);
                 console.log("file:" + cFile);
-                if (confirm(cFile[cPar]["text"])){
-                    window.location.href = cFile[cPar]["link"];
-                }
-                myJson.open("GET", cFile);
-                myJson.send();                
+                jFile = JSON.parse(cFile);
+                let rMessage = jFile[cPar].textobj;
+                let rUrl     = jFile[cPar].linkobj;
+                console.log("resp:" + rMessage);
+                console.log("resp:" + rUrl);                
+                if (confirm(rMessage)){
+                    window.location.href = rUrl;
+                };
             };
             const jsonObj = CallJson('content.json')
         </script>
