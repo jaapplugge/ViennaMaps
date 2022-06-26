@@ -193,7 +193,7 @@
                 httpJson.send();
                 console.log(typeof httpJson);
                 console.log(httpJson);
-                return '{ "lg01" : {"text":"hallo world","url":"google.com"}}';
+                return httpJson['response']
             };
 
             let myJsonString = getJson();
