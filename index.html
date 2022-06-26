@@ -179,7 +179,7 @@
                 const JsonHttp = new XMLHttpRequest();
                 JsonHttp.open( "GET", url, false );
                 JsonHttp.send();
-                return JsonHttp.responseText;
+                return JSON.stringify(JsonHttp.responseText);
             };
             function onClickMsg(cPar, cUrl, cFile){
                 console.log("function: onClickMsg()");
@@ -195,7 +195,7 @@
                     window.location.href = rUrl;
                 };
             };
-            const jsonObj = CallJson('content.json')
+            let jsonObj = CallJson('content.json')
         </script>
         <div class='map'>
             <!-- LigthGreen -->
