@@ -189,6 +189,7 @@
                 httpJson.onload = this.responseText;
                 httpJson.open("GET", "content.json");
                 httpJson.send();
+                await new Promise(resolve => setTimeout(resolve, 3000)); // 3 sec
                 console.log(httpJson);
                 console.log(typeof httpJson);
                 console.log(JSON.stringify(httpJson['response']));
