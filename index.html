@@ -12,7 +12,6 @@
                 JsonHttp.open( "GET", url, false );
                 JsonHttp.send();
                 return JsonHttp.responseText;
-                SetVisible("lg",14,JsonHttp.responseText);
             };
             function onClickMsg(cPar, cUrl, cFile){
                 console.log("function: onClickMsg()");
@@ -43,8 +42,9 @@
                     };
                 };
             };
-
+            let interval = 30000;
             let jsonObj = CallJson('content.json');
+            setInterval(SetVisible("lg", 14, jsonObj), interval);
         </script>
         <div class='map'>
             <!-- Names on routes -->
