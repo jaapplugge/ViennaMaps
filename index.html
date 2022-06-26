@@ -29,35 +29,20 @@
                     window.location.href = rUrl;
                 };
             };
-            function SetVisible(prefix, c_total, cFile) {
-                console.log("function: setVisible()");
-                const jFile = JSON.parse(cFile);
-                for (let c_i = 0; c_i < c_total; c_i++) {
-                    var name = prefix + c_i.toLocaleString('en-US', {minimumIntegerDigits: 2,useGrouping: false});
-                    if (jFile[name]['visible']) {
-                        document.getElementById(name).visiblity="visible";   
-                        console.log(name + " : set to visible")
-                    } else {
-                        console.log(name + " : left invisible")
-                    };
-                };
-            };
-            let interval = 30000;
             let jsonObj = CallJson('content.json');
-            setInterval(SetVisible("lg", 7, jsonObj), interval);
         </script>
         <div class='map'>
             <!-- Names on routes -->
             <span class="name_pink">Barbara</span>
 
             <!-- LigthGreen -->
-            <a onClick='onClickMsg("lg01","content.json",jsonObj);' alt="Jaaps sessies 01" target="_blank"><span class="p_lg01" id="lg01" visibility="hidden"></span></a>
-            <a onClick='onClickMsg("lg02","content.json",jsonObj);' alt="Jaaps sessies 02" target="_blank"><span class="p_lg02" id="lg02" visibility="hidden"></span></a>
-            <a onClick='onClickMsg("lg03","content.json",jsonObj);' alt="Jaaps sessies 03" target="_blank"><span class="p_lg03" id="lg03" visibility="hidden"></span></a>       
-            <a onClick='onClickMsg("lg04","content.json",jsonObj);' alt="Jaaps sessies 04" target="_blank"><span class="p_lg04" id="lg04" visibility="hidden"></span></a>       
-            <a onClick='onClickMsg("lg05","content.json",jsonObj);' alt="Jaaps sessies 05" target="_blank"><span class="p_lg05" id="lg05" visibility="hidden"></span></a>
-            <a onClick='onClickMsg("lg06","content.json",jsonObj);' alt="Jaaps sessies 06" target="_blank"><span class="p_lg06" id="lg06" visibility="hidden"></span></a>
-            <a onClick='onClickMsg("lg07","content.json",jsonObj);' alt="Jaaps sessies 07" target="_blank"><span class="p_lg07" id="lg07" visibility="hidden"></span></a>       
+            <a onClick='onClickMsg("lg01","content.json",jsonObj);' alt="Jaaps sessies 01" target="_blank"><span class="p_lg01" id="lg01"></span></a>
+            <a onClick='onClickMsg("lg02","content.json",jsonObj);' alt="Jaaps sessies 02" target="_blank"><span class="p_lg02" id="lg02"></span></a>
+            <a onClick='onClickMsg("lg03","content.json",jsonObj);' alt="Jaaps sessies 03" target="_blank"><span class="p_lg03" id="lg03"></span></a>       
+            <a onClick='onClickMsg("lg04","content.json",jsonObj);' alt="Jaaps sessies 04" target="_blank"><span class="p_lg04" id="lg04"></span></a>       
+            <a onClick='onClickMsg("lg05","content.json",jsonObj);' alt="Jaaps sessies 05" target="_blank"><span class="p_lg05" id="lg05"></span></a>
+            <a onClick='onClickMsg("lg06","content.json",jsonObj);' alt="Jaaps sessies 06" target="_blank"><span class="p_lg06" id="lg06"></span></a>
+            <a onClick='onClickMsg("lg07","content.json",jsonObj);' alt="Jaaps sessies 07" target="_blank"><span class="p_lg07" id="lg07"></span></a>       
 
             <!-- Orange -->
             <a onClick='onClickMsg("or01","content.json",jsonObj);' alt="Jelle's sessies 01" target="_blank"><span class="p_or01"></span></a>
