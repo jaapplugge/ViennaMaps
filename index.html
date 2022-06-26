@@ -174,22 +174,29 @@
     </head>
     <body>
         <script language="JavaScript">
-            function onClickMsg(cPar, cFile){
+            function CallJson(url) {
+                console.log("function: callJson(" + url + ")")
+                const JsonHttp = new XMLHttpRequest();
+                JsonHttp.open( "GET", url, false );
+                JsonHttp.send();
+                return JsonHttp.responseText
+            };
+            function onClickMsg(cPar, cUrl, cFile){
+                console.log("function: onClickMsg()");
                 console.log("par :" + cPar);
+                console.log("url :" + cUrl);
                 console.log("file:" + cFile);
-                const myJson = new XMLHttpRequest();
-                myJson.onload = function() {
-                    if (confirm(this["responseText"][cPar]["text"])){
-                        window.location.href = this["responseText"][cPar]["link"];
-                    }
+                if (confirm(cFile[cPar]["text"])){
+                    window.location.href = cFile[cPar]["link"];
                 }
                 myJson.open("GET", cFile);
                 myJson.send();                
             };
+            const jsonObj = CallJson('content.json')
         </script>
         <div class='map'>
             <!-- LigthGreen -->
-            <a onClick='onClickMsg("lg01","content.json")' alt="Jaap session 1" target="_blank"><span class="p_lg01"></span></a>
+            <a onClick='onClickMsg("lg01","content.json",jsonObj)' alt="Jaap session 1" target="_blank"><span class="p_lg01"></span></a>
             <a onClick='onClickMsg("lightGreen","https://google.com");' alt="Jaap session 2"><span class="p_lg02"></span></a>
             <a onClick='onClickMsg("lightGreen","https://google.com");' alt="Jaap session 3"><span class="p_lg03"></span></a>       
             <a onClick='onClickMsg("lightGreen","https://google.com");' alt="Jaap session 4"><span class="p_lg04"></span></a>       
