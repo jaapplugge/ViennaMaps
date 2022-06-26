@@ -22,11 +22,13 @@
                 console.log("type:" + typeof jFile);
                 if (jFile[aPar]["visible"] === true) {
                     console.log("element is visible");
-                    document.getElementsByName("messageBox").textContent=jFile[aPar]["alttext"];
-                    console.log("set to" + jFile[aPar]["alttext"])
+                    const span = document.getElementById('messageBox');
+                    span.textContent = jFile[aPar]["alttext"];
+                    console.log("set to " + jFile[aPar]["alttext"])
                 } else {
                     console.log("element is NOT visible");
-                    document.getElementsByName("messageBox").textContent="station not (yet) opened.";
+                    const span = document.getElementById('messageBox');
+                    span.textContent = "station not (yet) opened.";                    
                 };
             };
             function onClickMsg(cPar, cUrl, cFile){
@@ -58,7 +60,7 @@
             <span class="name_purple"><b>Frodo's PSConf</b></span>
 
             <!-- Messagebox -->
-            <span class="messageBox" name="messageBox">Move over the metrostations to see the action...</span>
+            <span class="messageBox" id="messageBox">Move over the metrostations to see the action...</span>
 
             <!-- LigthGreen -->
             <a onClick='onClickMsg("lg01","content.json",jsonObj);' onMouseOver='ShowAltTxt("lg01",jsonObj)'><span class="p_lg01" id="lg01"></span></a>
