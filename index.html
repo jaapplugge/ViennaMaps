@@ -186,9 +186,11 @@
                 console.log("par :" + cPar);
                 console.log("url :" + cUrl);
                 console.log("file:" + cFile);
-                jFile = JSON.parse(cFile);
-                let rMessage = jFile[cPar].textobj;
-                let rUrl     = jFile[cPar].linkobj;
+                const jFile = JSON.parse(cFile);
+                console.log("json:" + jFile);
+                console.log("type:" + typeof jFile);
+                let rMessage = jFile[cPar]["textobj"];
+                let rUrl     = jFile[cPar]["linkobj"];
                 console.log("resp:" + rMessage);
                 console.log("resp:" + rUrl);                
                 if (confirm(rMessage)){
