@@ -174,34 +174,22 @@
     </head>
     <body>
         <script language="JavaScript">
-            function onClickMsg(cText, cUrl){
-                console.log(typeof cText);
-                console.log(cText);
-                console.log(typeof cUrl);
-                console.log(cUrl);                
-                if (confirm(cText)){
-                    window.location.href = cUrl;
+            function onClickMsg(cPar, cFile){
+                console.log("par :" + cPar);
+                console.log("file:" + cFile);
+                const myJson = new XMLHttpRequest();
+                myJson.onload = function() {
+                    if (confirm(this["responseText"][cPar]["text"])){
+                        window.location.href = this["responseText"][cPar]["link"];
+                    }
                 }
+                myJson.open("GET", cFile);
+                myJson.send();                
             };
-            const myJson = new XMLHttpRequest();
-            myJson.onload = function() {
-                console.log(typeof this.responseText);
-                console.log(this.responseText);
-                const myObj = JSON.stringify(this.responseText);
-                console.log(typeof myObj);
-                console.log(myObj);
-                return myObj;
-            }
-            myJson.open("GET", "content.json");
-            myJson.send();
-            console.log(typeof myObj);
-            console.log(myObj);
-            console.log(JSON.parse(myObj)['lg01']['text']);
-
         </script>
         <div class='map'>
             <!-- LigthGreen -->
-            <a onClick='onClickMsg(myJson["lg01"]["text"], myJson["lg01"]["url"]);' alt="Jaap session 1" target="_blank"><span class="p_lg01"></span></a>
+            <a onClick='onClickMsg("lg01","content.json")' alt="Jaap session 1" target="_blank"><span class="p_lg01"></span></a>
             <a onClick='onClickMsg("lightGreen","https://google.com");' alt="Jaap session 2"><span class="p_lg02"></span></a>
             <a onClick='onClickMsg("lightGreen","https://google.com");' alt="Jaap session 3"><span class="p_lg03"></span></a>       
             <a onClick='onClickMsg("lightGreen","https://google.com");' alt="Jaap session 4"><span class="p_lg04"></span></a>       
