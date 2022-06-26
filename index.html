@@ -187,8 +187,9 @@
             };
 
             function getJson(){
-                const JsonObj = JSON.parse(this.responseText);
+                const JsonObj = this.responseText;
                 console.log(typeof JsonObj);
+                return JsonObj;
             };
 
             const httpJson = new XMLHttpRequest();
