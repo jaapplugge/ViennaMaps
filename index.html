@@ -185,7 +185,11 @@
             };
             const myJson = new XMLHttpRequest();
             myJson.onload = function() {
+                console.log(typeof this.responseText);
+                console.log(this.responseText);
                 const myObj = JSON.stringify(this.responseText);
+                console.log(typeof myObj);
+                console.log(myObj);
                 return myObj;
             }
             myJson.open("GET", "content.json");
