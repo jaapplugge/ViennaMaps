@@ -13,10 +13,9 @@
                 JsonHttp.send();
                 return JsonHttp.responseText;
             };
-            function ShowAltTxt(aPar, aFile, aFile){
+            function ShowAltTxt(aPar, aFile){
                 console.log("function: ShowAltTxt()");
                 console.log("par :" + aPar);
-                console.log("url :" + aUrl);
                 console.log("file:" + aFile);
                 const jFile = JSON.parse(aFile);
                 console.log("json:" + jFile);
@@ -25,7 +24,10 @@
                     console.log("element is visible");
                     document.getElementByName("messageBox").textContent=jFile[aPar]["alttext"];
                     console.log("set to" + jFile[aPar]["alttext"])
-                };
+                } else {
+                    console.log("element is NOT visible");
+                    document.getElementByName("messageBox").textContent="station not (yet) opened.";
+                }
             };
             function onClickMsg(cPar, cUrl, cFile){
                 console.log("function: onClickMsg()");
@@ -59,13 +61,13 @@
             <span class="messageBox" name="messageBox">Move over the metrostations to see the action...</span>
 
             <!-- LigthGreen -->
-            <a onClick='onClickMsg("lg01","content.json",jsonObj);' onMouseOver='ShowAltTxt("lg01","content.json",jsonObj)'><span class="p_lg01" id="lg01"></span></a>
-            <a onClick='onClickMsg("lg02","content.json",jsonObj);' alt="Jaaps sessies 02" target="_blank"><span class="p_lg02" id="lg02"></span></a>
-            <a onClick='onClickMsg("lg03","content.json",jsonObj);' alt="Jaaps sessies 03" target="_blank"><span class="p_lg03" id="lg03"></span></a>       
-            <a onClick='onClickMsg("lg04","content.json",jsonObj);' alt="Jaaps sessies 04" target="_blank"><span class="p_lg04" id="lg04"></span></a>       
-            <a onClick='onClickMsg("lg05","content.json",jsonObj);' alt="Jaaps sessies 05" target="_blank"><span class="p_lg05" id="lg05"></span></a>
-            <a onClick='onClickMsg("lg06","content.json",jsonObj);' alt="Jaaps sessies 06" target="_blank"><span class="p_lg06" id="lg06"></span></a>
-            <a onClick='onClickMsg("lg07","content.json",jsonObj);' alt="Jaaps sessies 07" target="_blank"><span class="p_lg07" id="lg07"></span></a>       
+            <a onClick='onClickMsg("lg01","content.json",jsonObj);' onMouseOver='ShowAltTxt("lg01",jsonObj)'><span class="p_lg01" id="lg01"></span></a>
+            <a onClick='onClickMsg("lg02","content.json",jsonObj);' onMouseOver='ShowAltTxt("lg02",jsonObj)'><span class="p_lg02" id="lg02"></span></a>
+            <a onClick='onClickMsg("lg03","content.json",jsonObj);' onMouseOver='ShowAltTxt("lg03",jsonObj)'><span class="p_lg03" id="lg03"></span></a>       
+            <a onClick='onClickMsg("lg04","content.json",jsonObj);' onMouseOver='ShowAltTxt("lg04",jsonObj)'><span class="p_lg04" id="lg04"></span></a>       
+            <a onClick='onClickMsg("lg05","content.json",jsonObj);' onMouseOver='ShowAltTxt("lg05",jsonObj)'><span class="p_lg05" id="lg05"></span></a>
+            <a onClick='onClickMsg("lg06","content.json",jsonObj);' onMouseOver='ShowAltTxt("lg06",jsonObj)'><span class="p_lg06" id="lg06"></span></a>
+            <a onClick='onClickMsg("lg07","content.json",jsonObj);' onMouseOver='ShowAltTxt("lg07",jsonObj)'><span class="p_lg07" id="lg07"></span></a>       
 
             <!-- Orange -->
             <a onClick='onClickMsg("or01","content.json",jsonObj);' alt="Jelle's sessies 01" target="_blank"><span class="p_or01"></span></a>
