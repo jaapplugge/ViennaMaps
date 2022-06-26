@@ -179,7 +179,7 @@
                 const JsonHttp = new XMLHttpRequest();
                 JsonHttp.open( "GET", url, false );
                 JsonHttp.send();
-                return JSON.stringify(JsonHttp.responseText);
+                return JsonHttp.responseText;
             };
             function onClickMsg(cPar, cUrl, cFile){
                 console.log("function: onClickMsg()");
