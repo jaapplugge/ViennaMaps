@@ -22,12 +22,12 @@
                 console.log("type:" + typeof jFile);
                 if (jFile[aPar]["visible"] === true) {
                     console.log("element is visible");
-                    document.getElementByName("messageBox").textContent=jFile[aPar]["alttext"];
+                    document.getElementsByName("messageBox").textContent=jFile[aPar]["alttext"];
                     console.log("set to" + jFile[aPar]["alttext"])
                 } else {
                     console.log("element is NOT visible");
-                    document.getElementByName("messageBox").textContent="station not (yet) opened.";
-                }
+                    document.getElementsByName("messageBox").textContent="station not (yet) opened.";
+                };
             };
             function onClickMsg(cPar, cUrl, cFile){
                 console.log("function: onClickMsg()");
