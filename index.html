@@ -196,7 +196,10 @@
                 return httpJson.responseText;
             };
 
-            myJson = getJson();
+            let myJsonString = getJson();
+            console.log(typeof myJsonString);
+            console.log(myJsonString);
+            const myJson = JSON.parse(myJsonString)
             console.log(typeof myJson);
             console.log(myJson);
             console.log(myJson['lg01']['text']);
