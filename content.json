@@ -1426,70 +1426,70 @@
     "pu03" : {
         "type"    : "text",
         "title"   : "How Github can make your Powershell process easier (Barbara Forbes)",
-        "alttext" : "",
+        "alttext" : "How Github can make your Powershell process easier (Barbara Forbes)",
         "photo"   : "",
         "orientation" : "",
-        "textobj" : "",
+        "textobj" : "<p>In this session, let's look at what GitHub can do for you PowerShell scripts. Just a GIT provider?</p><p> How about GitHub Actions, Copilot, Discussions, CodeSpaces and enterprise solutions? Get an overview of the possibilities.</p>Barbara",
         "buttons" : {
-            "github"   : "",
-            "yammer"   : "",
+            "github"   : "https://github.com/psconfeu/2022/tree/main/BarbaraForbes/GitHubforPowerShell",
+            "yammer"   : "https://web.yammer.com/main/org/ogd.nl/threads/eyJfdHlwZSI6IlRocmVhZCIsImlkIjoiMTc5MjIxNDQwMjc2MDcwNCJ9",
             "youtube"  : "",
-            "twitter"  : ""         
+            "twitter"  : "https://twitter.com/jpomfret/status/1539141543168200704"
         },         
         "author"  : "Barbara",
         "comments" : "",
-        "visible" : false
+        "visible" : true
     },
     "pu04" : {
-        "type"    : "text",
-        "title"   : "",
-        "alttext" : "",
-        "photo"   : "",
-        "orientation" : "",
+        "type"    : "photo",
+        "title"   : "How Github can make your Powershell process easier (Barbara Forbes)",
+        "alttext" : "How Github can make your Powershell process easier (Barbara Forbes)",
+        "photo"   : "https://pbs.twimg.com/media/FVwhE6WWYAAe8vR?format=jpg&name=large",
+        "orientation" : "portrait",
         "textobj" : "",
         "buttons" : {
-            "github"   : "",
-            "yammer"   : "",
+            "github"   : "https://github.com/psconfeu/2022/tree/main/BarbaraForbes/GitHubforPowerShell",
+            "yammer"   : "https://web.yammer.com/main/org/ogd.nl/threads/eyJfdHlwZSI6IlRocmVhZCIsImlkIjoiMTc5MjIxNDQwMjc2MDcwNCJ9",
             "youtube"  : "",
-            "twitter"  : ""         
+            "twitter"  : "https://twitter.com/jpomfret/status/1539141543168200704"       
         },         
         "author"  : "Barbara",
         "comments" : "",
-        "visible" : false
+        "visible" : true
     },
     "pu05" : {
-        "type"    : "text",
-        "title"   : "",
-        "alttext" : "",
-        "photo"   : "",
-        "orientation" : "",
+        "type"    : "photo",
+        "title"   : "Speakersdinner",
+        "alttext" : "Speakersdinner",
+        "photo"   : "https://pbs.twimg.com/media/FV3zYcFXkAMdsiH?format=jpg&name=large",
+        "orientation" : "portrait",
         "textobj" : "",
         "buttons" : {
             "github"   : "",
             "yammer"   : "",
             "youtube"  : "",
-            "twitter"  : ""         
+            "twitter"  : "https://twitter.com/sqldbawithbeard/status/1539652557923971074"         
         },         
         "author"  : "Barbara",
         "comments" : "",
-        "visible" : false
+        "visible" : true
     },
     "pu06" : {
         "type"    : "text",
-        "title"   : "",
-        "alttext" : "",
+        "title"   : "Git Started: A quick demo (Barbara Forbes)",
+        "alttext" : "Git Started: A quick demo (Barbara Forbes)",
         "photo"   : "",
         "orientation" : "",
-        "textobj" : "",
+        "textobj" : "<p>Are you at @PSConfEU, where everyone is talking about GIT? Are you not sure how GIT works and at this point are too afraid to ask?</p><p>Don't worry, we've got you covered! Come to the Park theatre at 14.45h for Git Started: A quick demo on how you can start using GIT</p>@Ba4bes",
         "buttons" : {
-            "github"   : "",
+            "github"   : "https://4bes.nl/2019/06/02/step-by-step-start-using-git-for-powershell/",
             "yammer"   : "",
             "youtube"  : "",
-            "twitter"  : ""         
+            "twitter"  : "https://twitter.com/Ba4bes/status/1539568781613211650"         
         },         
         "author"  : "Barbara",
         "comments" : "",
-        "visible" : false
+        "visible" : true
     },
     "pu07" : {
         "type"    : "text",
