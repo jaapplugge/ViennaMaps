@@ -19,6 +19,7 @@
                 console.log("function: switchButton(" + vButton + ", " + action +")");
                 const vBut = document.getElementById('pic_' + vButton);
                 const vMsg = document.getElementById('msg_' + vButton);
+                console.log(vBut)
                 if (action === 'on') {
                     vBut.style.visibility = 'visible';
                     vMsg.style.visibility = 'visible';
@@ -126,9 +127,7 @@
             function ShowAltTxt(aPar, aFile){
                 console.log("function: ShowAltTxt()");
                 console.log("par :" + aPar);
-                console.log("file:" + aFile);
                 const jFile = JSON.parse(aFile);
-                console.log("json:" + jFile);
                 console.log("type:" + typeof jFile);
                 if (jFile[aPar]["visible"] === true) {
                     console.log("element is visible");
@@ -147,9 +146,7 @@
                 console.log("function: onClickMsg()");
                 console.log("par :" + cPar);
                 console.log("url :" + cUrl);
-                console.log("file:" + cFile);
                 const jFile = JSON.parse(cFile);
-                console.log("json:" + jFile);
                 console.log("type:" + typeof jFile);
                 if (jFile[cPar]["visible"] === true) {
                     // clear all
