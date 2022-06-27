@@ -232,20 +232,20 @@
                 console.log("type: " + lType);
                 console.log("link: " + lLink);
                 if (lType === "twitter") {
-                    var lObj = document.getElementById('msg_twitter');
-                    lObj.innerHTML = '<a href="' + lLink + '" alt="twitter" target="_blank">https://twitter.com/...</a>'; 
+                    var lObj = '<a href="' + lLink + '" alt="twitter" target="_blank">https://twitter.com/...</a>';
+                    document.getElementById('msg_twitter').innerHTML = lObj
                 }
                 else if (lType === "youtube") {
-                    var lObj = document.getElementById('msg_youtube');
-                    lObj.innerHTML = '<a href="' + lLink + '" alt="youtube" target="_blank">https://youtube.com/...</a>'; 
+                    var lObj = '<a href="' + lLink + '" alt="youtube" target="_blank">https://youtube.com/...</a>';
+                    document.getElementById('msg_youtube').innerHTML = lObj
                 }
                 else if (lType === "yammer") {
-                    var lObj = document.getElementById('msg_youtube');
-                    lObj.innerHTML = '<a href="' + lLink + '" alt="yammer" target="_blank">https://web.yammer.com/...</a>'; 
+                    var lObj = '<a href="' + lLink + '" alt="yammer" target="_blank">https://web.yammer.com/...</a>';
+                    document.getElementById('msg_yammer').innerHTML = lObj
                 }
                 else if (lType === "github") {
-                    var lObj = document.getElementById('msg_github');
-                    lObj.innerHTML = '<a href="' + lLink + '" alt="github" target="_blank">https://github.com/...</a>'; 
+                    var lObj = '<a href="' + lLink + '" alt="github" target="_blank">https://github.com/...</a>'; 
+                    document.getElementById('msg_github').innerHTML = lObj
                 };
             };
             
