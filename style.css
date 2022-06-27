@@ -91,7 +91,8 @@ span {
     height: 1700px;
     width:  2350px;
 }
-.infobox {
+.infoBox {
+    visibility: hidden;
     position: absolute;
     border-color: black;
     border-top: 3px;
@@ -102,9 +103,9 @@ span {
     width:  860px;
     left:  1620px;
     top:   1000px;
-    visibility: "hidden";
 }
 .pic_youtube {
+    visibility: hidden;
     position: absolute;
     background-image: url(icons/youtube.jpg);
     background-repeat: no-repeat;
@@ -113,9 +114,9 @@ span {
     width:  30px;
     left:   30px;
     top:   600px;
-    visibility: "hidden";
 }
 .pic_yammer {
+    visibility: hidden;
     position: absolute;
     background-image: url(icons/yammer.jpg);
     background-repeat: no-repeat;
@@ -124,10 +125,10 @@ span {
     width:  30px;
     left:   30px;
     top:   660px;
-    visibility: "hidden";
 }
 .pic_github {
     position: absolute;
+    visibility: hidden;
     background-image: url(icons/github.jpg);
     background-repeat: no-repeat;
     background-size: cover;
@@ -135,9 +136,9 @@ span {
     width:  30px;
     left:  340px;
     top:   600px;
-    visibility: "hidden";
 }
 .pic_twitter {
+    visibility: hidden;
     position: absolute;
     background-image: url(icons/twitter.jpg);
     background-repeat: no-repeat;
@@ -146,9 +147,9 @@ span {
     width:  30px;
     left:  340px;
     top:   660px;
-    visibility: "hidden";
 }
 .info_exit {
+    visibility: hidden;
     position: absolute;
     background-image: url(icons/exit.jpg);
     background-repeat: no-repeat;
@@ -157,9 +158,9 @@ span {
     width:  40px;
     left:  815px;
     top:     5px;
-    visibility: "hidden";
 }
 .msg_youtube {
+    visibility: hidden;
     position: absolute;
     font-family: Lucida Console;
     font-size: large;
@@ -168,9 +169,9 @@ span {
     width: 100px;
     left:   75px;
     top:   603px;
-    visibility: "hidden";
 }
 .msg_yammer {
+    visibility: hidden;
     position: absolute;
     font-family: Lucida Console;
     font-size: large;
@@ -179,9 +180,9 @@ span {
     width: 100px;
     left:   75px;
     top:   663px;
-    visibility: "hidden";
 }
 .msg_github {
+    visibility: hidden;
     position: absolute;
     font-family: Lucida Console;
     font-size: large;
@@ -190,9 +191,9 @@ span {
     width: 100px;
     left:  385px;
     top:   603px;
-    visibility: "hidden";
 }
 .msg_twitter {
+    visibility: hidden;
     position: absolute;
     font-family: Lucida Console;
     font-size: large;
@@ -201,18 +202,18 @@ span {
     width:  30px;
     left:  385px;
     top:   663px;
-    visibility: "hidden";
 }
 .opacityBox {
+    visibility: hidden;
     position: absolute;
     background: rgba(255, 255, 255, 0.5);;
     height: 500px;
     width:  800px;
     left:  0px;
     top:   0px;
-    visibility: "hidden";
 }
 .photoBox {
+    visibility: hidden;
     position: absolute;
     opacity: 1;
     font-family: Lucida Console;
@@ -222,7 +223,6 @@ span {
     width:  760px;
     left: 25px;
     top: 25px;
-    visibility: "hidden";
 }
 /* LightGreen */
 .p_lg01 { left: 1070px; top: 305px; background-color: rgb(173, 224, 147); }
