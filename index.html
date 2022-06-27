@@ -16,7 +16,7 @@
             
             // function to make url buttons visible or invisible. expects a string value, eg: 'youtube', and an action 'on' or 'off'
             function switchButton(vButton, action) {
-                console.log("function: makeButtonVisible(" + vButton + ", " + action +")");
+                console.log("function: switchButton(" + vButton + ", " + action +")");
                 const vBut = document.getElementById('pic_' + vButton);
                 const vMsg = document.getElementById('msg_' + vButton);
                 if (action === 'on') {
@@ -193,18 +193,18 @@
         <div class='map'>
             <!-- Div voor info eroverheen -->
             <div class="infobox" id="infoBox">
-                <div class="opacitybox" id="opacityBox">
-                    <div class="photobox" id="photoBox"></div>
+                <div class="opacityBox" id="opacityBox">
+                    <div class="photoBox" id="photoBox"></div>
                 </div>
-                <div class="info_youtube_pic" id="pic_youtube" style="visibility: visible"></div>
-                <div class="info_yammer_pic"  id="pic_yammer"  style="visibility: visible"></div>
-                <div class="info_github_pic"  id="pic_github"  style="visibility: visible"></div>
-                <div class="info_twitter_pic" id="pic_twitter" style="visibility: visible"></div>
-                <div class="msg_youtube_pic"  id="msg_youtube" style="visibility: visible"></div>
-                <div class="msg_yammer_pic"   id="msg_yammer"  style="visibility: visible"></div>
-                <div class="msg_github_pic"   id="msg_github"  style="visibility: visible"></div>
-                <div class="msg_twitter_pic"  id="msg_twitter" style="visibility: visible"></div>                
-                <div class="info_exit"        id="info_exit" style="visibility: visible"></div>
+                <div class="pic_youtube" id="pic_youtube"></div>
+                <div class="pic_yammer"  id="pic_yammer" ></div>
+                <div class="pic_github"  id="pic_github" ></div>
+                <div class="pic_twitter" id="pic_twitter"></div>
+                <div class="msg_youtube" id="msg_youtube"></div>
+                <div class="msg_yammer"  id="msg_yammer" ></div>
+                <div class="msg_github"  id="msg_github" ></div>
+                <div class="msg_twitter" id="msg_twitter"></div>                
+                <div class="info_exit"   id="info_exit"  ></div>
             </div>
             <!-- Names on routes -->
             <span class="name_pink"><b>Barbara's PSConf</b></span>

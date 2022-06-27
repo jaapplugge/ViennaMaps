@@ -104,7 +104,7 @@ span {
     top:   1000px;
     visibility: visible;
 }
-.info_youtube_pic {
+.pic_youtube {
     position: absolute;
     background-image: url(icons/youtube.jpg);
     background-repeat: no-repeat;
@@ -115,7 +115,7 @@ span {
     top:   600px;
     visibility: visible;
 }
-.info_yammer_pic {
+.pic_yammer {
     position: absolute;
     background-image: url(icons/yammer.jpg);
     background-repeat: no-repeat;
@@ -126,7 +126,7 @@ span {
     top:   660px;
     visibility: visible;
 }
-.info_github_pic {
+.pic_github {
     position: absolute;
     background-image: url(icons/github.jpg);
     background-repeat: no-repeat;
@@ -137,7 +137,7 @@ span {
     top:   600px;
     visibility: visible;
 }
-.info_twitter_pic {
+.pic_twitter {
     position: absolute;
     background-image: url(icons/twitter.jpg);
     background-repeat: no-repeat;
@@ -160,7 +160,7 @@ span {
     top:     5px;
     visibility: visible;
 }
-.msg_youtube_pic {
+.msg_youtube {
     position: absolute;
     font-family: Lucida Console;
     font-size: large;
@@ -171,7 +171,7 @@ span {
     top:   603px;
     visibility: visible;
 }
-.msg_yammer_pic {
+.msg_yammer {
     position: absolute;
     font-family: Lucida Console;
     font-size: large;
@@ -182,7 +182,7 @@ span {
     top:   663px;
     visibility: visible;
 }
-.msg_github_pic {
+.msg_github {
     position: absolute;
     font-family: Lucida Console;
     font-size: large;
@@ -193,7 +193,7 @@ span {
     top:   603px;
     visibility: visible;
 }
-.msg_twitter_pic {
+.msg_twitter {
     position: absolute;
     font-family: Lucida Console;
     font-size: large;
@@ -204,7 +204,7 @@ span {
     top:   663px;
     visibility: visible;
 }
-.opacitybox {
+.opacityBox {
     position: absolute;
     background: rgba(255, 255, 255, 0.5);;
     height: 500px;
@@ -213,7 +213,7 @@ span {
     top:   0px;
     visibility: visible;
 }
-.photobox {
+.photoBox {
     position: absolute;
     opacity: 1;
     font-family: Lucida Console;
