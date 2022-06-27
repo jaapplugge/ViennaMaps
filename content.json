@@ -32,12 +32,12 @@
     },
     "lg01" : {
         "type"    : "text",
-        "title"   : "Dealing with super large files (Tobias Weltner)",
+        "title"   : "Dealing with super large files <br>(Tobias Weltner)",
         "alttext" : "Jaap bezocht Dealing with SuperLarge files",
         "photo"   : "",
-        "textobj" : "Jaap bezocht de lunchsessie <b>Dealing with super large files (Tobias Weltner)</b>, en schreef er een yammer-post over.",
+        "textobj" : "<p>Jaap bezocht de lunchsessie <b>Dealing with super large files (Tobias Weltner)</b>, en schreef er een yammer-post over.</p><p><i>Iedereen kent HaveIBeenPowned; de website die lijsten publiceert over gehackte en gelekte passwords. Superhandig.. behalve als je door die lijst heen wilt zoeken. Inmiddels is de lijst met password-hashes 28Gb lang. Dat duur uuuuuren... of 73 milliseconden.</i></p>Jaap",
         "buttons" : {
-            "github"   : "",
+            "github"   : "https://github.com/TobiasPSP/SuperLargeFiles",
             "yammer"   : "https://web.yammer.com/main/org/ogd.nl/threads/eyJfdHlwZSI6IlRocmVhZCIsImlkIjoiMTc5NTYwNDYyOTcxNjk5MiJ9",
             "youtube"  : "",
             "twitter"  : ""         
@@ -50,7 +50,7 @@
         "type"    : "photo",
         "title"   : "Ook in Oostenrijk faalt..",
         "alttext" : "foto: Ook in oostenrijk inspoelen..",
-        "photo"   : "https://web.yammer.com/main/org/ogd.nl/threads/eyJfdHlwZSI6IlRocmVhZCIsImlkIjoiMTc5NDE1MDAyMTYyNzkwNCJ9",
+        "photo"   : "/photos/jaap01.jpg",
         "orientation" : "portrait",
         "textobj" : "",
         "buttons" : {
@@ -60,7 +60,7 @@
             "twitter"  : ""         
         },        
         "author"  : "Jaap",
-        "comments" : "first",
+        "comments" : "",
         "visible" : true
     },
     "lg03" : {
@@ -69,7 +69,7 @@
         "alttext" : "Deze webpagina is gemaakt met Github Actions",
         "photo"   : "",
         "orientation" : "portrait",
-        "textobj" : "Niet heel erg powershell, maar ook wel een beetje scriptjes. In <b>How GitHub can make your Powershell process easier</b> liet Barbara de nieuwe, hippe dingen van Github zien.<br><br> Deze webpagina is een static Webapp op Azure (op mijn MSDN), welke gevuld wordt vanuit een simpele Json-file in een githubrepo. Github Action eraan vast, geen webserver nodig, geen moeilijke deployment; bouw een website in een paar losse uurtjes. Dit hele ding is dus ook geschreven tussen sessies in, op het vliegveld, losse uurtjes tussendoor. En ik ben beheerder, ik kan helemaal geen html/css en javascript enzo.",
+        "textobj" : "Niet heel erg powershell, maar ook wel een beetje scriptjes. In <b>How GitHub can make your Powershell process easier</b> liet Barbara de nieuwe, hippe dingen van Github zien.<br><br> Deze webpagina is een static Webapp op Azure (op mijn MSDN), welke gevuld wordt vanuit een simpele Json-file in een githubrepo. Github Action eraan vast, geen webserver nodig, geen moeilijke deployment; bouw een website in een paar losse uurtjes. Dit hele ding is dus ook geschreven tussen sessies in, op het vliegveld, losse uurtjes tussendoor. En ik ben beheerder, ik kan helemaal geen html/css en javascript enzo.<br><br>Jaap",
         "buttons" : {
             "github"   : "https://github.com/jaapplugge/ViennaMaps",
             "yammer"   : "",
@@ -94,7 +94,7 @@
             "twitter"  : ""         
         },         
         "author"  : "Jaap",
-        "comments" : "first",
+        "comments" : "",
         "visible" : false
     },
     "lg05" : {
@@ -150,88 +150,88 @@
     },
     "or01" : {
         "type"    : "text",
-        "title"   : "",
-        "alttext" : "",
+        "title"   : "Keynote",
+        "alttext" : "Keynote, door Jelle",
         "photo"   : "",
         "orientation" : "",
-        "textobj" : "",
+        "textobj" : "Het eerste wapenfeit van PSConfEU 2022 na de registratie en het ontbijt, was de keynote van Rob Sewell. Een kleurrijke man en dat liet hij ook zien met een paarse baard, koloniale klederdracht en een hoed met meer kleurtjes dan de potloodverzameling van mijn kinderen.<br><br>Jelle",
         "buttons" : {
             "github"   : "",
-            "yammer"   : "",
+            "yammer"   : "https://web.yammer.com/main/org/ogd.nl/threads/eyJfdHlwZSI6IlRocmVhZCIsImlkIjoiMTc5Mzc5ODc3MDA0OTAyNCJ9",
             "youtube"  : "",
             "twitter"  : ""         
         },         
         "author"  : "Jelle",
         "comments" : "",
-        "visible" : false
+        "visible" : true
     },
     "or02" : {
         "type"    : "text",
-        "title"   : "",
-        "alttext" : "",
+        "title"   : "PSConfEU 2022, de eerste dag.",
+        "alttext" : "PSConfEU 2022, de eerste dag.",
         "photo"   : "",
         "orientation" : "",
-        "textobj" : "",
+        "textobj" : "<p>Vandaag was de eerste dag van PSConfEU, met meteen al wat leuke sessies. Ik zal hier nog een stukje over schrijven, maar daar kom ik vandaag niet meer aan toe. Wel zal ik nog mijn leukste/nuttigste/interessantste leermoment van de dag even met jullie delen:</p><p>In PowerShell 7 zit tegenwoordig een $ErrorView genaamd ConciseView. Deze maakt errors wat beknopter en leesbaarder. Kan wel fijn zijn voor errors die je gewoon als scripter tegenkomt. Voor uitgebreidere troubleshooting kan je natuurlijk altijd nog de NormalView gebruiken, die de klassieke output geeft (meer info, minder mensgericht). Lees meer op <a href='https://docs.microsoft.com/en-us/powershell/module/microsoft.powershell.core/about/about_preference_variables?view=powershell-7.2#errorview'>about Preference Variables - PowerShell | Microsoft Docs</a><br><br>Jelle",
         "buttons" : {
             "github"   : "",
-            "yammer"   : "",
+            "yammer"   : "https://web.yammer.com/main/org/ogd.nl/threads/eyJfdHlwZSI6IlRocmVhZCIsImlkIjoiMTc5MTU1NTc5NzAyNDc2OCJ9",
             "youtube"  : "",
             "twitter"  : ""         
         },         
         "author"  : "Jelle",
         "comments" : "",
-        "visible" : false
+        "visible" : true
     },
     "or03" : {
         "type"    : "text",
-        "title"   : "",
-        "alttext" : "",
+        "title"   : "How to create great tech demos and presentations (Thomas Maurer)",
+        "alttext" : "How to create great tech demos and presentations (Thomas Maurer)",
         "photo"   : "",
         "orientation" : "",
-        "textobj" : "",
+        "textobj" : "<p>Niet technisch. Niet PowerShell. Geen wonder dat ik de enige was van onze groep die naar deze sessie ging.</p><p>Ik vond het wél interessant om wat presentatietechnieken voorgeschoteld te krijgen. Niet in de zin van 'Haal je handen uit je zakken' en 'Kijk ook eens af en toe de zaal in', maar meer praktische tips over hoe jouw beeldscherm overkomt op de zaal, wanneer je een technische demo geeft.</p>",
         "buttons" : {
             "github"   : "",
-            "yammer"   : "",
+            "yammer"   : "https://web.yammer.com/main/org/ogd.nl/threads/eyJfdHlwZSI6IlRocmVhZCIsImlkIjoiMTgwMTAwMjgzMzI2NDY0MCJ9",
             "youtube"  : "",
             "twitter"  : ""         
         },         
         "author"  : "Jelle",
         "comments" : "",
-        "visible" : false
+        "visible" : true
     },
     "or04" : {
         "type"    : "text",
-        "title"   : "",
-        "alttext" : "",
+        "title"   : "SecretManagement & SecretStore Getting started (Sydney Smith)",
+        "alttext" : "SecretManagement & SecretStore Getting started (Sydney Smith)",
         "photo"   : "",
         "orientation" : "",
-        "textobj" : "",
+        "textobj" : "<p>Er is een module genaamd SecretManagement, die sinds maart dit jaar GA is. Sydney Smith nam ons mee in wat het is en waar je het voor kunt gebruiken.</p><p>SecretManagement is een module die je kunt gebruiken als abstractielaag tussen jou en verschillende secret vaults (Key Vault, KeePass en LastPass, Hashicorp Vault, KeyChain en CredMan, maar geen PasswordState). Aan de voorkant gebruik je deze module om op uniforme manier secrets op te slaan, aan te passen en op te halen, terwijl aan de achterkant voor je wordt geregeld dat de vertaling naar jouw specifieke vault goed gaat. Zo kan je bijvoorbeeld een script schrijven en daarin met de cmdlets van SecretManagement je wachtwoord ophalen of wegschrijven. Dat script kan je dan bij verschillende klanten met verschillende secret vaults gebruiken, zonder het te hoeven omschrijven.</p><p>Voor elke vault die ondersteund wordt, is er een zogenaamde Extension Vault. Deze moet je installeren, om gebruik te kunnen maken van SecretManagement in combinatie met die specifieke secret vault.</p>Jelle",
         "buttons" : {
-            "github"   : "",
-            "yammer"   : "",
+            "github"   : "https://www.powershellgallery.com/packages/Microsoft.PowerShell.SecretStore/1.0.6",
+            "yammer"   : "https://web.yammer.com/main/org/ogd.nl/threads/eyJfdHlwZSI6IlRocmVhZCIsImlkIjoiMTc5NTM1MjE5MzA0MDM4NCJ9",
             "youtube"  : "",
             "twitter"  : ""         
         },         
         "author"  : "Jelle",
         "comments" : "",
-        "visible" : false
+        "visible" : true
     },
     "or05" : {
         "type"    : "text",
-        "title"   : "",
-        "alttext" : "",
+        "title"   : "Wordle door Jelle",
+        "alttext" : "Wordle door Jelle",
         "photo"   : "",
         "orientation" : "",
-        "textobj" : "",
+        "textobj" : "<p>Ik had wat codekriebels en heb voor de leuk Wordle/Lingo gebouwd in PowerShell. Kleine spelletjes nabouwen in PowerShell lijkt een rare hobby van mij te zijn.</p><p>Wilde ik gewoon even delen :).</p>Jelle",
         "buttons" : {
-            "github"   : "",
-            "yammer"   : "",
+            "github"   : "https://github.com/JelleGraaf/wordle",
+            "yammer"   : "https://web.yammer.com/main/org/ogd.nl/threads/eyJfdHlwZSI6IlRocmVhZCIsImlkIjoiMTY1MTg5MjQ0NTM4ODgwMCJ9",
             "youtube"  : "",
             "twitter"  : ""         
         },         
         "author"  : "Jelle",
         "comments" : "",
-        "visible" : false
+        "visible" : true
     },
     "or06" : {
         "type"    : "text",
@@ -371,48 +371,48 @@
     },
     "br01" : {
         "type"    : "text",
-        "title"   : "",
+        "title"   : "De derde dag, door Maarten",
         "alttext" : "",
         "photo"   : "",
         "orientation" : "",
-        "textobj" : "",
+        "textobj" : "<p>De dagen vliegen voorbij bij #PSConfEU, vandaag was alweer de derde dag. Er zijn veel interessante sessies, hierbij een paar hoogtepunten wat mij betreft:</p><p>Jakub Jares, dé Pester maintainer, gaf een helder overzicht over de belangrijkste verschillen tussen Pester 4 en 5. Dat zijn er nogal wat, maar als je rekening houdt met de belangrijkste aanpassing in Pester, nl. het feit dat de Pester tests vanaf versie 5 tweeledig worden uitgevoerd, eerst met een Discovery en daarna met een Run fase dan valt een groot deel daarvan op zijn plek.</P>Maarten",
         "buttons" : {
-            "github"   : "",
-            "yammer"   : "",
+            "github"   : "https://pester.dev/docs/usage/discovery-and-run",
+            "yammer"   : "https://web.yammer.com/main/org/ogd.nl/threads/eyJfdHlwZSI6IlRocmVhZCIsImlkIjoiMTc5NDQ2NTA0NTg5NzIxNiJ9",
             "youtube"  : "",
             "twitter"  : ""         
         },         
         "author"  : "Maarten",
         "comments" : "",
-        "visible" : false
+        "visible" : true
     },
     "br02" : {
         "type"    : "text",
-        "title"   : "",
-        "alttext" : "",
+        "title"   : "Attributes are your friends (Tobias Weltner)",
+        "alttext" : "Attributes are your friends (Tobias Weltner)",
         "photo"   : "",
         "orientation" : "",
-        "textobj" : "",
+        "textobj" : "Een van de meest interessante sessies tot nu toe vond ik de sessie Attributes are your friends van Tobias Weltner. Hierbij werd ingegaan op het maken van eigen attributen, het gebruik van Custom Attributes voor validation en transformation, het maken van 'zelflerende' parameters en het gebruik van argument completion. Dit biedt veel gave mogelijkheden. Voorbeelden zijn te vinden op zijn site powershell.one, maar als je dit interessant vindt zou ik zeker deze sessie gaan kijken zodra deze online is.<br><br>Maarten",
         "buttons" : {
             "github"   : "",
-            "yammer"   : "",
+            "yammer"   : "https://web.yammer.com/main/org/ogd.nl/threads/eyJfdHlwZSI6IlRocmVhZCIsImlkIjoiMTc5NDQ2NTA0NTg5NzIxNiJ9",
             "youtube"  : "",
             "twitter"  : ""         
         },         
         "author"  : "Maarten",
         "comments" : "",
-        "visible" : false
+        "visible" : true
     },
     "br03" : {
         "type"    : "text",
-        "title"   : "",
+        "title"   : "PowerShell Crescendo",
         "alttext" : "",
         "photo"   : "",
         "orientation" : "",
-        "textobj" : "",
+        "textobj" : "Een ander onderwerp dat deze PSConf al een paar keer voorbij kwam is PowerShell Crescendo. Hiermee is het mogelijk standaard CLI commando's in een PowerShell jasje te gieten (denk aan verb-noun). Als voorbeeld werd terraform omgebouwd naar oa. Get-TerraformPlan en andere cmdlets. Technisch zeer interessant maar ik ben eerlijk gezegd wel benieuwd hoe vaak we dit in de toekomst terug gaan zien.<br><br>Maarten",
         "buttons" : {
             "github"   : "",
-            "yammer"   : "",
+            "yammer"   : "https://web.yammer.com/main/org/ogd.nl/threads/eyJfdHlwZSI6IlRocmVhZCIsImlkIjoiMTc5NDQ2NTA0NTg5NzIxNiJ9",
             "youtube"  : "",
             "twitter"  : ""         
         },         
