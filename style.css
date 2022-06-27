@@ -91,6 +91,140 @@ span {
     height: 1700px;
     width:  2350px;
 }
+.infobox {
+    position: absolute;
+    border-color: black;
+    border-top: 3px;
+    border-top-style: dashed;
+    border-left: 3px;
+    border-left-style: dashed;
+    height: 720px;
+    width:  860px;
+    left:  1620px;
+    top:   1000px;
+    visibility: visible;
+}
+.info_youtube_pic {
+    position: absolute;
+    background-image: url(icons/youtube.jpg);
+    background-repeat: no-repeat;
+    background-size: cover;
+    height: 30px;
+    width:  30px;
+    left:   30px;
+    top:   600px;
+    visibility: visible;
+}
+.info_yammer_pic {
+    position: absolute;
+    background-image: url(icons/yammer.jpg);
+    background-repeat: no-repeat;
+    background-size: cover;
+    height: 30px;
+    width:  30px;
+    left:   30px;
+    top:   660px;
+    visibility: visible;
+}
+.info_github_pic {
+    position: absolute;
+    background-image: url(icons/github.jpg);
+    background-repeat: no-repeat;
+    background-size: cover;
+    height: 30px;
+    width:  30px;
+    left:  340px;
+    top:   600px;
+    visibility: visible;
+}
+.info_twitter_pic {
+    position: absolute;
+    background-image: url(icons/twitter.jpg);
+    background-repeat: no-repeat;
+    background-size: cover;
+    height: 30px;
+    width:  30px;
+    left:  340px;
+    top:   660px;
+    visibility: visible;
+}
+.info_exit {
+    position: absolute;
+    background-image: url(icons/exit.jpg);
+    background-repeat: no-repeat;
+    background-size: cover;
+    opacity: 1;
+    height: 40px;
+    width:  40px;
+    left:  815px;
+    top:     5px;
+    visibility: visible;
+}
+.msg_youtube_pic {
+    position: absolute;
+    font-family: Lucida Console;
+    font-size: large;
+    color: rgba(30, 26, 77, 0.853);
+    height: 30px;
+    width: 100px;
+    left:   75px;
+    top:   603px;
+    visibility: visible;
+}
+.msg_yammer_pic {
+    position: absolute;
+    font-family: Lucida Console;
+    font-size: large;
+    color: rgba(30, 26, 77, 0.853);
+    height: 30px;
+    width: 100px;
+    left:   75px;
+    top:   663px;
+    visibility: visible;
+}
+.msg_github_pic {
+    position: absolute;
+    font-family: Lucida Console;
+    font-size: large;
+    color: rgba(30, 26, 77, 0.853);
+    height: 30px;
+    width: 100px;
+    left:  385px;
+    top:   603px;
+    visibility: visible;
+}
+.msg_twitter_pic {
+    position: absolute;
+    font-family: Lucida Console;
+    font-size: large;
+    color: rgba(30, 26, 77, 0.853);
+    height: 30px;
+    width:  30px;
+    left:  385px;
+    top:   663px;
+    visibility: visible;
+}
+.opacitybox {
+    position: absolute;
+    background: rgba(255, 255, 255, 0.5);;
+    height: 500px;
+    width:  800px;
+    left:  0px;
+    top:   0px;
+    visibility: visible;
+}
+.photobox {
+    position: absolute;
+    opacity: 1;
+    font-family: Lucida Console;
+    font-size: x-large;
+    color: rgba(30, 26, 77, 0.853);
+    height: 460px;
+    width:  760px;
+    left: 25px;
+    top: 25px;
+    visibility: visible;
+}
 /* LightGreen */
 .p_lg01 { left: 1070px; top: 305px; background-color: rgb(173, 224, 147); }
 .p_lg02 { left:  735px; top: 320px; background-color: rgb(173, 224, 147); } 
@@ -114,12 +248,6 @@ span {
 .p_or11 { left: 1380px; top: 891px; background-color: rgb(232, 188, 107); }
 .p_or12 { left: 1554px; top: 929px; background-color: rgb(232, 188, 107); }
 .p_or13 { left: 1605px; top: 973px; background-color: rgb(232, 188, 107); }
-.p_or14 { left: 1652px; top:1016px; background-color: rgb(232, 188, 107); }
-.p_or15 { left: 1694px; top:1078px; background-color: rgb(232, 188, 107); }
-.p_or16 { left: 1694px; top:1137px; background-color: rgb(232, 188, 107); }
-.p_or17 { left: 1694px; top:1202px; background-color: rgb(232, 188, 107); }
-.p_or18 { left: 1728px; top:1274px; background-color: rgb(232, 188, 107); }
-.p_or19 { left: 1782px; top:1326px; background-color: rgb(232, 188, 107); }
 
 /* Brown */
 .p_br01 { left: 1404px; top: 260px; background-color: rgb(163, 126, 58); }

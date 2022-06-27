@@ -2,10 +2,10 @@
 <html>
     <head>
         <link rel="stylesheet" href="style.css">
-        <script type="text/javascript" src="content.json"></script>
     </head>
     <body>
         <script language="JavaScript">
+            // function to read in the Json-file with configuration data
             function CallJson(url) {
                 console.log("function: callJson(" + url + ")");
                 const JsonHttp = new XMLHttpRequest();
@@ -13,6 +13,116 @@
                 JsonHttp.send();
                 return JsonHttp.responseText;
             };
+            
+            // function to make url buttons visible or invisible. expects a string value, eg: 'youtube', and an action 'on' or 'off'
+            function switchButton(vButton, action) {
+                console.log("function: makeButtonVisible(" + vButton + ", " + action +")");
+                const vBut = document.getElementById('pic_' + vButton);
+                const vMsg = document.getElementById('msg_' + vButton);
+                if (action === 'on') {
+                    vBut.style.visibility = 'visible';
+                    vMsg.style.visibility = 'visible';
+                }                
+                else {
+                    vBut.style.visibility = 'hidden';
+                    vMsg.style.visibility = 'hidden';                    
+                };
+            };
+            
+            // function to make exitbutton visible / invisible
+            function switchExitButton(action) {
+                console.log("function: switchExitButton(" + action +")");
+                const iexit = document.getElementById('info_exit');
+                if (action === 'on') {
+                    iexit.style.visibility = 'visible';
+                }
+                else {
+                    iexit.style.visibility = 'hidden';
+                };
+            };
+            
+            // function to make messageBox visible or invisible
+            function switchMsgBox(action) {
+                console.log("function: switchMsgBox(" + action +")");
+                const obox = document.getElementById('opacityBox'); 
+                const ibox = document.getElementById('infoBox');
+                const pbox = document.getElementById('photoBox');
+                if (action === 'on') {
+                    obox.style.visibility = 'visible';
+                    ibox.style.visibility = 'visible';
+                    pbox.style.visibility = 'visible';
+                }
+                else {
+                    obox.style.visibility = 'hidden';
+                    ibox.style.visibility = 'hidden';
+                    pbox.style.visibility = 'hidden';
+                };
+            };
+
+            // function to set content on Photobox
+            function setPhotoContent(pText, pType, pTitle, pOrientation) {
+                console.log("function: setPhotoContent()");
+                console.log("text :" + pText);
+                console.log("type :" + pType);
+                console.log("title:" + pTitle);
+                console.log("X-Y  :" + pOrientation);
+                const pbox = document.getElementById('photoBox');
+                if (pType == 'photo') {
+                    if (pOrientation === 'landscape') {
+                        pbox.innerHTML = '<h1>'+ pTitle + '</h1><a href="' + pText + '" alt="bigger=better" target="_blank"><img width=760px src="' + pText + '" style="vertical-align:middle;margin:0px"/></a>';
+                    } 
+                    else {
+                        pbox.innerHTML = '<h1>'+ pTitle + '</h1><a href="' + pText + '" alt="bigger=better" target="_blank"><img height=460px src="' + pText + '" style="horizontal-align:middle;margin:0px"/></a>';
+                    };
+                }
+                else {
+                    pbox.innerHTML = '<h1>'+ pTitle + '</h1>' + pText;
+                };
+            };            
+
+            // function to show default text in MessageBox
+            function setDefaultTextinMsgBox() {
+                console.log("function: setDefaultTextinMsgBox()");
+                const dMsgBox = document.getElementById('messageBox'); 
+                dMsgBox.textContent = "Move over the metrostations to see the action...";
+            };
+
+            // function to set content on buttons
+            function setButtonLinks(lType, lLink) {
+                console.log("function: setButtonLinks()");
+                console.log("type: " + lType);
+                console.log("link: " + lLink);
+                if (lType === "twitter") {
+                    const lObj = document.getElementById('msg_twitter');
+                    lObj.innerHTML = '<a href="' + lLink + '" alt="twitter" target="_blank">https://twitter.com/...</a>'; 
+                }
+                else if (lType === "youtube") {
+                    const lObj = document.getElementById('msg_youtube');
+                    lObj.innerHTML = '<a href="' + lLink + '" alt="youtube" target="_blank">https://youtube.com/...</a>'; 
+                }
+                else if (lType === "yammer") {
+                    const lObj = document.getElementById('msg_youtube');
+                    lObj.innerHTML = '<a href="' + lLink + '" alt="yammer" target="_blank">https://web.yammer.com/...</a>'; 
+                }
+                else if (lType === "github") {
+                    const lObj = document.getElementById('msg_github');
+                    lObj.innerHTML = '<a href="' + lLink + '" alt="github" target="_blank">https://github.com/...</a>'; 
+                };
+            };
+            
+            // function connected to the X - make the box disappear
+            function xDisapprearAll() {
+                console.log("function: xDisapprearAll()");
+                switchButton("youtube","off")
+                switchButton("yammer","off")
+                switchButton("twitter","off")
+                switchButton("gitlab","off")
+                switchExitButton("off")
+                switchMsgBox("off")
+                setDefaultTextinMsgBox()
+            };
+
+            // OnmouseOver function to show title in MessageBox (lower left corner)
             function ShowAltTxt(aPar, aFile){
                 console.log("function: ShowAltTxt()");
                 console.log("par :" + aPar);
@@ -31,6 +141,8 @@
                     span.textContent = "station not (yet) opened.";                    
                 };
             };
+
+            // OnClick function to show InfoBox (lower right corner)
             function onClickMsg(cPar, cUrl, cFile){
                 console.log("function: onClickMsg()");
                 console.log("par :" + cPar);
@@ -39,17 +151,61 @@
                 const jFile = JSON.parse(cFile);
                 console.log("json:" + jFile);
                 console.log("type:" + typeof jFile);
-                let rMessage = jFile[cPar]["textobj"];
-                let rUrl     = jFile[cPar]["linkobj"];
-                console.log("resp:" + rMessage);
-                console.log("resp:" + rUrl);                
-                if (confirm(rMessage)){
-                    window.location.href = rUrl;
-                };
+                if (jFile[aPar]["visible"] === true) {
+                    // clear all
+                    xDisapprearAll();
+
+                    // set content on photobox 
+                    if (jFile[aPar]["type"] === "photo") {
+                        setPhotoContent(jFile[aPar]["photo"],"photo", jFile[aPar]["title"], jFile[aPar]["orientation"]);
+                    } else {
+                        setPhotoContent(jFile[aPar]["textobj"],"text", jFile[aPar]["title"], "nvt");
+                    }
+
+                    // switch on the exitbutton and messagebox
+                    switchExitButton("on");
+                    switchMsgBox("on");
+
+                    // set content on the buttons and switch on
+                    if (jFile[aPar]["buttons"]["yammer"]) {
+                        setButtonLinks("yammer", jFile[aPar]["buttons"]["yammer"]);
+                        switchButton("yammer", "on");
+                    };
+                    if (jFile[aPar]["buttons"]["youtube"]) {
+                        setButtonLinks("youtube", jFile[aPar]["buttons"]["youtube"]);
+                        switchButton("youtube", "on");
+                    };
+                    if (jFile[aPar]["buttons"]["github"]) {
+                        setButtonLinks("github", jFile[aPar]["buttons"]["github"]);
+                        switchButton("github", "on");
+                    };
+                    if (jFile[aPar]["buttons"]["twitter"]) {
+                        setButtonLinks("twitter", jFile[aPar]["buttons"]["twitter"]);
+                        switchButton("twitter", "on");
+                    };                    
+                }; 
             };
+            
+            // Code to run onload
             let jsonObj = CallJson('content.json');
+            xDisapprearAll()
         </script>
         <div class='map'>
+            <!-- Div voor info eroverheen -->
+            <div class="infobox" id="infoBox">
+                <div class="opacitybox" id="opacityBox">
+                    <div class="photobox" id="photoBox"></div>
+                </div>
+                <div class="info_youtube_pic" id="pic_youtube"></div>
+                <div class="info_yammer_pic"  id="pic_yammer"></div>
+                <div class="info_github_pic"  id="pic_github"></div>
+                <div class="info_twitter_pic" id="pic_twitter"></div>
+                <div class="msg_youtube_pic" id="msg_youtube"></div>
+                <div class="msg_yammer_pic"  id="msg_yammer"></div>
+                <div class="msg_github_pic"  id="msg_github"></div>
+                <div class="msg_twitter_pic" id="msg_twitter"></div>                
+                <div class="info_exit" id="info_exit"></div>
+            </div>
             <!-- Names on routes -->
             <span class="name_pink"><b>Barbara's PSConf</b></span>
             <span class="name_lightgreen"><b>Jaap's PSConf</b></span>
@@ -60,7 +216,7 @@
             <span class="name_purple"><b>Frodo's PSConf</b></span>
 
             <!-- Messagebox -->
-            <span class="messageBox" id="messageBox">Move over the metrostations to see the action...</span>
+            <span class="messageBox" id="messageBox"></span>
 
             <!-- LigthGreen -->
             <a onClick='onClickMsg("lg01","content.json",jsonObj);' onMouseOver='ShowAltTxt("lg01",jsonObj)'><span class="p_lg01" id="lg01"></span></a>
@@ -85,12 +241,6 @@
             <a onClick='onClickMsg("or11","content.json",jsonObj);' alt="Jelle's sessies 11" target="_blank"><span class="p_or11"></span></a>
             <a onClick='onClickMsg("or12","content.json",jsonObj);' alt="Jelle's sessies 12" target="_blank"><span class="p_or12"></span></a>
             <a onClick='onClickMsg("or13","content.json",jsonObj);' alt="Jelle's sessies 13" target="_blank"><span class="p_or13"></span></a>
-            <a onClick='onClickMsg("or14","content.json",jsonObj);' alt="Jelle's sessies 14" target="_blank"><span class="p_or14"></span></a>
-            <a onClick='onClickMsg("or15","content.json",jsonObj);' alt="Jelle's sessies 15" target="_blank"><span class="p_or15"></span></a>
-            <a onClick='onClickMsg("or16","content.json",jsonObj);' alt="Jelle's sessies 16" target="_blank"><span class="p_or16"></span></a>
-            <a onClick='onClickMsg("or17","content.json",jsonObj);' alt="Jelle's sessies 17" target="_blank"><span class="p_or17"></span></a>  
-            <a onClick='onClickMsg("or18","content.json",jsonObj);' alt="Jelle's sessies 16" target="_blank"><span class="p_or18"></span></a>
-            <a onClick='onClickMsg("or19","content.json",jsonObj);' alt="Jelle's sessies 17" target="_blank"><span class="p_or19"></span></a>                   
             
             <!-- Brown -->
             <a onClick='onClickMsg("br01","content.json",jsonObj);' alt="Maartens sessies 01" target="_blank"><span class="p_br01"></span></a>
