@@ -292,9 +292,9 @@
 
                     // set content on photobox 
                     if (jFile[cPar]["type"] === "photo") {
-                        setPhotoContent(jFile[aPar]["photo"],"photo", jFile[cPar]["title"], jFile[cPar]["orientation"]);
+                        setPhotoContent(jFile[cPar]["photo"],"photo", jFile[cPar]["title"], jFile[cPar]["orientation"]);
                     } else {
-                        setPhotoContent(jFile[aPar]["textobj"],"text", jFile[cPar]["title"], "nvt");
+                        setPhotoContent(jFile[cPar]["textobj"],"text", jFile[cPar]["title"], "nvt");
                     }
 
                     // switch on the exitbutton and messagebox
