@@ -48,8 +48,8 @@
     },
     "lg02" : {
         "type"    : "photo",
-        "title"   : "Ook in Oostenrijk faalt..",
-        "alttext" : "foto: Ook in oostenrijk inspoelen..",
+        "title"   : "Ook in Oostenrijk faalt inspoelen..",
+        "alttext" : "foto: Ook in oostenrijk faalt inspoelen..",
         "photo"   : "/photos/jaap01.jpg",
         "orientation" : "portrait",
         "textobj" : "",
@@ -156,7 +156,7 @@
         "orientation" : "",
         "textobj" : "Het eerste wapenfeit van PSConfEU 2022 na de registratie en het ontbijt, was de keynote van Rob Sewell. Een kleurrijke man en dat liet hij ook zien met een paarse baard, koloniale klederdracht en een hoed met meer kleurtjes dan de potloodverzameling van mijn kinderen.<br><br>Jelle",
         "buttons" : {
-            "github"   : "",
+            "github"   : "https://github.com/psconfeu/2022",
             "yammer"   : "https://web.yammer.com/main/org/ogd.nl/threads/eyJfdHlwZSI6IlRocmVhZCIsImlkIjoiMTc5Mzc5ODc3MDA0OTAyNCJ9",
             "youtube"  : "",
             "twitter"  : ""         
@@ -173,7 +173,7 @@
         "orientation" : "",
         "textobj" : "<p>Vandaag was de eerste dag van PSConfEU, met meteen al wat leuke sessies. Ik zal hier nog een stukje over schrijven, maar daar kom ik vandaag niet meer aan toe. Wel zal ik nog mijn leukste/nuttigste/interessantste leermoment van de dag even met jullie delen:</p><p>In PowerShell 7 zit tegenwoordig een $ErrorView genaamd ConciseView. Deze maakt errors wat beknopter en leesbaarder. Kan wel fijn zijn voor errors die je gewoon als scripter tegenkomt. Voor uitgebreidere troubleshooting kan je natuurlijk altijd nog de NormalView gebruiken, die de klassieke output geeft (meer info, minder mensgericht). Lees meer op <a href='https://docs.microsoft.com/en-us/powershell/module/microsoft.powershell.core/about/about_preference_variables?view=powershell-7.2#errorview'>about Preference Variables - PowerShell | Microsoft Docs</a><br><br>Jelle",
         "buttons" : {
-            "github"   : "",
+            "github"   : "https://github.com/psconfeu/2022",
             "yammer"   : "https://web.yammer.com/main/org/ogd.nl/threads/eyJfdHlwZSI6IlRocmVhZCIsImlkIjoiMTc5MTU1NTc5NzAyNDc2OCJ9",
             "youtube"  : "",
             "twitter"  : ""         
@@ -377,10 +377,10 @@
         "orientation" : "",
         "textobj" : "<p>De dagen vliegen voorbij bij #PSConfEU, vandaag was alweer de derde dag. Er zijn veel interessante sessies, hierbij een paar hoogtepunten wat mij betreft:</p><p>Jakub Jares, dé Pester maintainer, gaf een helder overzicht over de belangrijkste verschillen tussen Pester 4 en 5. Dat zijn er nogal wat, maar als je rekening houdt met de belangrijkste aanpassing in Pester, nl. het feit dat de Pester tests vanaf versie 5 tweeledig worden uitgevoerd, eerst met een Discovery en daarna met een Run fase dan valt een groot deel daarvan op zijn plek.</P>Maarten",
         "buttons" : {
-            "github"   : "https://pester.dev/docs/usage/discovery-and-run",
+            "github"   : "https://github.com/psconfeu/2022/tree/main/JakubJares/Pester5%20vs%20Pester4",
             "yammer"   : "https://web.yammer.com/main/org/ogd.nl/threads/eyJfdHlwZSI6IlRocmVhZCIsImlkIjoiMTc5NDQ2NTA0NTg5NzIxNiJ9",
             "youtube"  : "",
-            "twitter"  : ""         
+            "twitter"  : "https://pester.dev/docs/usage/discovery-and-run"         
         },         
         "author"  : "Maarten",
         "comments" : "",
@@ -394,7 +394,7 @@
         "orientation" : "",
         "textobj" : "Een van de meest interessante sessies tot nu toe vond ik de sessie Attributes are your friends van Tobias Weltner. Hierbij werd ingegaan op het maken van eigen attributen, het gebruik van Custom Attributes voor validation en transformation, het maken van 'zelflerende' parameters en het gebruik van argument completion. Dit biedt veel gave mogelijkheden. Voorbeelden zijn te vinden op zijn site powershell.one, maar als je dit interessant vindt zou ik zeker deze sessie gaan kijken zodra deze online is.<br><br>Maarten",
         "buttons" : {
-            "github"   : "",
+            "github"   : "https://github.com/psconfeu/2022/tree/main/TobiasWeltner/AttributesAreYourFriend",
             "yammer"   : "https://web.yammer.com/main/org/ogd.nl/threads/eyJfdHlwZSI6IlRocmVhZCIsImlkIjoiMTc5NDQ2NTA0NTg5NzIxNiJ9",
             "youtube"  : "",
             "twitter"  : ""         
@@ -962,24 +962,24 @@
         },         
         "author"  : "Barbara",
         "comments" : "",
-        "visible" : false
+        "visible" : true
     },
     "pi02" : {
-        "type"    : "text",
-        "title"   : "",
-        "alttext" : "",
-        "photo"   : "",
-        "orientation" : "",
+        "type"    : "photo",
+        "title"   : "Azure Functions in an enterprise enviroment (Barbara Forbes)",
+        "alttext" : "Azure Functions in an enterprise enviroment (Barbara Forbes)",
+        "photo"   : "https://pbs.twimg.com/media/FVsekpgXwAYaq9i?format=jpg&name=large",
+        "orientation" : "landscape",
         "textobj" : "",
         "buttons" : {
             "github"   : "",
             "yammer"   : "",
             "youtube"  : "",
-            "twitter"  : ""         
+            "twitter"  : "https://twitter.com/Jaap_Brasser/status/1538857327457193985/photo/1"         
         },         
         "author"  : "Barbara",
         "comments" : "",
-        "visible" : false
+        "visible" : true
     },
     "pi03" : {
         "type"    : "text",
