@@ -50,7 +50,7 @@
         "type"    : "photo",
         "title"   : "Ook in Oostenrijk faalt..",
         "alttext" : "foto: Ook in oostenrijk inspoelen..",
-        "photo"   : "/photo/jaap01.jpg",
+        "photo"   : "https://web.yammer.com/main/org/ogd.nl/threads/eyJfdHlwZSI6IlRocmVhZCIsImlkIjoiMTc5NDE1MDAyMTYyNzkwNCJ9",
         "orientation" : "portrait",
         "textobj" : "",
         "buttons" : {
@@ -64,10 +64,27 @@
         "visible" : true
     },
     "lg03" : {
-        "type"    : "photo",
-        "title"   : "Eindelijk vrij!",
-        "alttext" : "foto: Eindelijk vrij!",
-        "photo"   : "/photo/jaap02.jpg",
+        "type"    : "text",
+        "title"   : "Deze webpagina is gemaakt met Github Actions",
+        "alttext" : "Deze webpagina is gemaakt met Github Actions",
+        "photo"   : "",
+        "orientation" : "portrait",
+        "textobj" : "Niet heel erg powershell, maar ook wel een beetje scriptjes. In <b>How GitHub can make your Powershell process easier</b> liet Barbara de nieuwe, hippe dingen van Github zien.<br><br> Deze webpagina is een static Webapp op Azure (op mijn MSDN), welke gevuld wordt vanuit een simpele Json-file in een githubrepo. Github Action eraan vast, geen webserver nodig, geen moeilijke deployment; bouw een website in een paar losse uurtjes. Dit hele ding is dus ook geschreven tussen sessies in, op het vliegveld, losse uurtjes tussendoor. En ik ben beheerder, ik kan helemaal geen html/css en javascript enzo.",
+        "buttons" : {
+            "github"   : "https://github.com/jaapplugge/ViennaMaps",
+            "yammer"   : "",
+            "youtube"  : "",
+            "twitter"  : ""         
+        },         
+        "author"  : "Jaap",
+        "comments" : "",
+        "visible" : true
+    },
+    "lg04" : {
+        "type"    : "text",
+        "title"   : "Execute remote commands and Get output using only WMI (Jay Adams)",
+        "alttext" : "Execute remote commands and Get output using only WMI (Jay Adams)",
+        "photo"   : "",
         "orientation" : "portrait",
         "textobj" : "",
         "buttons" : {
@@ -78,23 +95,6 @@
         },         
         "author"  : "Jaap",
         "comments" : "first",
-        "visible" : false
-    },
-    "lg04" : {
-        "type"    : "text",
-        "title"   : "",
-        "alttext" : "",
-        "photo"   : "",
-        "orientation" : "",
-        "textobj" : "",
-        "buttons" : {
-            "github"   : "",
-            "yammer"   : "",
-            "youtube"  : "",
-            "twitter"  : ""         
-        },         
-        "author"  : "Jaap",
-        "comments" : "",
         "visible" : false
     },
     "lg05" : {
