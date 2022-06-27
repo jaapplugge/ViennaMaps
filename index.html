@@ -151,15 +151,15 @@
                 const jFile = JSON.parse(cFile);
                 console.log("json:" + jFile);
                 console.log("type:" + typeof jFile);
-                if (jFile[aPar]["visible"] === true) {
+                if (jFile[cPar]["visible"] === true) {
                     // clear all
                     xDisapprearAll();
 
                     // set content on photobox 
-                    if (jFile[aPar]["type"] === "photo") {
-                        setPhotoContent(jFile[aPar]["photo"],"photo", jFile[aPar]["title"], jFile[aPar]["orientation"]);
+                    if (jFile[cPar]["type"] === "photo") {
+                        setPhotoContent(jFile[aPar]["photo"],"photo", jFile[cPar]["title"], jFile[cPar]["orientation"]);
                     } else {
-                        setPhotoContent(jFile[aPar]["textobj"],"text", jFile[aPar]["title"], "nvt");
+                        setPhotoContent(jFile[aPar]["textobj"],"text", jFile[cPar]["title"], "nvt");
                     }
 
                     // switch on the exitbutton and messagebox
@@ -167,20 +167,20 @@
                     switchMsgBox("on");
 
                     // set content on the buttons and switch on
-                    if (jFile[aPar]["buttons"]["yammer"]) {
-                        setButtonLinks("yammer", jFile[aPar]["buttons"]["yammer"]);
+                    if (jFile[cPar]["buttons"]["yammer"]) {
+                        setButtonLinks("yammer", jFile[cPar]["buttons"]["yammer"]);
                         switchButton("yammer", "on");
                     };
-                    if (jFile[aPar]["buttons"]["youtube"]) {
-                        setButtonLinks("youtube", jFile[aPar]["buttons"]["youtube"]);
+                    if (jFile[cPar]["buttons"]["youtube"]) {
+                        setButtonLinks("youtube", jFile[cPar]["buttons"]["youtube"]);
                         switchButton("youtube", "on");
                     };
-                    if (jFile[aPar]["buttons"]["github"]) {
-                        setButtonLinks("github", jFile[aPar]["buttons"]["github"]);
+                    if (jFile[cPar]["buttons"]["github"]) {
+                        setButtonLinks("github", jFile[cPar]["buttons"]["github"]);
                         switchButton("github", "on");
                     };
-                    if (jFile[aPar]["buttons"]["twitter"]) {
-                        setButtonLinks("twitter", jFile[aPar]["buttons"]["twitter"]);
+                    if (jFile[cPar]["buttons"]["twitter"]) {
+                        setButtonLinks("twitter", jFile[cPar]["buttons"]["twitter"]);
                         switchButton("twitter", "on");
                     };                    
                 }; 
