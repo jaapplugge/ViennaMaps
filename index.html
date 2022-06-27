@@ -17,16 +17,17 @@
             // function to make url buttons visible or invisible. expects a string value, eg: 'youtube', and an action 'on' or 'off'
             function switchButton(vButton, action) {
                 console.log("function: switchButton(" + vButton + ", " + action +")");
-                var vBut = document.getElementById('pic_' + vButton);
-                var vMsg = document.getElementById('msg_' + vButton);
-                console.log(vBut)
+                var vBut = 'pic_' + vButton;
+                var vMsg = 'msg_' + vButton;
+                console.log("pic: " + vBut);
+                console.log("msg: " + vMsg);
                 if (action === 'on') {
-                    vBut.style.visibility = 'visible';
-                    vMsg.style.visibility = 'visible';
+                    document.getElementById(vBut).style.visibility = 'visible';
+                    document.getElementById(vMsg).style.visibility = 'visible';
                 }                
                 else {
-                    vBut.style.visibility = 'hidden';
-                    vMsg.style.visibility = 'hidden';                    
+                    document.getElementById(vBut).style.visibility = 'hidden';
+                    document.getElementById(vMsg).style.visibility = 'hidden';                   
                 };
             };
             
