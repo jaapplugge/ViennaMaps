@@ -102,7 +102,7 @@ span {
     width:  860px;
     left:  1620px;
     top:   1000px;
-    visibility: visible;
+    visibility: "hidden";
 }
 .pic_youtube {
     position: absolute;
@@ -113,7 +113,7 @@ span {
     width:  30px;
     left:   30px;
     top:   600px;
-    visibility: visible;
+    visibility: "hidden";
 }
 .pic_yammer {
     position: absolute;
@@ -124,7 +124,7 @@ span {
     width:  30px;
     left:   30px;
     top:   660px;
-    visibility: visible;
+    visibility: "hidden";
 }
 .pic_github {
     position: absolute;
@@ -135,7 +135,7 @@ span {
     width:  30px;
     left:  340px;
     top:   600px;
-    visibility: visible;
+    visibility: "hidden";
 }
 .pic_twitter {
     position: absolute;
@@ -146,19 +146,18 @@ span {
     width:  30px;
     left:  340px;
     top:   660px;
-    visibility: visible;
+    visibility: "hidden";
 }
 .info_exit {
     position: absolute;
     background-image: url(icons/exit.jpg);
     background-repeat: no-repeat;
     background-size: cover;
-    opacity: 1;
     height: 40px;
     width:  40px;
     left:  815px;
     top:     5px;
-    visibility: visible;
+    visibility: "hidden";
 }
 .msg_youtube {
     position: absolute;
@@ -169,7 +168,7 @@ span {
     width: 100px;
     left:   75px;
     top:   603px;
-    visibility: visible;
+    visibility: "hidden";
 }
 .msg_yammer {
     position: absolute;
@@ -180,7 +179,7 @@ span {
     width: 100px;
     left:   75px;
     top:   663px;
-    visibility: visible;
+    visibility: "hidden";
 }
 .msg_github {
     position: absolute;
@@ -191,7 +190,7 @@ span {
     width: 100px;
     left:  385px;
     top:   603px;
-    visibility: visible;
+    visibility: "hidden";
 }
 .msg_twitter {
     position: absolute;
@@ -202,7 +201,7 @@ span {
     width:  30px;
     left:  385px;
     top:   663px;
-    visibility: visible;
+    visibility: "hidden";
 }
 .opacityBox {
     position: absolute;
@@ -211,7 +210,7 @@ span {
     width:  800px;
     left:  0px;
     top:   0px;
-    visibility: visible;
+    visibility: "hidden";
 }
 .photoBox {
     position: absolute;
@@ -223,7 +222,7 @@ span {
     width:  760px;
     left: 25px;
     top: 25px;
-    visibility: visible;
+    visibility: "hidden";
 }
 /* LightGreen */
 .p_lg01 { left: 1070px; top: 305px; background-color: rgb(173, 224, 147); }
