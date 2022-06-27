@@ -188,7 +188,7 @@
         "alttext" : "How to create great tech demos and presentations (Thomas Maurer)",
         "photo"   : "",
         "orientation" : "",
-        "textobj" : "<p>Niet technisch. Niet PowerShell. Geen wonder dat ik de enige was van onze groep die naar deze sessie ging.</p><p>Ik vond het wél interessant om wat presentatietechnieken voorgeschoteld te krijgen. Niet in de zin van 'Haal je handen uit je zakken' en 'Kijk ook eens af en toe de zaal in', maar meer praktische tips over hoe jouw beeldscherm overkomt op de zaal, wanneer je een technische demo geeft.</p>",
+        "textobj" : "<p>Niet technisch. Niet PowerShell. Geen wonder dat ik de enige was van onze groep die naar deze sessie ging.</p><p>Ik vond het wél interessant om wat presentatietechnieken voorgeschoteld te krijgen. Niet in de zin van 'Haal je handen uit je zakken' en 'Kijk ook eens af en toe de zaal in', maar meer praktische tips over hoe jouw beeldscherm overkomt op de zaal, wanneer je een technische demo geeft.</p>Jelle",
         "buttons" : {
             "github"   : "",
             "yammer"   : "https://web.yammer.com/main/org/ogd.nl/threads/eyJfdHlwZSI6IlRocmVhZCIsImlkIjoiMTgwMTAwMjgzMzI2NDY0MCJ9",
@@ -406,7 +406,7 @@
     "br03" : {
         "type"    : "text",
         "title"   : "PowerShell Crescendo",
-        "alttext" : "",
+        "alttext" : "PowerShell Crescendo",
         "photo"   : "",
         "orientation" : "",
         "textobj" : "Een ander onderwerp dat deze PSConf al een paar keer voorbij kwam is PowerShell Crescendo. Hiermee is het mogelijk standaard CLI commando's in een PowerShell jasje te gieten (denk aan verb-noun). Als voorbeeld werd terraform omgebouwd naar oa. Get-TerraformPlan en andere cmdlets. Technisch zeer interessant maar ik ben eerlijk gezegd wel benieuwd hoe vaak we dit in de toekomst terug gaan zien.<br><br>Maarten",
@@ -418,7 +418,7 @@
         },         
         "author"  : "Maarten",
         "comments" : "",
-        "visible" : false
+        "visible" : true
     },
     "br04" : {
         "type"    : "text",
@@ -707,7 +707,7 @@
         },         
         "author"  : "Niek",
         "comments" : "",
-        "visible" : false
+        "visible" : true
     },
     "dg02" : {
         "type"    : "text",
@@ -949,37 +949,37 @@
     },
     "pi01" : {
         "type"    : "text",
-        "title"   : "Azure Functions in an enterprise enviroment (Barbara Forbes)",
-        "alttext" : "Azure Functions in an enterprise enviroment (Barbara Forbes)",
+        "title"   : "",
+        "alttext" : "",
         "photo"   : "",
         "orientation" : "",
-        "textobj" : "<p>Azure Functions make event-based automation approachable and cheap. You can make your own API running within an hour. Let's take that to the next level: Run an Azure Function for an enterprise environment.</p><p>In this session we will look at everything Azure has to offer to help with security and governance. Key vault, Managed identity, authentication, private links, monitoring. So many options! Let's see how far we can get.</p>Barbara",
-        "buttons" : {
-            "github"   : "https://github.com/psconfeu/2022/tree/main/BarbaraForbes/AzureFunctionsInTheEnterprise",
-            "yammer"   : "https://web.yammer.com/main/org/ogd.nl/threads/eyJfdHlwZSI6IlRocmVhZCIsImlkIjoiMTc5MTEzNzg4OTQ4NDgwMCJ9",
-            "youtube"  : "",
-            "twitter"  : "https://twitter.com/Jaap_Brasser/status/1538857327457193985"         
-        },         
-        "author"  : "Barbara",
-        "comments" : "",
-        "visible" : true
-    },
-    "pi02" : {
-        "type"    : "photo",
-        "title"   : "Azure Functions in an enterprise enviroment (Barbara Forbes)",
-        "alttext" : "Azure Functions in an enterprise enviroment (Barbara Forbes)",
-        "photo"   : "https://pbs.twimg.com/media/FVsekpgXwAYaq9i?format=jpg&name=large",
-        "orientation" : "landscape",
         "textobj" : "",
         "buttons" : {
             "github"   : "",
             "yammer"   : "",
             "youtube"  : "",
-            "twitter"  : "https://twitter.com/Jaap_Brasser/status/1538857327457193985/photo/1"         
+            "twitter"  : ""         
         },         
-        "author"  : "Barbara",
+        "author"  : "Frodo",
         "comments" : "",
-        "visible" : true
+        "visible" : false
+    },
+    "pi02" : {
+        "type"    : "text",
+        "title"   : "",
+        "alttext" : "",
+        "photo"   : "",
+        "orientation" : "",
+        "textobj" : "",
+        "buttons" : {
+            "github"   : "",
+            "yammer"   : "",
+            "youtube"  : "",
+            "twitter"  : ""         
+        },         
+        "author"  : "Frodo",
+        "comments" : "",
+        "visible" : false
     },
     "pi03" : {
         "type"    : "text",
@@ -994,9 +994,9 @@
             "youtube"  : "",
             "twitter"  : ""         
         },         
-        "author"  : "Barbara",
+        "author"  : "Frodo",
         "comments" : "",
-        "visible" : false
+        "visible" : false        
     },
     "pi04" : {
         "type"    : "text",
@@ -1011,7 +1011,7 @@
             "youtube"  : "",
             "twitter"  : ""         
         },         
-        "author"  : "Barbara",
+        "author"  : "Frodo",
         "comments" : "",
         "visible" : false
     },
@@ -1028,7 +1028,7 @@
             "youtube"  : "",
             "twitter"  : ""         
         },         
-        "author"  : "Barbara",
+        "author"  : "Frodo",
         "comments" : "",
         "visible" : false
     },
@@ -1045,7 +1045,7 @@
             "youtube"  : "",
             "twitter"  : ""         
         },         
-        "author"  : "Barbara",
+        "author"  : "Frodo",
         "comments" : "",
         "visible" : false
     },
@@ -1391,41 +1391,41 @@
     },   
     "pu01" : {
         "type"    : "text",
-        "title"   : "",
-        "alttext" : "",
+        "title"   : "Azure Functions in an enterprise enviroment (Barbara Forbes)",
+        "alttext" : "Azure Functions in an enterprise enviroment (Barbara Forbes)",
         "photo"   : "",
         "orientation" : "",
-        "textobj" : "",
+        "textobj" : "<p>Azure Functions make event-based automation approachable and cheap. You can make your own API running within an hour. Let's take that to the next level: Run an Azure Function for an enterprise environment.</p><p>In this session we will look at everything Azure has to offer to help with security and governance. Key vault, Managed identity, authentication, private links, monitoring. So many options! Let's see how far we can get.</p>Barbara",
         "buttons" : {
-            "github"   : "",
-            "yammer"   : "",
+            "github"   : "https://github.com/psconfeu/2022/tree/main/BarbaraForbes/AzureFunctionsInTheEnterprise",
+            "yammer"   : "https://web.yammer.com/main/org/ogd.nl/threads/eyJfdHlwZSI6IlRocmVhZCIsImlkIjoiMTc5MTEzNzg4OTQ4NDgwMCJ9",
             "youtube"  : "",
-            "twitter"  : ""         
+            "twitter"  : "https://twitter.com/Jaap_Brasser/status/1538857327457193985"         
         },         
-        "author"  : "Frodo",
+        "author"  : "Barbara",
         "comments" : "",
-        "visible" : false
+        "visible" : true        
     },
     "pu02" : {
-        "type"    : "text",
-        "title"   : "",
-        "alttext" : "",
-        "photo"   : "",
-        "orientation" : "",
+        "type"    : "photo",
+        "title"   : "Azure Functions in an enterprise enviroment (Barbara Forbes)",
+        "alttext" : "Azure Functions in an enterprise enviroment (Barbara Forbes)",
+        "photo"   : "https://pbs.twimg.com/media/FVsekpgXwAYaq9i?format=jpg&name=large",
+        "orientation" : "landscape",
         "textobj" : "",
         "buttons" : {
             "github"   : "",
             "yammer"   : "",
             "youtube"  : "",
-            "twitter"  : ""         
+            "twitter"  : "https://twitter.com/Jaap_Brasser/status/1538857327457193985/photo/1"         
         },         
-        "author"  : "Frodo",
+        "author"  : "Barbara",
         "comments" : "",
-        "visible" : false
+        "visible" : true        
     },
     "pu03" : {
         "type"    : "text",
-        "title"   : "",
+        "title"   : "How Github can make your Powershell process easier (Barbara Forbes)",
         "alttext" : "",
         "photo"   : "",
         "orientation" : "",
@@ -1436,7 +1436,7 @@
             "youtube"  : "",
             "twitter"  : ""         
         },         
-        "author"  : "Frodo",
+        "author"  : "Barbara",
         "comments" : "",
         "visible" : false
     },
@@ -1453,7 +1453,7 @@
             "youtube"  : "",
             "twitter"  : ""         
         },         
-        "author"  : "Frodo",
+        "author"  : "Barbara",
         "comments" : "",
         "visible" : false
     },
@@ -1470,7 +1470,7 @@
             "youtube"  : "",
             "twitter"  : ""         
         },         
-        "author"  : "Frodo",
+        "author"  : "Barbara",
         "comments" : "",
         "visible" : false
     },
@@ -1487,7 +1487,7 @@
             "youtube"  : "",
             "twitter"  : ""         
         },         
-        "author"  : "Frodo",
+        "author"  : "Barbara",
         "comments" : "",
         "visible" : false
     },
@@ -1504,7 +1504,7 @@
             "youtube"  : "",
             "twitter"  : ""         
         },         
-        "author"  : "Frodo",
+        "author"  : "Barbara",
         "comments" : "",
         "visible" : false
     },
@@ -1521,7 +1521,7 @@
             "youtube"  : "",
             "twitter"  : ""         
         },         
-        "author"  : "Frodo",
+        "author"  : "Barbara",
         "comments" : "",
         "visible" : false
     },
@@ -1538,7 +1538,7 @@
             "youtube"  : "",
             "twitter"  : ""         
         },         
-        "author"  : "Frodo",
+        "author"  : "Barbara",
         "comments" : "",
         "visible" : false
     },
@@ -1555,7 +1555,7 @@
             "youtube"  : "",
             "twitter"  : ""         
         },         
-        "author"  : "Frodo",
+        "author"  : "Barbara",
         "comments" : "",
         "visible" : false
     },
@@ -1572,7 +1572,7 @@
             "youtube"  : "",
             "twitter"  : ""         
         },         
-        "author"  : "Frodo",
+        "author"  : "Barbara",
         "comments" : "",
         "visible" : false
     },
@@ -1589,7 +1589,7 @@
             "youtube"  : "",
             "twitter"  : ""         
         },         
-        "author"  : "Frodo",
+        "author"  : "Barbara",
         "comments" : "",
         "visible" : false
     },
@@ -1606,7 +1606,7 @@
             "youtube"  : "",
             "twitter"  : ""         
         },         
-        "author"  : "Frodo",
+        "author"  : "Barbara",
         "comments" : "",
         "visible" : false
     },
@@ -1623,7 +1623,7 @@
             "youtube"  : "",
             "twitter"  : ""         
         },         
-        "author"  : "Frodo",
+        "author"  : "Barbara",
         "comments" : "",
         "visible" : false
     }      
