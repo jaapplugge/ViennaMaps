@@ -1,3 +1,22 @@
+h1, h2 {
+    font-family: Lucida Console;
+    font-size: xx-large; 
+    color: rgba(30, 26, 77, 0.853);
+}
+
+h3 {
+    font-family: Lucida Console;
+    font-size: x-large;
+    font-style: oblique;
+    color: rgba(30, 26, 77, 0.853);
+}
+
+p {
+    font-family: Lucida Console;
+    font-size: x-large;
+    color: rgba(30, 26, 77, 0.853);
+}
+
 span {
     position: absolute;
     border-radius: 10px;
