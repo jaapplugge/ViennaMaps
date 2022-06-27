@@ -4,6 +4,143 @@
         <link rel="stylesheet" href="style.css">
     </head>
     <body>
+        <div class='map'>
+            <!-- Div voor info eroverheen -->
+            <div class="infoBox" id="infoBox">
+                <div class="opacityBox" id="opacityBox">
+                    <div class="photoBox" id="photoBox"></div>
+                </div>
+                <div class="pic_youtube" id="pic_youtube"></div>
+                <div class="pic_yammer"  id="pic_yammer" ></div>
+                <div class="pic_github"  id="pic_github" ></div>
+                <div class="pic_twitter" id="pic_twitter"></div>
+                <div class="msg_youtube" id="msg_youtube"></div>
+                <div class="msg_yammer"  id="msg_yammer" ></div>
+                <div class="msg_github"  id="msg_github" ></div>
+                <div class="msg_twitter" id="msg_twitter"></div>                
+                <div class="info_exit"   id="info_exit"  ></div>
+            </div>
+            <!-- Names on routes -->
+            <span class="name_pink"><b>Barbara's PSConf</b></span>
+            <span class="name_lightgreen"><b>Jaap's PSConf</b></span>
+            <span class="name_orange"><b>Jelle's PSConf</b></span>
+            <span class="name_brown"><b>Maarten's PSConf</b></span>
+            <span class="name_darkgreen"><b>Niek's PSConf</b></span>
+            <span class="name_red"><b>Nathan's PSConf</b></span>
+            <span class="name_purple"><b>Frodo's PSConf</b></span>
+
+            <!-- Messagebox -->
+            <span class="messageBox" id="messageBox"></span>
+
+            <!-- LigthGreen -->
+            <a onClick='onClickMsg("lg01","content.json",jsonObj);' onMouseOver='ShowAltTxt("lg01",jsonObj)'><span class="p_lg01" id="lg01"></span></a>
+            <a onClick='onClickMsg("lg02","content.json",jsonObj);' onMouseOver='ShowAltTxt("lg02",jsonObj)'><span class="p_lg02" id="lg02"></span></a>
+            <a onClick='onClickMsg("lg03","content.json",jsonObj);' onMouseOver='ShowAltTxt("lg03",jsonObj)'><span class="p_lg03" id="lg03"></span></a>       
+            <a onClick='onClickMsg("lg04","content.json",jsonObj);' onMouseOver='ShowAltTxt("lg04",jsonObj)'><span class="p_lg04" id="lg04"></span></a>       
+            <a onClick='onClickMsg("lg05","content.json",jsonObj);' onMouseOver='ShowAltTxt("lg05",jsonObj)'><span class="p_lg05" id="lg05"></span></a>
+            <a onClick='onClickMsg("lg06","content.json",jsonObj);' onMouseOver='ShowAltTxt("lg06",jsonObj)'><span class="p_lg06" id="lg06"></span></a>
+            <a onClick='onClickMsg("lg07","content.json",jsonObj);' onMouseOver='ShowAltTxt("lg07",jsonObj)'><span class="p_lg07" id="lg07"></span></a>       
+
+            <!-- Orange -->
+            <a onClick='onClickMsg("or01","content.json",jsonObj);' alt="Jelle's sessies 01" target="_blank"><span class="p_or01"></span></a>
+            <a onClick='onClickMsg("or02","content.json",jsonObj);' alt="Jelle's sessies 02" target="_blank"><span class="p_or02"></span></a>
+            <a onClick='onClickMsg("or03","content.json",jsonObj);' alt="Jelle's sessies 03" target="_blank"><span class="p_or03"></span></a>
+            <a onClick='onClickMsg("or04","content.json",jsonObj);' alt="Jelle's sessies 04" target="_blank"><span class="p_or04"></span></a>
+            <a onClick='onClickMsg("or05","content.json",jsonObj);' alt="Jelle's sessies 05" target="_blank"><span class="p_or05"></span></a>
+            <a onClick='onClickMsg("or06","content.json",jsonObj);' alt="Jelle's sessies 06" target="_blank"><span class="p_or06"></span></a>
+            <a onClick='onClickMsg("or07","content.json",jsonObj);' alt="Jelle's sessies 07" target="_blank"><span class="p_or07"></span></a>
+            <a onClick='onClickMsg("or08","content.json",jsonObj);' alt="Jelle's sessies 08" target="_blank"><span class="p_or08"></span></a>
+            <a onClick='onClickMsg("or09","content.json",jsonObj);' alt="Jelle's sessies 09" target="_blank"><span class="p_or09"></span></a>
+            <a onClick='onClickMsg("or10","content.json",jsonObj);' alt="Jelle's sessies 10" target="_blank"><span class="p_or10"></span></a>
+            <a onClick='onClickMsg("or11","content.json",jsonObj);' alt="Jelle's sessies 11" target="_blank"><span class="p_or11"></span></a>
+            <a onClick='onClickMsg("or12","content.json",jsonObj);' alt="Jelle's sessies 12" target="_blank"><span class="p_or12"></span></a>
+            <a onClick='onClickMsg("or13","content.json",jsonObj);' alt="Jelle's sessies 13" target="_blank"><span class="p_or13"></span></a>
+            
+            <!-- Brown -->
+            <a onClick='onClickMsg("br01","content.json",jsonObj);' alt="Maartens sessies 01" target="_blank"><span class="p_br01"></span></a>
+            <a onClick='onClickMsg("br02","content.json",jsonObj);' alt="Maartens sessies 02" target="_blank"><span class="p_br02"></span></a>
+            <a onClick='onClickMsg("br03","content.json",jsonObj);' alt="Maartens sessies 03" target="_blank"><span class="p_br03"></span></a>
+            <a onClick='onClickMsg("br04","content.json",jsonObj);' alt="Maartens sessies 04" target="_blank"><span class="p_br04"></span></a>
+            <a onClick='onClickMsg("br05","content.json",jsonObj);' alt="Maartens sessies 05" target="_blank"><span class="p_br05"></span></a>
+            <a onClick='onClickMsg("br06","content.json",jsonObj);' alt="Maartens sessies 06" target="_blank"><span class="p_br06"></span></a>
+            <a onClick='onClickMsg("br07","content.json",jsonObj);' alt="Maartens sessies 07" target="_blank"><span class="p_br07"></span></a>
+            <a onClick='onClickMsg("br08","content.json",jsonObj);' alt="Maartens sessies 08" target="_blank"><span class="p_br08"></span></a>
+            <a onClick='onClickMsg("br09","content.json",jsonObj);' alt="Maartens sessies 09" target="_blank"><span class="p_br09"></span></a>
+            <a onClick='onClickMsg("br10","content.json",jsonObj);' alt="Maartens sessies 10" target="_blank"><span class="p_br10"></span></a>
+            <a onClick='onClickMsg("br11","content.json",jsonObj);' alt="Maartens sessies 11" target="_blank"><span class="p_br11"></span></a>
+            <a onClick='onClickMsg("br12","content.json",jsonObj);' alt="Maartens sessies 12" target="_blank"><span class="p_br12"></span></a>
+            <a onClick='onClickMsg("br13","content.json",jsonObj);' alt="Maartens sessies 13" target="_blank"><span class="p_br13"></span></a>
+            <a onClick='onClickMsg("br14","content.json",jsonObj);' alt="Maartens sessies 14" target="_blank"><span class="p_br14"></span></a>
+            <a onClick='onClickMsg("br15","content.json",jsonObj);' alt="Maartens sessies 15" target="_blank"><span class="p_br15"></span></a>
+            <a onClick='onClickMsg("br16","content.json",jsonObj);' alt="Maartens sessies 16" target="_blank"><span class="p_br16"></span></a>
+            <a onClick='onClickMsg("br17","content.json",jsonObj);' alt="Maartens sessies 17" target="_blank"><span class="p_br17"></span></a>  
+            <a onClick='onClickMsg("br18","content.json",jsonObj);' alt="Maartens sessies 18" target="_blank"><span class="p_br18"></span></a>
+            <a onClick='onClickMsg("br19","content.json",jsonObj);' alt="Maartens sessies 19" target="_blank"><span class="p_br19"></span></a> 
+            
+            <!-- DarkGreen -->
+            <a onClick='onClickMsg("dg01","content.json",jsonObj);' alt="Nieks sessies 01" target="_blank"><span class="p_dg01"></span></a>
+            <a onClick='onClickMsg("dg02","content.json",jsonObj);' alt="Nieks sessies 02" target="_blank"><span class="p_dg02"></span></a>
+            <a onClick='onClickMsg("dg03","content.json",jsonObj);' alt="Nieks sessies 03" target="_blank"><span class="p_dg03"></span></a>
+            <a onClick='onClickMsg("dg04","content.json",jsonObj);' alt="Nieks sessies 04" target="_blank"><span class="p_dg04"></span></a>
+            <a onClick='onClickMsg("dg05","content.json",jsonObj);' alt="Nieks sessies 05" target="_blank"><span class="p_dg05"></span></a>
+            <a onClick='onClickMsg("dg06","content.json",jsonObj);' alt="Nieks sessies 06" target="_blank"><span class="p_dg06"></span></a>
+            <a onClick='onClickMsg("dg07","content.json",jsonObj);' alt="Nieks sessies 07" Target="_blank"><span class="p_dg07"></span></a>
+            <a onClick='onClickMsg("dg08","content.json",jsonObj);' alt="Nieks sessies 08" target="_blank"><span class="p_dg08"></span></a>
+            <a onClick='onClickMsg("dg09","content.json",jsonObj);' alt="Nieks sessies 09" target="_blank"><span class="p_dg09"></span></a>
+            <a onClick='onClickMsg("dg10","content.json",jsonObj);' alt="Nieks sessies 10" target="_blank"><span class="p_dg10"></span></a>
+            <a onClick='onClickMsg("dg11","content.json",jsonObj);' alt="Nieks sessies 11" target="_blank"><span class="p_dg11"></span></a>
+            <a onClick='onClickMsg("dg12","content.json",jsonObj);' alt="Nieks sessies 12" target="_blank"><span class="p_dg12"></span></a>
+            <a onClick='onClickMsg("dg13","content.json",jsonObj);' alt="Nieks sessies 13" target="_blank"><span class="p_dg13"></span></a>
+            <a onClick='onClickMsg("dg14","content.json",jsonObj);' alt="Nieks sessies 14" target="_blank"><span class="p_dg14"></span></a>
+            <a onClick='onClickMsg("dg15","content.json",jsonObj);' alt="Nieks sessies 15" target="_blank"><span class="p_dg15"></span></a>
+            
+            <!-- Pink -->
+            <a onClick='onClickMsg("pi01","content.json",jsonObj);' alt="Barbara's sessies 01" target="_blank"><span class="p_pi01"></span></a>
+            <a onClick='onClickMsg("pi02","content.json",jsonObj);' alt="Barbara's sessies 02" target="_blank"><span class="p_pi02"></span></a>
+            <a onClick='onClickMsg("pi03","content.json",jsonObj);' alt="Barbara's sessies 03" target="_blank"><span class="p_pi03"></span></a>
+            <a onClick='onClickMsg("pi04","content.json",jsonObj);' alt="Barbara's sessies 04" target="_blank"><span class="p_pi04"></span></a>
+            <a onClick='onClickMsg("pi05","content.json",jsonObj);' alt="Barbara's sessies 05" target="_blank"><span class="p_pi05"></span></a>
+            <a onClick='onClickMsg("pi06","content.json",jsonObj);' alt="Barbara's sessies 06" target="_blank"><span class="p_pi06"></span></a>            
+            
+            <!-- Red -->
+            <a onClick='onClickMsg("re01","content.json",jsonObj);' alt="Nathans sessies 01" target="_blank"><span class="p_re01"></span></a>
+            <a onClick='onClickMsg("re02","content.json",jsonObj);' alt="Nathans sessies 02" target="_blank"><span class="p_re02"></span></a>
+            <a onClick='onClickMsg("re03","content.json",jsonObj);' alt="Nathans sessies 03" target="_blank"><span class="p_re03"></span></a>
+            <a onClick='onClickMsg("re04","content.json",jsonObj);' alt="Nathans sessies 04" target="_blank"><span class="p_re04"></span></a>
+            <a onClick='onClickMsg("re05","content.json",jsonObj);' alt="Nathans sessies 05" target="_blank"><span class="p_re05"></span></a>
+            <a onClick='onClickMsg("re06","content.json",jsonObj);' alt="Nathans sessies 06" target="_blank"><span class="p_re06"></span></a>
+            <a onClick='onClickMsg("re07","content.json",jsonObj);' alt="Nathans sessies 07" target="_blank"><span class="p_re07"></span></a>
+            <a onClick='onClickMsg("re08","content.json",jsonObj);' alt="Nathans sessies 08" target="_blank"><span class="p_re08"></span></a>
+            <a onClick='onClickMsg("re09","content.json",jsonObj);' alt="Nathans sessies 09" target="_blank"><span class="p_re09"></span></a>
+            <a onClick='onClickMsg("re10","content.json",jsonObj);' alt="Nathans sessies 10" target="_blank"><span class="p_re10"></span></a>
+            <a onClick='onClickMsg("re11","content.json",jsonObj);' alt="Nathans sessies 11" target="_blank"><span class="p_re11"></span></a>
+            <a onClick='onClickMsg("re12","content.json",jsonObj);' alt="Nathans sessies 12" target="_blank"><span class="p_re12"></span></a>
+            <a onClick='onClickMsg("re13","content.json",jsonObj);' alt="Nathans sessies 13" target="_blank"><span class="p_re13"></span></a>
+            <a onClick='onClickMsg("re14","content.json",jsonObj);' alt="Nathans sessies 14" target="_blank"><span class="p_re14"></span></a>
+            <a onClick='onClickMsg("re15","content.json",jsonObj);' alt="Nathans sessies 15" target="_blank"><span class="p_re15"></span></a>
+            <a onClick='onClickMsg("re16","content.json",jsonObj);' alt="Nathans sessies 16" target="_blank"><span class="p_re16"></span></a>
+            <a onClick='onClickMsg("re17","content.json",jsonObj);' alt="Nathans sessies 17" target="_blank"><span class="p_re17"></span></a>  
+            <a onClick='onClickMsg("re18","content.json",jsonObj);' alt="Nathans sessies 18" target="_blank"><span class="p_re18"></span></a>
+            <a onClick='onClickMsg("re19","content.json",jsonObj);' alt="Nathans sessies 19" target="_blank"><span class="p_re19"></span></a>             
+            <a onClick='onClickMsg("re20","content.json",jsonObj);' alt="Nathans sessies 20" target="_blank"><span class="p_re20"></span></a>             
+
+            <!-- Purple -->
+            <a onClick='onClickMsg("pu01","content.json",jsonObj);' alt="Frodo's sessies 01" target="_blank"><span class="p_pu01"></span></a>
+            <a onClick='onClickMsg("pu02","content.json",jsonObj);' alt="Frodo's sessies 02" target="_blank"><span class="p_pu02"></span></a>
+            <a onClick='onClickMsg("pu03","content.json",jsonObj);' alt="Frodo's sessies 03" target="_blank"><span class="p_pu03"></span></a>
+            <a onClick='onClickMsg("pu04","content.json",jsonObj);' alt="Frodo's sessies 04" target="_blank"><span class="p_pu04"></span></a>
+            <a onClick='onClickMsg("pu05","content.json",jsonObj);' alt="Frodo's sessies 05" target="_blank"><span class="p_pu05"></span></a>
+            <a onClick='onClickMsg("pu06","content.json",jsonObj);' alt="Frodo's sessies 06" target="_blank"><span class="p_pu06"></span></a>
+            <a onClick='onClickMsg("pu07","content.json",jsonObj);' alt="Frodo's sessies 07" target="_blank"><span class="p_pu07"></span></a>
+            <a onClick='onClickMsg("pu08","content.json",jsonObj);' alt="Frodo's sessies 08" target="_blank"><span class="p_pu08"></span></a>
+            <a onClick='onClickMsg("pu09","content.json",jsonObj);' alt="Frodo's sessies 09" target="_blank"><span class="p_pu09"></span></a>
+            <a onClick='onClickMsg("pu10","content.json",jsonObj);' alt="Frodo's sessies 10" target="_blank"><span class="p_pu10"></span></a>
+            <a onClick='onClickMsg("pu11","content.json",jsonObj);' alt="Frodo's sessies 11" target="_blank"><span class="p_pu11"></span></a>
+            <a onClick='onClickMsg("pu12","content.json",jsonObj);' alt="Frodo's sessies 12" target="_blank"><span class="p_pu12"></span></a>
+            <a onClick='onClickMsg("pu13","content.json",jsonObj);' alt="Frodo's sessies 13" target="_blank"><span class="p_pu13"></span></a>
+            <a onClick='onClickMsg("pu14","content.json",jsonObj);' alt="Frodo's sessies 14" target="_blank"><span class="p_pu14"></span></a>
+        
+        </div>
         <script language="JavaScript">
             // function to read in the Json-file with configuration data
             function CallJson(url) {
@@ -187,143 +324,6 @@
             // Code to run onload
             let jsonObj = CallJson('content.json');
             xDisapprearAll()
-        </script>
-        <div class='map'>
-            <!-- Div voor info eroverheen -->
-            <div class="infoBox" id="infoBox">
-                <div class="opacityBox" id="opacityBox">
-                    <div class="photoBox" id="photoBox"></div>
-                </div>
-                <div class="pic_youtube" id="pic_youtube"></div>
-                <div class="pic_yammer"  id="pic_yammer" ></div>
-                <div class="pic_github"  id="pic_github" ></div>
-                <div class="pic_twitter" id="pic_twitter"></div>
-                <div class="msg_youtube" id="msg_youtube"></div>
-                <div class="msg_yammer"  id="msg_yammer" ></div>
-                <div class="msg_github"  id="msg_github" ></div>
-                <div class="msg_twitter" id="msg_twitter"></div>                
-                <div class="info_exit"   id="info_exit"  ></div>
-            </div>
-            <!-- Names on routes -->
-            <span class="name_pink"><b>Barbara's PSConf</b></span>
-            <span class="name_lightgreen"><b>Jaap's PSConf</b></span>
-            <span class="name_orange"><b>Jelle's PSConf</b></span>
-            <span class="name_brown"><b>Maarten's PSConf</b></span>
-            <span class="name_darkgreen"><b>Niek's PSConf</b></span>
-            <span class="name_red"><b>Nathan's PSConf</b></span>
-            <span class="name_purple"><b>Frodo's PSConf</b></span>
-
-            <!-- Messagebox -->
-            <span class="messageBox" id="messageBox"></span>
-
-            <!-- LigthGreen -->
-            <a onClick='onClickMsg("lg01","content.json",jsonObj);' onMouseOver='ShowAltTxt("lg01",jsonObj)'><span class="p_lg01" id="lg01"></span></a>
-            <a onClick='onClickMsg("lg02","content.json",jsonObj);' onMouseOver='ShowAltTxt("lg02",jsonObj)'><span class="p_lg02" id="lg02"></span></a>
-            <a onClick='onClickMsg("lg03","content.json",jsonObj);' onMouseOver='ShowAltTxt("lg03",jsonObj)'><span class="p_lg03" id="lg03"></span></a>       
-            <a onClick='onClickMsg("lg04","content.json",jsonObj);' onMouseOver='ShowAltTxt("lg04",jsonObj)'><span class="p_lg04" id="lg04"></span></a>       
-            <a onClick='onClickMsg("lg05","content.json",jsonObj);' onMouseOver='ShowAltTxt("lg05",jsonObj)'><span class="p_lg05" id="lg05"></span></a>
-            <a onClick='onClickMsg("lg06","content.json",jsonObj);' onMouseOver='ShowAltTxt("lg06",jsonObj)'><span class="p_lg06" id="lg06"></span></a>
-            <a onClick='onClickMsg("lg07","content.json",jsonObj);' onMouseOver='ShowAltTxt("lg07",jsonObj)'><span class="p_lg07" id="lg07"></span></a>       
-
-            <!-- Orange -->
-            <a onClick='onClickMsg("or01","content.json",jsonObj);' alt="Jelle's sessies 01" target="_blank"><span class="p_or01"></span></a>
-            <a onClick='onClickMsg("or02","content.json",jsonObj);' alt="Jelle's sessies 02" target="_blank"><span class="p_or02"></span></a>
-            <a onClick='onClickMsg("or03","content.json",jsonObj);' alt="Jelle's sessies 03" target="_blank"><span class="p_or03"></span></a>
-            <a onClick='onClickMsg("or04","content.json",jsonObj);' alt="Jelle's sessies 04" target="_blank"><span class="p_or04"></span></a>
-            <a onClick='onClickMsg("or05","content.json",jsonObj);' alt="Jelle's sessies 05" target="_blank"><span class="p_or05"></span></a>
-            <a onClick='onClickMsg("or06","content.json",jsonObj);' alt="Jelle's sessies 06" target="_blank"><span class="p_or06"></span></a>
-            <a onClick='onClickMsg("or07","content.json",jsonObj);' alt="Jelle's sessies 07" target="_blank"><span class="p_or07"></span></a>
-            <a onClick='onClickMsg("or08","content.json",jsonObj);' alt="Jelle's sessies 08" target="_blank"><span class="p_or08"></span></a>
-            <a onClick='onClickMsg("or09","content.json",jsonObj);' alt="Jelle's sessies 09" target="_blank"><span class="p_or09"></span></a>
-            <a onClick='onClickMsg("or10","content.json",jsonObj);' alt="Jelle's sessies 10" target="_blank"><span class="p_or10"></span></a>
-            <a onClick='onClickMsg("or11","content.json",jsonObj);' alt="Jelle's sessies 11" target="_blank"><span class="p_or11"></span></a>
-            <a onClick='onClickMsg("or12","content.json",jsonObj);' alt="Jelle's sessies 12" target="_blank"><span class="p_or12"></span></a>
-            <a onClick='onClickMsg("or13","content.json",jsonObj);' alt="Jelle's sessies 13" target="_blank"><span class="p_or13"></span></a>
-            
-            <!-- Brown -->
-            <a onClick='onClickMsg("br01","content.json",jsonObj);' alt="Maartens sessies 01" target="_blank"><span class="p_br01"></span></a>
-            <a onClick='onClickMsg("br02","content.json",jsonObj);' alt="Maartens sessies 02" target="_blank"><span class="p_br02"></span></a>
-            <a onClick='onClickMsg("br03","content.json",jsonObj);' alt="Maartens sessies 03" target="_blank"><span class="p_br03"></span></a>
-            <a onClick='onClickMsg("br04","content.json",jsonObj);' alt="Maartens sessies 04" target="_blank"><span class="p_br04"></span></a>
-            <a onClick='onClickMsg("br05","content.json",jsonObj);' alt="Maartens sessies 05" target="_blank"><span class="p_br05"></span></a>
-            <a onClick='onClickMsg("br06","content.json",jsonObj);' alt="Maartens sessies 06" target="_blank"><span class="p_br06"></span></a>
-            <a onClick='onClickMsg("br07","content.json",jsonObj);' alt="Maartens sessies 07" target="_blank"><span class="p_br07"></span></a>
-            <a onClick='onClickMsg("br08","content.json",jsonObj);' alt="Maartens sessies 08" target="_blank"><span class="p_br08"></span></a>
-            <a onClick='onClickMsg("br09","content.json",jsonObj);' alt="Maartens sessies 09" target="_blank"><span class="p_br09"></span></a>
-            <a onClick='onClickMsg("br10","content.json",jsonObj);' alt="Maartens sessies 10" target="_blank"><span class="p_br10"></span></a>
-            <a onClick='onClickMsg("br11","content.json",jsonObj);' alt="Maartens sessies 11" target="_blank"><span class="p_br11"></span></a>
-            <a onClick='onClickMsg("br12","content.json",jsonObj);' alt="Maartens sessies 12" target="_blank"><span class="p_br12"></span></a>
-            <a onClick='onClickMsg("br13","content.json",jsonObj);' alt="Maartens sessies 13" target="_blank"><span class="p_br13"></span></a>
-            <a onClick='onClickMsg("br14","content.json",jsonObj);' alt="Maartens sessies 14" target="_blank"><span class="p_br14"></span></a>
-            <a onClick='onClickMsg("br15","content.json",jsonObj);' alt="Maartens sessies 15" target="_blank"><span class="p_br15"></span></a>
-            <a onClick='onClickMsg("br16","content.json",jsonObj);' alt="Maartens sessies 16" target="_blank"><span class="p_br16"></span></a>
-            <a onClick='onClickMsg("br17","content.json",jsonObj);' alt="Maartens sessies 17" target="_blank"><span class="p_br17"></span></a>  
-            <a onClick='onClickMsg("br18","content.json",jsonObj);' alt="Maartens sessies 18" target="_blank"><span class="p_br18"></span></a>
-            <a onClick='onClickMsg("br19","content.json",jsonObj);' alt="Maartens sessies 19" target="_blank"><span class="p_br19"></span></a> 
-            
-            <!-- DarkGreen -->
-            <a onClick='onClickMsg("dg01","content.json",jsonObj);' alt="Nieks sessies 01" target="_blank"><span class="p_dg01"></span></a>
-            <a onClick='onClickMsg("dg02","content.json",jsonObj);' alt="Nieks sessies 02" target="_blank"><span class="p_dg02"></span></a>
-            <a onClick='onClickMsg("dg03","content.json",jsonObj);' alt="Nieks sessies 03" target="_blank"><span class="p_dg03"></span></a>
-            <a onClick='onClickMsg("dg04","content.json",jsonObj);' alt="Nieks sessies 04" target="_blank"><span class="p_dg04"></span></a>
-            <a onClick='onClickMsg("dg05","content.json",jsonObj);' alt="Nieks sessies 05" target="_blank"><span class="p_dg05"></span></a>
-            <a onClick='onClickMsg("dg06","content.json",jsonObj);' alt="Nieks sessies 06" target="_blank"><span class="p_dg06"></span></a>
-            <a onClick='onClickMsg("dg07","content.json",jsonObj);' alt="Nieks sessies 07" Target="_blank"><span class="p_dg07"></span></a>
-            <a onClick='onClickMsg("dg08","content.json",jsonObj);' alt="Nieks sessies 08" target="_blank"><span class="p_dg08"></span></a>
-            <a onClick='onClickMsg("dg09","content.json",jsonObj);' alt="Nieks sessies 09" target="_blank"><span class="p_dg09"></span></a>
-            <a onClick='onClickMsg("dg10","content.json",jsonObj);' alt="Nieks sessies 10" target="_blank"><span class="p_dg10"></span></a>
-            <a onClick='onClickMsg("dg11","content.json",jsonObj);' alt="Nieks sessies 11" target="_blank"><span class="p_dg11"></span></a>
-            <a onClick='onClickMsg("dg12","content.json",jsonObj);' alt="Nieks sessies 12" target="_blank"><span class="p_dg12"></span></a>
-            <a onClick='onClickMsg("dg13","content.json",jsonObj);' alt="Nieks sessies 13" target="_blank"><span class="p_dg13"></span></a>
-            <a onClick='onClickMsg("dg14","content.json",jsonObj);' alt="Nieks sessies 14" target="_blank"><span class="p_dg14"></span></a>
-            <a onClick='onClickMsg("dg15","content.json",jsonObj);' alt="Nieks sessies 15" target="_blank"><span class="p_dg15"></span></a>
-            
-            <!-- Pink -->
-            <a onClick='onClickMsg("pi01","content.json",jsonObj);' alt="Barbara's sessies 01" target="_blank"><span class="p_pi01"></span></a>
-            <a onClick='onClickMsg("pi02","content.json",jsonObj);' alt="Barbara's sessies 02" target="_blank"><span class="p_pi02"></span></a>
-            <a onClick='onClickMsg("pi03","content.json",jsonObj);' alt="Barbara's sessies 03" target="_blank"><span class="p_pi03"></span></a>
-            <a onClick='onClickMsg("pi04","content.json",jsonObj);' alt="Barbara's sessies 04" target="_blank"><span class="p_pi04"></span></a>
-            <a onClick='onClickMsg("pi05","content.json",jsonObj);' alt="Barbara's sessies 05" target="_blank"><span class="p_pi05"></span></a>
-            <a onClick='onClickMsg("pi06","content.json",jsonObj);' alt="Barbara's sessies 06" target="_blank"><span class="p_pi06"></span></a>            
-            
-            <!-- Red -->
-            <a onClick='onClickMsg("re01","content.json",jsonObj);' alt="Nathans sessies 01" target="_blank"><span class="p_re01"></span></a>
-            <a onClick='onClickMsg("re02","content.json",jsonObj);' alt="Nathans sessies 02" target="_blank"><span class="p_re02"></span></a>
-            <a onClick='onClickMsg("re03","content.json",jsonObj);' alt="Nathans sessies 03" target="_blank"><span class="p_re03"></span></a>
-            <a onClick='onClickMsg("re04","content.json",jsonObj);' alt="Nathans sessies 04" target="_blank"><span class="p_re04"></span></a>
-            <a onClick='onClickMsg("re05","content.json",jsonObj);' alt="Nathans sessies 05" target="_blank"><span class="p_re05"></span></a>
-            <a onClick='onClickMsg("re06","content.json",jsonObj);' alt="Nathans sessies 06" target="_blank"><span class="p_re06"></span></a>
-            <a onClick='onClickMsg("re07","content.json",jsonObj);' alt="Nathans sessies 07" target="_blank"><span class="p_re07"></span></a>
-            <a onClick='onClickMsg("re08","content.json",jsonObj);' alt="Nathans sessies 08" target="_blank"><span class="p_re08"></span></a>
-            <a onClick='onClickMsg("re09","content.json",jsonObj);' alt="Nathans sessies 09" target="_blank"><span class="p_re09"></span></a>
-            <a onClick='onClickMsg("re10","content.json",jsonObj);' alt="Nathans sessies 10" target="_blank"><span class="p_re10"></span></a>
-            <a onClick='onClickMsg("re11","content.json",jsonObj);' alt="Nathans sessies 11" target="_blank"><span class="p_re11"></span></a>
-            <a onClick='onClickMsg("re12","content.json",jsonObj);' alt="Nathans sessies 12" target="_blank"><span class="p_re12"></span></a>
-            <a onClick='onClickMsg("re13","content.json",jsonObj);' alt="Nathans sessies 13" target="_blank"><span class="p_re13"></span></a>
-            <a onClick='onClickMsg("re14","content.json",jsonObj);' alt="Nathans sessies 14" target="_blank"><span class="p_re14"></span></a>
-            <a onClick='onClickMsg("re15","content.json",jsonObj);' alt="Nathans sessies 15" target="_blank"><span class="p_re15"></span></a>
-            <a onClick='onClickMsg("re16","content.json",jsonObj);' alt="Nathans sessies 16" target="_blank"><span class="p_re16"></span></a>
-            <a onClick='onClickMsg("re17","content.json",jsonObj);' alt="Nathans sessies 17" target="_blank"><span class="p_re17"></span></a>  
-            <a onClick='onClickMsg("re18","content.json",jsonObj);' alt="Nathans sessies 18" target="_blank"><span class="p_re18"></span></a>
-            <a onClick='onClickMsg("re19","content.json",jsonObj);' alt="Nathans sessies 19" target="_blank"><span class="p_re19"></span></a>             
-            <a onClick='onClickMsg("re20","content.json",jsonObj);' alt="Nathans sessies 20" target="_blank"><span class="p_re20"></span></a>             
-
-            <!-- Purple -->
-            <a onClick='onClickMsg("pu01","content.json",jsonObj);' alt="Frodo's sessies 01" target="_blank"><span class="p_pu01"></span></a>
-            <a onClick='onClickMsg("pu02","content.json",jsonObj);' alt="Frodo's sessies 02" target="_blank"><span class="p_pu02"></span></a>
-            <a onClick='onClickMsg("pu03","content.json",jsonObj);' alt="Frodo's sessies 03" target="_blank"><span class="p_pu03"></span></a>
-            <a onClick='onClickMsg("pu04","content.json",jsonObj);' alt="Frodo's sessies 04" target="_blank"><span class="p_pu04"></span></a>
-            <a onClick='onClickMsg("pu05","content.json",jsonObj);' alt="Frodo's sessies 05" target="_blank"><span class="p_pu05"></span></a>
-            <a onClick='onClickMsg("pu06","content.json",jsonObj);' alt="Frodo's sessies 06" target="_blank"><span class="p_pu06"></span></a>
-            <a onClick='onClickMsg("pu07","content.json",jsonObj);' alt="Frodo's sessies 07" target="_blank"><span class="p_pu07"></span></a>
-            <a onClick='onClickMsg("pu08","content.json",jsonObj);' alt="Frodo's sessies 08" target="_blank"><span class="p_pu08"></span></a>
-            <a onClick='onClickMsg("pu09","content.json",jsonObj);' alt="Frodo's sessies 09" target="_blank"><span class="p_pu09"></span></a>
-            <a onClick='onClickMsg("pu10","content.json",jsonObj);' alt="Frodo's sessies 10" target="_blank"><span class="p_pu10"></span></a>
-            <a onClick='onClickMsg("pu11","content.json",jsonObj);' alt="Frodo's sessies 11" target="_blank"><span class="p_pu11"></span></a>
-            <a onClick='onClickMsg("pu12","content.json",jsonObj);' alt="Frodo's sessies 12" target="_blank"><span class="p_pu12"></span></a>
-            <a onClick='onClickMsg("pu13","content.json",jsonObj);' alt="Frodo's sessies 13" target="_blank"><span class="p_pu13"></span></a>
-            <a onClick='onClickMsg("pu14","content.json",jsonObj);' alt="Frodo's sessies 14" target="_blank"><span class="p_pu14"></span></a>
-        
-        </div>
+        </script>        
     </body>
 </html>
