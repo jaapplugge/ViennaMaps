@@ -205,7 +205,7 @@
         "alttext" : "SecretManagement & SecretStore Getting started (Sydney Smith)",
         "photo"   : "",
         "orientation" : "",
-        "textobj" : "<p>Er is een module genaamd SecretManagement, die sinds maart dit jaar GA is. Sydney Smith nam ons mee in wat het is en waar je het voor kunt gebruiken.</p><p>SecretManagement is een module die je kunt gebruiken als abstractielaag tussen jou en verschillende secret vaults (Key Vault, KeePass en LastPass, Hashicorp Vault, KeyChain en CredMan, maar geen PasswordState). Aan de voorkant gebruik je deze module om op uniforme manier secrets op te slaan, aan te passen en op te halen, terwijl aan de achterkant voor je wordt geregeld dat de vertaling naar jouw specifieke vault goed gaat. Zo kan je bijvoorbeeld een script schrijven en daarin met de cmdlets van SecretManagement je wachtwoord ophalen of wegschrijven. Dat script kan je dan bij verschillende klanten met verschillende secret vaults gebruiken, zonder het te hoeven omschrijven.</p><p>Voor elke vault die ondersteund wordt, is er een zogenaamde Extension Vault. Deze moet je installeren, om gebruik te kunnen maken van SecretManagement in combinatie met die specifieke secret vault.</p>Jelle",
+        "textobj" : "<p>Er is een module genaamd SecretManagement, die sinds maart dit jaar GA is. Sydney Smith nam ons mee in wat het is en waar je het voor kunt gebruiken.</p><p>SecretManagement is een module die je kunt gebruiken als abstractielaag tussen jou en verschillende secret vaults (Key Vault, KeePass en LastPass, Hashicorp Vault, KeyChain en CredMan, maar geen PasswordState). Aan de voorkant gebruik je deze module om op uniforme manier secrets op te slaan, aan te passen en op te halen, terwijl aan de achterkant voor je wordt geregeld dat de vertaling naar jouw specifieke vault goed gaat. Zo kan je bijvoorbeeld een script schrijven en daarin met de cmdlets van SecretManagement je wachtwoord ophalen of wegschrijven. Dat script kan je dan bij verschillende klanten met verschillende secret vaults gebruiken, zonder het te hoeven omschrijven.</p>Jelle",
         "buttons" : {
             "github"   : "https://www.powershellgallery.com/packages/Microsoft.PowerShell.SecretStore/1.0.6",
             "yammer"   : "https://web.yammer.com/main/org/ogd.nl/threads/eyJfdHlwZSI6IlRocmVhZCIsImlkIjoiMTc5NTM1MjE5MzA0MDM4NCJ9",
@@ -371,8 +371,8 @@
     },
     "br01" : {
         "type"    : "text",
-        "title"   : "De derde dag, door Maarten",
-        "alttext" : "",
+        "title"   : "Pester 5 vs Pester 4 (Jares Jacub)",
+        "alttext" : "Pester 5 vs Pester 4 (Jares Jacub)",
         "photo"   : "",
         "orientation" : "",
         "textobj" : "<p>De dagen vliegen voorbij bij #PSConfEU, vandaag was alweer de derde dag. Er zijn veel interessante sessies, hierbij een paar hoogtepunten wat mij betreft:</p><p>Jakub Jares, dé Pester maintainer, gaf een helder overzicht over de belangrijkste verschillen tussen Pester 4 en 5. Dat zijn er nogal wat, maar als je rekening houdt met de belangrijkste aanpassing in Pester, nl. het feit dat de Pester tests vanaf versie 5 tweeledig worden uitgevoerd, eerst met een Discovery en daarna met een Run fase dan valt een groot deel daarvan op zijn plek.</P>Maarten",
@@ -694,14 +694,14 @@
     },
     "dg01" : {
         "type"    : "text",
-        "title"   : "",
-        "alttext" : "",
+        "title"   : "AMSI is Four Letter Word that stops PowerShell attacks (Sergey Chubarov)",
+        "alttext" : "AMSI is Four Letter Word that stops PowerShell attacks (Sergey Chubarov)",
         "photo"   : "",
         "orientation" : "",
-        "textobj" : "",
+        "textobj" : "<p>Gisteren zat ik bij een sessie die over AMSI en security in PowerShell gaat. Super interessant!</p><p>Blijkbaar wordt bij het starten van een PowerShell sessie altijd de AMSI.dll ingeladen, en deze stuurt bij elk commando dat je uitvoert in die sessie een verzoek naar defender om te kijken of er geen foute dingen in zitten. (Bijvoorbeeld Invoke-MimiKatz dat kan worden gebruikt om credentials op te halen)</p>Niek",
         "buttons" : {
             "github"   : "",
-            "yammer"   : "",
+            "yammer"   : "https://web.yammer.com/main/org/ogd.nl/threads/eyJfdHlwZSI6IlRocmVhZCIsImlkIjoiMTc5MjU5NzI1Mzk4ODM1MiJ9",
             "youtube"  : "",
             "twitter"  : ""         
         },         
@@ -949,16 +949,16 @@
     },
     "pi01" : {
         "type"    : "text",
-        "title"   : "",
-        "alttext" : "",
+        "title"   : "Azure Functions in an enterprise enviroment (Barbara Forbes)",
+        "alttext" : "Azure Functions in an enterprise enviroment (Barbara Forbes)",
         "photo"   : "",
         "orientation" : "",
-        "textobj" : "",
+        "textobj" : "<p>Azure Functions make event-based automation approachable and cheap. You can make your own API running within an hour. Let's take that to the next level: Run an Azure Function for an enterprise environment.</p><p>In this session we will look at everything Azure has to offer to help with security and governance. Key vault, Managed identity, authentication, private links, monitoring. So many options! Let's see how far we can get.</p>Barbara",
         "buttons" : {
-            "github"   : "",
-            "yammer"   : "",
+            "github"   : "https://github.com/psconfeu/2022/tree/main/BarbaraForbes/AzureFunctionsInTheEnterprise",
+            "yammer"   : "https://web.yammer.com/main/org/ogd.nl/threads/eyJfdHlwZSI6IlRocmVhZCIsImlkIjoiMTc5MTEzNzg4OTQ4NDgwMCJ9",
             "youtube"  : "",
-            "twitter"  : ""         
+            "twitter"  : "https://twitter.com/Jaap_Brasser/status/1538857327457193985"         
         },         
         "author"  : "Barbara",
         "comments" : "",
