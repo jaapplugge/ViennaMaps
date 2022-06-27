@@ -1051,37 +1051,37 @@
     },
     "re01" : {
         "type"    : "text",
-        "title"   : "",
-        "alttext" : "",
+        "title"   : "Eerste dag @PSConfEU",
+        "alttext" : "Eerste dag @PSConfEU",
         "photo"   : "",
         "orientation" : "",
-        "textobj" : "",
+        "textobj" : "Het was een leuke eerste dag vandaag bij PSConfEU. Een hoop gezien en geleerd. M'n favoriete nieuwe cmdlet van de dag: New-BurntToastNotification, om zelf 'Toast' notificaties te kunnen maken.",
         "buttons" : {
-            "github"   : "",
-            "yammer"   : "",
+            "github"   : "https://www.powershellgallery.com/packages/BurntToast/0.8.5",
+            "yammer"   : "https://web.yammer.com/main/org/ogd.nl/threads/eyJfdHlwZSI6IlRocmVhZCIsImlkIjoiMTc5MTYzNjQ2MjA4NDA5NiJ9",
             "youtube"  : "",
             "twitter"  : ""         
         },         
         "author"  : "Nathan",
         "comments" : "",
-        "visible" : false
+        "visible" : true
     },
     "re02" : {
         "type"    : "text",
-        "title"   : "",
-        "alttext" : "",
+        "title"   : "Invoke-AzHunter - KQL Hunting in Azure with a PowerShell Katana (Walter Legowski)",
+        "alttext" : "Invoke-AzHunter - KQL Hunting in Azure with a PowerShell Katana (Walter Legowski)",
         "photo"   : "",
         "orientation" : "",
-        "textobj" : "",
+        "textobj" : "Ik heb natuurlijk ook een boel geleerd. Ik werd heel blij van de sessie van Walter Legowski over het doen van KQL queries in Defender of Azure Sentinal via Powershell. Hij heeft een module gemaakt die meerdere queries in een batch kan sturen, en zelfs naar meerdere tenants tegelijk. Daarna kun je meteen de resultaten verder verwerken via Powershell, wat ik een stuk makkelijk vind dan bekijken in de Azure/Microsoft Defender GUI. De module gaat hij vanavond publiceren, dus een linkje volgt :) ",
         "buttons" : {
-            "github"   : "",
+            "github"   : "https://web.yammer.com/main/org/ogd.nl/threads/eyJfdHlwZSI6IlRocmVhZCIsImlkIjoiMTc5MzcxNDU0MzA4MzUyMCJ9",
             "yammer"   : "",
             "youtube"  : "",
             "twitter"  : ""         
         },         
         "author"  : "Nathan",
         "comments" : "",
-        "visible" : false
+        "visible" : true        
     },
     "re03" : {
         "type"    : "text",
