@@ -416,18 +416,25 @@
                 console.log("Your screen resolution is: " + screen.width + "x" + screen.height);
                 let cHeight = screen.height;
                 let cWidth  = screen.width;
-                if (cHeight < 1700 || cWidth < 2350) {
-                    alert("Please zoom out to see the whole map. /rYour resolution is " + cWidth +'x' + cHeight + ". /rResolution of the map is 2350x1700")
+                if (cHeight < 480 || cWidth < 640) {
+                    alert("Please zoom out to see the whole map. \r\nYour resolution is " + cWidth +'x' + cHeight + ". \r\nResolution of the map is 2350x1700");
+                } 
+                else if (cHeight > cWidth) {
+                    alert("Please run this app in Landscapemode instead of Portrait. \r\nYour resolution is " + cWidth +'x' + cHeight + ". \r\nResolution of the map is 2350x1700");
+                } 
+                else if (cHeight < 1700 || cWidth < 2350) {
+                    // 
+                    zlHor = (cWidth * 100) / 2350
+                    zlVer = (cHeight * 100)/ 1700
+                    if (zlHor > zlVer) {
+                        let zlSet = zlVer;
+                    }
+                    else {
+                        let zlSet = zlHor;
+                    };
+                    document.body.style.zoom = zlSet
                 }; 
             };
-
-            // Function to set zoom-lvl
-            function setZoomLevel(zperc,zdir) {
-                console.log("function: setZoomLevel()");
-                console.log("percentage: " + zperc);
-                console.log("direction : " + zdir);
-                console.log("current level: " + document.body.style.zoom);
-            } 
 
             // Code to run onload
             let jsonObj = CallJson('content.json');
