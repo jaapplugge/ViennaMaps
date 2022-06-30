@@ -416,11 +416,10 @@
                 console.log("Your screen resolution is: " + screen.width + "x" + screen.height);
                 let cHeight = screen.height;
                 let cWidth  = screen.width;
-                if (cHeight < 480 || cWidth < 640) {
-                    alert("Please zoom out to see the whole map. \r\nYour resolution is " + cWidth +'x' + cHeight + ". \r\nResolution of the map is 2350x1700");
-                } 
-                else if (cHeight > cWidth) {
-                    alert("Please run this app in Landscapemode instead of Portrait,\r\n or zoom out to see the whole map. \r\nYour resolution is " + cWidth +'x' + cHeight + ". \r\nResolution of the map is 2350x1700");
+                if (cHeight > cWidth) {
+                    var zlVer = cHeight / 1700;
+                    console.log("portrait zoom to " + zlVer);
+                    document.body.style.zoom = zlVer;
                 } 
                 else if (cHeight < 1700 || cWidth < 2350) {
                     var zlHor = cWidth / 2350;
