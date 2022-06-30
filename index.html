@@ -420,10 +420,15 @@
                 console.log("current level: " + document.body.style.zoom);
             } 
 
+            function getResolution() {
+                console.log("Your screen resolution is: " + screen.width + "x" + screen.height);
+            }
+
             // Code to run onload
             let jsonObj = CallJson('content.json');
             xDisapprearAll()
             setZoomLevel("hallo","test")
+            getResolution()
         </script>        
     </body>
 </html>
