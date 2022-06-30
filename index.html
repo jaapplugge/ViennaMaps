@@ -263,21 +263,20 @@
                 console.log("type :" + pType);
                 console.log("title:" + pTitle);
                 console.log("X-Y  :" + pOrientation);
-                const pbox = document.getElementById('photoBox');
                 if (pType == 'photo') {
                     var pBg = 'url(' + pText + ') no-repeat auto'
                     if (pOrientation === 'landscape') {
-                        pbox.innerHTML = '<h1>'+ pTitle + '</h1>';
-                        pbox.style.background = pBg;
+                        document.getElementById('photoBox').innerHTML = '<h1>'+ pTitle + '</h1>';
+                        document.getElementById('photoBox').style.background = pBg;
                     } 
                     else {
-                        pbox.innerHTML = '<h1>'+ pTitle + '</h1>';
-                        pbox.style.background = pBg;
+                        document.getElementById('photoBox').innerHTML = '<h1>'+ pTitle + '</h1>';
+                        document.getElementById('photoBox').style.background = pBg;
                     };
                 }
                 else {
-                    pbox.innerHTML = '<h1>'+ pTitle + '</h1>' + pText;
-                    pbox.style.background = 'none';
+                    document.getElementById('photoBox').innerHTML = '<h1>'+ pTitle + '</h1>' + pText;
+                    document.getElementById('photoBox').style.background = 'none';
                 };
             };            
 
