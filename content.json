@@ -215,7 +215,7 @@
         "title"   : "SecretManagement & SecretStore Getting started (Sydney Smith)",
         "alttext" : "SecretManagement & SecretStore Getting started (Sydney Smith)",
         "photo"   : "",
-        "textobj" : "<p>Er is een module genaamd SecretManagement, die sinds maart dit jaar GA is. Sydney Smith nam ons mee in wat het is en waar je het voor kunt gebruiken.</p><p>SecretManagement is een module die je kunt gebruiken als abstractielaag tussen jou en verschillende secret vaults (Key Vault, KeePass en LastPass, Hashicorp Vault, KeyChain en CredMan, maar geen PasswordState). Aan de voorkant gebruik je deze module om op uniforme manier secrets op te slaan, aan te passen en op te halen, terwijl aan de achterkant voor je wordt geregeld dat de vertaling naar jouw specifieke vault goed gaat. Zo kan je bijvoorbeeld een script schrijven en daarin met de cmdlets van SecretManagement je wachtwoord ophalen of wegschrijven. Dat script kan je dan bij verschillende klanten met verschillende secret vaults gebruiken, zonder het te hoeven omschrijven.</p>Jelle",
+        "textobj" : "<p>Er is een module genaamd SecretManagement, die sinds maart dit jaar GA is. Sydney Smith nam ons mee in wat het is en waar je het voor kunt gebruiken.</p><p>SecretManagement is een module die je kunt gebruiken als abstractielaag tussen jou en verschillende secret vaults (Key Vault, KeePass en LastPass, Hashicorp Vault, KeyChain en CredMan, maar geen PasswordState). Aan de voorkant gebruik je deze module om op uniforme manier secrets op te slaan, aan te passen en op te halen, terwijl aan de achterkant voor je wordt geregeld dat de vertaling naar jouw specifieke vault goed gaat. Zo kan je bijvoorbeeld een script schrijven en daarin met de cmdlets van SecretManagement je wachtwoord ophalen of wegschrijven. Dat script kan je dan bij verschillende klanten met verschillende secret vaults gebruiken, zonder het te hoeven omschrijven.</p>",
         "buttons" : {
             "github"   : "",
             "yammer"   : "https://web.yammer.com/main/org/ogd.nl/threads/eyJfdHlwZSI6IlRocmVhZCIsImlkIjoiMTc5NTM1MjE5MzA0MDM4NCJ9",
@@ -447,7 +447,7 @@
         "title"   : "PowerShell Predictors (Steven Bucher)",
         "alttext" : "PowerShell Predictors (Steven Bucher)",
         "photo"   : "",
-        "textobj" : "<p>Afgelopen maandag is PSReadLine 2.2.6 gereleased waarmee Predictive IntelliSense automatisch ingeschakeld wordt (<a href='https://devblogs.microsoft.com/powershell/psreadline-2-2-6-enables-predictive-intellisense-by-default/>link</a>). Een mooie reden om nog eens terug te blikken op deze #PSConfEU sessie die vorige week door Steven Bucher over dit onderwerp werd gegeven.</p>",
+        "textobj" : "<p>Afgelopen maandag is PSReadLine 2.2.6 gereleased waarmee Predictive IntelliSense automatisch ingeschakeld wordt (<a href='https://devblogs.microsoft.com/powershell/psreadline-2-2-6-enables-predictive-intellisense-by-default/'>link</a>). Een mooie reden om nog eens terug te blikken op deze #PSConfEU sessie die vorige week door Steven Bucher over dit onderwerp werd gegeven.</p>Maarten",
         "buttons" : {
             "github"   : "",
             "yammer"   : "https://web.yammer.com/main/org/ogd.nl/threads/eyJfdHlwZSI6IlRocmVhZCIsImlkIjoiMTgwNDMzNTUwODQ5NjM4NCJ9",
