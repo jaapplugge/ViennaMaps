@@ -282,7 +282,7 @@ span {
     font-family: Lucida Console;
     font-size: x-large;
     color: rgba(30, 26, 77, 0.853);
-    height: 460px;
+    height: 760px;
     width:  760px;
     left: 25px;
     top: 25px;
@@ -290,8 +290,7 @@ span {
 .buttonBox {
     visibility: hidden;
     position: absolute;
-    max-height: 250px;
-    min-height: 25px;
+    height: 250px;
     width:  760px;
     left: 0px;
     top: 485px;    
