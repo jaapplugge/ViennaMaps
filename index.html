@@ -423,9 +423,9 @@
                     alert("Please run this app in Landscapemode instead of Portrait. \r\nYour resolution is " + cWidth +'x' + cHeight + ". \r\nResolution of the map is 2350x1700");
                 } 
                 else if (cHeight < 1700 || cWidth < 2350) {
-                    var zlHor = (cWidth * 100) / 2350;
+                    var zlHor = cWidth / 2350;
                     console.log("horizontal zoom: " + zlHor);
-                    var zlVer = (cHeight * 100)/ 1700;
+                    var zlVer = cHeight / 1700;
                     console.log("vertical zoom: " + zlVer);
                     if (zlHor > zlVer) {
                         var zlSet = zlVer;
