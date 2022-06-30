@@ -283,6 +283,8 @@ span {
     font-size: x-large;
     color: rgba(30, 26, 77, 0.853);
     background: none;
+    background-repeat: no-repeat;
+    background-size: auto;    
     height: 560px;
     width:  760px;
     left: 25px;
