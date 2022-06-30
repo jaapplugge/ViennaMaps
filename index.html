@@ -257,15 +257,14 @@
             };
 
             // function to set content on Photobox
-            function setPhotoContent(pText, pType, pTitle, pOrientation) {
+            function setPhotoContent(pText, pType, pTitle) {
                 console.log("function: setPhotoContent()");
                 console.log("text :" + pText);
                 console.log("type :" + pType);
                 console.log("title:" + pTitle);
-                console.log("X-Y  :" + pOrientation);
                 if (pType == 'photo') {
                     var pBg = 'url(' + pText + ')'
-                    document.getElementById('photoBox').innerHTML = '<h1>'+ pTitle + '</h1>';
+                    document.getElementById('photoBox').innerHTML = '<!-- nothing -->';
                     document.getElementById('photoBox').style.background = pBg;
                     document.getElementById('photoBox').style.backgroundRepeat = 'no-repeat';
                     document.getElementById('photoBox').style.backgroundSize   = 'contain';
@@ -362,9 +361,9 @@
 
                     // set content on photobox 
                     if (jFile[cPar]["type"] === "photo") {
-                        setPhotoContent(jFile[cPar]["photo"],"photo", jFile[cPar]["title"], jFile[cPar]["orientation"]);
+                        setPhotoContent(jFile[cPar]["photo"],"photo", jFile[cPar]["title"]);
                     } else {
-                        setPhotoContent(jFile[cPar]["textobj"],"text", jFile[cPar]["title"], "nvt");
+                        setPhotoContent(jFile[cPar]["textobj"],"text", jFile[cPar]["title"]);
                     }
 
                     // switch on the exitbutton and messagebox

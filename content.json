@@ -8,8 +8,6 @@
         "_alttext"     : "shows in the messagefield in the left lower corner",
         "photo"        : "/photo/jaap01.jpg",
         "_photo"       : "leave blank if type -ne 'photo'. The url to the picture to show.",
-        "orientation"  : "portrait",
-        "_orientation" : "Is it a portrait or landscape orientation photo? Can be left out if text",        
         "textobj"    : "Jaap bezocht de lunchsessie <b>Dealing with super large files (Tobias Weltner)</b>, en schreef er een yammer-post over.",
         "_textobj_1" : "leave blank if type -ne 'text'.",
         "_textobj_2" : "the text to show in the main body of the infobox. Can be in HTML, but plz be gentle... simple textformatting:",
@@ -52,10 +50,9 @@
     },
     "lg02" : {
         "type"    : "photo",
-        "title"   : "Ook in Oostenrijk faalt inspoelen..",
+        "title"   : "",
         "alttext" : "foto: Ook in oostenrijk faalt inspoelen..",
         "photo"   : "/photos/jaap01.jpg",
-        "orientation" : "portrait",
         "textobj" : "",
         "buttons" : {
             "github"   : "",
@@ -74,7 +71,6 @@
         "title"   : "Deze webpagina is gemaakt met Github Actions",
         "alttext" : "Deze webpagina is gemaakt met Github Actions",
         "photo"   : "",
-        "orientation" : "portrait",
         "textobj" : "Niet heel erg powershell, maar ook wel een beetje scriptjes. In <b>How GitHub can make your Powershell process easier</b> liet Barbara de nieuwe, hippe dingen van Github zien.<br><br> Deze webpagina is een static Webapp op Azure (op mijn MSDN), welke gevuld wordt vanuit een simpele Json-file in een githubrepo. Github Action eraan vast, geen webserver nodig, geen moeilijke deployment; bouw een website in een paar losse uurtjes. Dit hele ding is dus ook geschreven tussen sessies in, op het vliegveld, losse uurtjes tussendoor. En ik ben beheerder, ik kan helemaal geen html/css en javascript enzo.<br><br>Jaap",
         "buttons" : {
             "github"   : "https://github.com/jaapplugge/ViennaMaps",
@@ -93,7 +89,6 @@
         "title"   : "Execute remote commands and Get output using only WMI (Jay Adams)",
         "alttext" : "Execute remote commands and Get output using only WMI (Jay Adams)",
         "photo"   : "",
-        "orientation" : "portrait",
         "textobj" : "",
         "buttons" : {
             "github"   : "",
@@ -112,7 +107,6 @@
         "title"   : "",
         "alttext" : "",
         "photo"   : "",
-        "orientation" : "",
         "textobj" : "",
         "buttons" : {
             "github"   : "",
@@ -131,7 +125,6 @@
         "title"   : "",
         "alttext" : "",
         "photo"   : "",
-        "orientation" : "",
         "textobj" : "",
         "buttons" : {
             "github"   : "",
@@ -150,7 +143,6 @@
         "title"   : "",
         "alttext" : "",
         "photo"   : "",
-        "orientation" : "",
         "textobj" : "",
         "buttons" : {
             "github"   : "",
@@ -169,7 +161,6 @@
         "title"   : "Keynote",
         "alttext" : "Keynote, door Jelle",
         "photo"   : "",
-        "orientation" : "",
         "textobj" : "Het eerste wapenfeit van PSConfEU 2022 na de registratie en het ontbijt, was de keynote van Rob Sewell. Een kleurrijke man en dat liet hij ook zien met een paarse baard, koloniale klederdracht en een hoed met meer kleurtjes dan de potloodverzameling van mijn kinderen.<br><br>Jelle",
         "buttons" : {
             "github"   : "https://github.com/psconfeu/2022",
@@ -188,7 +179,6 @@
         "title"   : "PSConfEU 2022, de eerste dag.",
         "alttext" : "PSConfEU 2022, de eerste dag.",
         "photo"   : "",
-        "orientation" : "",
         "textobj" : "<p>Vandaag was de eerste dag van PSConfEU, met meteen al wat leuke sessies. Ik zal hier nog een stukje over schrijven, maar daar kom ik vandaag niet meer aan toe. Wel zal ik nog mijn leukste/nuttigste/interessantste leermoment van de dag even met jullie delen:</p><p>In PowerShell 7 zit tegenwoordig een $ErrorView genaamd ConciseView. Deze maakt errors wat beknopter en leesbaarder. Kan wel fijn zijn voor errors die je gewoon als scripter tegenkomt. Voor uitgebreidere troubleshooting kan je natuurlijk altijd nog de NormalView gebruiken, die de klassieke output geeft (meer info, minder mensgericht). Lees meer op <a href='https://docs.microsoft.com/en-us/powershell/module/microsoft.powershell.core/about/about_preference_variables?view=powershell-7.2#errorview'>about Preference Variables - PowerShell | Microsoft Docs</a><br><br>Jelle",
         "buttons" : {
             "github"   : "https://github.com/psconfeu/2022",
@@ -207,7 +197,6 @@
         "title"   : "How to create great tech demos and presentations (Thomas Maurer)",
         "alttext" : "How to create great tech demos and presentations (Thomas Maurer)",
         "photo"   : "",
-        "orientation" : "",
         "textobj" : "<p>Niet technisch. Niet PowerShell. Geen wonder dat ik de enige was van onze groep die naar deze sessie ging.</p><p>Ik vond het wél interessant om wat presentatietechnieken voorgeschoteld te krijgen. Niet in de zin van 'Haal je handen uit je zakken' en 'Kijk ook eens af en toe de zaal in', maar meer praktische tips over hoe jouw beeldscherm overkomt op de zaal, wanneer je een technische demo geeft.</p>Jelle",
         "buttons" : {
             "github"   : "",
@@ -226,7 +215,6 @@
         "title"   : "SecretManagement & SecretStore Getting started (Sydney Smith)",
         "alttext" : "SecretManagement & SecretStore Getting started (Sydney Smith)",
         "photo"   : "",
-        "orientation" : "",
         "textobj" : "<p>Er is een module genaamd SecretManagement, die sinds maart dit jaar GA is. Sydney Smith nam ons mee in wat het is en waar je het voor kunt gebruiken.</p><p>SecretManagement is een module die je kunt gebruiken als abstractielaag tussen jou en verschillende secret vaults (Key Vault, KeePass en LastPass, Hashicorp Vault, KeyChain en CredMan, maar geen PasswordState). Aan de voorkant gebruik je deze module om op uniforme manier secrets op te slaan, aan te passen en op te halen, terwijl aan de achterkant voor je wordt geregeld dat de vertaling naar jouw specifieke vault goed gaat. Zo kan je bijvoorbeeld een script schrijven en daarin met de cmdlets van SecretManagement je wachtwoord ophalen of wegschrijven. Dat script kan je dan bij verschillende klanten met verschillende secret vaults gebruiken, zonder het te hoeven omschrijven.</p>Jelle",
         "buttons" : {
             "github"   : "",
@@ -245,7 +233,6 @@
         "title"   : "Wordle door Jelle",
         "alttext" : "Wordle door Jelle",
         "photo"   : "",
-        "orientation" : "",
         "textobj" : "<p>Ik had wat codekriebels en heb voor de leuk Wordle/Lingo gebouwd in PowerShell. Kleine spelletjes nabouwen in PowerShell lijkt een rare hobby van mij te zijn.</p><p>Wilde ik gewoon even delen :).</p>Jelle",
         "buttons" : {
             "github"   : "https://github.com/JelleGraaf/wordle",
@@ -264,7 +251,6 @@
         "title"   : "",
         "alttext" : "",
         "photo"   : "",
-        "orientation" : "",
         "textobj" : "",
         "buttons" : {
             "github"   : "",
@@ -283,7 +269,6 @@
         "title"   : "",
         "alttext" : "",
         "photo"   : "",
-        "orientation" : "",
         "textobj" : "",
         "buttons" : {
             "github"   : "",
@@ -300,7 +285,6 @@
         "title"   : "",
         "alttext" : "",
         "photo"   : "",
-        "orientation" : "",
         "textobj" : "",
         "buttons" : {
             "github"   : "",
@@ -319,7 +303,6 @@
         "title"   : "",
         "alttext" : "",
         "photo"   : "",
-        "orientation" : "",
         "textobj" : "",
         "buttons" : {
             "github"   : "",
@@ -338,7 +321,6 @@
         "title"   : "",
         "alttext" : "",
         "photo"   : "",
-        "orientation" : "",
         "textobj" : "",
         "buttons" : {
             "github"   : "",
@@ -357,7 +339,6 @@
         "title"   : "",
         "alttext" : "",
         "photo"   : "",
-        "orientation" : "",
         "textobj" : "",
         "buttons" : {
             "github"   : "",
@@ -376,7 +357,6 @@
         "title"   : "",
         "alttext" : "",
         "photo"   : "",
-        "orientation" : "",
         "textobj" : "",
         "buttons" : {
             "github"   : "",
@@ -395,7 +375,6 @@
         "title"   : "",
         "alttext" : "",
         "photo"   : "",
-        "orientation" : "",
         "textobj" : "",
         "buttons" : {
             "github"   : "",
@@ -414,7 +393,6 @@
         "title"   : "Pester 5 vs Pester 4 (Jares Jacub)",
         "alttext" : "Pester 5 vs Pester 4 (Jares Jacub)",
         "photo"   : "",
-        "orientation" : "",
         "textobj" : "<p>De dagen vliegen voorbij bij #PSConfEU, vandaag was alweer de derde dag. Er zijn veel interessante sessies, hierbij een paar hoogtepunten wat mij betreft:</p><p>Jakub Jares, dé Pester maintainer, gaf een helder overzicht over de belangrijkste verschillen tussen Pester 4 en 5. Dat zijn er nogal wat, maar als je rekening houdt met de belangrijkste aanpassing in Pester, nl. het feit dat de Pester tests vanaf versie 5 tweeledig worden uitgevoerd, eerst met een Discovery en daarna met een Run fase dan valt een groot deel daarvan op zijn plek.</P>Maarten",
         "buttons" : {
             "github"   : "https://github.com/psconfeu/2022/tree/main/JakubJares/Pester5%20vs%20Pester4",
@@ -433,7 +411,6 @@
         "title"   : "Attributes are your friends (Tobias Weltner)",
         "alttext" : "Attributes are your friends (Tobias Weltner)",
         "photo"   : "",
-        "orientation" : "",
         "textobj" : "Een van de meest interessante sessies tot nu toe vond ik de sessie Attributes are your friends van Tobias Weltner. Hierbij werd ingegaan op het maken van eigen attributen, het gebruik van Custom Attributes voor validation en transformation, het maken van 'zelflerende' parameters en het gebruik van argument completion. Dit biedt veel gave mogelijkheden. Voorbeelden zijn te vinden op zijn site powershell.one, maar als je dit interessant vindt zou ik zeker deze sessie gaan kijken zodra deze online is.<br><br>Maarten",
         "buttons" : {
             "github"   : "https://github.com/psconfeu/2022/tree/main/TobiasWeltner/AttributesAreYourFriend",
@@ -452,7 +429,6 @@
         "title"   : "PowerShell Crescendo",
         "alttext" : "PowerShell Crescendo",
         "photo"   : "",
-        "orientation" : "",
         "textobj" : "Een ander onderwerp dat deze PSConf al een paar keer voorbij kwam is PowerShell Crescendo. Hiermee is het mogelijk standaard CLI commando's in een PowerShell jasje te gieten (denk aan verb-noun). Als voorbeeld werd terraform omgebouwd naar oa. Get-TerraformPlan en andere cmdlets. Technisch zeer interessant maar ik ben eerlijk gezegd wel benieuwd hoe vaak we dit in de toekomst terug gaan zien.<br><br>Maarten",
         "buttons" : {
             "github"   : "",
@@ -468,29 +444,27 @@
     },
     "br04" : {
         "type"    : "text",
-        "title"   : "",
-        "alttext" : "",
+        "title"   : "PowerShell Predictors (Steven Bucher)",
+        "alttext" : "PowerShell Predictors (Steven Bucher)",
         "photo"   : "",
-        "orientation" : "",
-        "textobj" : "",
+        "textobj" : "<p>Afgelopen maandag is PSReadLine 2.2.6 gereleased waarmee Predictive IntelliSense automatisch ingeschakeld wordt (<a href='https://devblogs.microsoft.com/powershell/psreadline-2-2-6-enables-predictive-intellisense-by-default/>link</a>). Een mooie reden om nog eens terug te blikken op deze #PSConfEU sessie die vorige week door Steven Bucher over dit onderwerp werd gegeven.</p>",
         "buttons" : {
             "github"   : "",
-            "yammer"   : "",
+            "yammer"   : "https://web.yammer.com/main/org/ogd.nl/threads/eyJfdHlwZSI6IlRocmVhZCIsImlkIjoiMTgwNDMzNTUwODQ5NjM4NCJ9",
             "youtube"  : "",
             "twitter"  : "",
             "gallery"  : "",
-            "internet"  : ""         
+            "internet"  : "https://devblogs.microsoft.com/powershell/psreadline-2-2-6-enables-predictive-intellisense-by-default/"         
         },         
         "author"  : "Maarten",
         "comments" : "",
-        "visible" : false
+        "visible" : true
     },
     "br05" : {
         "type"    : "text",
         "title"   : "",
         "alttext" : "",
         "photo"   : "",
-        "orientation" : "",
         "textobj" : "",
         "buttons" : {
             "github"   : "",
@@ -509,7 +483,6 @@
         "title"   : "",
         "alttext" : "",
         "photo"   : "",
-        "orientation" : "",
         "textobj" : "",
         "buttons" : {
             "github"   : "",
@@ -528,7 +501,6 @@
         "title"   : "",
         "alttext" : "",
         "photo"   : "",
-        "orientation" : "",
         "textobj" : "",
         "buttons" : {
             "github"   : "",
@@ -547,7 +519,6 @@
         "title"   : "",
         "alttext" : "",
         "photo"   : "",
-        "orientation" : "",
         "textobj" : "",
         "buttons" : {
             "github"   : "",
@@ -566,7 +537,6 @@
         "title"   : "",
         "alttext" : "",
         "photo"   : "",
-        "orientation" : "",
         "textobj" : "",
         "buttons" : {
             "github"   : "",
@@ -585,7 +555,6 @@
         "title"   : "",
         "alttext" : "",
         "photo"   : "",
-        "orientation" : "",
         "textobj" : "",
         "buttons" : {
             "github"   : "",
@@ -604,7 +573,6 @@
         "title"   : "",
         "alttext" : "",
         "photo"   : "",
-        "orientation" : "",
         "textobj" : "",
         "buttons" : {
             "github"   : "",
@@ -623,7 +591,6 @@
         "title"   : "",
         "alttext" : "",
         "photo"   : "",
-        "orientation" : "",
         "textobj" : "",
         "buttons" : {
             "github"   : "",
@@ -642,7 +609,6 @@
         "title"   : "",
         "alttext" : "",
         "photo"   : "",
-        "orientation" : "",
         "textobj" : "",
         "buttons" : {
             "github"   : "",
@@ -661,7 +627,6 @@
         "title"   : "",
         "alttext" : "",
         "photo"   : "",
-        "orientation" : "",
         "textobj" : "",
         "buttons" : {
             "github"   : "",
@@ -680,7 +645,6 @@
         "title"   : "",
         "alttext" : "",
         "photo"   : "",
-        "orientation" : "",
         "textobj" : "",
         "buttons" : {
             "github"   : "",
@@ -699,7 +663,6 @@
         "title"   : "",
         "alttext" : "",
         "photo"   : "",
-        "orientation" : "",
         "textobj" : "",
         "buttons" : {
             "github"   : "",
@@ -718,7 +681,6 @@
         "title"   : "",
         "alttext" : "",
         "photo"   : "",
-        "orientation" : "",
         "textobj" : "",
         "buttons" : {
             "github"   : "",
@@ -737,7 +699,6 @@
         "title"   : "",
         "alttext" : "",
         "photo"   : "",
-        "orientation" : "",
         "textobj" : "",
         "buttons" : {
             "github"   : "",
@@ -756,7 +717,6 @@
         "title"   : "",
         "alttext" : "",
         "photo"   : "",
-        "orientation" : "",
         "textobj" : "",
         "buttons" : {
             "github"   : "",
@@ -775,7 +735,6 @@
         "title"   : "AMSI is Four Letter Word that stops PowerShell attacks (Sergey Chubarov)",
         "alttext" : "AMSI is Four Letter Word that stops PowerShell attacks (Sergey Chubarov)",
         "photo"   : "",
-        "orientation" : "",
         "textobj" : "<p>Gisteren zat ik bij een sessie die over AMSI en security in PowerShell gaat. Super interessant!</p><p>Blijkbaar wordt bij het starten van een PowerShell sessie altijd de AMSI.dll ingeladen, en deze stuurt bij elk commando dat je uitvoert in die sessie een verzoek naar defender om te kijken of er geen foute dingen in zitten. (Bijvoorbeeld Invoke-MimiKatz dat kan worden gebruikt om credentials op te halen)</p>Niek",
         "buttons" : {
             "github"   : "",
@@ -794,7 +753,6 @@
         "title"   : "",
         "alttext" : "",
         "photo"   : "",
-        "orientation" : "",
         "textobj" : "",
         "buttons" : {
             "github"   : "",
@@ -813,7 +771,6 @@
         "title"   : "",
         "alttext" : "",
         "photo"   : "",
-        "orientation" : "",
         "textobj" : "",
         "buttons" : {
             "github"   : "",
@@ -832,7 +789,6 @@
         "title"   : "",
         "alttext" : "",
         "photo"   : "",
-        "orientation" : "",
         "textobj" : "",
         "buttons" : {
             "github"   : "",
@@ -851,7 +807,6 @@
         "title"   : "",
         "alttext" : "",
         "photo"   : "",
-        "orientation" : "",
         "textobj" : "",
         "buttons" : {
             "github"   : "",
@@ -870,7 +825,6 @@
         "title"   : "",
         "alttext" : "",
         "photo"   : "",
-        "orientation" : "",
         "textobj" : "",
         "buttons" : {
             "github"   : "",
@@ -889,7 +843,6 @@
         "title"   : "",
         "alttext" : "",
         "photo"   : "",
-        "orientation" : "",
         "textobj" : "",
         "buttons" : {
             "github"   : "",
@@ -908,7 +861,6 @@
         "title"   : "",
         "alttext" : "",
         "photo"   : "",
-        "orientation" : "",
         "textobj" : "",
         "buttons" : {
             "github"   : "",
@@ -927,7 +879,6 @@
         "title"   : "",
         "alttext" : "",
         "photo"   : "",
-        "orientation" : "",
         "textobj" : "",
         "buttons" : {
             "github"   : "",
@@ -946,7 +897,6 @@
         "title"   : "",
         "alttext" : "",
         "photo"   : "",
-        "orientation" : "",
         "textobj" : "",
         "buttons" : {
             "github"   : "",
@@ -965,7 +915,6 @@
         "title"   : "",
         "alttext" : "",
         "photo"   : "",
-        "orientation" : "",
         "textobj" : "",
         "buttons" : {
             "github"   : "",
@@ -984,7 +933,6 @@
         "title"   : "",
         "alttext" : "",
         "photo"   : "",
-        "orientation" : "",
         "textobj" : "",
         "buttons" : {
             "github"   : "",
@@ -1003,7 +951,6 @@
         "title"   : "",
         "alttext" : "",
         "photo"   : "",
-        "orientation" : "",
         "textobj" : "",
         "buttons" : {
             "github"   : "",
@@ -1022,7 +969,6 @@
         "title"   : "",
         "alttext" : "",
         "photo"   : "",
-        "orientation" : "",
         "textobj" : "",
         "buttons" : {
             "github"   : "",
@@ -1041,7 +987,6 @@
         "title"   : "",
         "alttext" : "",
         "photo"   : "",
-        "orientation" : "",
         "textobj" : "",
         "buttons" : {
             "github"   : "",
@@ -1060,7 +1005,6 @@
         "title"   : "",
         "alttext" : "",
         "photo"   : "",
-        "orientation" : "",
         "textobj" : "",
         "buttons" : {
             "github"   : "",
@@ -1079,7 +1023,6 @@
         "title"   : "",
         "alttext" : "",
         "photo"   : "",
-        "orientation" : "",
         "textobj" : "",
         "buttons" : {
             "github"   : "",
@@ -1098,7 +1041,6 @@
         "title"   : "",
         "alttext" : "",
         "photo"   : "",
-        "orientation" : "",
         "textobj" : "",
         "buttons" : {
             "github"   : "",
@@ -1117,7 +1059,6 @@
         "title"   : "",
         "alttext" : "",
         "photo"   : "",
-        "orientation" : "",
         "textobj" : "",
         "buttons" : {
             "github"   : "",
@@ -1136,7 +1077,6 @@
         "title"   : "",
         "alttext" : "",
         "photo"   : "",
-        "orientation" : "",
         "textobj" : "",
         "buttons" : {
             "github"   : "",
@@ -1155,7 +1095,6 @@
         "title"   : "",
         "alttext" : "",
         "photo"   : "",
-        "orientation" : "",
         "textobj" : "",
         "buttons" : {
             "github"   : "",
@@ -1174,7 +1113,6 @@
         "title"   : "Eerste dag @PSConfEU",
         "alttext" : "Eerste dag @PSConfEU",
         "photo"   : "",
-        "orientation" : "",
         "textobj" : "Het was een leuke eerste dag vandaag bij PSConfEU. Een hoop gezien en geleerd. M'n favoriete nieuwe cmdlet van de dag: New-BurntToastNotification, om zelf 'Toast' notificaties te kunnen maken.",
         "buttons" : {
             "github"   : "",
@@ -1193,7 +1131,6 @@
         "title"   : "Invoke-AzHunter - KQL Hunting in Azure with a PowerShell Katana (Walter Legowski)",
         "alttext" : "Invoke-AzHunter - KQL Hunting in Azure with a PowerShell Katana (Walter Legowski)",
         "photo"   : "",
-        "orientation" : "",
         "textobj" : "Ik heb natuurlijk ook een boel geleerd. Ik werd heel blij van de sessie van Walter Legowski over het doen van KQL queries in Defender of Azure Sentinal via Powershell. Hij heeft een module gemaakt die meerdere queries in een batch kan sturen, en zelfs naar meerdere tenants tegelijk. Daarna kun je meteen de resultaten verder verwerken via Powershell, wat ik een stuk makkelijk vind dan bekijken in de Azure/Microsoft Defender GUI. De module gaat hij vanavond publiceren, dus een linkje volgt :) ",
         "buttons" : {
             "github"   : "https://web.yammer.com/main/org/ogd.nl/threads/eyJfdHlwZSI6IlRocmVhZCIsImlkIjoiMTc5MzcxNDU0MzA4MzUyMCJ9",
@@ -1212,7 +1149,6 @@
         "title"   : "",
         "alttext" : "",
         "photo"   : "",
-        "orientation" : "",
         "textobj" : "",
         "buttons" : {
             "github"   : "",
@@ -1231,7 +1167,6 @@
         "title"   : "",
         "alttext" : "",
         "photo"   : "",
-        "orientation" : "",
         "textobj" : "",
         "buttons" : {
             "github"   : "",
@@ -1250,7 +1185,6 @@
         "title"   : "",
         "alttext" : "",
         "photo"   : "",
-        "orientation" : "",
         "textobj" : "",
         "buttons" : {
             "github"   : "",
@@ -1269,7 +1203,6 @@
         "title"   : "",
         "alttext" : "",
         "photo"   : "",
-        "orientation" : "",
         "textobj" : "",
         "buttons" : {
             "github"   : "",
@@ -1288,7 +1221,6 @@
         "title"   : "",
         "alttext" : "",
         "photo"   : "",
-        "orientation" : "",
         "textobj" : "",
         "buttons" : {
             "github"   : "",
@@ -1307,7 +1239,6 @@
         "title"   : "",
         "alttext" : "",
         "photo"   : "",
-        "orientation" : "",
         "textobj" : "",
         "buttons" : {
             "github"   : "",
@@ -1326,7 +1257,6 @@
         "title"   : "",
         "alttext" : "",
         "photo"   : "",
-        "orientation" : "",
         "textobj" : "",
         "buttons" : {
             "github"   : "",
@@ -1345,7 +1275,6 @@
         "title"   : "",
         "alttext" : "",
         "photo"   : "",
-        "orientation" : "",
         "textobj" : "",
         "buttons" : {
             "github"   : "",
@@ -1364,7 +1293,6 @@
         "title"   : "",
         "alttext" : "",
         "photo"   : "",
-        "orientation" : "",
         "textobj" : "",
         "buttons" : {
             "github"   : "",
@@ -1383,7 +1311,6 @@
         "title"   : "",
         "alttext" : "",
         "photo"   : "",
-        "orientation" : "",
         "textobj" : "",
         "buttons" : {
             "github"   : "",
@@ -1402,7 +1329,6 @@
         "title"   : "",
         "alttext" : "",
         "photo"   : "",
-        "orientation" : "",
         "textobj" : "",
         "buttons" : {
             "github"   : "",
@@ -1421,7 +1347,6 @@
         "title"   : "",
         "alttext" : "",
         "photo"   : "",
-        "orientation" : "",
         "textobj" : "",
         "buttons" : {
             "github"   : "",
@@ -1440,7 +1365,6 @@
         "title"   : "",
         "alttext" : "",
         "photo"   : "",
-        "orientation" : "",
         "textobj" : "",
         "buttons" : {
             "github"   : "",
@@ -1459,7 +1383,6 @@
         "title"   : "",
         "alttext" : "",
         "photo"   : "",
-        "orientation" : "",
         "textobj" : "",
         "buttons" : {
             "github"   : "",
@@ -1478,7 +1401,6 @@
         "title"   : "",
         "alttext" : "",
         "photo"   : "",
-        "orientation" : "",
         "textobj" : "",
         "buttons" : {
             "github"   : "",
@@ -1497,7 +1419,6 @@
         "title"   : "",
         "alttext" : "",
         "photo"   : "",
-        "orientation" : "",
         "textobj" : "",
         "buttons" : {
             "github"   : "",
@@ -1516,7 +1437,6 @@
         "title"   : "",
         "alttext" : "",
         "photo"   : "",
-        "orientation" : "",
         "textobj" : "",
         "buttons" : {
             "github"   : "",
@@ -1535,7 +1455,6 @@
         "title"   : "",
         "alttext" : "",
         "photo"   : "",
-        "orientation" : "",
         "textobj" : "",
         "buttons" : {
             "github"   : "",
@@ -1554,7 +1473,6 @@
         "title"   : "Azure Functions in an enterprise enviroment (Barbara Forbes)",
         "alttext" : "Azure Functions in an enterprise enviroment (Barbara Forbes)",
         "photo"   : "",
-        "orientation" : "",
         "textobj" : "<p>Azure Functions make event-based automation approachable and cheap. You can make your own API running within an hour. Let's take that to the next level: Run an Azure Function for an enterprise environment.</p><p>In this session we will look at everything Azure has to offer to help with security and governance. Key vault, Managed identity, authentication, private links, monitoring. So many options! Let's see how far we can get.</p>Barbara",
         "buttons" : {
             "github"   : "https://github.com/psconfeu/2022/tree/main/BarbaraForbes/AzureFunctionsInTheEnterprise",
@@ -1570,10 +1488,9 @@
     },
     "pu02" : {
         "type"    : "photo",
-        "title"   : "Azure Functions in an enterprise enviroment (Barbara Forbes)",
+        "title"   : "",
         "alttext" : "Azure Functions in an enterprise enviroment (Barbara Forbes)",
         "photo"   : "https://pbs.twimg.com/media/FVsekpgXwAYaq9i?format=jpg&name=large",
-        "orientation" : "landscape",
         "textobj" : "",
         "buttons" : {
             "github"   : "",
@@ -1592,7 +1509,6 @@
         "title"   : "How Github can make your Powershell process easier (Barbara Forbes)",
         "alttext" : "How Github can make your Powershell process easier (Barbara Forbes)",
         "photo"   : "",
-        "orientation" : "",
         "textobj" : "<p>In this session, let's look at what GitHub can do for you PowerShell scripts. Just a GIT provider?</p><p> How about GitHub Actions, Copilot, Discussions, CodeSpaces and enterprise solutions? Get an overview of the possibilities.</p>Barbara",
         "buttons" : {
             "github"   : "https://github.com/psconfeu/2022/tree/main/BarbaraForbes/GitHubforPowerShell",
@@ -1608,10 +1524,9 @@
     },
     "pu04" : {
         "type"    : "photo",
-        "title"   : "How Github can make your Powershell process easier (Barbara Forbes)",
+        "title"   : "",
         "alttext" : "How Github can make your Powershell process easier (Barbara Forbes)",
         "photo"   : "https://pbs.twimg.com/media/FVwhE6WWYAAe8vR?format=jpg&name=large",
-        "orientation" : "portrait",
         "textobj" : "",
         "buttons" : {
             "github"   : "https://github.com/psconfeu/2022/tree/main/BarbaraForbes/GitHubforPowerShell",
@@ -1627,10 +1542,9 @@
     },
     "pu05" : {
         "type"    : "photo",
-        "title"   : "Speakersdinner",
+        "title"   : "",
         "alttext" : "Speakersdinner",
         "photo"   : "https://pbs.twimg.com/media/FV3zYcFXkAMdsiH?format=jpg&name=large",
-        "orientation" : "portrait",
         "textobj" : "",
         "buttons" : {
             "github"   : "",
@@ -1649,7 +1563,6 @@
         "title"   : "Git Started: A quick demo (Barbara Forbes)",
         "alttext" : "Git Started: A quick demo (Barbara Forbes)",
         "photo"   : "",
-        "orientation" : "",
         "textobj" : "<p>Are you at @PSConfEU, where everyone is talking about GIT? Are you not sure how GIT works and at this point are too afraid to ask?</p><p>Don't worry, we've got you covered! Come to the Park theatre at 14.45h for Git Started: A quick demo on how you can start using GIT</p>@Ba4bes",
         "buttons" : {
             "github"   : "",
@@ -1665,29 +1578,27 @@
     },
     "pu07" : {
         "type"    : "text",
-        "title"   : "",
-        "alttext" : "",
+        "title"   : "OGD bezoekt PFConf",
+        "alttext" : "OGD bezoekt PFConf",
         "photo"   : "",
-        "orientation" : "",
-        "textobj" : "",
+        "textobj" : "<p>OGD bezoekt #PSConfEU, de #PowerShell conference van Europa. Dit keer in Wenen. Dat was weer even geleden, voor een conferentie naar het buitenland.</p><p>Onze #Azure technical lead en #MVP Barbara Forbes stond vandaag en gisteren op het podium als spreker. Zij deelde haar kennis over Azure functions en vertelde hoe je #GitHub inzet voor je PowerShell werk. Go Barbara!💪</p>",
         "buttons" : {
             "github"   : "",
             "yammer"   : "",
             "youtube"  : "",
             "twitter"  : "",
             "gallery"  : "",
-            "internet"  : ""         
+            "internet"  : "https://www.linkedin.com/posts/ogd-ict-diensten_psconfeu-powershell-azure-activity-6944958359494123520-u_Uh"         
         },         
         "author"  : "Barbara",
         "comments" : "",
-        "visible" : false
+        "visible" : true
     },
     "pu08" : {
-        "type"    : "text",
+        "type"    : "photo",
         "title"   : "",
-        "alttext" : "",
-        "photo"   : "",
-        "orientation" : "",
+        "alttext" : "OGD bezoekt PFConf",
+        "photo"   : "https://media-exp1.licdn.com/dms/image/C4E22AQFGmNGKGTniXg/feedshare-shrink_800/0/1655807102763?e=1659571200&v=beta&t=r-EWbVGJySrjtYxpr3MKmO7evCdG6QzTvuL4-r0wqVU",
         "textobj" : "",
         "buttons" : {
             "github"   : "",
@@ -1695,18 +1606,17 @@
             "youtube"  : "",
             "twitter"  : "",
             "gallery"  : "",
-            "internet"  : ""         
+            "internet"  : "https://media-exp1.licdn.com/dms/image/C4E22AQFGmNGKGTniXg/feedshare-shrink_800/0/1655807102763?e=1659571200&v=beta&t=r-EWbVGJySrjtYxpr3MKmO7evCdG6QzTvuL4-r0wqVU"         
         },         
         "author"  : "Barbara",
         "comments" : "",
-        "visible" : false
+        "visible" : true
     },
     "pu09" : {
         "type"    : "text",
         "title"   : "",
         "alttext" : "",
         "photo"   : "",
-        "orientation" : "",
         "textobj" : "",
         "buttons" : {
             "github"   : "",
@@ -1725,7 +1635,6 @@
         "title"   : "",
         "alttext" : "",
         "photo"   : "",
-        "orientation" : "",
         "textobj" : "",
         "buttons" : {
             "github"   : "",
@@ -1744,7 +1653,6 @@
         "title"   : "",
         "alttext" : "",
         "photo"   : "",
-        "orientation" : "",
         "textobj" : "",
         "buttons" : {
             "github"   : "",
@@ -1763,7 +1671,6 @@
         "title"   : "",
         "alttext" : "",
         "photo"   : "",
-        "orientation" : "",
         "textobj" : "",
         "buttons" : {
             "github"   : "",
@@ -1782,7 +1689,6 @@
         "title"   : "",
         "alttext" : "",
         "photo"   : "",
-        "orientation" : "",
         "textobj" : "",
         "buttons" : {
             "github"   : "",
@@ -1801,7 +1707,6 @@
         "title"   : "",
         "alttext" : "",
         "photo"   : "",
-        "orientation" : "",
         "textobj" : "",
         "buttons" : {
             "github"   : "",
