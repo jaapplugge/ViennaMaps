@@ -411,6 +411,15 @@
             };
             
             // Function to collect screenresolution
+            function checkResolution() {
+                console.log("function: checkResolution()");
+                console.log("Your screen resolution is: " + screen.width + "x" + screen.height);
+                let cHeigth = screen.height;
+                let cWidth  = screen.width
+                if (cHeight < 1700 || cWidth < 2350) {
+                    alert("Please zoom out to see the whole map")
+                }; 
+            };
 
             // Function to set zoom-lvl
             function setZoomLevel(zperc,zdir) {
@@ -420,15 +429,10 @@
                 console.log("current level: " + document.body.style.zoom);
             } 
 
-            function getResolution() {
-                console.log("Your screen resolution is: " + screen.width + "x" + screen.height);
-            }
-
             // Code to run onload
             let jsonObj = CallJson('content.json');
             xDisapprearAll()
-            setZoomLevel("hallo","test")
-            getResolution()
+            checkResolution()
         </script>        
     </body>
 </html>
