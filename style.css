@@ -278,11 +278,12 @@ span {
 .photoBox {
     visibility: hidden;
     position: absolute;
-    opacity: 1;
     font-family: Lucida Console;
     font-size: x-large;
     color: rgba(30, 26, 77, 0.853);
     background: none;
+    background-repeat: no-repeat;
+    background-size: auto;    
     height: 560px;
     width:  760px;
     left: 25px;

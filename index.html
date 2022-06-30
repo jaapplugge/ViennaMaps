@@ -264,15 +264,9 @@
                 console.log("title:" + pTitle);
                 console.log("X-Y  :" + pOrientation);
                 if (pType == 'photo') {
-                    var pBg = 'url(' + pText + ') no-repeat auto'
-                    if (pOrientation === 'landscape') {
-                        document.getElementById('photoBox').innerHTML = '<h1>'+ pTitle + '</h1>';
-                        document.getElementById('photoBox').style.background = pBg;
-                    } 
-                    else {
-                        document.getElementById('photoBox').innerHTML = '<h1>'+ pTitle + '</h1>';
-                        document.getElementById('photoBox').style.background = pBg;
-                    };
+                    var pBg = 'url(' + pText + ')'
+                    document.getElementById('photoBox').innerHTML = '<h1>'+ pTitle + '</h1>';
+                    document.getElementById('photoBox').style.background = pBg;
                 }
                 else {
                     document.getElementById('photoBox').innerHTML = '<h1>'+ pTitle + '</h1>' + pText;
@@ -308,13 +302,13 @@
                     var lObj = '<a href="' + lLink + '" alt="github" target="_blank">https://github.com/...</a>'; 
                     document.getElementById('msg_github').innerHTML = lObj
                 }
-                else if (lType === "internet") {
-                    var lObj = '<a href="' + lLink + '" alt="internet" target="_blank">https://google.com/...</a>'; 
-                    document.getElementById('msg_github').innerHTML = lObj
-                }
                 else if (lType === "gallery") {
                     var lObj = '<a href="' + lLink + '" alt="gallery" target="_blank">https://psgallery.com/...</a>'; 
-                    document.getElementById('msg_github').innerHTML = lObj
+                    document.getElementById('msg_gallery').innerHTML = lObj
+                }
+                else if (lType === "internet") {
+                    var lObj = '<a href="' + lLink + '" alt="internet" target="_blank">https://google.com/...</a>'; 
+                    document.getElementById('msg_internet').innerHTML = lObj
                 };
             };
             
