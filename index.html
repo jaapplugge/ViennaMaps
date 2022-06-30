@@ -267,6 +267,9 @@
                     var pBg = 'url(' + pText + ')'
                     document.getElementById('photoBox').innerHTML = '<h1>'+ pTitle + '</h1>';
                     document.getElementById('photoBox').style.background = pBg;
+                    document.getElementById('photoBox').style.backgroundRepeat = 'no-repeat';
+                    document.getElementById('photoBox').style.backgroundSize   = 'contain';
+
                 }
                 else {
                     document.getElementById('photoBox').innerHTML = '<h1>'+ pTitle + '</h1>' + pText;
