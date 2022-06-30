@@ -410,9 +410,20 @@
                 }; 
             };
             
+            // Function to collect screenresolution
+
+            // Function to set zoom-lvl
+            function setZoomLevel(zperc,zdir) {
+                console.log("function: setZoomLevel()");
+                console.log("percentage: " + zperc);
+                console.log("direction : " + zdir);
+                console.log("current level: " + document.body.style.zoom);
+            } 
+
             // Code to run onload
             let jsonObj = CallJson('content.json');
             xDisapprearAll()
+            setZoomLevel("hallo","test")
         </script>        
     </body>
 </html>
