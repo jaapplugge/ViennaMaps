@@ -82,7 +82,7 @@
             "youtube"  : "",
             "twitter"  : "",
             "gallery"  : "",
-            "internet"  : ""         
+            "internet"  : "https://vienna.plugge-d.nl/"         
         },         
         "author"  : "Jaap",
         "comments" : "",
@@ -229,11 +229,11 @@
         "orientation" : "",
         "textobj" : "<p>Er is een module genaamd SecretManagement, die sinds maart dit jaar GA is. Sydney Smith nam ons mee in wat het is en waar je het voor kunt gebruiken.</p><p>SecretManagement is een module die je kunt gebruiken als abstractielaag tussen jou en verschillende secret vaults (Key Vault, KeePass en LastPass, Hashicorp Vault, KeyChain en CredMan, maar geen PasswordState). Aan de voorkant gebruik je deze module om op uniforme manier secrets op te slaan, aan te passen en op te halen, terwijl aan de achterkant voor je wordt geregeld dat de vertaling naar jouw specifieke vault goed gaat. Zo kan je bijvoorbeeld een script schrijven en daarin met de cmdlets van SecretManagement je wachtwoord ophalen of wegschrijven. Dat script kan je dan bij verschillende klanten met verschillende secret vaults gebruiken, zonder het te hoeven omschrijven.</p>Jelle",
         "buttons" : {
-            "github"   : "https://www.powershellgallery.com/packages/Microsoft.PowerShell.SecretStore/1.0.6",
+            "github"   : "",
             "yammer"   : "https://web.yammer.com/main/org/ogd.nl/threads/eyJfdHlwZSI6IlRocmVhZCIsImlkIjoiMTc5NTM1MjE5MzA0MDM4NCJ9",
             "youtube"  : "",
             "twitter"  : "",
-            "gallery"  : "",
+            "gallery"  : "https://www.powershellgallery.com/packages/Microsoft.PowerShell.SecretStore/1.0.6",
             "internet"  : ""         
         },         
         "author"  : "Jelle",
@@ -420,9 +420,9 @@
             "github"   : "https://github.com/psconfeu/2022/tree/main/JakubJares/Pester5%20vs%20Pester4",
             "yammer"   : "https://web.yammer.com/main/org/ogd.nl/threads/eyJfdHlwZSI6IlRocmVhZCIsImlkIjoiMTc5NDQ2NTA0NTg5NzIxNiJ9",
             "youtube"  : "",
-            "twitter"  : "https://pester.dev/docs/usage/discovery-and-run",
+            "twitter"  : "",
             "gallery"  : "",
-            "internet"  : ""         
+            "internet"  : "https://pester.dev/docs/usage/discovery-and-run"         
         },         
         "author"  : "Maarten",
         "comments" : "",
@@ -1177,11 +1177,11 @@
         "orientation" : "",
         "textobj" : "Het was een leuke eerste dag vandaag bij PSConfEU. Een hoop gezien en geleerd. M'n favoriete nieuwe cmdlet van de dag: New-BurntToastNotification, om zelf 'Toast' notificaties te kunnen maken.",
         "buttons" : {
-            "github"   : "https://www.powershellgallery.com/packages/BurntToast/0.8.5",
+            "github"   : "",
             "yammer"   : "https://web.yammer.com/main/org/ogd.nl/threads/eyJfdHlwZSI6IlRocmVhZCIsImlkIjoiMTc5MTYzNjQ2MjA4NDA5NiJ9",
             "youtube"  : "",
             "twitter"  : "",
-            "gallery"  : "",
+            "gallery"  : "https://www.powershellgallery.com/packages/BurntToast/0.8.5",
             "internet"  : ""         
         },         
         "author"  : "Nathan",
@@ -1652,12 +1652,12 @@
         "orientation" : "",
         "textobj" : "<p>Are you at @PSConfEU, where everyone is talking about GIT? Are you not sure how GIT works and at this point are too afraid to ask?</p><p>Don't worry, we've got you covered! Come to the Park theatre at 14.45h for Git Started: A quick demo on how you can start using GIT</p>@Ba4bes",
         "buttons" : {
-            "github"   : "https://4bes.nl/2019/06/02/step-by-step-start-using-git-for-powershell/",
+            "github"   : "",
             "yammer"   : "",
             "youtube"  : "",
             "twitter"  : "https://twitter.com/Ba4bes/status/1539568781613211650",
             "gallery"  : "",
-            "internet"  : ""         
+            "internet"  : "https://4bes.nl/2019/06/02/step-by-step-start-using-git-for-powershell/"         
         },         
         "author"  : "Barbara",
         "comments" : "",

@@ -265,15 +265,19 @@
                 console.log("X-Y  :" + pOrientation);
                 const pbox = document.getElementById('photoBox');
                 if (pType == 'photo') {
+                    var pBg = 'url(' + pText + ') no-repeat fixed center'
                     if (pOrientation === 'landscape') {
-                        pbox.innerHTML = '<h1>'+ pTitle + '</h1><a href="' + pText + '" alt="bigger=better" target="_blank"><img width=760px src="' + pText + '" style="vertical-align:middle;margin:0px"/></a>';
+                        pbox.innerHTML = '<h1>'+ pTitle + '</h1>';
+                        pbox.style.background = pBg;
                     } 
                     else {
-                        pbox.innerHTML = '<h1>'+ pTitle + '</h1><a href="' + pText + '" alt="bigger=better" target="_blank"><img height=460px src="' + pText + '" style="horizontal-align:middle;margin:0px"/></a>';
+                        pbox.innerHTML = '<h1>'+ pTitle + '</h1>';
+                        pbox.style.background = pBg;
                     };
                 }
                 else {
                     pbox.innerHTML = '<h1>'+ pTitle + '</h1>' + pText;
+                    pbox.style.background = 'none';
                 };
             };            
 

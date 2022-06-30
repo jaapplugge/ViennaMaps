@@ -282,7 +282,8 @@ span {
     font-family: Lucida Console;
     font-size: x-large;
     color: rgba(30, 26, 77, 0.853);
-    height: 760px;
+    background: none;
+    height: 560px;
     width:  760px;
     left: 25px;
     top: 25px;
@@ -293,7 +294,7 @@ span {
     height: 250px;
     width:  760px;
     left: 0px;
-    top: 765px;    
+    top: 565px;    
 }
 /* LightGreen */
 .p_lg01 { left: 1070px; top: 305px; background-color: rgb(173, 224, 147); }
