@@ -10,14 +10,20 @@
                 <div class="opacityBox" id="opacityBox">
                     <div class="photoBox" id="photoBox"></div>
                 </div>
-                <div class="pic_youtube" id="pic_youtube"></div>
-                <div class="pic_yammer"  id="pic_yammer" ></div>
-                <div class="pic_github"  id="pic_github" ></div>
-                <div class="pic_twitter" id="pic_twitter"></div>
-                <div class="msg_youtube" id="msg_youtube"></div>
-                <div class="msg_yammer"  id="msg_yammer" ></div>
-                <div class="msg_github"  id="msg_github" ></div>
-                <div class="msg_twitter" id="msg_twitter"></div>                
+                <div class="buttonBox" id=""buttonBox">
+                    <div class="pic_youtube" id="pic_youtube"></div>
+                    <div class="pic_yammer"  id="pic_yammer" ></div>
+                    <div class="pic_github"  id="pic_github" ></div>
+                    <div class="pic_twitter" id="pic_twitter"></div>
+                    <div class="pic_gallery" id="pic_gallery"></div>
+                    <div class="pic_webpage" id="pic_webpage"></div>
+                    <div class="msg_youtube" id="msg_youtube"></div>
+                    <div class="msg_yammer"  id="msg_yammer" ></div>
+                    <div class="msg_github"  id="msg_github" ></div>
+                    <div class="msg_twitter" id="msg_twitter"></div>
+                    <div class="msg_gallery" id="msg_gallery"></div>
+                    <div class="msg_webpage" id="msg_webpage"></div>
+                </div>                                
                 <div class="info_exit" id="info_exit" onclick="xDisapprearAll()"></div>
             </div>
             <!-- Names on routes -->
@@ -186,16 +192,68 @@
                 var obox = document.getElementById('opacityBox'); 
                 var ibox = document.getElementById('infoBox');
                 var pbox = document.getElementById('photoBox');
+                var bbox = document.getElementById('buttonBox');
                 if (action === 'on') {
                     obox.style.visibility = 'visible';
                     ibox.style.visibility = 'visible';
                     pbox.style.visibility = 'visible';
+                    bbox.style.visibility = 'visible';
                 }
                 else {
                     obox.style.visibility = 'hidden';
                     ibox.style.visibility = 'hidden';
                     pbox.style.visibility = 'hidden';
+                    bbox.style.visibility = 'hidden';
                 };
+            };
+
+            // function to set location on the buttons
+            function setButtonLocation(blName, blLoc) {
+                console.log("function: setButtonLocation()");
+                console.log("name :" + blName);
+                console.log("loc  :" + blLoc);
+                var blBut = 'pic_' + blName;
+                var blMsg = 'msg_' + blName;
+                if (blLoc === 0) {
+                    var xLocMsg = "75px";
+                    var yLocMsg = "13px";
+                    var xLocPic = "30px";
+                    var yLocPic = "10px";
+                } 
+                else if (blLoc === 1) {
+                    var xLocMsg = "75px";
+                    var yLocMsg = "73px";
+                    var xLocPic = "30px";
+                    var yLocPic = "70px";
+                } 
+                else if (blLoc === 2) {
+                    var xLocMsg = "75px";
+                    var yLocMsg = "133px";
+                    var xLocPic = "30px";
+                    var yLocPic = "130px";
+                }
+                else if (blLoc === 3) {
+                    var xLocMsg = "385px";
+                    var yLocMsg = "13px";
+                    var xLocPic = "350px";
+                    var yLocPic = "10px";
+                } 
+                else if (blLoc === 4) {
+                    var xLocMsg = "385px";
+                    var yLocMsg = "73px";
+                    var xLocPic = "350px";
+                    var yLocPic = "70px";
+                } 
+                else if (blLoc === 5) {
+                    var xLocMsg = "385px";
+                    var yLocMsg = "133px";
+                    var xLocPic = "350px";
+                    var yLocPic = "130px";
+                };  
+                document.getElementById(blBut).style.left = xLocPic;
+                document.getElementById(blBut).style.top  = yLocPic;
+                document.getElementById(blMsg).style.left = xLocMsg;
+                document.getElementById(blMsg).style.top  = yLocMsg;        
             };
 
             // function to set content on Photobox
@@ -246,6 +304,14 @@
                 else if (lType === "github") {
                     var lObj = '<a href="' + lLink + '" alt="github" target="_blank">https://github.com/...</a>'; 
                     document.getElementById('msg_github').innerHTML = lObj
+                }
+                else if (lType === "internet") {
+                    var lObj = '<a href="' + lLink + '" alt="internet" target="_blank">https://google.com/...</a>'; 
+                    document.getElementById('msg_github').innerHTML = lObj
+                }
+                else if (lType === "gallery") {
+                    var lObj = '<a href="' + lLink + '" alt="gallery" target="_blank">https://psgallery.com/...</a>'; 
+                    document.getElementById('msg_github').innerHTML = lObj
                 };
             };
             
@@ -256,6 +322,8 @@
                 switchButton("yammer","off")
                 switchButton("twitter","off")
                 switchButton("github","off")
+                switchButton("gallery","off")
+                switchButton("internet","off")
                 switchExitButton("off")
                 switchMsgBox("off")
                 setDefaultTextinMsgBox()
@@ -287,6 +355,8 @@
                 const jFile = JSON.parse(cFile);
                 console.log("type:" + typeof jFile);
                 if (jFile[cPar]["visible"] === true) {
+                    let cLoc = 0;
+                    
                     // clear all
                     xDisapprearAll();
 
@@ -304,20 +374,40 @@
                     // set content on the buttons and switch on
                     if (jFile[cPar]["buttons"]["yammer"]) {
                         setButtonLinks("yammer", jFile[cPar]["buttons"]["yammer"]);
+                        setButtonLocation("yammer", cLoc);
+                        cLoc++
                         switchButton("yammer", "on");
                     };
                     if (jFile[cPar]["buttons"]["youtube"]) {
                         setButtonLinks("youtube", jFile[cPar]["buttons"]["youtube"]);
+                        setButtonLocation("youtube", cLoc);
+                        cLoc++
                         switchButton("youtube", "on");
                     };
                     if (jFile[cPar]["buttons"]["github"]) {
                         setButtonLinks("github", jFile[cPar]["buttons"]["github"]);
+                        setButtonLocation("github", cLoc);
+                        cLoc++
                         switchButton("github", "on");
                     };
                     if (jFile[cPar]["buttons"]["twitter"]) {
                         setButtonLinks("twitter", jFile[cPar]["buttons"]["twitter"]);
+                        setButtonLocation("twitter", cLoc);
+                        cLoc++
                         switchButton("twitter", "on");
-                    };                    
+                    };  
+                    if (jFile[cPar]["buttons"]["gallery"]) {
+                        setButtonLinks("gallery", jFile[cPar]["buttons"]["gallery"]);
+                        setButtonLocation("gallery", cLoc);
+                        cLoc++
+                        switchButton("gallery", "on");
+                    };  
+                    if (jFile[cPar]["buttons"]["internet"]) {
+                        setButtonLinks("internet", jFile[cPar]["buttons"]["internet"]);
+                        setButtonLocation("internet", cLoc);
+                        cLoc++
+                        switchButton("internet", "on");
+                    };                                                            
                 }; 
             };
             
