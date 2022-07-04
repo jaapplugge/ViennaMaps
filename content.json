@@ -211,19 +211,19 @@
         "visible" : true
     },
     "or04" : {
-        "type"    : "text",
-        "title"   : "SecretManagement & SecretStore Getting started (Sydney Smith)",
-        "alttext" : "SecretManagement & SecretStore Getting started (Sydney Smith)",
-        "photo"   : "",
-        "textobj" : "<p>Er is een module genaamd SecretManagement, die sinds maart dit jaar GA is. Sydney Smith nam ons mee in wat het is en waar je het voor kunt gebruiken.</p><p>SecretManagement is een module die je kunt gebruiken als abstractielaag tussen jou en verschillende secret vaults (Key Vault, KeePass en LastPass, Hashicorp Vault, KeyChain en CredMan, maar geen PasswordState). Aan de voorkant gebruik je deze module om op uniforme manier secrets op te slaan, aan te passen en op te halen, terwijl aan de achterkant voor je wordt geregeld dat de vertaling naar jouw specifieke vault goed gaat. Zo kan je bijvoorbeeld een script schrijven en daarin met de cmdlets van SecretManagement je wachtwoord ophalen of wegschrijven. Dat script kan je dan bij verschillende klanten met verschillende secret vaults gebruiken, zonder het te hoeven omschrijven.</p>",
+        "type"    : "photo",
+        "title"   : "",
+        "alttext" : "Social event op dinsdag. Bier, braadworst en dijenkletsers!",
+        "photo"   : "/photos/Jelle_Dijenkletsers.jpg",
+        "textobj" : "",
         "buttons" : {
             "github"   : "",
-            "yammer"   : "https://web.yammer.com/main/org/ogd.nl/threads/eyJfdHlwZSI6IlRocmVhZCIsImlkIjoiMTc5NTM1MjE5MzA0MDM4NCJ9",
+            "yammer"   : "",
             "youtube"  : "",
             "twitter"  : "",
-            "gallery"  : "https://www.powershellgallery.com/packages/Microsoft.PowerShell.SecretStore/1.0.6",
-            "internet"  : ""         
-        },         
+            "gallery"  : "",
+            "internet"  : ""       
+        },        
         "author"  : "Jelle",
         "comments" : "",
         "visible" : true
@@ -299,10 +299,10 @@
         "visible" : false
     },
     "or09" : {
-        "type"    : "text",
+        "type"    : "photo",
         "title"   : "",
-        "alttext" : "",
-        "photo"   : "",
+        "alttext" : "foto: Met zijn allen bij de ingang",
+        "photo"   : "/photos/Jelle_Groepsfoto_1.jpeg",
         "textobj" : "",
         "buttons" : {
             "github"   : "",
@@ -310,11 +310,11 @@
             "youtube"  : "",
             "twitter"  : "",
             "gallery"  : "",
-            "internet"  : ""         
-        },         
+            "internet"  : ""       
+        },        
         "author"  : "Jelle",
         "comments" : "",
-        "visible" : false
+        "visible" : true
     },
     "or10" : {
         "type"    : "text",
@@ -354,21 +354,21 @@
     },
     "or12" : {
         "type"    : "text",
-        "title"   : "",
-        "alttext" : "",
+        "title"   : "SecretManagement & SecretStore Getting started (Sydney Smith)",
+        "alttext" : "SecretManagement & SecretStore Getting started (Sydney Smith)",
         "photo"   : "",
-        "textobj" : "",
+        "textobj" : "<p>Er is een module genaamd SecretManagement, die sinds maart dit jaar GA is. Sydney Smith nam ons mee in wat het is en waar je het voor kunt gebruiken.</p><p>SecretManagement is een module die je kunt gebruiken als abstractielaag tussen jou en verschillende secret vaults (Key Vault, KeePass en LastPass, Hashicorp Vault, KeyChain en CredMan, maar geen PasswordState). Aan de voorkant gebruik je deze module om op uniforme manier secrets op te slaan, aan te passen en op te halen, terwijl aan de achterkant voor je wordt geregeld dat de vertaling naar jouw specifieke vault goed gaat. Zo kan je bijvoorbeeld een script schrijven en daarin met de cmdlets van SecretManagement je wachtwoord ophalen of wegschrijven. Dat script kan je dan bij verschillende klanten met verschillende secret vaults gebruiken, zonder het te hoeven omschrijven.</p>",
         "buttons" : {
             "github"   : "",
-            "yammer"   : "",
+            "yammer"   : "https://web.yammer.com/main/org/ogd.nl/threads/eyJfdHlwZSI6IlRocmVhZCIsImlkIjoiMTc5NTM1MjE5MzA0MDM4NCJ9",
             "youtube"  : "",
             "twitter"  : "",
-            "gallery"  : "",
+            "gallery"  : "https://www.powershellgallery.com/packages/Microsoft.PowerShell.SecretStore/1.0.6",
             "internet"  : ""         
         },         
         "author"  : "Jelle",
         "comments" : "",
-        "visible" : false
+        "visible" : true
     },
     "or13" : {
         "type"    : "text",
