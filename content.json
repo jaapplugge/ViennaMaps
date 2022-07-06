@@ -266,19 +266,21 @@
     },
     "or07" : {
         "type"    : "text",
-        "title"   : "",
-        "alttext" : "",
+        "title"   : "Azure Functions in an Enterprise environment (Barbara Forbes)",
+        "alttext" : "Azure Functions in an Enterprise environment (Barbara Forbes)",
         "photo"   : "",
-        "textobj" : "",
+        "textobj" : "<p>Op dag één van PSConfEU was het meteen prijs: ons aller Barbara Forbes mocht aan de bak om ons een paar tips te geven over hoe je Azure Functions het beste kunt inrichten. Zo kwam er voorbij dat je heel goed Azure Load Testing kunt gebruiken om te zien of jouw function wel goed omgaat met veel load. Ook een goede tip: gebruik een Managed Identity om je function van credentials te voorzien. Deze heb je in twee smaken:  System assigned en User assigned. Als je kiest voor System assigned, regelt Microsoft heel fijn dat je geen credentials hoeft op te slaan (en te vernieuwen). Met User assigned heb je iets meer vrijheid (je kunt deze bijvoorbeeld gebruiken voor meerdere resources, in tegensteling tot System assigned), maar je moet de credentials dus wel zelf managen. Over credentials gesproken: waar bewaar je die eigenlijk? Er zijn meerdere plekken waar je je credentials op een veilige manier kunt opslaan. Azure Key Vault is er één. Dit is een credential store, waar je je secrets, certificates en andere gevoelige data in kunt opslaan en geautomatiseerd kunt ophalen. Application Settings is nog een plek waar informatie encrypted wordt opgeslagen en dus een geschikte plek is voor credentials. Deze informatie staat bij de Function App zelf, wat zijn voor- en nadelen heeft. Tot slot kan je ook een input binding gebruiken. Hoe weet ik niet precies, zoek zelf ook maar eens iets op 😝. </p>",
         "buttons" : {
-            "github"   : "",
-            "yammer"   : "",
+            "github"   : "https://github.com/psconfeu/2022/tree/main/BarbaraForbes/AzureFunctionsInTheEnterprise",
+            "yammer"   : "https://web.yammer.com/main/threads/eyJfdHlwZSI6IlRocmVhZCIsImlkIjoiMTgxMjc5Njk5MjYxODQ5NiJ9",
             "youtube"  : "",
-            "twitter"  : ""         
+            "twitter"  : "https://twitter.com/Ba4bes",
+            "gallery"  : "https://www.powershellgallery.com/packages/Microsoft.PowerShell.SecretStore/1.0.6",
+            "internet"  : "https://4bes.nl/"         
         },         
         "author"  : "Jelle",
         "comments" : "",
-        "visible" : false
+        "visible" : true
     },
     "or08" : {
         "type"    : "text",
