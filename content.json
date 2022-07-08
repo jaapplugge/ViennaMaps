@@ -464,13 +464,13 @@
     },
     "br05" : {
         "type"    : "text",
-        "title"   : "",
-        "alttext" : "",
+        "title"   : "From the field - PowerShell, Exchange Online and MS Graph - the 3 musketeers (Andreas Hähnel)",
+        "alttext" : "From the field - PowerShell, Exchange Online and MS Graph - the 3 musketeers (Andreas Hähnel)",
         "photo"   : "",
-        "textobj" : "",
+        "textobj" : "<p>In deze sessie ging Andreas eerst in op Basic Authentication. Zoals al enige tijd bekend zal Microsoft vanaf 1 oktober 2022 authenticatie op basis van Basic Authentication naar Exchange Online niet meer mogelijk maken. Applicaties (en scripts) die gebruik maken van Basic Authentication zullen  na deze datum niet meer werken. Om te zien of er applicaties zijn die nog gebruik maken van Basic Authentication kun je de sign-in logs in Azure controleren...(lees verder op Yammer)</p>",
         "buttons" : {
-            "github"   : "",
-            "yammer"   : "",
+            "github"   : "https://github.com/psconfeu/2022/tree/main/Andreas%20H%C3%A4hnel/From%20the%20field%20-%20PowerShell%2C%20Exchange%20Online%20and%20MS%20Graph%20-%20the%203%20musketeers",
+            "yammer"   : "https://web.yammer.com/main/groups/eyJfdHlwZSI6Ikdyb3VwIiwiaWQiOiIzNDQ3MzkwMjA4In0/all",
             "youtube"  : "",
             "twitter"  : "",
             "gallery"  : "",
