@@ -478,7 +478,7 @@
         },         
         "author"  : "Maarten",
         "comments" : "",
-        "visible" : false
+        "visible" : true
     },
     "br06" : {
         "type"    : "text",
