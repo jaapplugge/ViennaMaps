@@ -157,6 +157,24 @@
         "visible" : false
     },
     "or01" : {
+        "type"    : "photo",
+        "title"   : "",
+        "alttext" : "foto: Met zijn allen bij de ingang",
+        "photo"   : "/photos/Jelle_Groepsfoto_1.jpeg",
+        "textobj" : "",
+        "buttons" : {
+            "github"   : "",
+            "yammer"   : "",
+            "youtube"  : "",
+            "twitter"  : "",
+            "gallery"  : "",
+            "internet"  : ""       
+        },        
+        "author"  : "Jelle",
+        "comments" : "",
+        "visible" : true
+    },    
+    "or02" : {
         "type"    : "text",
         "title"   : "Keynote",
         "alttext" : "Keynote, door Jelle",
@@ -174,7 +192,25 @@
         "comments" : "",
         "visible" : true
     },
-    "or02" : {
+    "or03" : {
+        "type"    : "photo",
+        "title"   : "",
+        "alttext" : "De grote zaal voor de key note, later opgedeeld in drie delen.",
+        "photo"   : "/photos/Jelle_GroteZaal.jpg",
+        "textobj" : "",
+        "buttons" : {
+            "github"   : "",
+            "yammer"   : "",
+            "youtube"  : "",
+            "twitter"  : "",
+            "gallery"  : "",
+            "internet"  : ""       
+        },        
+        "author"  : "Jelle",
+        "comments" : "",
+        "visible" : true
+    },
+    "or04" : {
         "type"    : "text",
         "title"   : "PSConfEU 2022, de eerste dag.",
         "alttext" : "PSConfEU 2022, de eerste dag.",
@@ -192,7 +228,25 @@
         "comments" : "",
         "visible" : true
     },
-    "or03" : {
+    "or05" : {
+        "type"    : "photo",
+        "title"   : "",
+        "alttext" : "Dag 1: meteen de wienier schnitzel afgetikt. Dat mocht toch niet ontbreken aan dit bezoek.",
+        "photo"   : "/photos/Jelle_Schnitzel.jpg",
+        "textobj" : "",
+        "buttons" : {
+            "github"   : "",
+            "yammer"   : "",
+            "youtube"  : "",
+            "twitter"  : "",
+            "gallery"  : "",
+            "internet"  : ""       
+        },        
+        "author"  : "Jelle",
+        "comments" : "",
+        "visible" : true
+    },
+    "or06" : {
         "type"    : "text",
         "title"   : "How to create great tech demos and presentations (Thomas Maurer)",
         "alttext" : "How to create great tech demos and presentations (Thomas Maurer)",
@@ -210,7 +264,7 @@
         "comments" : "",
         "visible" : true
     },
-    "or04" : {
+    "or07" : {
         "type"    : "photo",
         "title"   : "",
         "alttext" : "Social event op dinsdag. Bier, braadworst en dijenkletsers!",
@@ -228,43 +282,7 @@
         "comments" : "",
         "visible" : true
     },
-    "or05" : {
-        "type"    : "text",
-        "title"   : "Wordle door Jelle",
-        "alttext" : "Wordle door Jelle",
-        "photo"   : "",
-        "textobj" : "<p>Ik had wat codekriebels en heb voor de leuk Wordle/Lingo gebouwd in PowerShell. Kleine spelletjes nabouwen in PowerShell lijkt een rare hobby van mij te zijn.</p><p>Wilde ik gewoon even delen :).</p>Jelle",
-        "buttons" : {
-            "github"   : "https://github.com/JelleGraaf/wordle",
-            "yammer"   : "https://web.yammer.com/main/org/ogd.nl/threads/eyJfdHlwZSI6IlRocmVhZCIsImlkIjoiMTY1MTg5MjQ0NTM4ODgwMCJ9",
-            "youtube"  : "",
-            "twitter"  : "",
-            "gallery"  : "",
-            "internet"  : ""         
-        },         
-        "author"  : "Jelle",
-        "comments" : "",
-        "visible" : true
-    },
-    "or06" : {
-        "type"    : "text",
-        "title"   : "",
-        "alttext" : "",
-        "photo"   : "",
-        "textobj" : "",
-        "buttons" : {
-            "github"   : "",
-            "yammer"   : "",
-            "youtube"  : "",
-            "twitter"  : "",
-            "gallery"  : "",
-            "internet"  : ""         
-        },         
-        "author"  : "Jelle",
-        "comments" : "",
-        "visible" : false
-    },
-    "or07" : {
+    "or08" : {
         "type"    : "text",
         "title"   : "Azure Functions in an Enterprise environment (Barbara Forbes)",
         "alttext" : "Azure Functions in an Enterprise environment (Barbara Forbes)",
@@ -282,29 +300,11 @@
         "comments" : "",
         "visible" : true
     },
-    "or08" : {
-        "type"    : "text",
-        "title"   : "",
-        "alttext" : "",
-        "photo"   : "",
-        "textobj" : "",
-        "buttons" : {
-            "github"   : "",
-            "yammer"   : "",
-            "youtube"  : "",
-            "twitter"  : "",
-            "gallery"  : "",
-            "internet"  : ""         
-        },         
-        "author"  : "Jelle",
-        "comments" : "",
-        "visible" : false
-    },
     "or09" : {
         "type"    : "photo",
         "title"   : "",
-        "alttext" : "foto: Met zijn allen bij de ingang",
-        "photo"   : "/photos/Jelle_Groepsfoto_1.jpeg",
+        "alttext" : "Fijn dat de delegatie van Omnibus wel welkom was!",
+        "photo"   : "/photos/Jelle_OmnibusIsWelkom.jpg",
         "textobj" : "",
         "buttons" : {
             "github"   : "",
@@ -320,13 +320,13 @@
     },
     "or10" : {
         "type"    : "text",
-        "title"   : "",
-        "alttext" : "",
+        "title"   : "Wordle door Jelle",
+        "alttext" : "Wordle door Jelle",
         "photo"   : "",
-        "textobj" : "",
+        "textobj" : "<p>Ik had wat codekriebels en heb voor de leuk Wordle/Lingo gebouwd in PowerShell. Kleine spelletjes nabouwen in PowerShell lijkt een rare hobby van mij te zijn.</p><p>Wilde ik gewoon even delen :).</p>Jelle",
         "buttons" : {
-            "github"   : "",
-            "yammer"   : "",
+            "github"   : "https://github.com/JelleGraaf/wordle",
+            "yammer"   : "https://web.yammer.com/main/org/ogd.nl/threads/eyJfdHlwZSI6IlRocmVhZCIsImlkIjoiMTY1MTg5MjQ0NTM4ODgwMCJ9",
             "youtube"  : "",
             "twitter"  : "",
             "gallery"  : "",
@@ -334,13 +334,13 @@
         },         
         "author"  : "Jelle",
         "comments" : "",
-        "visible" : false
+        "visible" : true
     },
     "or11" : {
-        "type"    : "text",
+        "type"    : "photo",
         "title"   : "",
-        "alttext" : "",
-        "photo"   : "",
+        "alttext" : "Elke twee sessies stonden er weer tafels vol met liflafjes voor ons klaar. Heel vervelend allemaal.",
+        "photo"   : "/photos/Jelle_Liflafjes.jpg",
         "textobj" : "",
         "buttons" : {
             "github"   : "",
@@ -348,11 +348,11 @@
             "youtube"  : "",
             "twitter"  : "",
             "gallery"  : "",
-            "internet"  : ""         
-        },         
+            "internet"  : ""       
+        },        
         "author"  : "Jelle",
         "comments" : "",
-        "visible" : false
+        "visible" : true
     },
     "or12" : {
         "type"    : "text",
@@ -373,10 +373,10 @@
         "visible" : true
     },
     "or13" : {
-        "type"    : "text",
+        "type"    : "photo",
         "title"   : "",
-        "alttext" : "",
-        "photo"   : "",
+        "alttext" : "Wanneer je 20 minuten loopt van hotel naar conferentie, loop je nog wel eens langs wat cultuur. Verplicht fotootje van een mooie gevel.",
+        "photo"   : "/photos/Jelle_Cultuur.jpg",
         "textobj" : "",
         "buttons" : {
             "github"   : "",
@@ -384,11 +384,11 @@
             "youtube"  : "",
             "twitter"  : "",
             "gallery"  : "",
-            "internet"  : ""         
-        },         
+            "internet"  : ""       
+        },        
         "author"  : "Jelle",
         "comments" : "",
-        "visible" : false
+        "visible" : true
     },
     "br01" : {
         "type"    : "text",
