@@ -179,7 +179,7 @@
         "title"   : "Keynote",
         "alttext" : "Keynote, door Jelle",
         "photo"   : "",
-        "textobj" : "Het eerste wapenfeit van PSConfEU 2022 na de registratie en het ontbijt, was de keynote van Rob Sewell. Een kleurrijke man en dat liet hij ook zien met een paarse baard, koloniale klederdracht en een hoed met meer kleurtjes dan de potloodverzameling van mijn kinderen.<br><br>Jelle",
+        "textobj" : "Het eerste wapenfeit van PSConfEU 2022 na de registratie en het ontbijt, was de keynote van Rob Sewell. Een kleurrijke man en dat liet hij ook zien met een paarse baard, koloniale klederdracht en een hoed met meer kleurtjes dan de potloodverzameling van mijn kinderen.<br><br>...lees verder op Yammer.",
         "buttons" : {
             "github"   : "https://github.com/psconfeu/2022",
             "yammer"   : "https://web.yammer.com/main/org/ogd.nl/threads/eyJfdHlwZSI6IlRocmVhZCIsImlkIjoiMTc5Mzc5ODc3MDA0OTAyNCJ9",
@@ -215,7 +215,7 @@
         "title"   : "PSConfEU 2022, de eerste dag.",
         "alttext" : "PSConfEU 2022, de eerste dag.",
         "photo"   : "",
-        "textobj" : "<p>Vandaag was de eerste dag van PSConfEU, met meteen al wat leuke sessies. Ik zal hier nog een stukje over schrijven, maar daar kom ik vandaag niet meer aan toe. Wel zal ik nog mijn leukste/nuttigste/interessantste leermoment van de dag even met jullie delen:</p><p>In PowerShell 7 zit tegenwoordig een $ErrorView genaamd ConciseView. Deze maakt errors wat beknopter en leesbaarder. Kan wel fijn zijn voor errors die je gewoon als scripter tegenkomt. Voor uitgebreidere troubleshooting kan je natuurlijk altijd nog de NormalView gebruiken, die de klassieke output geeft (meer info, minder mensgericht). Lees meer op <a href='https://docs.microsoft.com/en-us/powershell/module/microsoft.powershell.core/about/about_preference_variables?view=powershell-7.2#errorview'>about Preference Variables - PowerShell | Microsoft Docs</a><br><br>Jelle",
+        "textobj" : "<p>Vandaag was de eerste dag van PSConfEU, met meteen al wat leuke sessies. Ik zal hier nog een stukje over schrijven, maar daar kom ik vandaag niet meer aan toe. Wel zal ik nog mijn leukste/nuttigste/interessantste leermoment van de dag even met jullie delen.<br><br>...lees verder op Yammer.",
         "buttons" : {
             "github"   : "https://github.com/psconfeu/2022",
             "yammer"   : "https://web.yammer.com/main/org/ogd.nl/threads/eyJfdHlwZSI6IlRocmVhZCIsImlkIjoiMTc5MTU1NTc5NzAyNDc2OCJ9",
@@ -251,7 +251,7 @@
         "title"   : "How to create great tech demos and presentations (Thomas Maurer)",
         "alttext" : "How to create great tech demos and presentations (Thomas Maurer)",
         "photo"   : "",
-        "textobj" : "<p>Niet technisch. Niet PowerShell. Geen wonder dat ik de enige was van onze groep die naar deze sessie ging.</p><p>Ik vond het wél interessant om wat presentatietechnieken voorgeschoteld te krijgen. Niet in de zin van 'Haal je handen uit je zakken' en 'Kijk ook eens af en toe de zaal in', maar meer praktische tips over hoe jouw beeldscherm overkomt op de zaal, wanneer je een technische demo geeft.</p>Jelle",
+        "textobj" : "Niet technisch. Niet PowerShell. Geen wonder dat ik de enige was van onze groep die naar deze sessie ging.Ik vond het wél interessant om wat presentatietechnieken voorgeschoteld te krijgen. Niet in de zin van 'Haal je handen uit je zakken' en 'Kijk ook eens af en toe de zaal in', maar meer praktische tips over hoe jouw beeldscherm overkomt op de zaal, wanneer je een technische demo geeft.<br><br>...lees verder op Yammer.",
         "buttons" : {
             "github"   : "",
             "yammer"   : "https://web.yammer.com/main/org/ogd.nl/threads/eyJfdHlwZSI6IlRocmVhZCIsImlkIjoiMTgwMTAwMjgzMzI2NDY0MCJ9",
@@ -287,7 +287,7 @@
         "title"   : "Azure Functions in an Enterprise environment (Barbara Forbes)",
         "alttext" : "Azure Functions in an Enterprise environment (Barbara Forbes)",
         "photo"   : "",
-        "textobj" : "<p>Op dag één van PSConfEU was het meteen prijs: ons aller Barbara Forbes mocht aan de bak om ons een paar tips te geven over hoe je Azure Functions het beste kunt inrichten. Zo kwam er voorbij dat je heel goed Azure Load Testing kunt gebruiken om te zien of jouw function wel goed omgaat met veel load. Ook een goede tip: gebruik een Managed Identity om je function van credentials te voorzien. Deze heb je in twee smaken:  System assigned en User assigned. Als je kiest voor System assigned, regelt Microsoft heel fijn dat je geen credentials hoeft op te slaan (en te vernieuwen). Met User assigned heb je iets meer vrijheid (je kunt deze bijvoorbeeld gebruiken voor meerdere resources, in tegensteling tot System assigned), maar je moet de credentials dus wel zelf managen.</p>",
+        "textobj" : "Op dag één van PSConfEU was het meteen prijs: ons aller Barbara Forbes mocht aan de bak om ons een paar tips te geven over hoe je Azure Functions het beste kunt inrichten. Zo kwam er voorbij dat je heel goed Azure Load Testing kunt gebruiken om te zien of jouw function wel goed omgaat met veel load. Ook een goede tip: gebruik een Managed Identity om je function van credentials te voorzien.<br><br>...lees verder op Yammer.",
         "buttons" : {
             "github"   : "https://github.com/psconfeu/2022/tree/main/BarbaraForbes/AzureFunctionsInTheEnterprise",
             "yammer"   : "https://web.yammer.com/main/threads/eyJfdHlwZSI6IlRocmVhZCIsImlkIjoiMTgxMjc5Njk5MjYxODQ5NiJ9",
@@ -323,7 +323,7 @@
         "title"   : "Wordle door Jelle",
         "alttext" : "Wordle door Jelle",
         "photo"   : "",
-        "textobj" : "<p>Ik had wat codekriebels en heb voor de leuk Wordle/Lingo gebouwd in PowerShell. Kleine spelletjes nabouwen in PowerShell lijkt een rare hobby van mij te zijn.</p><p>Wilde ik gewoon even delen :).</p>Jelle",
+        "textobj" : "Ik had wat codekriebels en heb voor de leuk Wordle/Lingo gebouwd in PowerShell. Kleine spelletjes nabouwen in PowerShell lijkt een rare hobby van mij te zijn.</p><p>Wilde ik gewoon even delen :).</p>",
         "buttons" : {
             "github"   : "https://github.com/JelleGraaf/wordle",
             "yammer"   : "https://web.yammer.com/main/org/ogd.nl/threads/eyJfdHlwZSI6IlRocmVhZCIsImlkIjoiMTY1MTg5MjQ0NTM4ODgwMCJ9",
@@ -359,7 +359,7 @@
         "title"   : "SecretManagement & SecretStore Getting started (Sydney Smith)",
         "alttext" : "SecretManagement & SecretStore Getting started (Sydney Smith)",
         "photo"   : "",
-        "textobj" : "<p>Er is een module genaamd SecretManagement, die sinds maart dit jaar GA is. Sydney Smith nam ons mee in wat het is en waar je het voor kunt gebruiken.</p><p>SecretManagement is een module die je kunt gebruiken als abstractielaag tussen jou en verschillende secret vaults (Key Vault, KeePass en LastPass, Hashicorp Vault, KeyChain en CredMan, maar geen PasswordState). Aan de voorkant gebruik je deze module om op uniforme manier secrets op te slaan, aan te passen en op te halen, terwijl aan de achterkant voor je wordt geregeld dat de vertaling naar jouw specifieke vault goed gaat. Zo kan je bijvoorbeeld een script schrijven en daarin met de cmdlets van SecretManagement je wachtwoord ophalen of wegschrijven. Dat script kan je dan bij verschillende klanten met verschillende secret vaults gebruiken, zonder het te hoeven omschrijven.</p>",
+        "textobj" : "Er is een module genaamd SecretManagement, die sinds maart dit jaar GA is. Sydney Smith nam ons mee in wat het is en waar je het voor kunt gebruiken. SecretManagement is een module die je kunt gebruiken als abstractielaag tussen jou en verschillende secret vaults (Key Vault, KeePass en LastPass, Hashicorp Vault, KeyChain en CredMan, maar geen PasswordState). <br><br>...lees verder op Yammer.",
         "buttons" : {
             "github"   : "",
             "yammer"   : "https://web.yammer.com/main/org/ogd.nl/threads/eyJfdHlwZSI6IlRocmVhZCIsImlkIjoiMTc5NTM1MjE5MzA0MDM4NCJ9",
