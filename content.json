@@ -85,10 +85,10 @@
         "visible" : true
     },
     "lg04" : {
-        "type"    : "text",
-        "title"   : "Execute remote commands and Get output using only WMI (Jay Adams)",
-        "alttext" : "Execute remote commands and Get output using only WMI (Jay Adams)",
-        "photo"   : "",
+        "type"    : "photo",
+        "title"   : "Clickbait",
+        "alttext" : "Clickbait",
+        "photo"   : "https://vienna.plugge-d.nl/photos/b_clickbait.jpeg",
         "textobj" : "",
         "buttons" : {
             "github"   : "",
@@ -100,7 +100,7 @@
         },         
         "author"  : "Jaap",
         "comments" : "",
-        "visible" : false
+        "visible" : true  
     },
     "lg05" : {
         "type"    : "text",
@@ -1669,11 +1669,11 @@
         "visible" : true
     },
     "pu12" : {
-        "type"    : "photo",
-        "title"   : "Clickbait",
-        "alttext" : "Clickbait",
-        "photo"   : "https://vienna.plugge-d.nl/photos/b_clickbait.jpeg",
-        "textobj" : "",
+        "type"    : "text",
+        "title"   : "Win een prijs!",
+        "alttext" : "Win een prijs!",
+        "photo"   : "",
+        "textobj" : "<iframe width='480px' height= '250px' src='https://forms.office.com/r/MAVv1Ajsfc' frameborder= '0' marginwidth= '0' marginheight= '0' style= 'border: none; max-width:100%; max-height:100vh' allowfullscreen webkitallowfullscreen mozallowfullscreen msallowfullscreen> </iframe>",
         "buttons" : {
             "github"   : "",
             "yammer"   : "",
@@ -1705,21 +1705,21 @@
         "visible" : true
     },
     "pu14" : {
-        "type"    : "",
-        "title"   : "",
-        "alttext" : "",
-        "photo"   : "",
+        "type"    : "photo",
+        "title"   : "Barbara & Jaap",
+        "alttext" : "Barbara & Jaap",
+        "photo"   : "https://pbs.twimg.com/media/FVx2SCdXoAMMKmS?format=jpg&name=large",
         "textobj" : "",
         "buttons" : {
             "github"   : "",
             "yammer"   : "",
             "youtube"  : "",
-            "twitter"  : "",
+            "twitter"  : "https://twitter.com/Jaap_Brasser/status/1539235237674237952",
             "gallery"  : "",
             "internet"  : ""         
         },         
         "author"  : "",
         "comments" : "",
-        "visible" : false
+        "visible" : true
     }      
 }
