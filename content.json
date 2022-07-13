@@ -52,7 +52,7 @@
         "type"    : "photo",
         "title"   : "",
         "alttext" : "foto: Ook in oostenrijk faalt inspoelen..",
-        "photo"   : "/photos/jaap01.jpg",
+        "photo"   : "/photos/jaap01.jpeg",
         "textobj" : "",
         "buttons" : {
             "github"   : "",
@@ -196,7 +196,7 @@
         "type"    : "photo",
         "title"   : "",
         "alttext" : "Foto: De grote zaal voor de key note, later opgedeeld in drie delen.",
-        "photo"   : "/photos/Jelle_GroteZaal.jpg",
+        "photo"   : "/photos/Jelle_GroteZaal.jpeg",
         "textobj" : "",
         "buttons" : {
             "github"   : "",
@@ -232,7 +232,7 @@
         "type"    : "photo",
         "title"   : "",
         "alttext" : "Foto: Dag 1: meteen de wienier schnitzel afgetikt. Dat mocht toch niet ontbreken aan dit bezoek.",
-        "photo"   : "/photos/Jelle_Schnitzel.jpg",
+        "photo"   : "/photos/Jelle_Schnitzel.jpeg",
         "textobj" : "",
         "buttons" : {
             "github"   : "",
@@ -268,7 +268,7 @@
         "type"    : "photo",
         "title"   : "",
         "alttext" : "Foto: Social event op dinsdag. Bier, braadworst en dijenkletsers!",
-        "photo"   : "/photos/Jelle_Dijenkletsers.jpg",
+        "photo"   : "/photos/Jelle_Dijenkletsers.jpeg",
         "textobj" : "",
         "buttons" : {
             "github"   : "",
@@ -304,7 +304,7 @@
         "type"    : "photo",
         "title"   : "",
         "alttext" : "Foto: Fijn dat de delegatie van Omnibus wel welkom was!",
-        "photo"   : "/photos/Jelle_OmnibusIsWelkom.jpg",
+        "photo"   : "/photos/Jelle_OmnibusIsWelkom.jpeg",
         "textobj" : "",
         "buttons" : {
             "github"   : "",
@@ -340,7 +340,7 @@
         "type"    : "photo",
         "title"   : "",
         "alttext" : "Foto: Elke twee sessies stonden er weer tafels vol met liflafjes voor ons klaar. Heel vervelend allemaal.",
-        "photo"   : "/photos/Jelle_Liflafjes.jpg",
+        "photo"   : "/photos/Jelle_Liflafjes.jpeg",
         "textobj" : "",
         "buttons" : {
             "github"   : "",
@@ -376,7 +376,7 @@
         "type"    : "photo",
         "title"   : "",
         "alttext" : "Foto: Wanneer je 20 minuten loopt van hotel naar conferentie, loop je nog wel eens langs wat cultuur. Verplicht fotootje van een mooie gevel.",
-        "photo"   : "/photos/Jelle_Cultuur.jpg",
+        "photo"   : "/photos/Jelle_Cultuur.jpeg",
         "textobj" : "",
         "buttons" : {
             "github"   : "",
