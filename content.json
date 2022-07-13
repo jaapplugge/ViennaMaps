@@ -1670,9 +1670,9 @@
     },
     "pu12" : {
         "type"    : "photo",
-        "title"   : "",
+        "title"   : "Clickbait",
         "alttext" : "Clickbait",
-        "photo"   : "/photos/clickbait.jpg",
+        "photo"   : "/photos/b_clickbait.jpg",
         "textobj" : "",
         "buttons" : {
             "github"   : "",
@@ -1690,8 +1690,8 @@
         "type"    : "text",
         "title"   : "Microsoft MVP",
         "alttext" : "Microsoft MVP",
-        "photo"   : "",
-        "textobj" : "<blockquote class='twitter-tweet'><p lang='en' dir='ltr'>Very happy to be renewed for the third year as an <a href='https:\/\/twitter.com/hashtag/Azure?src=hash&amp;ref_src=twsrc%5Etfw'>#Azure</a> MVP. 🥳. <a href='https:\/\/twitter.com/hashtag/MVPBuzz?src=hash&amp;ref_src=twsrc%5Etfw'>#MVPBuzz</a> <a href='https:\/\/t.co/iEeHxnt5fG'>pic.twitter.com/iEeHxnt5fG</a></p>&mdash; Barbara 4bes (@Ba4bes) <a href='https:\/\/twitter.com/Ba4bes/status/1544365619398774788?ref_src=twsrc%5Etfw'>July 5 2022</a></blockquote> <script async src='https:\/\/platform.twitter.com/widgets.js' charset='utf-8'></script>",
+        "photo"   : "/photos/mvp.jpg",
+        "textobj" : "",
         "buttons" : {
             "github"   : "",
             "yammer"   : "",
