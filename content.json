@@ -931,11 +931,11 @@
         "visible" : false
     },
     "dg12" : {
-        "type"    : "text",
-        "title"   : "",
-        "alttext" : "",
-        "photo"   : "",
-        "textobj" : "",
+        "type"    : "photo",
+        "title"   : "Suikerspin",
+        "alttext" : "Foto: Niek, Barbara en Nathan met mega roze suikerspin.",
+        "photo"   : "/photos/suikerspin.jpg",
+        "textobj" : "Prater heeft beter eten dan het Hilton Hotel 💯.",
         "buttons" : {
             "github"   : "",
             "yammer"   : "",
@@ -944,9 +944,9 @@
             "gallery"  : "",
             "internet"  : ""         
         },         
-        "author"  : "Niek",
+        "author"  : "Nathan",
         "comments" : "",
-        "visible" : false
+        "visible" : true
     },
     "dg13" : {
         "type"    : "text",
@@ -1039,11 +1039,11 @@
         "visible" : false
     },
     "pi03" : {
-        "type"    : "text",
-        "title"   : "",
-        "alttext" : "",
-        "photo"   : "",
-        "textobj" : "",
+        "type"    : "photo",
+        "title"   : "Ik ben fan van Oostenrijk.",
+        "alttext" : "GIF met oostenrijkse dansers",
+        "photo"   : "/photos/schuhplattler.gif",
+        "textobj" : "Fantastische muziek ook!",
         "buttons" : {
             "github"   : "",
             "yammer"   : "",
@@ -1052,9 +1052,9 @@
             "gallery"  : "",
             "internet"  : ""         
         },         
-        "author"  : "Frodo",
+        "author"  : "Nathan",
         "comments" : "",
-        "visible" : false        
+        "visible" : true
     },
     "pi04" : {
         "type"    : "text",
@@ -1111,6 +1111,61 @@
         "visible" : false
     },
     "re01" : {
+        "type"    : "phote",
+        "title"   : "Eerste Crash",
+        "alttext" : "Foto: Nathan, Niek en Frodo staan op het spoor naast een kapotte intecity. Ze zijn nog vrolijk.",
+        "photo"   : "/photos/denbosch.jpg",
+        "textobj" : "We zijn net op weg, het is een hele drukke trein. De vorige naar Frankfurt had een storing. Maar we waren lekker onderweg. Nog een stop n Den Bosch en daarna rijden we Nederland uit... Plonk! Of niet... net 500 meter na het station stopt de trein. En dan moeten we er allemaal uit. Eens kijken hoe we nu nog naar Wenen komen.",
+        "buttons" : {
+            "github"   : "",
+            "yammer"   : "",
+            "youtube"  : "",
+            "twitter"  : "",
+            "gallery"  : "",
+            "internet"  : ""         
+        },         
+        "author"  : "Nathan",
+        "comments" : "",
+        "visible" : true
+    },
+    "re02" : {
+        "type"    : "photo",
+        "title"   : "Attentie de trein naar Munchen vertrekt om...",
+        "alttext" : "Foto: Geen treinen naar Munchen",
+        "photo"   : "/photos/munchen.jpg",
+        "textobj" : "Het heeft een boel sprints, verdrukkingen en heel veel zweet gekost, maar we zijn in FrankFurt. De laatste trein naar Wenen heeft veel vertraging, dus als we uit de trein sprinten dan kunnen we hem halen. 0 minuten overstap... Maar helaas. Niek heeft de trein nog aangeraakt, maar hij reed al weg. En alle andere treinen verder naar het Oosten. Die kwamen niet, zoals je op de foto ziet. We hebben Munchen om 22:30 gehaald, en Wenen om 11:30 de volgende dag.",
+        "buttons" : {
+            "github"   : "",
+            "yammer"   : "",
+            "youtube"  : "",
+            "twitter"  : "",
+            "gallery"  : "",
+            "internet"  : ""         
+        },         
+        "author"  : "Nathan",
+        "comments" : "",
+        "visible" : true
+        
+    },
+    "re03" : {
+        "type"    : "text",
+        "title"   : "Opera",
+        "alttext" : "",
+        "photo"   : "",
+        "textobj" : "We zijn naar de Opera geweest! Een avond theater is de beste remedie tegen treinmisere. Je kunt hier even 37 seconden meegenieten: <iframe width=\"560\" height=\"315\" src=\"https://www.youtube-nocookie.com/embed/m9XtOFEhpAg\" title=\"YouTube video player\" frameborder=\"0\" allow=\"accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture\" allowfullscreen></iframe>",
+        "buttons" : {
+            "github"   : "",
+            "yammer"   : "",
+            "youtube"  : "https://www.youtube.com/watch?v=m9XtOFEhpAg&ab_channel=VolksoperWien",
+            "twitter"  : "",
+            "gallery"  : "",
+            "internet"  : ""         
+        },         
+        "author"  : "Nathan",
+        "comments" : "",
+        "visible" : true
+    },
+    "re04" : {
         "type"    : "text",
         "title"   : "Eerste dag @PSConfEU",
         "alttext" : "Eerste dag @PSConfEU",
@@ -1128,15 +1183,51 @@
         "comments" : "",
         "visible" : true
     },
-    "re02" : {
+    "re05" : {
+        "type"    : "text",
+        "title"   : "Namedropping in de keynotes",
+        "alttext" : "",
+        "photo"   : "",
+        "textobj" : "Onze fantastische oud-collega Jos Koelewijn kwam zomaar ineens voorbij tijdens de keynote van de PSConfEU. Met zijn mooie website: https://explainpowershell.com. Zeker een bezoekje waard.",
+        "buttons" : {
+            "github"   : "",
+            "yammer"   : "",
+            "youtube"  : "",
+            "twitter"  : "",
+            "gallery"  : "",
+            "internet"  : "https://explainpowershell.com"         
+        },         
+        "author"  : "Nathan",
+        "comments" : "",
+        "visible" : true
+    },
+    "re06" : {
+        "type"    : "text",
+        "title"   : "Profiler",
+        "alttext" : "",
+        "photo"   : "",
+        "textobj" : "Je kent hem misschien van Pester, maar Jakub heeft nog een mooie module die hij heeft laten zien. Profiler. Het is een module om uit te zoeken waar de traagheid in je cmdlets, functies of scripts zit. Zodat je weet waar je het meeste resultaat kan behalen met het verbeteren van je code.",
+        "buttons" : {
+            "github"   : "https://github.com/nohwnd/Profiler",
+            "yammer"   : "",
+            "youtube"  : "",
+            "twitter"  : "",
+            "gallery"  : "https://www.powershellgallery.com/packages/Profiler/4.0.0",
+            "internet"  : "https://github.com/psconfeu/2022/tree/main/JakubJares/Make%20your%20scripts%20faster%20with%20Profiler"         
+        },         
+        "author"  : "Nathan",
+        "comments" : "",
+        "visible" : true
+    },
+    "re07" : {
         "type"    : "text",
         "title"   : "Invoke-AzHunter - KQL Hunting in Azure with a PowerShell Katana (Walter Legowski)",
         "alttext" : "Invoke-AzHunter - KQL Hunting in Azure with a PowerShell Katana (Walter Legowski)",
         "photo"   : "",
         "textobj" : "Ik heb natuurlijk ook een boel geleerd. Ik werd heel blij van de sessie van Walter Legowski over het doen van KQL queries in Defender of Azure Sentinal via Powershell. Hij heeft een module gemaakt die meerdere queries in een batch kan sturen, en zelfs naar meerdere tenants tegelijk. Daarna kun je meteen de resultaten verder verwerken via Powershell, wat ik een stuk makkelijk vind dan bekijken in de Azure/Microsoft Defender GUI. De module gaat hij vanavond publiceren, dus een linkje volgt :) ",
         "buttons" : {
-            "github"   : "https://web.yammer.com/main/org/ogd.nl/threads/eyJfdHlwZSI6IlRocmVhZCIsImlkIjoiMTc5MzcxNDU0MzA4MzUyMCJ9",
-            "yammer"   : "",
+            "github"   : "https://github.com/SadProcessor/AzHunter",
+            "yammer"   : "https://web.yammer.com/main/org/ogd.nl/threads/eyJfdHlwZSI6IlRocmVhZCIsImlkIjoiMTc5MzcxNDU0MzA4MzUyMCJ9",
             "youtube"  : "",
             "twitter"  : "",
             "gallery"  : "",
@@ -1146,140 +1237,50 @@
         "comments" : "",
         "visible" : true        
     },
-    "re03" : {
-        "type"    : "text",
-        "title"   : "",
-        "alttext" : "",
-        "photo"   : "",
-        "textobj" : "",
-        "buttons" : {
-            "github"   : "",
-            "yammer"   : "",
-            "youtube"  : "",
-            "twitter"  : "",
-            "gallery"  : "",
-            "internet"  : ""         
-        },         
-        "author"  : "Nathan",
-        "comments" : "",
-        "visible" : false
-    },
-    "re04" : {
-        "type"    : "text",
-        "title"   : "",
-        "alttext" : "",
-        "photo"   : "",
-        "textobj" : "",
-        "buttons" : {
-            "github"   : "",
-            "yammer"   : "",
-            "youtube"  : "",
-            "twitter"  : "",
-            "gallery"  : "",
-            "internet"  : ""         
-        },         
-        "author"  : "Nathan",
-        "comments" : "",
-        "visible" : false
-    },
-    "re05" : {
-        "type"    : "text",
-        "title"   : "",
-        "alttext" : "",
-        "photo"   : "",
-        "textobj" : "",
-        "buttons" : {
-            "github"   : "",
-            "yammer"   : "",
-            "youtube"  : "",
-            "twitter"  : "",
-            "gallery"  : "",
-            "internet"  : ""         
-        },         
-        "author"  : "Nathan",
-        "comments" : "",
-        "visible" : false
-    },
-    "re06" : {
-        "type"    : "text",
-        "title"   : "",
-        "alttext" : "",
-        "photo"   : "",
-        "textobj" : "",
-        "buttons" : {
-            "github"   : "",
-            "yammer"   : "",
-            "youtube"  : "",
-            "twitter"  : "",
-            "gallery"  : "",
-            "internet"  : ""         
-        },         
-        "author"  : "Nathan",
-        "comments" : "",
-        "visible" : false
-    },
-    "re07" : {
-        "type"    : "text",
-        "title"   : "",
-        "alttext" : "",
-        "photo"   : "",
-        "textobj" : "",
-        "buttons" : {
-            "github"   : "",
-            "yammer"   : "",
-            "youtube"  : "",
-            "twitter"  : "",
-            "gallery"  : "",
-            "internet"  : ""         
-        },         
-        "author"  : "Nathan",
-        "comments" : "",
-        "visible" : false
-    },
     "re08" : {
         "type"    : "text",
-        "title"   : "",
+        "title"   : "T-shirt",
         "alttext" : "",
         "photo"   : "",
-        "textobj" : "",
+        "textobj" : "Ben (@Powers_Hell) had tijdens de conferentie wel een van de populairdere shirts om weg te geven. En 3 keer laten wie de laatste heeft bemachtigd. Alleen heb ik nu pas door dat ik me al jaren verdiep in een taal die Power Hell in de naam heeft...",
         "buttons" : {
             "github"   : "",
             "yammer"   : "",
             "youtube"  : "",
             "twitter"  : "",
             "gallery"  : "",
+            "internet"  : "https://powers-hell.com/"        
+        },         
+        "author"  : "Nathan",
+        "comments" : "",
+        "visible" : true
+    },
+    "re09" : {
+        "type"    : "photo",
+        "title"   : "Community demo: PSHTML",
+        "alttext" : "Foto van demo (niet PSConfEU) van PSHTML",
+        "photo"   : "https://github.com/Stephanevg/PSHTML/blob/master/docs/Images/psconf_intro.jpg",
+        "textobj" : "Ik werd heel blij van deze PS Module. Zoveel makkelijker om powershell en HTML te mengen als je een automatische mail moet sturen vanuit een runbook.",
+        "buttons" : {
+            "github"   : "https://github.com/Stephanevg/PSHTML ",
+            "yammer"   : "",
+            "youtube"  : "",
+            "twitter"  : "",
+            "gallery"  : "https://www.powershellgallery.com/packages/PSHTML/0.8.2",
             "internet"  : ""         
         },         
         "author"  : "Nathan",
         "comments" : "",
-        "visible" : false
-    },
-    "re09" : {
-        "type"    : "text",
-        "title"   : "",
-        "alttext" : "",
-        "photo"   : "",
-        "textobj" : "",
-        "buttons" : {
-            "github"   : "",
-            "yammer"   : "",
-            "youtube"  : "",
-            "twitter"  : "",
-            "gallery"  : "",
-            "internet"  : ""        
-        },         
-        "author"  : "Nathan",
-        "comments" : "",
-        "visible" : false
+        "visible" : true
     },
     "re10" : {
         "type"    : "text",
-        "title"   : "",
+        "title"   : "Community Demo: EZStore",
         "alttext" : "",
         "photo"   : "",
-        "textobj" : "",
+        "textobj" : "Nog een praatje van \"<i>Walter Legowski</i>\", dit keer over EZStore. Hij heeft een POC module gemaakt die gebruikt maakt van de secretstore in Windows. In zijn woorden: 'it's like a big pocket, you can put <i>anything</i> in there... and it's not scanned by AV'",
         "buttons" : {
-            "github"   : "",
+            "github"   : "https://github.com/SadProcessor/EzStore",
             "yammer"   : "",
             "youtube"  : "",
             "twitter"  : "",
@@ -1288,16 +1289,16 @@
         },         
         "author"  : "Nathan",
         "comments" : "",
-        "visible" : false
+        "visible" : true
     },
     "re11" : {
         "type"    : "text",
-        "title"   : "",
+        "title"   : "Chasing the Seconds - Thorsten Butz",
         "alttext" : "",
         "photo"   : "",
-        "textobj" : "",
+        "textobj" : "Nog een hele goeie demo met uitgebreide voorbeelden, over het verbeteren van je cmdlets. Als je ooit je puntjes op de i wilt zetten, werk deze demo's even door!",
         "buttons" : {
-            "github"   : "",
+            "github"   : "https://github.com/thorstenbutz/conferences/tree/master/2022.PSConf.eu/Chasing%20the%20seconds ",
             "yammer"   : "",
             "youtube"  : "",
             "twitter"  : "",
@@ -1306,32 +1307,32 @@
         },         
         "author"  : "Nathan",
         "comments" : "",
-        "visible" : false
+        "visible" : true
     },
     "re12" : {
         "type"    : "text",
-        "title"   : "",
+        "title"   : "Zo, nu eerst een pull request",
         "alttext" : "",
         "photo"   : "",
-        "textobj" : "",
+        "textobj" : "James O'Neill gaf een demo van ImportExcel. Ik dacht, die ken ik al, maar de andere sessies op die tijd spraken me minder aan. Maar goed dat ik was gegaan. Hij besprak vooral Export-Excel en het was zo duidelijk. Die avond nog zat de pull request in mijn team repo, om de ISAE rapportage maar in 1 keer goed aan meneer Plug op te leveren.",
         "buttons" : {
-            "github"   : "",
+            "github"   : "https://github.com/psconfeu/2022/tree/main/James%20ONeill/Excel",
             "yammer"   : "",
             "youtube"  : "",
             "twitter"  : "",
-            "gallery"  : "",
+            "gallery"  : "https://www.powershellgallery.com/packages/ImportExcel/7.7.0",
             "internet"  : ""         
         },         
         "author"  : "Nathan",
         "comments" : "",
-        "visible" : false
+        "visible" : true
     },
     "re13" : {
         "type"    : "text",
-        "title"   : "",
+        "title"   : "#Winning!",
         "alttext" : "",
         "photo"   : "",
-        "textobj" : "",
+        "textobj" : "TODO Hier moet de link naar de Forms komen. ",
         "buttons" : {
             "github"   : "",
             "yammer"   : "",
@@ -1346,12 +1347,12 @@
     },
     "re14" : {
         "type"    : "text",
-        "title"   : "",
+        "title"   : "#PTMF - Bjorn Sundling",
         "alttext" : "",
         "photo"   : "",
-        "textobj" : "",
+        "textobj" : "Ookal was het nog vrijdag, Bjorn heeft in ICE vaart een presentatie gehouden over hoe je kunt: Push To Main Friday. Niet alleen technisch liet hij zien hoe je in AzureDevOps je branches en pipelines daarvoor moet inrichten. Hij gaf ook tips waar een goede test aan moet voldoen en wat je stappenplan kan zijn om langzaam steeds meer zekerheid te krijgen in je CI/CD. Wanneer de presentatie op youtube komt, ga ik deze zeker nog een keer kijken!",
         "buttons" : {
-            "github"   : "",
+            "github"   : "https://github.com/psconfeu/2022/tree/main/Bjorn%20Sundling/PTMF-PushToMainFriday",
             "yammer"   : "",
             "youtube"  : "",
             "twitter"  : "",
@@ -1360,50 +1361,50 @@
         },         
         "author"  : "Nathan",
         "comments" : "",
-        "visible" : false
+        "visible" : true
     },
     "re15" : {
         "type"    : "text",
-        "title"   : "",
+        "title"   : "PSSecretScanner",
         "alttext" : "",
         "photo"   : "",
-        "textobj" : "",
+        "textobj" : "Vervolg op #PTMF. PSSecretScanner is een goede test om aan je commit pipelines toe te voegen, zodat je niet per ongeluk wachtwoorden of sleutels in een (openbare) repository zet!",
         "buttons" : {
             "github"   : "",
             "yammer"   : "",
             "youtube"  : "",
             "twitter"  : "",
-            "gallery"  : "",
+            "gallery"  : "https://www.powershellgallery.com/packages/PSSecretScanner/1.0.3",
             "internet"  : ""         
         },         
         "author"  : "Nathan",
         "comments" : "",
-        "visible" : false
+        "visible" : true
     },
     "re16" : {
         "type"    : "text",
-        "title"   : "",
+        "title"   : "Blink and you'll miss it.",
         "alttext" : "",
         "photo"   : "",
-        "textobj" : "",
+        "textobj" : "Soms gaat het allemaal heel snel, maar als je goed oplet dan krijg je nog eens iets nuttigs mee. Dit was tijdens de presentatie van Jan Egil Ring over Containers in VS Code. Hij gebruikte daar een hele snelle manier op even zijn publieke ipadres op te vragen: <br><code>iwr ifconfig.me/ip | % content</code><br> Of voor de nitpickers: <br><code>Invoke-WebRequest -Uri ifconfig.me/ip | Select-Object -ExpandProperty Content</code>",
         "buttons" : {
-            "github"   : "",
+            "github"   : "https://github.com/psconfeu/2022/tree/main/JanEgilRing/VSCodeDevContainers",
             "yammer"   : "",
             "youtube"  : "",
             "twitter"  : "",
             "gallery"  : "",
-            "internet"  : ""         
+            "internet"  : "https://dev.to/crayon/how-to-get-started-with-vs-code-development-containers-4alo"         
         },         
         "author"  : "Nathan",
         "comments" : "",
-        "visible" : false
+        "visible" : true
     },
     "re17" : {
-        "type"    : "text",
-        "title"   : "",
-        "alttext" : "",
-        "photo"   : "",
-        "textobj" : "",
+        "type"    : "photo",
+        "title"   : "Kahoot",
+        "alttext" : "Foto: 🌻🌻🌻 (dat ben ik) staat op plek 3 in Kahoot.",
+        "photo"   : "/photos/kahoot.jpg",
+        "textobj" : "Zoals elke goede cursus of pizzasessie sloot ook PSConfEU af met een kahoot. 🌻🌻🌻 (dat ben ik) was derde geworden! Met maar 3 vragen goed :D. ",
         "buttons" : {
             "github"   : "",
             "yammer"   : "",
@@ -1414,14 +1415,14 @@
         },         
         "author"  : "Nathan",
         "comments" : "",
-        "visible" : false
+        "visible" : true
     },
     "re18" : {
-        "type"    : "text",
-        "title"   : "",
-        "alttext" : "",
-        "photo"   : "",
-        "textobj" : "",
+        "type"    : "photo",
+        "title"   : "Weer naar huis :(",
+        "alttext" : "Gif Harry Potter die zwaait naar Hagrid.",
+        "photo"   : "https://media.giphy.com/media/qJ1IJW0SOtdq8/giphy.gif",
+        "textobj" : "Aan al het mooie komt een eind. En de terugreis begon natuurlijk met... 1 uur vertraging! Maar gelukkig waren we wel zoals gepland weer thuis :). ",
         "buttons" : {
             "github"   : "",
             "yammer"   : "",
@@ -1432,34 +1433,34 @@
         },         
         "author"  : "Nathan",
         "comments" : "",
-        "visible" : false
-    },
+        "visible" : true
+    },   
     "re19" : {
         "type"    : "text",
-        "title"   : "",
+        "title"   : "Powershell Community Discord",
         "alttext" : "",
         "photo"   : "",
-        "textobj" : "",
+        "textobj" : "Wist je dat er een grote community Discord en Slack zijn voor Powershell gebruikers? Je kunt er vragen stellen en info delen en met de Microsoft product owners praten als ze er zijn. De links zijn http://aka.ms/psdiscord en http://aka.ms/psslack. <br> Een van de mooie dingen die ik al heb gevonden is een geanimeerde regenboogvalg achtergrond (shader) voor in Windows Terminal. Heel vrolijk!",
         "buttons" : {
             "github"   : "",
             "yammer"   : "",
             "youtube"  : "",
             "twitter"  : "",
             "gallery"  : "",
-            "internet"  : ""         
+            "internet"  : "https://worldofzero.com/posts/pride-windows-terminal/"         
         },         
         "author"  : "Nathan",
         "comments" : "",
-        "visible" : false
-    },
+        "visible" : true
+    },  
     "re20" : {
         "type"    : "text",
-        "title"   : "",
+        "title"   : "Thuis gaat het feestje door",
         "alttext" : "",
         "photo"   : "",
-        "textobj" : "",
+        "textobj" : "Na die hele week weg mocht ik bijna meteen ook de hele week weer thuisblijven (in quarantaine/met de Covid swag van de conferentie). Toen kon ik wel meteen de inspiratie die ik heb opgedaan tijdens PSConfEU, steken in een muzikaal en nutteloos projectje, waar ik zelf erg vrolijk van wordt. <br> <code>computer says beep</code>",
         "buttons" : {
-            "github"   : "",
+            "github"   : "https://github.com/n-athan/PSSynth ",
             "yammer"   : "",
             "youtube"  : "",
             "twitter"  : "",
@@ -1468,8 +1469,8 @@
         },         
         "author"  : "Nathan",
         "comments" : "",
-        "visible" : false
-    },   
+        "visible" : true
+    },  
     "pu01" : {
         "type"    : "text",
         "title"   : "Azure Functions in an enterprise enviroment (Barbara Forbes)",
