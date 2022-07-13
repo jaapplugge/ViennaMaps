@@ -159,7 +159,7 @@
     "or01" : {
         "type"    : "photo",
         "title"   : "",
-        "alttext" : "foto: Met zijn allen bij de ingang",
+        "alttext" : "Foto: Met zijn allen bij de ingang",
         "photo"   : "/photos/Jelle_Groepsfoto_1.jpeg",
         "textobj" : "",
         "buttons" : {
@@ -195,7 +195,7 @@
     "or03" : {
         "type"    : "photo",
         "title"   : "",
-        "alttext" : "De grote zaal voor de key note, later opgedeeld in drie delen.",
+        "alttext" : "Foto: De grote zaal voor de key note, later opgedeeld in drie delen.",
         "photo"   : "/photos/Jelle_GroteZaal.jpg",
         "textobj" : "",
         "buttons" : {
@@ -231,7 +231,7 @@
     "or05" : {
         "type"    : "photo",
         "title"   : "",
-        "alttext" : "Dag 1: meteen de wienier schnitzel afgetikt. Dat mocht toch niet ontbreken aan dit bezoek.",
+        "alttext" : "Foto: Dag 1: meteen de wienier schnitzel afgetikt. Dat mocht toch niet ontbreken aan dit bezoek.",
         "photo"   : "/photos/Jelle_Schnitzel.jpg",
         "textobj" : "",
         "buttons" : {
@@ -267,7 +267,7 @@
     "or07" : {
         "type"    : "photo",
         "title"   : "",
-        "alttext" : "Social event op dinsdag. Bier, braadworst en dijenkletsers!",
+        "alttext" : "Foto: Social event op dinsdag. Bier, braadworst en dijenkletsers!",
         "photo"   : "/photos/Jelle_Dijenkletsers.jpg",
         "textobj" : "",
         "buttons" : {
@@ -303,7 +303,7 @@
     "or09" : {
         "type"    : "photo",
         "title"   : "",
-        "alttext" : "Fijn dat de delegatie van Omnibus wel welkom was!",
+        "alttext" : "Foto: Fijn dat de delegatie van Omnibus wel welkom was!",
         "photo"   : "/photos/Jelle_OmnibusIsWelkom.jpg",
         "textobj" : "",
         "buttons" : {
@@ -339,7 +339,7 @@
     "or11" : {
         "type"    : "photo",
         "title"   : "",
-        "alttext" : "Elke twee sessies stonden er weer tafels vol met liflafjes voor ons klaar. Heel vervelend allemaal.",
+        "alttext" : "Foto: Elke twee sessies stonden er weer tafels vol met liflafjes voor ons klaar. Heel vervelend allemaal.",
         "photo"   : "/photos/Jelle_Liflafjes.jpg",
         "textobj" : "",
         "buttons" : {
@@ -375,7 +375,7 @@
     "or13" : {
         "type"    : "photo",
         "title"   : "",
-        "alttext" : "Wanneer je 20 minuten loopt van hotel naar conferentie, loop je nog wel eens langs wat cultuur. Verplicht fotootje van een mooie gevel.",
+        "alttext" : "Foto: Wanneer je 20 minuten loopt van hotel naar conferentie, loop je nog wel eens langs wat cultuur. Verplicht fotootje van een mooie gevel.",
         "photo"   : "/photos/Jelle_Cultuur.jpg",
         "textobj" : "",
         "buttons" : {
