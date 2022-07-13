@@ -1672,7 +1672,7 @@
         "type"    : "photo",
         "title"   : "Clickbait",
         "alttext" : "Clickbait",
-        "photo"   : "/photos/b_clickbait.jpg",
+        "photo"   : "https://vienna.plugge-d.nl/photos/b_clickbait.jpeg",
         "textobj" : "",
         "buttons" : {
             "github"   : "",
@@ -1687,10 +1687,10 @@
         "visible" : true  
     },
     "pu13" : {
-        "type"    : "text",
+        "type"    : "photo",
         "title"   : "Microsoft MVP",
         "alttext" : "Microsoft MVP",
-        "photo"   : "/photos/mvp.jpg",
+        "photo"   : "https://vienna.plugge-d.nl/photos/mvp.jpeg",
         "textobj" : "",
         "buttons" : {
             "github"   : "",
