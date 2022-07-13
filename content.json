@@ -1634,8 +1634,8 @@
     },
     "pu10" : {
         "type"    : "text",
-        "title"   : "OGD bezoekt PFConf",
-        "alttext" : "OGD bezoekt PFConf",
+        "title"   : "LinkedIN: OGD bezoekt PFConf",
+        "alttext" : "LinkedIN: OGD bezoekt PFConf",
         "photo"   : "",
         "textobj" : "<p>OGD bezoekt #PSConfEU, de #PowerShell conference van Europa. Dit keer in Wenen. Dat was weer even geleden, voor een conferentie naar het buitenland.</p><p>Onze #Azure technical lead en #MVP Barbara Forbes stond vandaag en gisteren op het podium als spreker. Zij deelde haar kennis over Azure functions en vertelde hoe je #GitHub inzet voor je PowerShell werk. Go Barbara!💪</p>",
         "buttons" : {
@@ -1671,14 +1671,14 @@
     "pu12" : {
         "type"    : "photo",
         "title"   : "",
-        "alttext" : "Speakersdinner",
-        "photo"   : "https://pbs.twimg.com/media/FV3zYcFXkAMdsiH?format=jpg&name=large",
+        "alttext" : "Clickbait",
+        "photo"   : "/photos/clickbait.jpg",
         "textobj" : "",
         "buttons" : {
             "github"   : "",
             "yammer"   : "",
             "youtube"  : "",
-            "twitter"  : "https://twitter.com/sqldbawithbeard/status/1539652557923971074",
+            "twitter"  : "",
             "gallery"  : "",
             "internet"  : ""         
         },         
@@ -1702,13 +1702,13 @@
         },         
         "author"  : "Barbara",
         "comments" : "",
-        "visible" : false
+        "visible" : true
     },
     "pu14" : {
-        "type"    : "photo",
+        "type"    : "",
         "title"   : "",
-        "alttext" : "Clickbait",
-        "photo"   : "/photos/clickbait.jpg",
+        "alttext" : "",
+        "photo"   : "",
         "textobj" : "",
         "buttons" : {
             "github"   : "",
@@ -1718,8 +1718,8 @@
             "gallery"  : "",
             "internet"  : ""         
         },         
-        "author"  : "Barbara",
+        "author"  : "",
         "comments" : "",
-        "visible" : true
+        "visible" : false
     }      
 }
