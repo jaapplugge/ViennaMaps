@@ -1543,6 +1543,42 @@
         "visible" : true
     },
     "pu05" : {
+        "type"    : "text",
+        "title"   : "Github Co-Pilot General available",
+        "alttext" : "Github actions (Barbara Forbes)",
+        "photo"   : "",
+        "textobj" : "<p>GitHub Co-Pilot werd general available op de dag van mijn sessie! Hier is een wat ouder filmpje van een demo met PowerShell</p>",
+        "buttons" : {
+            "github"   : "https://github.com/features/copilot",
+            "yammer"   : "",
+            "youtube"  : "https://www.youtube.com/watch?v=tio8EAhfAOo",
+            "twitter"  : "",
+            "gallery"  : "",
+            "internet"  : ""         
+        },         
+        "author"  : "Barbara",
+        "comments" : "",
+        "visible" : true
+    },
+    "pu06" : {
+        "type"    : "text",
+        "title"   : "Een presentatie in Github Pages",
+        "alttext" : "Een presentatie in Github Pages (Barbara Forbes)",
+        "photo"   : "",
+        "textobj" : "<p>Waarom een presentatie maken als je ook GitHub Pages kan gebruiken? De hele presentatie van <i>How Github can make your Powershell process easier</i> werd gegeven vanuit de Browser, dus ook de presentatie. Je vindt hem hier, met de links naar meer informatie onderop</p>Barbara",
+        "buttons" : {
+            "github"   : "https://ba4bes.github.io/GitHubMagic/",
+            "yammer"   : "",
+            "youtube"  : "",
+            "twitter"  : "",
+            "gallery"  : "",
+            "internet"  : "https://pages.github.com/"         
+        },         
+        "author"  : "Barbara",
+        "comments" : "",
+        "visible" : true
+    },
+    "pu07" : {
         "type"    : "photo",
         "title"   : "",
         "alttext" : "Speakersdinner",
@@ -1558,9 +1594,9 @@
         },         
         "author"  : "Barbara",
         "comments" : "",
-        "visible" : true
+        "visible" : true                
     },
-    "pu06" : {
+    "pu08" : {
         "type"    : "text",
         "title"   : "Git Started: A quick demo (Barbara Forbes)",
         "alttext" : "Git Started: A quick demo (Barbara Forbes)",
@@ -1578,7 +1614,25 @@
         "comments" : "",
         "visible" : true
     },
-    "pu07" : {
+    "pu09" : {
+        "type"    : "text",
+        "title"   : "Co-Pilot @ For Cloud's Sake",
+        "alttext" : "Co-Pilot @ For Cloud's Sake",
+        "photo"   : "",
+        "textobj" : "<p>Tijdens de podcast van 4 juli bespraken Jos en ik deze nieuwe functie van Github.</p><iframe src='https://open.spotify.com/embed/episode/6zeBXhaMMwUy0n4YDcQwzc?utm_source=generator&t=149417' width='100%' height='232' frameBorder='0' allowfullscreen='' allow='autoplay; clipboard-write; encrypted-media; fullscreen; picture-in-picture'></iframe>",
+        "buttons" : {
+            "github"   : "",
+            "yammer"   : "",
+            "youtube"  : "",
+            "twitter"  : "",
+            "gallery"  : "",
+            "internet"  : "https://open.spotify.com/show/7vrlCD9cC5Ws1yCJWSCcdr"         
+        },         
+        "author"  : "Barbara",
+        "comments" : "",
+        "visible" : true
+    },
+    "pu10" : {
         "type"    : "text",
         "title"   : "OGD bezoekt PFConf",
         "alttext" : "OGD bezoekt PFConf",
@@ -1594,9 +1648,9 @@
         },         
         "author"  : "Barbara",
         "comments" : "",
-        "visible" : true
+        "visible" : true        
     },
-    "pu08" : {
+    "pu11" : {
         "type"    : "photo",
         "title"   : "",
         "alttext" : "OGD bezoekt PFConf",
@@ -1614,89 +1668,35 @@
         "comments" : "",
         "visible" : true
     },
-    "pu09" : {
-        "type"    : "text",
-        "title"   : "",
-        "alttext" : "",
-        "photo"   : "",
-        "textobj" : "",
-        "buttons" : {
-            "github"   : "",
-            "yammer"   : "",
-            "youtube"  : "",
-            "twitter"  : "",
-            "gallery"  : "",
-            "internet"  : ""         
-        },         
-        "author"  : "Barbara",
-        "comments" : "",
-        "visible" : false
-    },
-    "pu10" : {
-        "type"    : "text",
-        "title"   : "",
-        "alttext" : "",
-        "photo"   : "",
-        "textobj" : "",
-        "buttons" : {
-            "github"   : "",
-            "yammer"   : "",
-            "youtube"  : "",
-            "twitter"  : "",
-            "gallery"  : "",
-            "internet"  : ""         
-        },         
-        "author"  : "Barbara",
-        "comments" : "",
-        "visible" : false
-    },
-    "pu11" : {
-        "type"    : "text",
-        "title"   : "",
-        "alttext" : "",
-        "photo"   : "",
-        "textobj" : "",
-        "buttons" : {
-            "github"   : "",
-            "yammer"   : "",
-            "youtube"  : "",
-            "twitter"  : "",
-            "gallery"  : "",
-            "internet"  : ""         
-        },         
-        "author"  : "Barbara",
-        "comments" : "",
-        "visible" : false
-    },
     "pu12" : {
-        "type"    : "text",
+        "type"    : "photo",
         "title"   : "",
-        "alttext" : "",
-        "photo"   : "",
+        "alttext" : "Speakersdinner",
+        "photo"   : "https://pbs.twimg.com/media/FV3zYcFXkAMdsiH?format=jpg&name=large",
         "textobj" : "",
         "buttons" : {
             "github"   : "",
             "yammer"   : "",
             "youtube"  : "",
-            "twitter"  : "",
+            "twitter"  : "https://twitter.com/sqldbawithbeard/status/1539652557923971074",
             "gallery"  : "",
             "internet"  : ""         
         },         
         "author"  : "Barbara",
         "comments" : "",
-        "visible" : false
+        "visible" : true  
     },
     "pu13" : {
         "type"    : "text",
-        "title"   : "",
-        "alttext" : "",
+        "title"   : "Microsoft MVP",
+        "alttext" : "Microsoft MVP",
         "photo"   : "",
-        "textobj" : "",
+        "textobj" : "<blockquote class='twitter-tweet'><p lang='en' dir='ltr'>Very happy to be renewed for the third year as an <a href='https:\/\/twitter.com/hashtag/Azure?src=hash&amp;ref_src=twsrc%5Etfw'>#Azure</a> MVP. 🥳. <a href='https:\/\/twitter.com/hashtag/MVPBuzz?src=hash&amp;ref_src=twsrc%5Etfw'>#MVPBuzz</a> <a href='https:\/\/t.co/iEeHxnt5fG'>pic.twitter.com/iEeHxnt5fG</a></p>&mdash; Barbara 4bes (@Ba4bes) <a href='https:\/\/twitter.com/Ba4bes/status/1544365619398774788?ref_src=twsrc%5Etfw'>July 5 2022</a></blockquote> <script async src='https:\/\/platform.twitter.com/widgets.js' charset='utf-8'></script>",
         "buttons" : {
             "github"   : "",
             "yammer"   : "",
             "youtube"  : "",
-            "twitter"  : "",
+            "twitter"  : "https://twitter.com/Ba4bes/status/1544365619398774788",
             "gallery"  : "",
             "internet"  : ""         
         },         
@@ -1705,10 +1705,10 @@
         "visible" : false
     },
     "pu14" : {
-        "type"    : "text",
+        "type"    : "photo",
         "title"   : "",
-        "alttext" : "",
-        "photo"   : "",
+        "alttext" : "Clickbait",
+        "photo"   : "/photos/clickbait.jpg",
         "textobj" : "",
         "buttons" : {
             "github"   : "",
@@ -1720,6 +1720,6 @@
         },         
         "author"  : "Barbara",
         "comments" : "",
-        "visible" : false
+        "visible" : true
     }      
 }
