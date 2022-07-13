@@ -174,29 +174,6 @@
                 };
             };
             
-            // function to post to logicApp
-            function postToLogicApp(LA_name, LA_prize) {
-                console.log("function: postToLogicApp(" + LA_name + ", " + LA_prize + ")");
-                var LA_ts = Date.now()
-                var jObj = JSON.stringify({"name": LA_name, "prize": LA_prize, "timestamp": LA_ts, "cstring" : "dgfasdgaDfgsae4awtadagf45a#4ads3drf"})
-                var req = new XMLHttpRequest();
-                var url = "https://prod-05.westeurope.logic.azure.com:443/workflows/58a6aac221374d09aba96fa9d4d61243/triggers/manual/paths/invoke?api-version=2016-10-01&sp=%2Ftriggers%2Fmanual%2Frun&sv=1.0&sig=fVTcoX8CCv_3iZOV9_BvFn3FgJMpPMf-CJAYLtD6bp8";
-                               
-                req.open("POST", url, true);
-                req.setRequestHeader("Content-Type", "application/json");
-                req.send(jObj);
-            };
-
-            // function onclick for submit button
-            function prizeSubmit(LA_name, LA_prize) {
-                if (LA_name.match(/^.*.ogd.nl/)) {
-                    postToLogicApp(LA_name, LA_prize);
-                    alert('Misschien win je een prijs!');
-                };                
-                return false;
-            };
-
-
             // function to make exitbutton visible / invisible
             function switchExitButton(action) {
                 console.log("function: switchExitButton(" + action +")");
@@ -293,28 +270,12 @@
                     document.getElementById('photoBox').style.backgroundSize   = 'contain';
 
                 }
-                else if (pType == 'text') {
+                else {
                     document.getElementById('photoBox').innerHTML = '<h1>'+ pTitle + '</h1>' + pText;
                     document.getElementById('photoBox').style.background = 'none';
                 };
             }; 
             
-            // function to set prize-content on Photobox
-            function setPrizeContent(prize) {
-                console.log("function: setPrizeContent(" + prize + ")")
-                if (prize === "prize_1") {
-                    var ihtml = 
-                } 
-                else if (prize === "prize_1") {
-
-                } 
-                else if (prize === "prize_3") {
-
-                }
-                
-                document.getElementById('photoBox').innerHTML = '<h1>'+ pTitle + '</h1>' + pText;
-            }
-
             // function to show default text in MessageBox
             function setDefaultTextinMsgBox() {
                 console.log("function: setDefaultTextinMsgBox()");
