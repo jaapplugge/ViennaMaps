@@ -1343,7 +1343,7 @@
         },         
         "author"  : "Nathan",
         "comments" : "",
-        "visible" : false
+        "visible" : true
     },
     "re14" : {
         "type"    : "text",
