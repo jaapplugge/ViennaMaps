@@ -1003,10 +1003,10 @@
         "visible" : false
     },
     "pi01" : {
-        "type"    : "text",
+        "type"    : "photo",
         "title"   : "",
-        "alttext" : "",
-        "photo"   : "",
+        "alttext" : "Foto",
+        "photo"   : "/photos/Frodo_1.JPG",
         "textobj" : "",
         "buttons" : {
             "github"   : "",
@@ -1014,17 +1014,17 @@
             "youtube"  : "",
             "twitter"  : "",
             "gallery"  : "",
-            "internet"  : ""         
-        },         
+            "internet"  : ""       
+        },        
         "author"  : "Frodo",
         "comments" : "",
-        "visible" : false
-    },
+        "visible" : true
+    },   
     "pi02" : {
-        "type"    : "text",
+        "type"    : "photo",
         "title"   : "",
-        "alttext" : "",
-        "photo"   : "",
+        "alttext" : "Foto",
+        "photo"   : "/photos/Frodo_2.JPG",
         "textobj" : "",
         "buttons" : {
             "github"   : "",
@@ -1032,12 +1032,12 @@
             "youtube"  : "",
             "twitter"  : "",
             "gallery"  : "",
-            "internet"  : ""         
-        },         
+            "internet"  : ""       
+        },        
         "author"  : "Frodo",
         "comments" : "",
-        "visible" : false
-    },
+        "visible" : true
+    },   
     "pi03" : {
         "type"    : "photo",
         "title"   : "Ik ben fan van Oostenrijk.",
@@ -1057,10 +1057,10 @@
         "visible" : true
     },
     "pi04" : {
-        "type"    : "text",
+        "type"    : "photo",
         "title"   : "",
-        "alttext" : "",
-        "photo"   : "",
+        "alttext" : "Foto",
+        "photo"   : "/photos/Frodo_3.JPG",
         "textobj" : "",
         "buttons" : {
             "github"   : "",
@@ -1068,17 +1068,17 @@
             "youtube"  : "",
             "twitter"  : "",
             "gallery"  : "",
-            "internet"  : ""         
-        },         
+            "internet"  : ""       
+        },        
         "author"  : "Frodo",
         "comments" : "",
-        "visible" : false
-    },
+        "visible" : true
+    },   
     "pi05" : {
-        "type"    : "text",
+        "type"    : "photo",
         "title"   : "",
-        "alttext" : "",
-        "photo"   : "",
+        "alttext" : "Foto",
+        "photo"   : "/photos/Frodo_4.JPG",
         "textobj" : "",
         "buttons" : {
             "github"   : "",
@@ -1086,17 +1086,17 @@
             "youtube"  : "",
             "twitter"  : "",
             "gallery"  : "",
-            "internet"  : ""         
-        },         
+            "internet"  : ""       
+        },        
         "author"  : "Frodo",
         "comments" : "",
-        "visible" : false
-    },
+        "visible" : true
+    },   
     "pi06" : {
-        "type"    : "text",
+        "type"    : "photo",
         "title"   : "",
-        "alttext" : "",
-        "photo"   : "",
+        "alttext" : "Foto",
+        "photo"   : "/photos/Frodo_5.JPG",
         "textobj" : "",
         "buttons" : {
             "github"   : "",
@@ -1104,16 +1104,16 @@
             "youtube"  : "",
             "twitter"  : "",
             "gallery"  : "",
-            "internet"  : ""         
-        },         
+            "internet"  : ""       
+        },        
         "author"  : "Frodo",
         "comments" : "",
-        "visible" : false
-    },
+        "visible" : true
+    },   
     "re01" : {
         "type"    : "phote",
         "title"   : "Eerste Crash",
-        "alttext" : "Foto: Nathan, Niek en Frodo staan op het spoor naast een kapotte intecity. Ze zijn nog vrolijk.",
+        "alttext" : "Foto: Nathan, Niek en Frodo staan op het spoor naast een kapotte intercity. Ze zijn nog vrolijk.",
         "photo"   : "/photos/denbosch.jpg",
         "textobj" : "We zijn net op weg, het is een hele drukke trein. De vorige naar Frankfurt had een storing. Maar we waren lekker onderweg. Nog een stop n Den Bosch en daarna rijden we Nederland uit... Plonk! Of niet... net 500 meter na het station stopt de trein. En dan moeten we er allemaal uit. Eens kijken hoe we nu nog naar Wenen komen.",
         "buttons" : {
