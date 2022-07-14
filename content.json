@@ -933,9 +933,9 @@
     "dg12" : {
         "type"    : "photo",
         "title"   : "Suikerspin",
-        "alttext" : "Foto: Niek, Barbara en Nathan met mega roze suikerspin.",
+        "alttext" : "Foto: Niek, Barbara en Nathan met mega roze suikerspin. Prater heeft beter eten dan het Hilton Hotel 💯.",
         "photo"   : "/photos/suikerspin.jpg",
-        "textobj" : "Prater heeft beter eten dan het Hilton Hotel 💯.",
+        "textobj" : "",
         "buttons" : {
             "github"   : "",
             "yammer"   : "",
@@ -1041,9 +1041,9 @@
     "pi03" : {
         "type"    : "photo",
         "title"   : "Ik ben fan van Oostenrijk.",
-        "alttext" : "GIF met oostenrijkse dansers",
+        "alttext" : "Ik ben fan van Oostenrijk. Fantastische muziek ook!",
         "photo"   : "/photos/schuhplattler.gif",
-        "textobj" : "Fantastische muziek ook!",
+        "textobj" : "",
         "buttons" : {
             "github"   : "",
             "yammer"   : "",
@@ -1111,11 +1111,11 @@
         "visible" : true
     },   
     "re01" : {
-        "type"    : "phote",
+        "type"    : "photo",
         "title"   : "Eerste Crash",
-        "alttext" : "Foto: Nathan, Niek en Frodo staan op het spoor naast een kapotte intercity. Ze zijn nog vrolijk.",
+        "alttext" : "Eerste Crash. We zijn net op weg, het is een hele drukke trein. De vorige naar Frankfurt had een storing. Maar we waren lekker onderweg. Nog één stop in Den Bosch en daarna rijden we Nederland uit... Plonk! <i>Of toch niet...</i> net 500 meter na het station stopt de trein. En dan moeten we er allemaal uit. Eens kijken hoe we nu nog naar Wenen komen.",
         "photo"   : "/photos/denbosch.jpg",
-        "textobj" : "We zijn net op weg, het is een hele drukke trein. De vorige naar Frankfurt had een storing. Maar we waren lekker onderweg. Nog een stop n Den Bosch en daarna rijden we Nederland uit... Plonk! Of niet... net 500 meter na het station stopt de trein. En dan moeten we er allemaal uit. Eens kijken hoe we nu nog naar Wenen komen.",
+        "textobj" : "",
         "buttons" : {
             "github"   : "",
             "yammer"   : "",
@@ -1129,11 +1129,11 @@
         "visible" : true
     },
     "re02" : {
-        "type"    : "photo",
+        "type"    : "text",
         "title"   : "Attentie de trein naar Munchen vertrekt om...",
-        "alttext" : "Foto: Geen treinen naar Munchen",
+        "alttext" : "Attentie de trein naar Munchen vertrekt om...",
         "photo"   : "/photos/munchen.jpg",
-        "textobj" : "Het heeft een boel sprints, verdrukkingen en heel veel zweet gekost, maar we zijn in FrankFurt. De laatste trein naar Wenen heeft veel vertraging, dus als we uit de trein sprinten dan kunnen we hem halen. 0 minuten overstap... Maar helaas. Niek heeft de trein nog aangeraakt, maar hij reed al weg. En alle andere treinen verder naar het Oosten. Die kwamen niet, zoals je op de foto ziet. We hebben Munchen om 22:30 gehaald, en Wenen om 11:30 de volgende dag.",
+        "textobj" : "<img src=\"./photos/munchen.jpg\" width=\"400\"><p>Het heeft een boel sprints, verdrukkingen en heel veel zweet gekost, maar we zijn in FrankFurt. De laatste trein naar Wenen heeft veel vertraging, dus als we uit de trein sprinten dan kunnen we hem halen. 0 minuten overstap... Maar helaas. Niek heeft de trein nog aangeraakt, maar hij reed al weg. En alle andere treinen verder naar het Oosten. Die kwamen niet, zoals je op de foto ziet. We hebben Munchen om 22:30 gehaald, en Wenen om 11:30 de volgende dag.</p>",
         "buttons" : {
             "github"   : "",
             "yammer"   : "",
@@ -1150,7 +1150,7 @@
     "re03" : {
         "type"    : "text",
         "title"   : "Opera",
-        "alttext" : "",
+        "alttext" : "Vivaldi - Die fünfte Jahreszeit",
         "photo"   : "",
         "textobj" : "We zijn naar de Opera geweest! Een avond theater is de beste remedie tegen treinmisere. Je kunt hier even 37 seconden meegenieten: <iframe width=\"560\" height=\"315\" src=\"https://www.youtube-nocookie.com/embed/m9XtOFEhpAg\" title=\"YouTube video player\" frameborder=\"0\" allow=\"accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture\" allowfullscreen></iframe>",
         "buttons" : {
@@ -1186,7 +1186,7 @@
     "re05" : {
         "type"    : "text",
         "title"   : "Namedropping in de keynotes",
-        "alttext" : "",
+        "alttext" : "Namedropping in de keynotes",
         "photo"   : "",
         "textobj" : "Onze fantastische oud-collega Jos Koelewijn kwam zomaar ineens voorbij tijdens de keynote van de PSConfEU. Met zijn mooie website: https://explainpowershell.com. Zeker een bezoekje waard.",
         "buttons" : {
@@ -1203,8 +1203,8 @@
     },
     "re06" : {
         "type"    : "text",
-        "title"   : "Profiler",
-        "alttext" : "",
+        "title"   : "Profiler - Jakub Jares",
+        "alttext" : "Profiler - Jakub Jares",
         "photo"   : "",
         "textobj" : "Je kent hem misschien van Pester, maar Jakub heeft nog een mooie module die hij heeft laten zien. Profiler. Het is een module om uit te zoeken waar de traagheid in je cmdlets, functies of scripts zit. Zodat je weet waar je het meeste resultaat kan behalen met het verbeteren van je code.",
         "buttons" : {
@@ -1240,14 +1240,14 @@
     "re08" : {
         "type"    : "text",
         "title"   : "T-shirt",
-        "alttext" : "",
+        "alttext" : "Power Hell",
         "photo"   : "",
         "textobj" : "Ben (@Powers_Hell) had tijdens de conferentie wel een van de populairdere shirts om weg te geven. En 3 keer laten wie de laatste heeft bemachtigd. Alleen heb ik nu pas door dat ik me al jaren verdiep in een taal die Power Hell in de naam heeft...",
         "buttons" : {
             "github"   : "",
             "yammer"   : "",
             "youtube"  : "",
-            "twitter"  : "",
+            "twitter"  : "https://twitter.com/powers_hell",
             "gallery"  : "",
             "internet"  : "https://powers-hell.com/"        
         },         
@@ -1258,9 +1258,9 @@
     "re09" : {
         "type"    : "photo",
         "title"   : "Community demo: PSHTML",
-        "alttext" : "Foto van demo (niet PSConfEU) van PSHTML",
-        "photo"   : "https://github.com/Stephanevg/PSHTML/blob/master/docs/Images/psconf_intro.jpg",
-        "textobj" : "Ik werd heel blij van deze PS Module. Zoveel makkelijker om powershell en HTML te mengen als je een automatische mail moet sturen vanuit een runbook.",
+        "alttext" : "Community demo: PSHTML. Ik werd heel blij van deze PS Module. Zoveel makkelijker om powershell en HTML te mengen als je een automatische mail moet sturen vanuit een runbook.",
+        "photo"   : "/photos/pshtml.jpg",
+        "textobj" : "",
         "buttons" : {
             "github"   : "https://github.com/Stephanevg/PSHTML ",
             "yammer"   : "",
@@ -1276,7 +1276,7 @@
     "re10" : {
         "type"    : "text",
         "title"   : "Community Demo: EZStore",
-        "alttext" : "",
+        "alttext" : "Community Demo: EZStore",
         "photo"   : "",
         "textobj" : "Nog een praatje van \"<i>Walter Legowski</i>\", dit keer over EZStore. Hij heeft een POC module gemaakt die gebruikt maakt van de secretstore in Windows. In zijn woorden: 'it's like a big pocket, you can put <i>anything</i> in there... and it's not scanned by AV'",
         "buttons" : {
@@ -1294,7 +1294,7 @@
     "re11" : {
         "type"    : "text",
         "title"   : "Chasing the Seconds - Thorsten Butz",
-        "alttext" : "",
+        "alttext" : "Chasing the Seconds - Thorsten Butz",
         "photo"   : "",
         "textobj" : "Nog een hele goeie demo met uitgebreide voorbeelden, over het verbeteren van je cmdlets. Als je ooit je puntjes op de i wilt zetten, werk deze demo's even door!",
         "buttons" : {
@@ -1312,7 +1312,7 @@
     "re12" : {
         "type"    : "text",
         "title"   : "Zo, nu eerst een pull request",
-        "alttext" : "",
+        "alttext" : "Zo, nu eerst een pull request",
         "photo"   : "",
         "textobj" : "James O'Neill gaf een demo van ImportExcel. Ik dacht, die ken ik al, maar de andere sessies op die tijd spraken me minder aan. Maar goed dat ik was gegaan. Hij besprak vooral Export-Excel en het was zo duidelijk. Die avond nog zat de pull request in mijn team repo, om de ISAE rapportage maar in 1 keer goed aan meneer Plug op te leveren.",
         "buttons" : {
@@ -1348,9 +1348,9 @@
     "re14" : {
         "type"    : "text",
         "title"   : "#PTMF - Bjorn Sundling",
-        "alttext" : "",
+        "alttext" : "#PTMF - Bjorn Sundling",
         "photo"   : "",
-        "textobj" : "Ookal was het nog vrijdag, Bjorn heeft in ICE vaart een presentatie gehouden over hoe je kunt: Push To Main Friday. Niet alleen technisch liet hij zien hoe je in AzureDevOps je branches en pipelines daarvoor moet inrichten. Hij gaf ook tips waar een goede test aan moet voldoen en wat je stappenplan kan zijn om langzaam steeds meer zekerheid te krijgen in je CI/CD. Wanneer de presentatie op youtube komt, ga ik deze zeker nog een keer kijken!",
+        "textobj" : "Ookal was het nog geen vrijdag, Bjorn heeft in ICE vaart een presentatie gehouden over hoe je kunt: Push To Main Friday. Niet alleen technisch liet hij zien hoe je in AzureDevOps je branches en pipelines daarvoor moet inrichten. Hij gaf ook tips waar een goede test aan moet voldoen en wat je stappenplan kan zijn om langzaam steeds meer zekerheid te krijgen in je CI/CD. Wanneer de presentatie op youtube komt, ga ik deze zeker nog een keer kijken!",
         "buttons" : {
             "github"   : "https://github.com/psconfeu/2022/tree/main/Bjorn%20Sundling/PTMF-PushToMainFriday",
             "yammer"   : "",
@@ -1366,7 +1366,7 @@
     "re15" : {
         "type"    : "text",
         "title"   : "PSSecretScanner",
-        "alttext" : "",
+        "alttext" : "PSSecretScanner",
         "photo"   : "",
         "textobj" : "Vervolg op #PTMF. PSSecretScanner is een goede test om aan je commit pipelines toe te voegen, zodat je niet per ongeluk wachtwoorden of sleutels in een (openbare) repository zet!",
         "buttons" : {
@@ -1384,7 +1384,7 @@
     "re16" : {
         "type"    : "text",
         "title"   : "Blink and you'll miss it.",
-        "alttext" : "",
+        "alttext" : "Blink and you'll miss it.",
         "photo"   : "",
         "textobj" : "Soms gaat het allemaal heel snel, maar als je goed oplet dan krijg je nog eens iets nuttigs mee. Dit was tijdens de presentatie van Jan Egil Ring over Containers in VS Code. Hij gebruikte daar een hele snelle manier op even zijn publieke ipadres op te vragen: <br><code>iwr ifconfig.me/ip | % content</code><br> Of voor de nitpickers: <br><code>Invoke-WebRequest -Uri ifconfig.me/ip | Select-Object -ExpandProperty Content</code>",
         "buttons" : {
@@ -1400,11 +1400,11 @@
         "visible" : true
     },
     "re17" : {
-        "type"    : "photo",
+        "type"    : "text",
         "title"   : "Kahoot",
-        "alttext" : "Foto: 🌻🌻🌻 (dat ben ik) staat op plek 3 in Kahoot.",
-        "photo"   : "/photos/kahoot.jpg",
-        "textobj" : "Zoals elke goede cursus of pizzasessie sloot ook PSConfEU af met een kahoot. 🌻🌻🌻 (dat ben ik) was derde geworden! Met maar 3 vragen goed :D. ",
+        "alttext" : "Kahoot: 🌻🌻🌻 (dat ben ik) staat op plek 3!",
+        "photo"   : "",
+        "textobj" : "Zoals elke goede cursus of pizzasessie sloot ook PSConfEU af met een kahoot. 🌻🌻🌻 (dat ben ik) was derde geworden! Met maar 3 vragen goed :D. <br><img src=\"./photos/kahoot.jpg\" width=\"200\">",
         "buttons" : {
             "github"   : "",
             "yammer"   : "",
@@ -1420,9 +1420,9 @@
     "re18" : {
         "type"    : "photo",
         "title"   : "Weer naar huis :(",
-        "alttext" : "Gif Harry Potter die zwaait naar Hagrid.",
+        "alttext" : "Weer naar huis :(. Aan al het mooie komt een eind. En de terugreis begon natuurlijk met... 1 uur vertraging! Maar gelukkig waren we wel zoals gepland weer thuis :). ",
         "photo"   : "https://media.giphy.com/media/qJ1IJW0SOtdq8/giphy.gif",
-        "textobj" : "Aan al het mooie komt een eind. En de terugreis begon natuurlijk met... 1 uur vertraging! Maar gelukkig waren we wel zoals gepland weer thuis :). ",
+        "textobj" : "",
         "buttons" : {
             "github"   : "",
             "yammer"   : "",
@@ -1437,10 +1437,10 @@
     },   
     "re19" : {
         "type"    : "text",
-        "title"   : "Powershell Community Discord",
-        "alttext" : "",
+        "title"   : "Powershell Community Discord/Slack",
+        "alttext" : "Powershell Community Discord/Slack",
         "photo"   : "",
-        "textobj" : "Wist je dat er een grote community Discord en Slack zijn voor Powershell gebruikers? Je kunt er vragen stellen en info delen en met de Microsoft product owners praten als ze er zijn. De links zijn http://aka.ms/psdiscord en http://aka.ms/psslack. <br> Een van de mooie dingen die ik al heb gevonden is een geanimeerde regenboogvalg achtergrond (shader) voor in Windows Terminal. Heel vrolijk!",
+        "textobj" : "Wist je dat er een grote community Discord en Slack zijn voor Powershell gebruikers? Je kunt er vragen stellen en info delen en met de Microsoft product owners praten als ze er zijn. De links zijn <a href=\"http://aka.ms/psdiscord\">http://aka.ms/psdiscord</a> en <a href=\"http://aka.ms/psslack\">http://aka.ms/psslack</a>. <br> Eén van de mooie dingen die ik al heb gevonden is een geanimeerde regenboogvlag achtergrond (shader) voor in Windows Terminal. Heel vrolijk!",
         "buttons" : {
             "github"   : "",
             "yammer"   : "",
@@ -1456,9 +1456,9 @@
     "re20" : {
         "type"    : "text",
         "title"   : "Thuis gaat het feestje door",
-        "alttext" : "",
+        "alttext" : "Thuis gaat het feestje door",
         "photo"   : "",
-        "textobj" : "Na die hele week weg mocht ik bijna meteen ook de hele week weer thuisblijven (in quarantaine/met de Covid swag van de conferentie). Toen kon ik wel meteen de inspiratie die ik heb opgedaan tijdens PSConfEU, steken in een muzikaal en nutteloos projectje, waar ik zelf erg vrolijk van wordt. <br> <code>computer says beep</code>",
+        "textobj" : "Na die hele week in Wenen, mocht ik bijna meteen ook een hele week weer thuisblijven (in quarantaine met de Covid swag van de conferentie). Toen kon ik wel meteen de inspiratie die ik heb opgedaan tijdens PSConfEU, steken in een muzikaal en nutteloos projectje, waar ik zelf erg vrolijk van wordt. <br> <code>computer says beep</code>",
         "buttons" : {
             "github"   : "https://github.com/n-athan/PSSynth ",
             "yammer"   : "",
