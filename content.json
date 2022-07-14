@@ -694,7 +694,7 @@
         },
         "author"  : "Maarten",
         "comments" : "",
-        "visible" : false
+        "visible" : true
     },
     "br18" : {
         "type"    : "photo",
