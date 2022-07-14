@@ -20,7 +20,7 @@
             "youtube"  : "",
             "twitter"  : "",
             "gallery"  : "",
-            "internet"  : "",            
+            "internet"  : "",
             "_buttons" : "the URL of the twitterpost, github-page etc. Leave blank if not in use, then the icon wont appear."
         },
         "author"    : "Jaap",
@@ -42,7 +42,7 @@
             "youtube"  : "",
             "twitter"  : "",
             "gallery"  : "",
-            "internet"  : ""         
+            "internet"  : ""
         },
         "author"   : "Jaap",
         "comments" : "first",
@@ -60,8 +60,8 @@
             "youtube"  : "",
             "twitter"  : "",
             "gallery"  : "",
-            "internet"  : ""       
-        },        
+            "internet"  : ""
+        },
         "author"  : "Jaap",
         "comments" : "",
         "visible" : true
@@ -78,8 +78,8 @@
             "youtube"  : "",
             "twitter"  : "",
             "gallery"  : "",
-            "internet"  : "https://vienna.plugge-d.nl/"         
-        },         
+            "internet"  : "https://vienna.plugge-d.nl/"
+        },
         "author"  : "Jaap",
         "comments" : "",
         "visible" : true
@@ -96,11 +96,11 @@
             "youtube"  : "",
             "twitter"  : "",
             "gallery"  : "",
-            "internet"  : ""         
-        },         
+            "internet"  : ""
+        },
         "author"  : "Jaap",
         "comments" : "",
-        "visible" : true  
+        "visible" : true
     },
     "lg05" : {
         "type"    : "text",
@@ -114,8 +114,8 @@
             "youtube"  : "",
             "twitter"  : "",
             "gallery"  : "",
-            "internet"  : ""         
-        },         
+            "internet"  : ""
+        },
         "author"  : "Jaap",
         "comments" : "",
         "visible" : false
@@ -132,8 +132,8 @@
             "youtube"  : "",
             "twitter"  : "",
             "gallery"  : "",
-            "internet"  : ""         
-        },         
+            "internet"  : ""
+        },
         "author"  : "Jaap",
         "comments" : "",
         "visible" : false
@@ -150,8 +150,8 @@
             "youtube"  : "",
             "twitter"  : "",
             "gallery"  : "",
-            "internet"  : ""        
-        },         
+            "internet"  : ""
+        },
         "author"  : "Jaap",
         "comments" : "",
         "visible" : false
@@ -168,12 +168,12 @@
             "youtube"  : "",
             "twitter"  : "",
             "gallery"  : "",
-            "internet"  : ""       
-        },        
+            "internet"  : ""
+        },
         "author"  : "Jelle",
         "comments" : "",
         "visible" : true
-    },    
+    },
     "or02" : {
         "type"    : "text",
         "title"   : "Keynote",
@@ -186,8 +186,8 @@
             "youtube"  : "",
             "twitter"  : "",
             "gallery"  : "",
-            "internet"  : ""         
-        },         
+            "internet"  : ""
+        },
         "author"  : "Jelle",
         "comments" : "",
         "visible" : true
@@ -204,8 +204,8 @@
             "youtube"  : "",
             "twitter"  : "",
             "gallery"  : "",
-            "internet"  : ""       
-        },        
+            "internet"  : ""
+        },
         "author"  : "Jelle",
         "comments" : "",
         "visible" : true
@@ -222,8 +222,8 @@
             "youtube"  : "",
             "twitter"  : "",
             "gallery"  : "",
-            "internet"  : ""         
-        },         
+            "internet"  : ""
+        },
         "author"  : "Jelle",
         "comments" : "",
         "visible" : true
@@ -240,8 +240,8 @@
             "youtube"  : "",
             "twitter"  : "",
             "gallery"  : "",
-            "internet"  : ""       
-        },        
+            "internet"  : ""
+        },
         "author"  : "Jelle",
         "comments" : "",
         "visible" : true
@@ -258,8 +258,8 @@
             "youtube"  : "",
             "twitter"  : "",
             "gallery"  : "",
-            "internet"  : ""         
-        },         
+            "internet"  : ""
+        },
         "author"  : "Jelle",
         "comments" : "",
         "visible" : true
@@ -276,8 +276,8 @@
             "youtube"  : "",
             "twitter"  : "",
             "gallery"  : "",
-            "internet"  : ""       
-        },        
+            "internet"  : ""
+        },
         "author"  : "Jelle",
         "comments" : "",
         "visible" : true
@@ -294,8 +294,8 @@
             "youtube"  : "",
             "twitter"  : "https://twitter.com/Ba4bes",
             "gallery"  : "https://www.powershellgallery.com/packages/Microsoft.PowerShell.SecretStore/1.0.6",
-            "internet"  : "https://4bes.nl/"         
-        },         
+            "internet"  : "https://4bes.nl/"
+        },
         "author"  : "Jelle",
         "comments" : "",
         "visible" : true
@@ -312,8 +312,8 @@
             "youtube"  : "",
             "twitter"  : "",
             "gallery"  : "",
-            "internet"  : ""       
-        },        
+            "internet"  : ""
+        },
         "author"  : "Jelle",
         "comments" : "",
         "visible" : true
@@ -330,8 +330,8 @@
             "youtube"  : "",
             "twitter"  : "",
             "gallery"  : "",
-            "internet"  : ""         
-        },         
+            "internet"  : ""
+        },
         "author"  : "Jelle",
         "comments" : "",
         "visible" : true
@@ -348,8 +348,8 @@
             "youtube"  : "",
             "twitter"  : "",
             "gallery"  : "",
-            "internet"  : ""       
-        },        
+            "internet"  : ""
+        },
         "author"  : "Jelle",
         "comments" : "",
         "visible" : true
@@ -366,8 +366,8 @@
             "youtube"  : "",
             "twitter"  : "",
             "gallery"  : "https://www.powershellgallery.com/packages/Microsoft.PowerShell.SecretStore/1.0.6",
-            "internet"  : ""         
-        },         
+            "internet"  : ""
+        },
         "author"  : "Jelle",
         "comments" : "",
         "visible" : true
@@ -384,8 +384,8 @@
             "youtube"  : "",
             "twitter"  : "",
             "gallery"  : "",
-            "internet"  : ""       
-        },        
+            "internet"  : ""
+        },
         "author"  : "Jelle",
         "comments" : "",
         "visible" : true
@@ -402,26 +402,26 @@
             "youtube"  : "",
             "twitter"  : "",
             "gallery"  : "",
-            "internet"  : "https://pester.dev/docs/usage/discovery-and-run"         
-        },         
+            "internet"  : "https://pester.dev/docs/usage/discovery-and-run"
+        },
         "author"  : "Maarten",
         "comments" : "",
         "visible" : true
     },
     "br02" : {
-        "type"    : "text",
-        "title"   : "Attributes are your friends (Tobias Weltner)",
-        "alttext" : "Attributes are your friends (Tobias Weltner)",
-        "photo"   : "",
-        "textobj" : "Een van de meest interessante sessies tot nu toe vond ik de sessie Attributes are your friends van Tobias Weltner. Hierbij werd ingegaan op het maken van eigen attributen, het gebruik van Custom Attributes voor validation en transformation, het maken van 'zelflerende' parameters en het gebruik van argument completion. Dit biedt veel gave mogelijkheden. Voorbeelden zijn te vinden op zijn site powershell.one, maar als je dit interessant vindt zou ik zeker deze sessie gaan kijken zodra deze online is.<br><br>Maarten",
+        "type"    : "photo",
+        "title"   : "",
+        "alttext" : "En nog wat cultuur: de Albrechtsbrunnen",
+        "photo"   : "/photos/Maarten_fontein.jpg",
+        "textobj" : "",
         "buttons" : {
-            "github"   : "https://github.com/psconfeu/2022/tree/main/TobiasWeltner/AttributesAreYourFriend",
-            "yammer"   : "https://web.yammer.com/main/org/ogd.nl/threads/eyJfdHlwZSI6IlRocmVhZCIsImlkIjoiMTc5NDQ2NTA0NTg5NzIxNiJ9",
+            "github"   : "",
+            "yammer"   : "",
             "youtube"  : "",
             "twitter"  : "",
             "gallery"  : "",
-            "internet"  : ""         
-        },         
+            "internet"  : ""
+        },
         "author"  : "Maarten",
         "comments" : "",
         "visible" : true
@@ -438,8 +438,8 @@
             "youtube"  : "",
             "twitter"  : "",
             "gallery"  : "",
-            "internet"  : ""         
-        },         
+            "internet"  : ""
+        },
         "author"  : "Maarten",
         "comments" : "",
         "visible" : true
@@ -456,17 +456,143 @@
             "youtube"  : "",
             "twitter"  : "",
             "gallery"  : "",
-            "internet"  : "https://devblogs.microsoft.com/powershell/psreadline-2-2-6-enables-predictive-intellisense-by-default/"         
-        },         
+            "internet"  : "https://devblogs.microsoft.com/powershell/psreadline-2-2-6-enables-predictive-intellisense-by-default/"
+        },
         "author"  : "Maarten",
         "comments" : "",
         "visible" : true
     },
     "br05" : {
+        "type"    : "photo",
+        "title"   : "",
+        "alttext" : "Stukje cultuur: de Stephansdom",
+        "photo"   : "/photos/Maarten_kerk.jpg",
+        "textobj" : "",
+        "buttons" : {
+            "github"   : "",
+            "yammer"   : "",
+            "youtube"  : "",
+            "twitter"  : "",
+            "gallery"  : "",
+            "internet"  : ""
+        },
+        "author"  : "Maarten",
+        "comments" : "",
+        "visible" : true
+    },
+    "br06" : {
+        "type"    : "text",
+        "title"   : "Manage and automate Azxure DevOps through PowerShell",
+        "alttext" : "Manage and automate Azxure DevOps through PowerShell",
+        "photo"   : "",
+        "textobj" : "<p>Het beheren van je Azure DevOps kan met de VSTeam PowerShell module.</p>",
+        "buttons" : {
+            "github"   : "https://github.com/psconfeu/2022/tree/main/DanielSilva/Manage%20and%20automate%20Azure%20DevOps%20through%20PowerShell",
+            "yammer"   : "",
+            "youtube"  : "",
+            "twitter"  : "",
+            "gallery"  : "",
+            "internet"  : ""
+        },
+        "author"  : "Maarten",
+        "comments" : "",
+        "visible" : true
+    },
+    "br07" : {
+        "type"    : "text",
+        "title"   : "Getting started with Dev Containers in VS Code (Jan Egil Ring)",
+        "alttext" : "Getting started with Dev Containers in VS Code (Jan Egil Ring)",
+        "photo"   : "/photos/vscode_devcontainers.jpg",
+        "textobj" : "<p>Dev Containers zijn enorm handig, zeker als je met meerdere mensen aan dezelfde code werkt. Voordelen: je hebt een geisoleerde omgeving en je kunt eenvoudig een kant-en-klare ontwikkelomgeving delen met je mede-ontwikkelaars zonder gedoe met benodigdheden zoals VS code extensions en modules. Jan Egil Ring ging in deze sessie in op containers in het algemeen en de mogelijkheden die VS Code biedt om gebruik te maken van Dev Containers. Gelukkig is een en ander uitgebreid na te lezen op zijn website (zie het linkje hieronder).</p>",
+        "buttons" : {
+            "github"   : "https://github.com/psconfeu/2022/tree/main/JanEgilRing/VSCodeDevContainers",
+            "yammer"   : "",
+            "youtube"  : "",
+            "twitter"  : "",
+            "gallery"  : "",
+            "internet"  : "https://www.powershell.no/vscode,/docker,/containers,/productivity,/powershell/2022/01/31/how-to-get-started-with-vs-code-dev-containers.html"
+        },
+        "author"  : "Maarten",
+        "comments" : "",
+        "visible" : true
+    },
+    "br08" : {
+        "type"    : "photo",
+        "title"   : "",
+        "alttext" : "Foto: nog meer liflafjes",
+        "photo"   : "/photos/Maarten_nogmeerliflafjes.jpg",
+        "textobj" : "<p>In Oostenrijk hebben ze de prettige gewoonte om een dessert te serveren na het ontbijt, na de lunch en na iedere koffie of theepauze.</p>",
+        "buttons" : {
+            "github"   : "",
+            "yammer"   : "",
+            "youtube"  : "",
+            "twitter"  : "",
+            "gallery"  : "",
+            "internet"  : ""
+        },
+        "author"  : "Maarten",
+        "comments" : "",
+        "visible" : true
+    },
+    "br09" : {
+        "type"    : "text",
+        "title"   : "Using the Microsoft Graph for the reluctant IT Pro (Thomas Vochten)",
+        "alttext" : "Using the Microsoft Graph for the reluctant IT Pro (Thomas Vochten)",
+        "photo"   : "",
+        "textobj" : "<p>Een snelle introductie over de mogelijkheden die Graph biedt. Er werd ingegaan op Graph Explorer, Postman, authenticatie, permissies, de PowerShell SDK en certificate-based authentication.</p>",
+        "buttons" : {
+            "github"   : "https://github.com/psconfeu/2022/blob/main/ThomasVochten/MSGraphITPro/ThomasVochten-MSGraphITPro-PSConfEU22.pdf",
+            "yammer"   : "",
+            "youtube"  : "",
+            "twitter"  : "",
+            "gallery"  : "",
+            "internet"  : ""
+        },
+        "author"  : "Maarten",
+        "comments" : "",
+        "visible" : true
+    },
+    "br10" : {
+        "type"    : "text",
+        "title"   : "Idempotence isn't a dirty word (James Ruskin)",
+        "alttext" : "Idempotence isn't a dirty word (James Ruskin)",
+        "photo"   : "photos/idempotence.jpg",
+        "textobj" : "Een script is idempotent als hetzelfde resultaat wordt bereikt bij herhaald uitvoeren van het script zonder dat het script hierdoor faalt. Dat klinkt misschien wat cryptisch maar denk hierbij aan een script dat rechten instelt op mailboxen, maar alleen als de rechten nog niet juist ingesteld staan en dus niet faalt als de bewuste rechten al wel toegekend zijn. Hoe vaak je dit script ook draait, het zal altijd resulteren in dezelfde uitkomst. In deze sessie werden een paar suggesties gedaan hoe je kan zorgen dat je code idempotent is en werden wat voorbeelden aangehaald.</p>",
+        "buttons" : {
+            "github"   : "",
+            "yammer"   : "",
+            "youtube"  : "",
+            "twitter"  : "",
+            "gallery"  : "",
+            "internet"  : ""
+        },
+        "author"  : "Maarten",
+        "comments" : "",
+        "visible" : true
+    },
+    "br11" : {
+        "type"    : "text",
+        "title"   : "Basic Toolmaking: robust scripting for unattended execution (Evgenij Smirnov)",
+        "alttext" : "Basic Toolmaking: robust scripting for unattended execution (Evgenij Smirnov)",
+        "photo"   : "",
+        "textobj" : "<p>In deze uitgebreide sessie werd gekeken naar de uitdagingen die unattended scripts met zich meebrengen. De grootste uitdaging ligt in het feit dat er redelijk wat zaken buiten je eigen controle zijn zodra je een script uit handen geeft. Deze uitzonderingen moeten dus allen afgevangen worden. In deze sessie werden meerdere tips gegeven aan de hand van voorbeelden.</p>",
+        "buttons" : {
+            "github"   : "https://github.com/psconfeu/2022/tree/main/EvgenijSmirnov",
+            "yammer"   : "",
+            "youtube"  : "",
+            "twitter"  : "",
+            "gallery"  : "",
+            "internet"  : ""
+        },
+        "author"  : "Maarten",
+        "comments" : "",
+        "visible" : true
+    },
+    "br12" : {
         "type"    : "text",
         "title"   : "From the field - PowerShell, Exchange Online and MS Graph - the 3 musketeers (Andreas Hähnel)",
         "alttext" : "From the field - PowerShell, Exchange Online and MS Graph - the 3 musketeers (Andreas Hähnel)",
-        "photo"   : "",
+        "photo"   : "/photos/fromthefield.jpg",
         "textobj" : "<p>In deze sessie ging Andreas eerst in op Basic Authentication. Zoals al enige tijd bekend zal Microsoft vanaf 1 oktober 2022 authenticatie op basis van Basic Authentication naar Exchange Online niet meer mogelijk maken. Applicaties (en scripts) die gebruik maken van Basic Authentication zullen  na deze datum niet meer werken. Om te zien of er applicaties zijn die nog gebruik maken van Basic Authentication kun je de sign-in logs in Azure controleren...(lees verder op Yammer)</p>",
         "buttons" : {
             "github"   : "https://github.com/psconfeu/2022/tree/main/Andreas%20H%C3%A4hnel/From%20the%20field%20-%20PowerShell%2C%20Exchange%20Online%20and%20MS%20Graph%20-%20the%203%20musketeers",
@@ -474,179 +600,53 @@
             "youtube"  : "",
             "twitter"  : "",
             "gallery"  : "",
-            "internet"  : ""         
-        },         
+            "internet"  : ""
+        },
         "author"  : "Maarten",
         "comments" : "",
         "visible" : true
     },
-    "br06" : {
-        "type"    : "text",
-        "title"   : "",
-        "alttext" : "",
-        "photo"   : "",
-        "textobj" : "",
-        "buttons" : {
-            "github"   : "",
-            "yammer"   : "",
-            "youtube"  : "",
-            "twitter"  : "",
-            "gallery"  : "",
-            "internet"  : ""         
-        },         
-        "author"  : "Maarten",
-        "comments" : "",
-        "visible" : false
-    },
-    "br07" : {
-        "type"    : "text",
-        "title"   : "",
-        "alttext" : "",
-        "photo"   : "",
-        "textobj" : "",
-        "buttons" : {
-            "github"   : "",
-            "yammer"   : "",
-            "youtube"  : "",
-            "twitter"  : "",
-            "gallery"  : "",
-            "internet"  : ""         
-        },         
-        "author"  : "Maarten",
-        "comments" : "",
-        "visible" : false
-    },
-    "br08" : {
-        "type"    : "text",
-        "title"   : "",
-        "alttext" : "",
-        "photo"   : "",
-        "textobj" : "",
-        "buttons" : {
-            "github"   : "",
-            "yammer"   : "",
-            "youtube"  : "",
-            "twitter"  : "",
-            "gallery"  : "",
-            "internet"  : ""         
-        },         
-        "author"  : "Maarten",
-        "comments" : "",
-        "visible" : false
-    },
-    "br09" : {
-        "type"    : "text",
-        "title"   : "",
-        "alttext" : "",
-        "photo"   : "",
-        "textobj" : "",
-        "buttons" : {
-            "github"   : "",
-            "yammer"   : "",
-            "youtube"  : "",
-            "twitter"  : "",
-            "gallery"  : "",
-            "internet"  : ""         
-        },         
-        "author"  : "Maarten",
-        "comments" : "",
-        "visible" : false
-    },
-    "br10" : {
-        "type"    : "text",
-        "title"   : "",
-        "alttext" : "",
-        "photo"   : "",
-        "textobj" : "",
-        "buttons" : {
-            "github"   : "",
-            "yammer"   : "",
-            "youtube"  : "",
-            "twitter"  : "",
-            "gallery"  : "",
-            "internet"  : ""         
-        },         
-        "author"  : "Maarten",
-        "comments" : "",
-        "visible" : false
-    },
-    "br11" : {
-        "type"    : "text",
-        "title"   : "",
-        "alttext" : "",
-        "photo"   : "",
-        "textobj" : "",
-        "buttons" : {
-            "github"   : "",
-            "yammer"   : "",
-            "youtube"  : "",
-            "twitter"  : "",
-            "gallery"  : "",
-            "internet"  : ""         
-        },         
-        "author"  : "Maarten",
-        "comments" : "",
-        "visible" : false
-    },
-    "br12" : {
-        "type"    : "text",
-        "title"   : "",
-        "alttext" : "",
-        "photo"   : "",
-        "textobj" : "",
-        "buttons" : {
-            "github"   : "",
-            "yammer"   : "",
-            "youtube"  : "",
-            "twitter"  : "",
-            "gallery"  : "",
-            "internet"  : ""         
-        },         
-        "author"  : "Maarten",
-        "comments" : "",
-        "visible" : false
-    },
     "br13" : {
         "type"    : "text",
-        "title"   : "",
-        "alttext" : "",
+        "title"   : "Attributes are your friends (Tobias Weltner)",
+        "alttext" : "Attributes are your friends (Tobias Weltner)",
         "photo"   : "",
-        "textobj" : "",
+        "textobj" : "Een van de meest interessante sessies tot nu toe vond ik de sessie Attributes are your friends van Tobias Weltner. Hierbij werd ingegaan op het maken van eigen attributen, het gebruik van Custom Attributes voor validation en transformation, het maken van 'zelflerende' parameters en het gebruik van argument completion. Dit biedt veel gave mogelijkheden. Voorbeelden zijn te vinden op zijn site powershell.one, maar als je dit interessant vindt zou ik zeker deze sessie gaan kijken zodra deze online is.<br><br>Maarten",
         "buttons" : {
-            "github"   : "",
-            "yammer"   : "",
+            "github"   : "https://github.com/psconfeu/2022/tree/main/TobiasWeltner/AttributesAreYourFriend",
+            "yammer"   : "https://web.yammer.com/main/org/ogd.nl/threads/eyJfdHlwZSI6IlRocmVhZCIsImlkIjoiMTc5NDQ2NTA0NTg5NzIxNiJ9",
             "youtube"  : "",
             "twitter"  : "",
             "gallery"  : "",
-            "internet"  : ""         
-        },         
+            "internet"  : ""
+        },
         "author"  : "Maarten",
         "comments" : "",
-        "visible" : false
+        "visible" : true
     },
     "br14" : {
         "type"    : "text",
-        "title"   : "",
-        "alttext" : "",
+        "title"   : "Creating your own PSGallery with Azure Artifacts (Emanuel Palm)",
+        "alttext" : "Creating your own PSGallery with Azure Artifacts (Emanuel Palm)",
         "photo"   : "",
-        "textobj" : "",
+        "textobj" : "<p>Leuke sessie waarin werd verteld hoe je eenvoudig je eigen PowerShell module kunt publiceren met Azure Artifcats.</p>",
         "buttons" : {
-            "github"   : "",
+            "github"   : "https://github.com/psconfeu/2022/tree/main/EmanuelPalm/CreatingYourOwnPowerShellGallery",
             "yammer"   : "",
             "youtube"  : "",
             "twitter"  : "",
             "gallery"  : "",
-            "internet"  : ""         
-        },         
+            "internet"  : ""
+        },
         "author"  : "Maarten",
         "comments" : "",
-        "visible" : false
+        "visible" : true
     },
     "br15" : {
-        "type"    : "text",
+        "type"    : "photo",
         "title"   : "",
-        "alttext" : "",
-        "photo"   : "",
+        "alttext" : "Standbeeld van Clippy (sort of)",
+        "photo"   : "/photos/Maarten_clippy.jpg",
         "textobj" : "",
         "buttons" : {
             "github"   : "",
@@ -654,53 +654,53 @@
             "youtube"  : "",
             "twitter"  : "",
             "gallery"  : "",
-            "internet"  : ""         
-        },         
+            "internet"  : ""
+        },
         "author"  : "Maarten",
         "comments" : "",
-        "visible" : false
+        "visible" : true
     },
     "br16" : {
         "type"    : "text",
-        "title"   : "",
-        "alttext" : "",
+        "title"   : "The art of mocking (Bartosz Bielawski)",
+        "alttext" : "The art of mocking (Bartosz Bielawski)",
         "photo"   : "",
-        "textobj" : "",
+        "textobj" : "<p>Goede sessie waarin tips en valkuilen bij het schrijven van mocks werden behandeld. Een paar adviezen uit deze sessie:<ul><li>Scope matters: Let op de scope wanneer je een mock definieert, vooral in complexere situaties.</li><li>Fake it good: Probeer zo dicht mogelijk bij de resultaat van het origineel te blijven</li><li>ZDon't mock absent: Een gemockte functie moet niet alleen in de eigen omgeving maar ook ergens anders uit te voeren zijn. Maak desnoods een 'fake' functie aan.</ul>Voorbeelden zijn te vinden op de GitHub van Bartosz.</p>",
         "buttons" : {
-            "github"   : "",
+            "github"   : "https://github.com/bielawb/Presentations-TheArtOfMocking",
             "yammer"   : "",
             "youtube"  : "",
             "twitter"  : "",
             "gallery"  : "",
-            "internet"  : ""         
-        },         
+            "internet"  : ""
+        },
         "author"  : "Maarten",
         "comments" : "",
-        "visible" : false
+        "visible" : true
     },
     "br17" : {
         "type"    : "text",
-        "title"   : "",
-        "alttext" : "",
+        "title"   : "Azure Functions: The Missing Manual (Justin Grote)",
+        "alttext" : "Azure Functions: The Missing Manual (Justin Grote)",
         "photo"   : "",
-        "textobj" : "",
+        "textobj" : "<p>Sessie over Azure Functions, maar ook over Dev Containers. Een goede tip was om gebruik te maken van Azure Functions deployment slots. Daarmee kun je heel snel wisselen tussen twee instances van je function app.</p>",
         "buttons" : {
-            "github"   : "",
+            "github"   : "https://github.com/psconfeu/2022/tree/main/JustinGrote/AzureFunctionsMissingManual",
             "yammer"   : "",
             "youtube"  : "",
             "twitter"  : "",
             "gallery"  : "",
-            "internet"  : ""         
-        },         
+            "internet"  : ""
+        },
         "author"  : "Maarten",
         "comments" : "",
-        "visible" : false
+        "visible" : true
     },
     "br18" : {
-        "type"    : "text",
+        "type"    : "photo",
         "title"   : "",
-        "alttext" : "",
-        "photo"   : "",
+        "alttext" : "Belvedere, vlak bij ons hotel",
+        "photo"   : "/photos/Maarten_belvedere.jpg",
         "textobj" : "",
         "buttons" : {
             "github"   : "",
@@ -708,17 +708,17 @@
             "youtube"  : "",
             "twitter"  : "",
             "gallery"  : "",
-            "internet"  : ""         
-        },         
+            "internet"  : ""
+        },
         "author"  : "Maarten",
         "comments" : "",
-        "visible" : false
+        "visible" : true
     },
     "br19" : {
-        "type"    : "text",
-        "title"   : "",
+        "type"    : "photo",
+        "title"   : "Get-Train -Destination Vienna",
         "alttext" : "",
-        "photo"   : "",
+        "photo"   : "/photos/Maarten_trein.jpg",
         "textobj" : "",
         "buttons" : {
             "github"   : "",
@@ -726,11 +726,11 @@
             "youtube"  : "",
             "twitter"  : "",
             "gallery"  : "",
-            "internet"  : ""         
-        },         
+            "internet"  : ""
+        },
         "author"  : "Maarten",
         "comments" : "",
-        "visible" : false
+        "visible" : true
     },
     "dg01" : {
         "type"    : "text",
@@ -744,8 +744,8 @@
             "youtube"  : "",
             "twitter"  : "",
             "gallery"  : "",
-            "internet"  : ""         
-        },         
+            "internet"  : ""
+        },
         "author"  : "Niek",
         "comments" : "",
         "visible" : true
@@ -762,8 +762,8 @@
             "youtube"  : "",
             "twitter"  : "",
             "gallery"  : "",
-            "internet"  : ""         
-        },         
+            "internet"  : ""
+        },
         "author"  : "Niek",
         "comments" : "",
         "visible" : false
@@ -780,8 +780,8 @@
             "youtube"  : "",
             "twitter"  : "",
             "gallery"  : "",
-            "internet"  : ""         
-        },         
+            "internet"  : ""
+        },
         "author"  : "Niek",
         "comments" : "",
         "visible" : false
@@ -798,8 +798,8 @@
             "youtube"  : "",
             "twitter"  : "",
             "gallery"  : "",
-            "internet"  : ""        
-        },         
+            "internet"  : ""
+        },
         "author"  : "Niek",
         "comments" : "",
         "visible" : false
@@ -816,8 +816,8 @@
             "youtube"  : "",
             "twitter"  : "",
             "gallery"  : "",
-            "internet"  : ""         
-        },         
+            "internet"  : ""
+        },
         "author"  : "Niek",
         "comments" : "",
         "visible" : false
@@ -834,8 +834,8 @@
             "youtube"  : "",
             "twitter"  : "",
             "gallery"  : "",
-            "internet"  : ""         
-        },         
+            "internet"  : ""
+        },
         "author"  : "Niek",
         "comments" : "",
         "visible" : false
@@ -852,8 +852,8 @@
             "youtube"  : "",
             "twitter"  : "",
             "gallery"  : "",
-            "internet"  : ""         
-        },         
+            "internet"  : ""
+        },
         "author"  : "Niek",
         "comments" : "",
         "visible" : false
@@ -870,8 +870,8 @@
             "youtube"  : "",
             "twitter"  : "",
             "gallery"  : "",
-            "internet"  : ""         
-        },         
+            "internet"  : ""
+        },
         "author"  : "Niek",
         "comments" : "",
         "visible" : false
@@ -888,8 +888,8 @@
             "youtube"  : "",
             "twitter"  : "",
             "gallery"  : "",
-            "internet"  : ""         
-        },         
+            "internet"  : ""
+        },
         "author"  : "Niek",
         "comments" : "",
         "visible" : false
@@ -906,8 +906,8 @@
             "youtube"  : "",
             "twitter"  : "",
             "gallery"  : "",
-            "internet"  : ""         
-        },         
+            "internet"  : ""
+        },
         "author"  : "Niek",
         "comments" : "",
         "visible" : false
@@ -924,8 +924,8 @@
             "youtube"  : "",
             "twitter"  : "",
             "gallery"  : "",
-            "internet"  : ""         
-        },         
+            "internet"  : ""
+        },
         "author"  : "Niek",
         "comments" : "",
         "visible" : false
@@ -942,8 +942,8 @@
             "youtube"  : "",
             "twitter"  : "",
             "gallery"  : "",
-            "internet"  : ""         
-        },         
+            "internet"  : ""
+        },
         "author"  : "Nathan",
         "comments" : "",
         "visible" : true
@@ -960,8 +960,8 @@
             "youtube"  : "",
             "twitter"  : "",
             "gallery"  : "",
-            "internet"  : ""         
-        },         
+            "internet"  : ""
+        },
         "author"  : "Niek",
         "comments" : "",
         "visible" : false
@@ -978,8 +978,8 @@
             "youtube"  : "",
             "twitter"  : "",
             "gallery"  : "",
-            "internet"  : ""         
-        },         
+            "internet"  : ""
+        },
         "author"  : "Niek",
         "comments" : "",
         "visible" : false
@@ -996,8 +996,8 @@
             "youtube"  : "",
             "twitter"  : "",
             "gallery"  : "",
-            "internet"  : ""        
-        },         
+            "internet"  : ""
+        },
         "author"  : "Niek",
         "comments" : "",
         "visible" : false
@@ -1014,12 +1014,12 @@
             "youtube"  : "",
             "twitter"  : "",
             "gallery"  : "",
-            "internet"  : ""       
-        },        
+            "internet"  : ""
+        },
         "author"  : "Frodo",
         "comments" : "",
         "visible" : true
-    },   
+    },
     "pi02" : {
         "type"    : "photo",
         "title"   : "",
@@ -1032,12 +1032,12 @@
             "youtube"  : "",
             "twitter"  : "",
             "gallery"  : "",
-            "internet"  : ""       
-        },        
+            "internet"  : ""
+        },
         "author"  : "Frodo",
         "comments" : "",
         "visible" : true
-    },   
+    },
     "pi03" : {
         "type"    : "photo",
         "title"   : "Ik ben fan van Oostenrijk.",
@@ -1050,8 +1050,8 @@
             "youtube"  : "",
             "twitter"  : "",
             "gallery"  : "",
-            "internet"  : ""         
-        },         
+            "internet"  : ""
+        },
         "author"  : "Nathan",
         "comments" : "",
         "visible" : true
@@ -1068,12 +1068,12 @@
             "youtube"  : "",
             "twitter"  : "",
             "gallery"  : "",
-            "internet"  : ""       
-        },        
+            "internet"  : ""
+        },
         "author"  : "Frodo",
         "comments" : "",
         "visible" : true
-    },   
+    },
     "pi05" : {
         "type"    : "photo",
         "title"   : "",
@@ -1086,12 +1086,12 @@
             "youtube"  : "",
             "twitter"  : "",
             "gallery"  : "",
-            "internet"  : ""       
-        },        
+            "internet"  : ""
+        },
         "author"  : "Frodo",
         "comments" : "",
         "visible" : true
-    },   
+    },
     "pi06" : {
         "type"    : "photo",
         "title"   : "",
@@ -1104,12 +1104,12 @@
             "youtube"  : "",
             "twitter"  : "",
             "gallery"  : "",
-            "internet"  : ""       
-        },        
+            "internet"  : ""
+        },
         "author"  : "Frodo",
         "comments" : "",
         "visible" : true
-    },   
+    },
     "re01" : {
         "type"    : "text",
         "title"   : "Eerste Crash",
@@ -1122,8 +1122,8 @@
             "youtube"  : "",
             "twitter"  : "",
             "gallery"  : "",
-            "internet"  : ""         
-        },         
+            "internet"  : ""
+        },
         "author"  : "Nathan",
         "comments" : "",
         "visible" : true
@@ -1140,12 +1140,12 @@
             "youtube"  : "",
             "twitter"  : "",
             "gallery"  : "",
-            "internet"  : ""         
-        },         
+            "internet"  : ""
+        },
         "author"  : "Nathan",
         "comments" : "",
         "visible" : true
-        
+
     },
     "re03" : {
         "type"    : "text",
@@ -1159,8 +1159,8 @@
             "youtube"  : "https://www.youtube.com/watch?v=m9XtOFEhpAg&ab_channel=VolksoperWien",
             "twitter"  : "",
             "gallery"  : "",
-            "internet"  : ""         
-        },         
+            "internet"  : ""
+        },
         "author"  : "Nathan",
         "comments" : "",
         "visible" : true
@@ -1177,8 +1177,8 @@
             "youtube"  : "",
             "twitter"  : "",
             "gallery"  : "https://www.powershellgallery.com/packages/BurntToast/0.8.5",
-            "internet"  : ""         
-        },         
+            "internet"  : ""
+        },
         "author"  : "Nathan",
         "comments" : "",
         "visible" : true
@@ -1195,8 +1195,8 @@
             "youtube"  : "",
             "twitter"  : "",
             "gallery"  : "",
-            "internet"  : "https://explainpowershell.com"         
-        },         
+            "internet"  : "https://explainpowershell.com"
+        },
         "author"  : "Nathan",
         "comments" : "",
         "visible" : true
@@ -1213,8 +1213,8 @@
             "youtube"  : "",
             "twitter"  : "",
             "gallery"  : "https://www.powershellgallery.com/packages/Profiler/4.0.0",
-            "internet"  : "https://github.com/psconfeu/2022/tree/main/JakubJares/Make%20your%20scripts%20faster%20with%20Profiler"         
-        },         
+            "internet"  : "https://github.com/psconfeu/2022/tree/main/JakubJares/Make%20your%20scripts%20faster%20with%20Profiler"
+        },
         "author"  : "Nathan",
         "comments" : "",
         "visible" : true
@@ -1231,11 +1231,11 @@
             "youtube"  : "",
             "twitter"  : "",
             "gallery"  : "",
-            "internet"  : ""         
-        },         
+            "internet"  : ""
+        },
         "author"  : "Nathan",
         "comments" : "",
-        "visible" : true        
+        "visible" : true
     },
     "re08" : {
         "type"    : "text",
@@ -1249,8 +1249,8 @@
             "youtube"  : "",
             "twitter"  : "https://twitter.com/powers_hell",
             "gallery"  : "",
-            "internet"  : "https://powers-hell.com/"        
-        },         
+            "internet"  : "https://powers-hell.com/"
+        },
         "author"  : "Nathan",
         "comments" : "",
         "visible" : true
@@ -1267,8 +1267,8 @@
             "youtube"  : "",
             "twitter"  : "",
             "gallery"  : "https://www.powershellgallery.com/packages/PSHTML/0.8.2",
-            "internet"  : ""         
-        },         
+            "internet"  : ""
+        },
         "author"  : "Nathan",
         "comments" : "",
         "visible" : true
@@ -1285,8 +1285,8 @@
             "youtube"  : "",
             "twitter"  : "",
             "gallery"  : "",
-            "internet"  : ""         
-        },         
+            "internet"  : ""
+        },
         "author"  : "Nathan",
         "comments" : "",
         "visible" : true
@@ -1303,8 +1303,8 @@
             "youtube"  : "",
             "twitter"  : "",
             "gallery"  : "",
-            "internet"  : ""         
-        },         
+            "internet"  : ""
+        },
         "author"  : "Nathan",
         "comments" : "",
         "visible" : true
@@ -1321,8 +1321,8 @@
             "youtube"  : "",
             "twitter"  : "",
             "gallery"  : "https://www.powershellgallery.com/packages/ImportExcel/7.7.0",
-            "internet"  : ""         
-        },         
+            "internet"  : ""
+        },
         "author"  : "Nathan",
         "comments" : "",
         "visible" : true
@@ -1339,8 +1339,8 @@
             "youtube"  : "",
             "twitter"  : "",
             "gallery"  : "",
-            "internet"  : ""         
-        },         
+            "internet"  : ""
+        },
         "author"  : "Nathan",
         "comments" : "",
         "visible" : true
@@ -1357,8 +1357,8 @@
             "youtube"  : "",
             "twitter"  : "",
             "gallery"  : "",
-            "internet"  : ""         
-        },         
+            "internet"  : ""
+        },
         "author"  : "Nathan",
         "comments" : "",
         "visible" : true
@@ -1375,8 +1375,8 @@
             "youtube"  : "",
             "twitter"  : "",
             "gallery"  : "https://www.powershellgallery.com/packages/PSSecretScanner/1.0.3",
-            "internet"  : ""         
-        },         
+            "internet"  : ""
+        },
         "author"  : "Nathan",
         "comments" : "",
         "visible" : true
@@ -1393,8 +1393,8 @@
             "youtube"  : "",
             "twitter"  : "",
             "gallery"  : "",
-            "internet"  : "https://dev.to/crayon/how-to-get-started-with-vs-code-development-containers-4alo"         
-        },         
+            "internet"  : "https://dev.to/crayon/how-to-get-started-with-vs-code-development-containers-4alo"
+        },
         "author"  : "Nathan",
         "comments" : "",
         "visible" : true
@@ -1411,8 +1411,8 @@
             "youtube"  : "",
             "twitter"  : "",
             "gallery"  : "",
-            "internet"  : ""         
-        },         
+            "internet"  : ""
+        },
         "author"  : "Nathan",
         "comments" : "",
         "visible" : true
@@ -1429,12 +1429,12 @@
             "youtube"  : "",
             "twitter"  : "",
             "gallery"  : "",
-            "internet"  : ""         
-        },         
+            "internet"  : ""
+        },
         "author"  : "Nathan",
         "comments" : "",
         "visible" : true
-    },   
+    },
     "re19" : {
         "type"    : "text",
         "title"   : "Powershell Community Discord/Slack",
@@ -1447,12 +1447,12 @@
             "youtube"  : "",
             "twitter"  : "",
             "gallery"  : "",
-            "internet"  : "https://worldofzero.com/posts/pride-windows-terminal/"         
-        },         
+            "internet"  : "https://worldofzero.com/posts/pride-windows-terminal/"
+        },
         "author"  : "Nathan",
         "comments" : "",
         "visible" : true
-    },  
+    },
     "re20" : {
         "type"    : "text",
         "title"   : "Thuis gaat het feestje door",
@@ -1465,12 +1465,12 @@
             "youtube"  : "",
             "twitter"  : "",
             "gallery"  : "",
-            "internet"  : ""         
-        },         
+            "internet"  : ""
+        },
         "author"  : "Nathan",
         "comments" : "",
         "visible" : true
-    },  
+    },
     "pu01" : {
         "type"    : "text",
         "title"   : "Azure Functions in an enterprise enviroment (Barbara Forbes)",
@@ -1483,11 +1483,11 @@
             "youtube"  : "",
             "twitter"  : "https://twitter.com/Jaap_Brasser/status/1538857327457193985",
             "gallery"  : "",
-            "internet"  : ""         
-        },         
+            "internet"  : ""
+        },
         "author"  : "Barbara",
         "comments" : "",
-        "visible" : true        
+        "visible" : true
     },
     "pu02" : {
         "type"    : "photo",
@@ -1501,11 +1501,11 @@
             "youtube"  : "",
             "twitter"  : "https://twitter.com/Jaap_Brasser/status/1538857327457193985/photo/1",
             "gallery"  : "",
-            "internet"  : ""         
-        },         
+            "internet"  : ""
+        },
         "author"  : "Barbara",
         "comments" : "",
-        "visible" : true        
+        "visible" : true
     },
     "pu03" : {
         "type"    : "text",
@@ -1520,7 +1520,7 @@
             "twitter"  : "https://twitter.com/jpomfret/status/1539141543168200704",
             "gallery"  : "",
             "internet"  : ""
-        },         
+        },
         "author"  : "Barbara",
         "comments" : "",
         "visible" : true
@@ -1537,8 +1537,8 @@
             "youtube"  : "",
             "twitter"  : "https://twitter.com/jpomfret/status/1539141543168200704",
             "gallery"  : "",
-            "internet"  : ""      
-        },         
+            "internet"  : ""
+        },
         "author"  : "Barbara",
         "comments" : "",
         "visible" : true
@@ -1555,8 +1555,8 @@
             "youtube"  : "https://www.youtube.com/watch?v=tio8EAhfAOo",
             "twitter"  : "",
             "gallery"  : "",
-            "internet"  : ""         
-        },         
+            "internet"  : ""
+        },
         "author"  : "Barbara",
         "comments" : "",
         "visible" : true
@@ -1573,8 +1573,8 @@
             "youtube"  : "",
             "twitter"  : "",
             "gallery"  : "",
-            "internet"  : "https://pages.github.com/"         
-        },         
+            "internet"  : "https://pages.github.com/"
+        },
         "author"  : "Barbara",
         "comments" : "",
         "visible" : true
@@ -1591,11 +1591,11 @@
             "youtube"  : "",
             "twitter"  : "https://twitter.com/sqldbawithbeard/status/1539652557923971074",
             "gallery"  : "",
-            "internet"  : ""         
-        },         
+            "internet"  : ""
+        },
         "author"  : "Barbara",
         "comments" : "",
-        "visible" : true                
+        "visible" : true
     },
     "pu08" : {
         "type"    : "text",
@@ -1609,8 +1609,8 @@
             "youtube"  : "",
             "twitter"  : "https://twitter.com/Ba4bes/status/1539568781613211650",
             "gallery"  : "",
-            "internet"  : "https://4bes.nl/2019/06/02/step-by-step-start-using-git-for-powershell/"         
-        },         
+            "internet"  : "https://4bes.nl/2019/06/02/step-by-step-start-using-git-for-powershell/"
+        },
         "author"  : "Barbara",
         "comments" : "",
         "visible" : true
@@ -1627,8 +1627,8 @@
             "youtube"  : "",
             "twitter"  : "",
             "gallery"  : "",
-            "internet"  : "https://open.spotify.com/show/7vrlCD9cC5Ws1yCJWSCcdr"         
-        },         
+            "internet"  : "https://open.spotify.com/show/7vrlCD9cC5Ws1yCJWSCcdr"
+        },
         "author"  : "Barbara",
         "comments" : "",
         "visible" : true
@@ -1645,11 +1645,11 @@
             "youtube"  : "",
             "twitter"  : "",
             "gallery"  : "",
-            "internet"  : "https://www.linkedin.com/posts/ogd-ict-diensten_psconfeu-powershell-azure-activity-6944958359494123520-u_Uh"         
-        },         
+            "internet"  : "https://www.linkedin.com/posts/ogd-ict-diensten_psconfeu-powershell-azure-activity-6944958359494123520-u_Uh"
+        },
         "author"  : "Barbara",
         "comments" : "",
-        "visible" : true        
+        "visible" : true
     },
     "pu11" : {
         "type"    : "photo",
@@ -1663,8 +1663,8 @@
             "youtube"  : "",
             "twitter"  : "",
             "gallery"  : "",
-            "internet"  : "https://media-exp1.licdn.com/dms/image/C4E22AQFGmNGKGTniXg/feedshare-shrink_800/0/1655807102763?e=1659571200&v=beta&t=r-EWbVGJySrjtYxpr3MKmO7evCdG6QzTvuL4-r0wqVU"         
-        },         
+            "internet"  : "https://media-exp1.licdn.com/dms/image/C4E22AQFGmNGKGTniXg/feedshare-shrink_800/0/1655807102763?e=1659571200&v=beta&t=r-EWbVGJySrjtYxpr3MKmO7evCdG6QzTvuL4-r0wqVU"
+        },
         "author"  : "Barbara",
         "comments" : "",
         "visible" : true
@@ -1681,11 +1681,11 @@
             "youtube"  : "",
             "twitter"  : "",
             "gallery"  : "",
-            "internet"  : ""      
-        },         
+            "internet"  : ""
+        },
         "author"  : "Barbara",
         "comments" : "",
-        "visible" : true  
+        "visible" : true
     },
     "pu13" : {
         "type"    : "photo",
@@ -1699,8 +1699,8 @@
             "youtube"  : "",
             "twitter"  : "https://twitter.com/Ba4bes/status/1544365619398774788",
             "gallery"  : "",
-            "internet"  : ""         
-        },         
+            "internet"  : ""
+        },
         "author"  : "Barbara",
         "comments" : "",
         "visible" : true
@@ -1717,10 +1717,10 @@
             "youtube"  : "",
             "twitter"  : "https://twitter.com/Jaap_Brasser/status/1539235237674237952",
             "gallery"  : "",
-            "internet"  : ""         
-        },         
+            "internet"  : ""
+        },
         "author"  : "",
         "comments" : "",
         "visible" : true
-    }      
+    }
 }
