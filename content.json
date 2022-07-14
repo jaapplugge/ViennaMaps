@@ -715,7 +715,7 @@
         "visible" : true
     },
     "br19" : {
-        "type"    : "text",
+        "type"    : "photo",
         "title"   : "Get-Train -Destination Vienna",
         "alttext" : "",
         "photo"   : "/photos/Maarten_trein.jpg",
