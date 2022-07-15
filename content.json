@@ -52,7 +52,7 @@
         "type"    : "photo",
         "title"   : "",
         "alttext" : "foto: Ook in oostenrijk faalt inspoelen..",
-        "photo"   : "/photos/jaap01.jpeg",
+        "photo"   : "/photos/pareltje.jpg",
         "textobj" : "",
         "buttons" : {
             "github"   : "",
@@ -913,24 +913,6 @@
         "visible" : true
     },
     "dg11" : {
-        "type"    : "photo",
-        "title"   : "Suikerspin",
-        "alttext" : "Foto: Niek, Barbara en Nathan met mega roze suikerspin. Prater heeft beter eten dan het Hilton Hotel 💯.",
-        "photo"   : "/photos/suikerspin.jpg",
-        "textobj" : "",
-        "buttons" : {
-            "github"   : "",
-            "yammer"   : "",
-            "youtube"  : "",
-            "twitter"  : "",
-            "gallery"  : "",
-            "internet"  : ""
-        },
-        "author"  : "Nathan",
-        "comments" : "",
-        "visible" : true        
-    },
-    "dg12" : {
         "type"    : "text",
         "title"   : "",
         "alttext" : "",
@@ -946,7 +928,25 @@
         },
         "author"  : "Niek",
         "comments" : "",
-        "visible" : false
+        "visible" : false     
+    },
+    "dg12" : {
+        "type"    : "photo",
+        "title"   : "Suikerspin",
+        "alttext" : "Foto: Niek, Barbara en Nathan met mega roze suikerspin. Prater heeft beter eten dan het Hilton Hotel 💯.",
+        "photo"   : "/photos/suikerspin.jpg",
+        "textobj" : "",
+        "buttons" : {
+            "github"   : "",
+            "yammer"   : "",
+            "youtube"  : "",
+            "twitter"  : "",
+            "gallery"  : "",
+            "internet"  : ""
+        },
+        "author"  : "Nathan",
+        "comments" : "",
+        "visible" : true           
     },
     "dg13" : {
         "type"    : "text",
