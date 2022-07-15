@@ -85,6 +85,24 @@
         "visible" : true
     },
     "lg04" : {
+        "type"    : "text",
+        "title"   : "Augustus Pridemaand",
+        "alttext" : "Augustus Pridemaand",
+        "photo"   : "",
+        "textobj" : "<img src=\"./photos/pridemaand.jpg\" width='400px'>",
+        "buttons" : {
+            "github"   : "",
+            "yammer"   : "https://web.yammer.com/main/org/ogd.nl/threads/eyJfdHlwZSI6IlRocmVhZCIsImlkIjoiMTgyNzA4OTEzMDk3OTMyOCJ9",
+            "youtube"  : "",
+            "twitter"  : "",
+            "gallery"  : "",
+            "internet"  : "https://ogd.sharepoint.com/sites/Diversiteitinclusiviteit/SitePages/Augustus-Pridemaand.aspx"
+        },
+        "author"  : "Jaap",
+        "comments" : "",
+        "visible" : true
+    },    
+    "lg05" : {
         "type"    : "photo",
         "title"   : "Clickbait",
         "alttext" : "Clickbait",
@@ -102,41 +120,23 @@
         "comments" : "",
         "visible" : true
     },
-    "lg05" : {
-        "type"    : "text",
-        "title"   : "",
-        "alttext" : "",
-        "photo"   : "",
-        "textobj" : "",
-        "buttons" : {
-            "github"   : "",
-            "yammer"   : "",
-            "youtube"  : "",
-            "twitter"  : "",
-            "gallery"  : "",
-            "internet"  : ""
-        },
-        "author"  : "Jaap",
-        "comments" : "",
-        "visible" : false
-    },
     "lg06" : {
         "type"    : "text",
-        "title"   : "",
-        "alttext" : "",
+        "title"   : "QRCodeGenerator",
+        "alttext" : "QRCodeGenerator",
         "photo"   : "",
-        "textobj" : "",
+        "textobj" : "<p>Niet specifiek uit een sessie; meer een gimmick bij alle sessies... Wist je dat je in Powershell QR-codes kunt genereren? Natuurlijk willen we nooit QRCodes gebruiken, want je weet niet wat je scanned... Maar ze zijn zo leuk...</p>Jaap",
         "buttons" : {
             "github"   : "",
-            "yammer"   : "",
+            "yammer"   : "https://web.yammer.com/main/org/ogd.nl/threads/eyJfdHlwZSI6IlRocmVhZCIsImlkIjoiMTgyNzMxMTM2MzYxMjY3MiJ9",
             "youtube"  : "",
             "twitter"  : "",
-            "gallery"  : "",
+            "gallery"  : "https://www.powershellgallery.com/packages/QRCodeGenerator/2.6.0",
             "internet"  : ""
         },
         "author"  : "Jaap",
         "comments" : "",
-        "visible" : false
+        "visible" : true
     },
     "lg07" : {
         "type"    : "photo",
