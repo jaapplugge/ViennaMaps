@@ -392,8 +392,8 @@
     },
     "br01" : {
         "type"    : "text",
-        "title"   : "Pester 5 vs Pester 4 (Jares Jacub)",
-        "alttext" : "Pester 5 vs Pester 4 (Jares Jacub)",
+        "title"   : "Pester 5 vs Pester 4 (Jakub Jares)",
+        "alttext" : "Pester 5 vs Pester 4 (Jakub Jares)",
         "photo"   : "",
         "textobj" : "<p>De dagen vliegen voorbij bij #PSConfEU, vandaag was alweer de derde dag. Er zijn veel interessante sessies, hierbij een paar hoogtepunten wat mij betreft:</p><p>Jakub Jares, dé Pester maintainer, gaf een helder overzicht over de belangrijkste verschillen tussen Pester 4 en 5. Dat zijn er nogal wat, maar als je rekening houdt met de belangrijkste aanpassing in Pester, nl. het feit dat de Pester tests vanaf versie 5 tweeledig worden uitgevoerd, eerst met een Discovery en daarna met een Run fase dan valt een groot deel daarvan op zijn plek.</P>Maarten",
         "buttons" : {
@@ -482,8 +482,8 @@
     },
     "br06" : {
         "type"    : "text",
-        "title"   : "Manage and automate Azxure DevOps through PowerShell",
-        "alttext" : "Manage and automate Azxure DevOps through PowerShell",
+        "title"   : "Manage and automate Azure DevOps through PowerShell (Daniel Silva)",
+        "alttext" : "Manage and automate Azure DevOps through PowerShell (Daniel Silva)",
         "photo"   : "",
         "textobj" : "<p>Het beheren van je Azure DevOps kan met de VSTeam PowerShell module.</p>",
         "buttons" : {
@@ -519,9 +519,9 @@
     "br08" : {
         "type"    : "photo",
         "title"   : "",
-        "alttext" : "Foto: nog meer liflafjes",
+        "alttext" : "Foto: In Oostenrijk hebben ze de prettige gewoonte om een dessert te serveren na het ontbijt, na de lunch en na iedere koffie of theepauze.",
         "photo"   : "/photos/Maarten_nogmeerliflafjes.jpg",
-        "textobj" : "<p>In Oostenrijk hebben ze de prettige gewoonte om een dessert te serveren na het ontbijt, na de lunch en na iedere koffie of theepauze.</p>",
+        "textobj" : "",
         "buttons" : {
             "github"   : "",
             "yammer"   : "",
@@ -629,7 +629,7 @@
         "title"   : "Creating your own PSGallery with Azure Artifacts (Emanuel Palm)",
         "alttext" : "Creating your own PSGallery with Azure Artifacts (Emanuel Palm)",
         "photo"   : "",
-        "textobj" : "<p>Leuke sessie waarin werd verteld hoe je eenvoudig je eigen PowerShell module kunt publiceren met Azure Artifcats.</p>",
+        "textobj" : "<p>Leuke sessie waarin werd verteld hoe je eenvoudig je eigen PowerShell module kunt publiceren met Azure Artifacts.</p>",
         "buttons" : {
             "github"   : "https://github.com/psconfeu/2022/tree/main/EmanuelPalm/CreatingYourOwnPowerShellGallery",
             "yammer"   : "",
@@ -665,7 +665,7 @@
         "title"   : "The art of mocking (Bartosz Bielawski)",
         "alttext" : "The art of mocking (Bartosz Bielawski)",
         "photo"   : "",
-        "textobj" : "<p>Goede sessie waarin tips en valkuilen bij het schrijven van mocks werden behandeld. Een paar adviezen uit deze sessie:<ul><li>Scope matters: Let op de scope wanneer je een mock definieert, vooral in complexere situaties.</li><li>Fake it good: Probeer zo dicht mogelijk bij de resultaat van het origineel te blijven</li><li>ZDon't mock absent: Een gemockte functie moet niet alleen in de eigen omgeving maar ook ergens anders uit te voeren zijn. Maak desnoods een 'fake' functie aan.</ul>Voorbeelden zijn te vinden op de GitHub van Bartosz.</p>",
+        "textobj" : "<p>Goede sessie waarin tips en valkuilen bij het schrijven van mocks werden behandeld. Een paar adviezen uit deze sessie:<ul><li>Scope matters: Let op de scope wanneer je een mock definieert, vooral in complexere situaties.</li><li>Fake it good: Probeer zo dicht mogelijk bij de resultaat van het origineel te blijven</li><li>Don't mock absent: Een gemockte functie moet niet alleen in de eigen omgeving maar ook ergens anders uit te voeren zijn. Maak desnoods een 'fake' functie aan.</ul>Voorbeelden zijn te vinden op de GitHub van Bartosz.</p>",
         "buttons" : {
             "github"   : "https://github.com/bielawb/Presentations-TheArtOfMocking",
             "yammer"   : "",
@@ -716,8 +716,8 @@
     },
     "br19" : {
         "type"    : "photo",
-        "title"   : "Get-Train -Destination Vienna",
-        "alttext" : "",
+        "title"   : "",
+        "alttext" : "Get-Train -Destination Vienna",
         "photo"   : "/photos/Maarten_trein.jpg",
         "textobj" : "",
         "buttons" : {
