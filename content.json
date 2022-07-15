@@ -787,10 +787,10 @@
         "visible" : true
     },
     "dg04" : {
-        "type"    : "text",
+        "type"    : "photo",
         "title"   : "AutomationTrack (2)",
         "alttext" : "AutomationTrack (2)",
-        "photo"   : "https://www.yammer.com/api/v1/uploaded_files/1390488715264/version/1411068878848/large_preview/?client_application_id=40443904&fallback_to_icon=false&file_type=image&network_id=23603&storage=SHAREPOINT&uid=1520537680",
+        "photo"   : "https://www.yammer.com/api/v1/uploaded_files/1390488715264/version/1411068878848/large_preview",
         "textobj" : "",
         "buttons" : {
             "github"   : "",
@@ -802,14 +802,14 @@
         },
         "author"  : "Niek",
         "comments" : "",
-        "visible" : false
+        "visible" : true
     },
     "dg05" : {
         "type"    : "text",
         "title"   : "AutomationTrack - Beestenboel!",
         "alttext" : "AutomationTrack - Beestenboel!",
         "photo"   : "",
-        "textobj" : "<p>Tanja, Michael, Kwok en Demis hebben een app geschreven welke via Azure AI jouw huisdier op het scherm krijgt in onze vergaderruimtes. Thuiswerken 2.0: zelfs op OGD hoef je je huisdier niet te missen!</p><p>Kijk hieronder de presentatie (vanaf +- 1u25) terug, of bekijk hier het project op git.",
+        "textobj" : "<p>Tanja, Michael, Kwok en Demis hebben een app geschreven welke via Azure AI jouw huisdier op het scherm krijgt in onze vergaderruimtes. Thuiswerken 2.0: zelfs op OGD hoef je je huisdier niet te missen!</p><p>Kijk hieronder de presentatie (vanaf +- 1u25) terug.</p>",
         "buttons" : {
             "github"   : "",
             "yammer"   : "https://www.yammer.com/api/v1/uploaded_files/1390488715264/version/1411068878848/large_preview/?client_application_id=40443904&fallback_to_icon=false&file_type=image&network_id=23603&storage=SHAREPOINT&uid=1520537680",
@@ -820,9 +820,27 @@
         },
         "author"  : "Niek",
         "comments" : "",
-        "visible" : false
+        "visible" : true
     },
     "dg06" : {
+        "type"    : "photo",
+        "title"   : "Beestenboel (2)",
+        "alttext" : "",
+        "photo"   : "https://vienna.plugge-d.nl/photos/beestenboel.jpeg",
+        "textobj" : "",
+        "buttons" : {
+            "github"   : "",
+            "yammer"   : "https://www.yammer.com/api/v1/uploaded_files/1390488715264/version/1411068878848/large_preview/?client_application_id=40443904&fallback_to_icon=false&file_type=image&network_id=23603&storage=SHAREPOINT&uid=1520537680",
+            "youtube"  : "",
+            "twitter"  : "",
+            "gallery"  : "",
+            "internet"  : ""
+        },
+        "author"  : "Niek",
+        "comments" : "",
+        "visible" : true
+    },
+    "dg07" : {
         "type"    : "photo",
         "title"   : "AutomationTrack (3)",
         "alttext" : "",
@@ -839,8 +857,8 @@
         "author"  : "Niek",
         "comments" : "",
         "visible" : true
-    },
-    "dg07" : {
+    },    
+    "dg08" : {
         "type"    : "text",
         "title"   : "AutomationTrack - Nooit meer reiskostenadministratie",
         "alttext" : "AutomationTrack - Nooit meer reiskostenadministratie",
@@ -858,8 +876,8 @@
         "comments" : "",
         "visible" : true
     },
-    "dg08" : {
-        "type"    : "text",
+    "dg09" : {
+        "type"    : "photo",
         "title"   : "AutomationTrack (4)",
         "alttext" : "AutomationTrack (4)",
         "photo"   : "https://www.yammer.com/api/v1/uploaded_files/1390484365312/version/1411064520704/large_preview/?client_application_id=40443904&fallback_to_icon=false&file_type=image&network_id=23603&storage=SHAREPOINT&uid=1520537680",
@@ -876,12 +894,12 @@
         "comments" : "",
         "visible" : true
     },
-    "dg09" : {
+    "dg10" : {
         "type"    : "text",
         "title"   : "AutomationTrack - B.A.D. - It's good to detect what's bad!",
         "alttext" : "AutomationTrack - B.A.D. - It's good to detect what's bad!",
-        "photo"   : "<p>Hackers targetten actief basic authentication; het is niet voor niets dat Microsoft het zo snel mogelijk wil uitschakelen.</p><p> Michiel, Nathan, Mattijs en Lauren schreven een app om te kijken waar basic auth nog gebruikt wordt. Kijk hieronder de sessie terug vanaf 0h38, of ga naar de repo!",
-        "textobj" : "",
+        "photo"   : "",
+        "textobj" : "<p>Hackers targetten actief basic authentication; het is niet voor niets dat Microsoft het zo snel mogelijk wil uitschakelen.</p><p> Michiel, Nathan, Mattijs en Lauren schreven een app om te kijken waar basic auth nog gebruikt wordt. Kijk hieronder de sessie terug vanaf 0h38, of ga naar de repo!",
         "buttons" : {
             "github"   : "https://dev.azure.com/ogd/Omnibus/_git/Omnibus?path=/scripts",
             "yammer"   : "https://www.yammer.com/api/v1/uploaded_files/1390488715264/version/1411068878848/large_preview/?client_application_id=40443904&fallback_to_icon=false&file_type=image&network_id=23603&storage=SHAREPOINT&uid=1520537680",
@@ -894,7 +912,7 @@
         "comments" : "",
         "visible" : true
     },
-    "dg10" : {
+    "dg11" : {
         "type"    : "photo",
         "title"   : "Suikerspin",
         "alttext" : "Foto: Niek, Barbara en Nathan met mega roze suikerspin. Prater heeft beter eten dan het Hilton Hotel 💯.",
@@ -911,24 +929,6 @@
         "author"  : "Nathan",
         "comments" : "",
         "visible" : true        
-    },
-    "dg11" : {
-        "type"    : "text",
-        "title"   : "",
-        "alttext" : "",
-        "photo"   : "",
-        "textobj" : "",
-        "buttons" : {
-            "github"   : "",
-            "yammer"   : "",
-            "youtube"  : "",
-            "twitter"  : "",
-            "gallery"  : "",
-            "internet"  : ""
-        },
-        "author"  : "Niek",
-        "comments" : "",
-        "visible" : false
     },
     "dg12" : {
         "type"    : "text",
