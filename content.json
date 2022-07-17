@@ -914,13 +914,13 @@
     },
     "dg11" : {
         "type"    : "text",
-        "title"   : "",
-        "alttext" : "",
+        "title"   : "The Art of Mocking (Bartosz Bielawski)",
+        "alttext" : "The Art of Mocking (Bartosz Bielawski)",
         "photo"   : "",
-        "textobj" : "",
+        "textobj" : "<p>Heel interessante sessie van Bartosz waar hij laat zien hoe je goed gebruik kan maken van Pester voor je code.</p>",
         "buttons" : {
             "github"   : "",
-            "yammer"   : "",
+            "yammer"   : "https://web.yammer.com/main/org/ogd.nl/threads/eyJfdHlwZSI6IlRocmVhZCIsImlkIjoiMTgzMDc0NzIyMDcyMTY2NCJ9",
             "youtube"  : "",
             "twitter"  : "",
             "gallery"  : "",
@@ -928,7 +928,7 @@
         },
         "author"  : "Niek",
         "comments" : "",
-        "visible" : false     
+        "visible" : true     
     },
     "dg12" : {
         "type"    : "photo",
